@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "ess-institutional-trust",
+  "version": "1.0.0",
+  "name": "Institutional Trust Scale (ESS)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "How much do you trust each institution?",
+  "expected_items": 7,
+  "items": [
+    {
+      "id": "trstprl",
+      "text": "The country's parliament",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No trust at all"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Complete trust"
+        }
+      ],
+      "help": "How much do you trust each institution?"
+    },
+    {
+      "id": "trstlgl",
+      "text": "The legal system",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No trust at all"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Complete trust"
+        }
+      ],
+      "help": "How much do you trust each institution?"
+    },
+    {
+      "id": "trstplc",
+      "text": "The police",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No trust at all"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Complete trust"
+        }
+      ],
+      "help": "How much do you trust each institution?"
+    },
+    {
+      "id": "trstplt",
+      "text": "Politicians",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No trust at all"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Complete trust"
+        }
+      ],
+      "help": "How much do you trust each institution?"
+    },
+    {
+      "id": "trstprt",
+      "text": "Political parties",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No trust at all"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Complete trust"
+        }
+      ],
+      "help": "How much do you trust each institution?"
+    },
+    {
+      "id": "trstep",
+      "text": "The European Parliament",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No trust at all"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Complete trust"
+        }
+      ],
+      "help": "How much do you trust each institution?"
+    },
+    {
+      "id": "trstun",
+      "text": "The United Nations",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No trust at all"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Complete trust"
+        }
+      ],
+      "help": "How much do you trust each institution?"
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Return each original ESS item score; omit repository-created composite/group means because they are not an ESS classification standard.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

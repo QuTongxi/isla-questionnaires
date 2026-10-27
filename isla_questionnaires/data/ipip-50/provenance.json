@@ -1,0 +1,40 @@
+{
+  "source": {
+    "repository": "AnthonyDavidAdams/personality-bench",
+    "commit": "fe3b6ddf2eda9d2cee39c7db55f14f8d7f73db1d",
+    "url": "https://github.com/AnthonyDavidAdams/personality-bench",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "instruments/ipip50.json",
+      "instruments/ncs18.json",
+      "instruments/mfq30.json",
+      "instruments/pvq21.json",
+      "instruments/locus_levenson.json"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/personality-bench/instruments/ipip50.json",
+      "sha256": "8b41de9c37c7d6d19acf90d480581d332400020cf6016853753759284add2a6a"
+    },
+    {
+      "path": "sources/personality-bench/LICENSE",
+      "sha256": "5ce6f75b6a351fc7807abb17edbe22ba8b71942779f435d677a5db1de990faf3"
+    },
+    {
+      "path": "sources/primary/ipip50.html",
+      "sha256": "8577862772802903db4330c5a2178bd3948894fe86b82909865bb9b5f17411f9"
+    }
+  ],
+  "verification": {
+    "level": "source_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Preserve source item order and text. Source implementation percentile/0–100 normalization is not used."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

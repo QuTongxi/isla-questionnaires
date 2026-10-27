@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "id": "self-monitoring-18",
+  "version": "1.0.0",
+  "name": "Self-Monitoring Scale (Revised)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Indicate how well each statement describes you.",
+  "expected_items": 18,
+  "items": [
+    {
+      "id": "sm-1",
+      "text": "I find it hard to imitate the behavior of other people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-2",
+      "text": "At parties and social gatherings, I do not attempt to do or say things that others will like.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-3",
+      "text": "I can only argue for ideas which I already believe.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-4",
+      "text": "I can make impromptu speeches even on topics about which I have almost no information.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-5",
+      "text": "I guess I put on a show to impress or entertain others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-6",
+      "text": "I would probably make a good actor.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-7",
+      "text": "In a group of people I am rarely the center of attention.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-8",
+      "text": "In different situations and with different people, I often act like very different persons.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-9",
+      "text": "I am not particularly good at making other people like me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-10",
+      "text": "I'm not always the person I appear to be.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-11",
+      "text": "I would not change my opinions (or the way I do things) in order to please someone or win their favor.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-12",
+      "text": "I have considered being an entertainer.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-13",
+      "text": "I have never been good at games like charades or improvisational acting.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-14",
+      "text": "I have trouble changing my behavior to suit different people and different situations.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-15",
+      "text": "At a party I let others keep the jokes and stories going.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-16",
+      "text": "I feel a bit awkward in company and do not show up quite as well as I should.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-17",
+      "text": "I can look anyone in the eye and tell a lie with a straight face (if for a right end).",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "sm-18",
+      "text": "I may deceive people by being friendly when I really dislike them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "False"
+        },
+        {
+          "value": 1,
+          "label": "True"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Only source data and explicit dimension keys are used; no generic scoreLikert normalization or personality labels.",
+    "Explicit binary input: 0=False, 1=True. Reverse-keyed items score 1 for False. Sum 0–18; no inferred high/low cutoff."
+  ]
+}

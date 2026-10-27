@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ess-social-trust",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "total",
+      "name": "Social Trust",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ppltrst",
+          "reverse": false
+        },
+        {
+          "item": "pplfair",
+          "reverse": false
+        },
+        {
+          "item": "pplhlp",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of ppltrst, pplfair, pplhlp. Range 0–10; higher = greater social trust."
+    }
+  ]
+}

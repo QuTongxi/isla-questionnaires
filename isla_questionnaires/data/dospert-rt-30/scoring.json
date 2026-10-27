@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "dospert-rt-30",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "rt_ethical",
+      "name": "Risk-Taking: Ethical",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "rt6",
+          "reverse": false
+        },
+        {
+          "item": "rt9",
+          "reverse": false
+        },
+        {
+          "item": "rt10",
+          "reverse": false
+        },
+        {
+          "item": "rt16",
+          "reverse": false
+        },
+        {
+          "item": "rt29",
+          "reverse": false
+        },
+        {
+          "item": "rt30",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of 6 ethical risk-taking items (1-7)."
+    },
+    {
+      "id": "rt_financial",
+      "name": "Risk-Taking: Financial",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "rt3",
+          "reverse": false
+        },
+        {
+          "item": "rt4",
+          "reverse": false
+        },
+        {
+          "item": "rt8",
+          "reverse": false
+        },
+        {
+          "item": "rt12",
+          "reverse": false
+        },
+        {
+          "item": "rt14",
+          "reverse": false
+        },
+        {
+          "item": "rt18",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of 6 financial risk-taking items (1-7)."
+    },
+    {
+      "id": "rt_health_safety",
+      "name": "Risk-Taking: Health/Safety",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "rt5",
+          "reverse": false
+        },
+        {
+          "item": "rt15",
+          "reverse": false
+        },
+        {
+          "item": "rt17",
+          "reverse": false
+        },
+        {
+          "item": "rt20",
+          "reverse": false
+        },
+        {
+          "item": "rt23",
+          "reverse": false
+        },
+        {
+          "item": "rt26",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of 6 health/safety risk-taking items (1-7)."
+    },
+    {
+      "id": "rt_recreational",
+      "name": "Risk-Taking: Recreational",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "rt2",
+          "reverse": false
+        },
+        {
+          "item": "rt11",
+          "reverse": false
+        },
+        {
+          "item": "rt13",
+          "reverse": false
+        },
+        {
+          "item": "rt19",
+          "reverse": false
+        },
+        {
+          "item": "rt24",
+          "reverse": false
+        },
+        {
+          "item": "rt25",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of 6 recreational risk-taking items (1-7)."
+    },
+    {
+      "id": "rt_social",
+      "name": "Risk-Taking: Social",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "rt1",
+          "reverse": false
+        },
+        {
+          "item": "rt7",
+          "reverse": false
+        },
+        {
+          "item": "rt21",
+          "reverse": false
+        },
+        {
+          "item": "rt22",
+          "reverse": false
+        },
+        {
+          "item": "rt27",
+          "reverse": false
+        },
+        {
+          "item": "rt28",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of 6 social risk-taking items (1-7)."
+    }
+  ]
+}

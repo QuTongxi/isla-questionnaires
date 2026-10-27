@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "id": "gse",
+  "version": "1.0.0",
+  "name": "General Self-Efficacy Scale",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Please indicate your level of agreement with each of the following statements.",
+  "expected_items": 10,
+  "items": [
+    {
+      "id": "gse1",
+      "text": "I can always manage to solve difficult problems if I try hard enough.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse2",
+      "text": "If someone opposes me, I can find the means and ways to get what I want.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse3",
+      "text": "It is easy for me to stick to my aims and accomplish my goals.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse4",
+      "text": "I am confident that I could deal efficiently with unexpected events.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse5",
+      "text": "Thanks to my resourcefulness, I know how to handle unforeseen situations.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse6",
+      "text": "I can solve most problems if I invest the necessary effort.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse7",
+      "text": "I can remain calm when facing difficulties because I can rely on my coping abilities.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse8",
+      "text": "When I am confronted with a problem, I can usually find several solutions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse9",
+      "text": "If I am in trouble, I can usually think of a solution.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    },
+    {
+      "id": "gse10",
+      "text": "I can usually handle whatever comes my way.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all true"
+        },
+        {
+          "value": 2,
+          "label": "Hardly true"
+        },
+        {
+          "value": 3,
+          "label": "Moderately true"
+        },
+        {
+          "value": 4,
+          "label": "Exactly true"
+        }
+      ],
+      "help": "Please indicate your level of agreement with each of the following statements."
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use original author’s English items, replacing paraphrases in the OpenScales English table. Sum all ten 1–4 responses.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

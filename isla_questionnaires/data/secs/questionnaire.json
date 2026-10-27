@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "secs",
+  "version": "1.0.0",
+  "name": "Social and Economic Conservatism Scale",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "Please indicate the extent to which you feel positive or negative towards each issue below, on a scale from 0 (very negative) to 100 (very positive).",
+  "expected_items": 12,
+  "items": [
+    {
+      "id": "secs1",
+      "text": "Abortion",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs2",
+      "text": "Limited government",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs3",
+      "text": "Military and national security",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs4",
+      "text": "Religion",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs5",
+      "text": "Welfare benefits",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs6",
+      "text": "Gun ownership",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs7",
+      "text": "Traditional marriage",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs8",
+      "text": "Traditional values",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs9",
+      "text": "Fiscal responsibility",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs10",
+      "text": "Business",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs11",
+      "text": "The family unit",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    },
+    {
+      "id": "secs12",
+      "text": "Patriotism",
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "help": "How positive or negative do you feel about each issue on the scale of 0 to 100, where 0 represents very negative, and 100 represents very positive?"
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "Upstream supplies only a composite; original social/economic subscale keys and exact aggregation need primary-source verification before release."
+  ],
+  "notes": [
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

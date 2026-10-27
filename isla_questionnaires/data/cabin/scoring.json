@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "cabin",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "mechanics-electronics",
+      "name": "Mechanics/Electronics",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "4",
+          "reverse": false
+        }
+      ],
+      "description": "Mechanics/Electronics: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "construction-woodwork",
+      "name": "Construction/WoodWork",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        }
+      ],
+      "description": "Construction/WoodWork: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "transportation-machine-operation",
+      "name": "Transportation/Machine Operation",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": false
+        }
+      ],
+      "description": "Transportation/Machine Operation: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "physical-manual-labor",
+      "name": "Physical/Manual Labor",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        }
+      ],
+      "description": "Physical/Manual Labor: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "protective-service",
+      "name": "Protective Service",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        }
+      ],
+      "description": "Protective Service: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        }
+      ],
+      "description": "Agriculture: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "nature-outdoors",
+      "name": "Nature/Outdoors",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": false
+        }
+      ],
+      "description": "Nature/Outdoors: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "animal-service",
+      "name": "Animal Service",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": false
+        }
+      ],
+      "description": "Animal Service: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "athletics",
+      "name": "Athletics",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "34",
+          "reverse": false
+        },
+        {
+          "item": "35",
+          "reverse": false
+        },
+        {
+          "item": "36",
+          "reverse": false
+        }
+      ],
+      "description": "Athletics: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "39",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        }
+      ],
+      "description": "Engineering: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "physical-science",
+      "name": "Physical Science",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "41",
+          "reverse": false
+        },
+        {
+          "item": "42",
+          "reverse": false
+        },
+        {
+          "item": "43",
+          "reverse": false
+        },
+        {
+          "item": "44",
+          "reverse": false
+        }
+      ],
+      "description": "Physical Science: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "life-science",
+      "name": "Life Science",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "45",
+          "reverse": false
+        },
+        {
+          "item": "46",
+          "reverse": false
+        },
+        {
+          "item": "47",
+          "reverse": false
+        },
+        {
+          "item": "48",
+          "reverse": false
+        }
+      ],
+      "description": "Life Science: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "medical-science",
+      "name": "Medical Science",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "49",
+          "reverse": false
+        },
+        {
+          "item": "50",
+          "reverse": false
+        },
+        {
+          "item": "51",
+          "reverse": false
+        },
+        {
+          "item": "52",
+          "reverse": false
+        }
+      ],
+      "description": "Medical Science: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "53",
+          "reverse": false
+        },
+        {
+          "item": "54",
+          "reverse": false
+        },
+        {
+          "item": "55",
+          "reverse": false
+        },
+        {
+          "item": "56",
+          "reverse": false
+        }
+      ],
+      "description": "Social Science: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "humanities",
+      "name": "Humanities",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "57",
+          "reverse": false
+        },
+        {
+          "item": "58",
+          "reverse": false
+        },
+        {
+          "item": "59",
+          "reverse": false
+        },
+        {
+          "item": "60",
+          "reverse": false
+        }
+      ],
+      "description": "Humanities: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "mathematics-statistics",
+      "name": "Mathematics/Statistics",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "61",
+          "reverse": false
+        },
+        {
+          "item": "62",
+          "reverse": false
+        },
+        {
+          "item": "63",
+          "reverse": false
+        },
+        {
+          "item": "64",
+          "reverse": false
+        }
+      ],
+      "description": "Mathematics/Statistics: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "information-technology",
+      "name": "Information Technology",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "65",
+          "reverse": false
+        },
+        {
+          "item": "66",
+          "reverse": false
+        },
+        {
+          "item": "67",
+          "reverse": false
+        },
+        {
+          "item": "68",
+          "reverse": false
+        }
+      ],
+      "description": "Information Technology: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "visual-arts",
+      "name": "Visual Arts",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "69",
+          "reverse": false
+        },
+        {
+          "item": "70",
+          "reverse": false
+        },
+        {
+          "item": "71",
+          "reverse": false
+        },
+        {
+          "item": "72",
+          "reverse": false
+        }
+      ],
+      "description": "Visual Arts: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "applied-arts-and-design",
+      "name": "Applied Arts and Design",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "73",
+          "reverse": false
+        },
+        {
+          "item": "74",
+          "reverse": false
+        },
+        {
+          "item": "75",
+          "reverse": false
+        },
+        {
+          "item": "76",
+          "reverse": false
+        }
+      ],
+      "description": "Applied Arts and Design: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "performing-arts",
+      "name": "Performing Arts",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "77",
+          "reverse": false
+        },
+        {
+          "item": "78",
+          "reverse": false
+        },
+        {
+          "item": "79",
+          "reverse": false
+        },
+        {
+          "item": "80",
+          "reverse": false
+        }
+      ],
+      "description": "Performing Arts: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "81",
+          "reverse": false
+        },
+        {
+          "item": "82",
+          "reverse": false
+        },
+        {
+          "item": "83",
+          "reverse": false
+        },
+        {
+          "item": "84",
+          "reverse": false
+        }
+      ],
+      "description": "Music: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "writing",
+      "name": "Writing",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "85",
+          "reverse": false
+        },
+        {
+          "item": "86",
+          "reverse": false
+        },
+        {
+          "item": "87",
+          "reverse": false
+        },
+        {
+          "item": "88",
+          "reverse": false
+        }
+      ],
+      "description": "Writing: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "89",
+          "reverse": false
+        },
+        {
+          "item": "90",
+          "reverse": false
+        },
+        {
+          "item": "91",
+          "reverse": false
+        },
+        {
+          "item": "92",
+          "reverse": false
+        }
+      ],
+      "description": "Media: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "culinary-art",
+      "name": "Culinary Art",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "93",
+          "reverse": false
+        },
+        {
+          "item": "94",
+          "reverse": false
+        },
+        {
+          "item": "95",
+          "reverse": false
+        },
+        {
+          "item": "96",
+          "reverse": false
+        }
+      ],
+      "description": "Culinary Art: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "teaching-education",
+      "name": "Teaching/Education",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "97",
+          "reverse": false
+        },
+        {
+          "item": "98",
+          "reverse": false
+        },
+        {
+          "item": "99",
+          "reverse": false
+        },
+        {
+          "item": "100",
+          "reverse": false
+        }
+      ],
+      "description": "Teaching/Education: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "social-service",
+      "name": "Social Service",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "101",
+          "reverse": false
+        },
+        {
+          "item": "102",
+          "reverse": false
+        },
+        {
+          "item": "103",
+          "reverse": false
+        },
+        {
+          "item": "104",
+          "reverse": false
+        }
+      ],
+      "description": "Social Service: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "health-care-service",
+      "name": "Health Care Service",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "105",
+          "reverse": false
+        },
+        {
+          "item": "106",
+          "reverse": false
+        },
+        {
+          "item": "107",
+          "reverse": false
+        },
+        {
+          "item": "108",
+          "reverse": false
+        }
+      ],
+      "description": "Health Care Service: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "religious-activities",
+      "name": "Religious Activities",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "109",
+          "reverse": false
+        },
+        {
+          "item": "110",
+          "reverse": false
+        },
+        {
+          "item": "111",
+          "reverse": false
+        },
+        {
+          "item": "112",
+          "reverse": false
+        }
+      ],
+      "description": "Religious Activities: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "personal-service",
+      "name": "Personal Service",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "113",
+          "reverse": false
+        },
+        {
+          "item": "114",
+          "reverse": false
+        },
+        {
+          "item": "115",
+          "reverse": false
+        },
+        {
+          "item": "116",
+          "reverse": false
+        }
+      ],
+      "description": "Personal Service: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "professional-advising",
+      "name": "Professional Advising",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "117",
+          "reverse": false
+        },
+        {
+          "item": "118",
+          "reverse": false
+        },
+        {
+          "item": "119",
+          "reverse": false
+        },
+        {
+          "item": "120",
+          "reverse": false
+        }
+      ],
+      "description": "Professional Advising: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "business-initiatives",
+      "name": "Business Initiatives",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "121",
+          "reverse": false
+        },
+        {
+          "item": "122",
+          "reverse": false
+        },
+        {
+          "item": "123",
+          "reverse": false
+        },
+        {
+          "item": "124",
+          "reverse": false
+        }
+      ],
+      "description": "Business Initiatives: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "sales",
+      "name": "Sales",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "125",
+          "reverse": false
+        },
+        {
+          "item": "126",
+          "reverse": false
+        },
+        {
+          "item": "127",
+          "reverse": false
+        },
+        {
+          "item": "128",
+          "reverse": false
+        }
+      ],
+      "description": "Sales: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "marketing-advertising",
+      "name": "Marketing/Advertising",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "129",
+          "reverse": false
+        },
+        {
+          "item": "130",
+          "reverse": false
+        },
+        {
+          "item": "131",
+          "reverse": false
+        },
+        {
+          "item": "132",
+          "reverse": false
+        }
+      ],
+      "description": "Marketing/Advertising: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "133",
+          "reverse": false
+        },
+        {
+          "item": "134",
+          "reverse": false
+        },
+        {
+          "item": "135",
+          "reverse": false
+        },
+        {
+          "item": "136",
+          "reverse": false
+        }
+      ],
+      "description": "Finance: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "accounting",
+      "name": "Accounting",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "137",
+          "reverse": false
+        },
+        {
+          "item": "138",
+          "reverse": false
+        },
+        {
+          "item": "139",
+          "reverse": false
+        },
+        {
+          "item": "140",
+          "reverse": false
+        }
+      ],
+      "description": "Accounting: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "human-resources",
+      "name": "Human Resources",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "141",
+          "reverse": false
+        },
+        {
+          "item": "142",
+          "reverse": false
+        },
+        {
+          "item": "143",
+          "reverse": false
+        },
+        {
+          "item": "144",
+          "reverse": false
+        }
+      ],
+      "description": "Human Resources: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "office-work",
+      "name": "Office Work",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "145",
+          "reverse": false
+        },
+        {
+          "item": "146",
+          "reverse": false
+        },
+        {
+          "item": "147",
+          "reverse": false
+        },
+        {
+          "item": "148",
+          "reverse": false
+        }
+      ],
+      "description": "Office Work: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "management-administration",
+      "name": "Management/Administration",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "149",
+          "reverse": false
+        },
+        {
+          "item": "150",
+          "reverse": false
+        },
+        {
+          "item": "151",
+          "reverse": false
+        },
+        {
+          "item": "152",
+          "reverse": false
+        }
+      ],
+      "description": "Management/Administration: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "public-speaking",
+      "name": "Public Speaking",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "153",
+          "reverse": false
+        },
+        {
+          "item": "154",
+          "reverse": false
+        },
+        {
+          "item": "155",
+          "reverse": false
+        },
+        {
+          "item": "156",
+          "reverse": false
+        }
+      ],
+      "description": "Public Speaking: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "politics",
+      "name": "Politics",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "157",
+          "reverse": false
+        },
+        {
+          "item": "158",
+          "reverse": false
+        },
+        {
+          "item": "159",
+          "reverse": false
+        },
+        {
+          "item": "160",
+          "reverse": false
+        }
+      ],
+      "description": "Politics: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "law",
+      "name": "Law",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "161",
+          "reverse": false
+        },
+        {
+          "item": "162",
+          "reverse": false
+        },
+        {
+          "item": "163",
+          "reverse": false
+        },
+        {
+          "item": "164",
+          "reverse": false
+        }
+      ],
+      "description": "Law: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

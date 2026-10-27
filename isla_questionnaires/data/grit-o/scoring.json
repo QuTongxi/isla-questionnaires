@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "grit-o",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "perseverance",
+      "name": "Perseverance of Effort",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "grit-o-7",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-8",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-9",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-10",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-11",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-12",
+          "reverse": false
+        }
+      ],
+      "description": "Tendency to work hard and finish what you start"
+    },
+    {
+      "id": "interest_consistency",
+      "name": "Consistency of Interest",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "grit-o-1",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-2",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-3",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-4",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-5",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-6",
+          "reverse": true
+        }
+      ],
+      "description": "Tendency to maintain focus on the same goals over time"
+    },
+    {
+      "id": "overall",
+      "name": "Overall Grit",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "grit-o-1",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-2",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-3",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-4",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-5",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-6",
+          "reverse": true
+        },
+        {
+          "item": "grit-o-7",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-8",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-9",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-10",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-11",
+          "reverse": false
+        },
+        {
+          "item": "grit-o-12",
+          "reverse": false
+        }
+      ],
+      "description": "Composite of perseverance and interest consistency"
+    }
+  ]
+}

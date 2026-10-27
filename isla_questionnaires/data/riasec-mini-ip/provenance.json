@@ -1,0 +1,25 @@
+{
+  "source": {
+    "repository": "primary-author-material",
+    "url": "https://www.onetcenter.org/reports/Mini-IP.html"
+  },
+  "files": [
+    {
+      "path": "sources/primary/onet-mini-ip.pdf",
+      "sha256": "b70455adbc1fb3c5f98018e199f2b24e8f4da239c263731902841578282bb7bd"
+    },
+    {
+      "path": "sources/primary/onet-mini-ip.txt",
+      "sha256": "c265cc11c5628783ac0f408a28623c8f96ca93fb060366874ea2797d57c7c205"
+    }
+  ],
+  "verification": {
+    "level": "primary_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Use Appendix A original suggested order and report page 13 computerized coding 0–4, sum 0–20. Do not substitute the repository’s altered 1–5 item bank. No occupation recommendation database is bundled."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

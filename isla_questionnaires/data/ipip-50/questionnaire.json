@@ -1,0 +1,1420 @@
+{
+  "schema_version": 1,
+  "id": "ipip-50",
+  "version": "1.0.0",
+  "name": "IPIP Big Five — 50-item form (Goldberg)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Indicate how accurately each statement describes you.",
+  "expected_items": 50,
+  "items": [
+    {
+      "id": "1",
+      "text": "I am the life of the party.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "I feel little concern for others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "I am always prepared.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "I get stressed out easily.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "I have a rich vocabulary.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "I don't talk a lot.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "I am interested in people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "I leave my belongings around.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "I am relaxed most of the time.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "I have difficulty understanding abstract ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "I feel comfortable around people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "I insult people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "I pay attention to details.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "I worry about things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "I have a vivid imagination.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "I keep in the background.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "I sympathize with others' feelings.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "I make a mess of things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "I seldom feel blue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "I am not interested in abstract ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "I start conversations.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "I am not interested in other people's problems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "I get chores done right away.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "I am easily disturbed.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "I have excellent ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "I have little to say.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "I have a soft heart.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "I often forget to put things back in their proper place.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "I get upset easily.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "I do not have a good imagination.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "I talk to a lot of different people at parties.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "I am not really interested in others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "I like order.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "34",
+      "text": "I change my mood a lot.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "35",
+      "text": "I am quick to understand things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "36",
+      "text": "I don't like to draw attention to myself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "37",
+      "text": "I take time out for others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "38",
+      "text": "I shirk my duties.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "39",
+      "text": "I have frequent mood swings.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "40",
+      "text": "I use difficult words.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "41",
+      "text": "I don't mind being the center of attention.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "42",
+      "text": "I feel others' emotions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "43",
+      "text": "I follow a schedule.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "44",
+      "text": "I get irritated easily.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "45",
+      "text": "I spend time reflecting on things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "46",
+      "text": "I am quiet around strangers.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "47",
+      "text": "I make people feel at ease.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "48",
+      "text": "I am exacting in my work.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "49",
+      "text": "I often feel blue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "50",
+      "text": "I am full of ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very inaccurate"
+        },
+        {
+          "value": 2,
+          "label": "Moderately inaccurate"
+        },
+        {
+          "value": 3,
+          "label": "Neither accurate nor inaccurate"
+        },
+        {
+          "value": 4,
+          "label": "Moderately accurate"
+        },
+        {
+          "value": 5,
+          "label": "Very accurate"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Preserve source item order and text. Source implementation percentile/0–100 normalization is not used."
+  ]
+}

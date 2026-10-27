@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "scc",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "clarity",
+      "name": "自我概念清晰性",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": true
+        },
+        {
+          "item": "2",
+          "reverse": true
+        },
+        {
+          "item": "3",
+          "reverse": true
+        },
+        {
+          "item": "4",
+          "reverse": true
+        },
+        {
+          "item": "5",
+          "reverse": true
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": true
+        },
+        {
+          "item": "8",
+          "reverse": true
+        },
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "10",
+          "reverse": true
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": true
+        }
+      ],
+      "description": "待核实的译本；不输出正式分数。"
+    }
+  ]
+}

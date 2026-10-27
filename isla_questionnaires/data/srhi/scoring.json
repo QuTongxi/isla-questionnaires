@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "srhi",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "habit",
+      "name": "Habit strength",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "srhi_1",
+          "reverse": false
+        },
+        {
+          "item": "srhi_2",
+          "reverse": false
+        },
+        {
+          "item": "srhi_3",
+          "reverse": false
+        },
+        {
+          "item": "srhi_4",
+          "reverse": false
+        },
+        {
+          "item": "srhi_5",
+          "reverse": false
+        },
+        {
+          "item": "srhi_6",
+          "reverse": false
+        },
+        {
+          "item": "srhi_7",
+          "reverse": false
+        },
+        {
+          "item": "srhi_8",
+          "reverse": false
+        },
+        {
+          "item": "srhi_9",
+          "reverse": false
+        },
+        {
+          "item": "srhi_10",
+          "reverse": false
+        },
+        {
+          "item": "srhi_11",
+          "reverse": false
+        },
+        {
+          "item": "srhi_12",
+          "reverse": false
+        }
+      ],
+      "description": "Habit strength: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

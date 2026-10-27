@@ -1,0 +1,1529 @@
+ 
+Development of an O*NET® Mini 
+Interest Profiler (Mini-IP) for Mobile 
+Devices: Psychometric 
+Characteristics 
+ 
+James Rounds 
+University of Illinois at Urbana-Champaign, Department of 
+Educational Psychology and Psychology 
+ 
+Colin Wee Jian Ming, Mengyang Cao, Chelsea Song 
+University of Illinois at Urbana-Champaign, Department of 
+Psychology 
+ 
+Phil Lewis  
+National Center for O*NET Development 
+ 
+Prepared for 
+ 
+U.S. Department of Labor 
+Employment and Training Administration 
+Office of Workforce Investment 
+Division of National Programs, Tools, & Technical Assistance 
+Washington, DC 
+ 
+March 16, 2016 
+ 
+ 
+                                                                    
+www.onetcenter.org 
+       
+National Center for O*NET Development, Post Office Box 27625, Raleigh, NC 27603 
+ 
+ 
+Table of Contents 
+ 
+ 
+O*Net Mini Interest Profiler: Executive Summary …………..………………………. 
+ 
+4 
+ 
+History of the O*NET Interest Profiler………………………………………………... 5 
+ 
+Development of the O*NET Mini-IP…………………..……………………………… 
+ 
+6 
+ 
+Study 1: Developmental Sample………………………………………………………. 9 
+ 
+Study 2: Validation Sample……………………………………………………………. 11 
+ 
+Scoring for Paper-and-Pencil and Computerized IP (Long, Short, Mini)……………... 13 
+ 
+Final Comments………………………………………………………………………... 14 
+ 
+References……………………………………………………………………………… 
+ 
+15 
+ 
+Appendix A: O*NET Mini Interest Profiler Items…………………………………….. 
+ 
+18 
+ 
+Appendix B: Materials to Support the O*NET Mini Interest Profiler………………… 
+ 
+21 
+ 
+  
+    
+ 
+4 
+ 
+O*Net Mini Interest Profiler (Mini-IP): Executive Summary 
+ The O*NET Interest Profiler Short Form (Short-IP; Rounds, Su, Lewis, & Rivkin, 2010) 
+is a 60-item instrument which assesses vocational interests according to Holland’s (1997) 
+Realistic, Investigative, Artistic, Social, Enterprising and Conventional (RIASEC) personality 
+types. This report summarizes the developmental research to create a shorter 30-item version of 
+the Short-IP, called the Mini Interest Profiler (Mini-IP). The impetus for shortening the Interest 
+Profiler was to develop brief RIASEC scales for use in mobile settings where it is ideal to have 
+an interest measure that can be completed rapidly and easily. Researchers at the University of 
+Illinois at Urbana-Champaign collaborated with the U.S. Department of Labor’s Office of Policy 
+and Research, and the National Center for O*NET Development to create the shortened scale. 
+They used item selection criteria based on Item Response Theory, RIASEC structural fidelity, 
+content coverage, and gender balance to reduce the length of the scale. Researchers selected five 
+items from each RIASEC scale to ensure that the final measure was not too short that reliability 
+and validity would be significantly compromised. 
+This report details the development and validation process of the Mini-IP in two 
+independent and diverse samples of 1061 and 575 participants. The Mini-IP RIASEC scales 
+showed acceptable internal consistencies. Equivalent scales from the short and mini IP measures 
+were highly correlated, supporting the convergent validity of these measures. Cross-classification 
+analysis of the Short-IP and Mini-IP showed that 73% of the participants would be assigned the 
+same first-letter RIASEC code. Multidimensional scaling analysis successfully reproduced 
+Holland’s (1997) circular-structure of interests. The relationship between the Mini-IP scales and 
+Big Five personality traits were similar to meta-analytic correlations between interests and 
+personality traits, further supporting the validity of the Mini-IP. Overall, the results indicate that 
+the Mini-Interest Profiler is a psychometrically sound measure of vocational interests, brief 
+enough for administration through mobile devices. 
+  
+    
+ 
+5 
+ 
+History of the O*NET Interest Profiler 
+The O*NET Interest Profiler (Lewis & Rivkin, 1999) is a 180-item self-scoring career 
+exploration tool which measures vocational interests according to Holland’s (1997) RIASEC 
+personality types. All items in the Interest Profiler describe work activities (e.g., “Act in a 
+movie”, “Sell houses”), and the 30 items from each scale are organized such that they appear in 
+pairs in RIASEC order (2 items from the R scale, followed by 2 items from the I scale, and so 
+on). Respondents state their interest for each item by marking one of three options, “like,” 
+“dislike” or “not sure.” The O*NET Interest Profiler has been found to yield reliable and valid 
+scores in diverse samples of adults (Rounds, Walker, Day, Hubert, Lewis, & Rivkin, 1999b). 
+The O*NET Interest Profiler has often been updated to improve ease of use and keep up 
+with technological advances. In 1999, a computerized form of the 180-item Interest Profiler was 
+developed to provide automated scoring and instant feedback to participants about their 
+vocational interests, and make interest assessment more accessible through computer labs in 
+schools (Rounds, Mazzeo, Smith, Hubert, Lewis, & Rivkin, 1999a). In 2010, a 60-item version 
+of the Interest Profiler, called the Interest Profiler Short Form (Short-IP; Rounds, Su, Lewis, & 
+Rivkin, 2010) was developed for use in counseling and consulting settings, where it is beneficial 
+to have a measure that can be completed in 15-20 minutes. Similar to the original version, the 
+items in the Short-IP were organized in pairs in RIASEC order. A free-access, online version of 
+the Short-IP (http://www.mynextmove.org/) was later implemented to aid individuals in career 
+exploration and planning. Completing the online Interest Profiler links individuals to information 
+on more than 900 occupations within the O*NET database. Individuals can then browse 
+occupations within the local labor market to find an ideal match with their interests. The Short-IP 
+has also been translated into Spanish and is available within Mi Proximo Paso 
+(https://www.miproximopaso.org/explore/ip). Developers are encouraged to integrate the Short-
+IP within their products and tools using O*NET Web Services (https://services.onetcenter.org/ip). 
+With the transition from a paper-and-pencil instrument to an online computerized short form, the 
+Interest Profiler switched from a “like,” “dislike,” or “not sure” response format to a five-point 
+scale ranging from “strongly dislike” to “strongly like” to increase internal consistency and 
+accuracy of measurement. In each variation of the Interest Profiler, research was conducted to 
+examine the impact of the revisions on the reliability of scores and the structural validity of the 
+scales.  
+    
+ 
+6 
+ 
+Need for a Mobile Form 
+ Advancements in technology have catalyzed a new age of mobile assessment. 
+Researchers now use mobile phones and related devices as platforms to administer surveys for 
+longitudinal and experience sampling studies (Shiffman, Stone, & Hufford, 2008), mood 
+research (Song, Foo, & Uy, 2008), and clinical interventions (Mulvaney et al., 2012). To stay up-
+to-date with technology and increase the accessibility of the O*NET Interest Profiler to a 
+younger, more tech-savvy audience, it would be beneficial to create an interest measure that can 
+quickly and easily be administered through mobile devices.   
+ There are several benefits for adapting the current 60-item Short-IP to a 30-item Mini-IP. 
+The use of short scales can enhance face validity of the measure because the respondent does not 
+get the impression that there are an excessive amount of redundant items (Rammstedt & Beierlin, 
+2014). A 30-item interest measure is more flexible regarding when and where it can be 
+administered. For example, short measures are cheaper and more suitable to include as part of a 
+longer survey or a large-scale panel study where participants are assessed on multiple constructs. 
+Longer questionnaires are more likely to induce negative moods and increase measurement 
+errors (Schmidt, Le, & Ilies, 2003). It is also more practical to administer short measures through 
+portable mobile devices. The nature in which items are presented on computer and phone screens 
+disallow for a comparable density of items to pen-and-paper tests, thus web-based surveys 
+typically require more “pages” than paper tests (Stanton, Sinar, Balzer, & Smith, 2002). The 
+increased number of pages to scroll through can be more tedious and give the illusion that a test 
+is longer than its paper-and-pencil version. Furthermore, attention span while on mobile phones 
+is markedly lower than on computers, averaging about 72 seconds (Budiu, 2015). Attention on 
+mobile is often fragmented and in short sessions, and individuals often explore content on their 
+mobile phones only while commuting. In sum, psychological assessments conducted through 
+mobile devices need to be extremely brief and quick to administer.  
+ The demand for a ‘Mini’ version of the Interest Profiler does not make the 60-item, 
+Short-IP obsolete. Scale reduction comes with an inherent decrease in scale reliability and 
+accuracy of measurement (Smith, McCarthy, & Anderson, 2000). Validity of a short scale can 
+also be diminished if the items removed reduce the range or breadth of content covered by the 
+shortened measure. Thus, the Short-IP should still be the preferred measure of choice when time 
+is not a constraint and accuracy is prioritized over speed. While the Short-IP was developed 
+    
+ 
+7 
+ 
+specifically for educational purposes, career interventions and organizational consulting, the 
+Mini-IP will be more suitable for situations where interests are to be assessed along with other 
+constructs (e.g., work values, abilities, and personality traits), or where portability and 
+accessibility are important (e.g., social network distribution and commuting).  In conclusion, the 
+development of a 30-item Mini-IP should expand the range of scenarios where O*NET’s 
+measure of interests can be administered while not replacing the paper-and-pencil 180-item, self-
+scoring Interest Profiler or the 60-item Interest Profiler Short Form. 
+ 
+Development of the O*NET Mini-IP 
+Item Selection Criteria 
+Only items currently in the 60-item Interest Profiler Short Form (Short-IP) were 
+evaluated for inclusion in the mini version of the IP. The primary criterion that guided the 
+selection of Mini-IP items was the item’s discrimination and difficulty parameters derived from 
+Item Response Theory (IRT) analysis. IRT involves the use of mathematical models to represent 
+the relationship between an individual’s observed responses to scale items and the true 
+underlying trait score (Hambleton & Swaminathan, 1985, 1991). This method of test evaluation 
+is commonly used in educational and psychological assessment, including the appraisal of 
+personality traits (Chernyshenko, Stark, Chan, Drasgow, & Williams, 2001), attachment styles 
+(Fraley, Waller, & Brennan, 2000), and interest traits (Pommerich, 2004). In IRT, the underlying 
+trait (e.g. realistic interests) is commonly designated the Greek letter theta (θ). An individual’s 
+probability of endorsing a realistic item can then be modeled in terms of his or her underlying 
+trait level and several item characteristics such as discrimination (a) and difficulty (b). A simple 
+example of one such item response model is Birnbaum’s (1968) two-parameter logistic (2PL) 
+model:    
+Pj(θi) = 1/{1 + exp[-aj(θi - bj)]}, 
+where Pj(θi) denotes the probability of endorsing item j for respondent i with trait level θi, and aj, 
+bj represent the item discrimination and difficulty parameters of item j, respectively. 
+By applying an IRT measurement model to RIASEC scale data comprising responses 
+from individuals with varying trait levels, one can estimate the item parameters (a & b) that 
+provide information on how well the item assesses the entire continuum of an interest dimension. 
+The item discrimination parameter (a) represents an item’s ability to differentiate between 
+    
+ 
+8 
+ 
+individuals with similar but not identical trait levels. By selecting high-discrimination items, it is 
+possible to create scales with fewer items and relatively high measurement precision. The item 
+difficulty parameter (b) represents the trait level of an individual who will endorse the item with 
+a 50% chance. While the concept of item difficulty in interest measures is somewhat disjoint, b-
+values across items will inform us on the extent to which the scale suitably assesses individuals 
+with different levels of interests. We can prevent inaccurate measurement of individuals with 
+relatively extreme interests by ensuring a balanced distribution of items across all difficulty 
+levels. The 2PL IRT model also highlights possible item dependencies. IRT assumes that 
+responses to each item are independent from one another, and an IRT model fit index will flag 
+sets of items that show dependency (Drasgow, Levine, Tsien, Williams, & Mead, 1995). Items 
+whose responses are dependent on one another are likely to have overlapping item content, thus 
+only one item among the set of dependent items should be included to maintain content balance. 
+In sum, by applying item response principles to each item within the individual RIASEC scales, 
+we are able to select the most discriminating items while maintaining a balanced distribution of 
+item difficulty and avoiding items with overlapping content.  
+ One of the key requirements for the Mini Interest Profiler would be the preservation of 
+the structural fidelity of the RIASEC hexagon (Holland, 1997). Thus, the second criterion we 
+prioritized was the multidimensional scaling coordinates of each item. Multidimensional scaling 
+converts an inter-item correlation matrix into a spatial two-dimensional map depicting each items 
+relationship with one another (Kruskal & Wish, 1978). Items were selected on the basis of their 
+locations in the two dimensional space, and their effect on the coordinates of the 
+multidimensional scaling of the inter-scale correlation matrix. In other words, we studied the 
+item-level multidimensional scaling output and tried different combinations of 5 items for each 
+RIASEC scale such that the scale-level multidimensional scaling output satisfactorily reproduced 
+Holland’s RIASEC hexagon. The selection process was both backwards (deleting items) and 
+forward (adding items).   
+ The remaining criteria used for item selection were to ensure balanced content coverage 
+of the selected items and minimize gender differences within RIASEC scales. For the former 
+criterion, three judges with experience in vocational psychology and test construction (James 
+Rounds, Colin Wee, and Phil Lewis) checked each selected item for redundancy of verbs and 
+activities. For example, there were three items in the Investigative scale describing activities 
+    
+ 
+9 
+ 
+conducted within science labs. Both the IRT analysis and judges’ discussions indicated that only 
+one of the three lab items should be included in the Mini-IP. The latter criterion of gender 
+balance scales involved calculating effect sizes for the mean differences between males and 
+females for each item. We then selected items such that the net gender difference for each 
+RIASEC scale was acceptably small and matched common gender differences found in interest 
+measurement (Su, Rounds, & Armstrong, 2009). After reviewing past scale reduction studies in 
+personality trait studies (Donnellan, Oswald, Baird, & Lucas, 2006; Gosling, Rentfrow, & Swan; 
+2003), we decided on five items per interest scale because too few items reduces internal 
+consistency, limits the breadth of interest activities that can be tested, and restricts the type of 
+analyses that can be done with the data. For example, factor analysis requires at least four 
+primary indicators for each common factor (Fabrigar, Wegener, MacCallum, & Strahan, 1999; 
+Floyd & Widaman, 1995). Thus, we erred on the side of caution and selected five items per 
+interest scale. 
+ 
+Study 1: Developmental Sample 
+Participants 
+ Developmental analyses were based on an archival sample of 1061 individuals (437 male 
+624 female), reporting various ethnic backgrounds (59% White, 25.1% African American, 10.2% 
+Hispanic, 2.6% Native American, 1.5% Asian or Pacific Islander). Data from this developmental 
+sample were collected across four states (Michigan, New York, North Carolina, and Utah). Data 
+collection sites included employment service offices, high schools, junior colleges, technical-
+trade schools, universities and government agencies. For a complete description of the 
+developmental sample, see Rounds et al. (1999b) or Table 1 in the Appendix.  
+Procedure 
+The archival sample contained responses to the 180-item Interest Profiler. The items were 
+designed with a binary response scale of ‘Like’ or ‘Dislike.’ The present item analysis used the 
+subset of the 60-items from the Short-IP (Rounds et al., 2010). BILOG Software (Thissen, 1991) 
+was used to estimate the 2PL item parameters (a & b) for each item within each RIASEC 
+dimension. Model fit was assessed with Stark’s (2001) MODFIT program. This program also 
+identified items whose responses were not locally independent from one another. We also 
+performed Kruskal monotonic multidimensional scaling of the inter-item correlation matrix to 
+    
+ 
+10 
+ 
+identify items that contributed to satisfactory positioning of the RIASEC scales according to 
+Holland’s (1997) hexagonal model. Next, we calculated the gender balance for each item. From 
+these sources of information, we prioritized selecting five items with the highest discrimination 
+parameters while disregarding items with extremely low discrimination parameters (a < .60). Our 
+second priority was to ensure broad content coverage among the five items. Part of this step was 
+to avoid selecting more than one item which violated local independence. Discussions among the 
+researchers constituted the other part of ensuring adequate content balance in selected items. For 
+example, MODFIT identified the following items as linearly dependent: I8 (Work in a biology 
+lab, a = 1.77), I10 (Do laboratory tests to identify diseases, a = 1.6) and I5 (Examine blood 
+samples using a microscope, a = 1.31). From discussions among researchers, these items were 
+also flagged as having high content overlap (i.e., the laboratory context). Although all 3 items 
+have high discrimination parameters, we selected the item that best contributed to the RIASEC 
+structure and gender balance. To aid our selection of items that contributed to RIASEC structural 
+fidelity, we referred to the two-dimensional multidimensional scaling plot of the inter-item 
+correlations (Figure 1). We followed an iterative procedure of entering and removing different 
+items for each RIASEC scale, and reviewing the changes to the multidimensional scaling plot to 
+decide which items to select. For example, while the four Social ‘teaching’ items (S1, S6, S7, & 
+S10) had very similar discrimination parameters, we selected the item that made the final social 
+scale roughly equidistant to from the enterprising scale and artistic scale (See Figure 2). The final 
+criterion for selecting items was based on the gender balance. Scale scores from our final set of 
+items should not be highly skewed to one gender, thus we endeavored to include a balance of 
+items that favored both males and females.     
+Psychometric Characteristics  
+ Results for the IRT item analysis are presented in Tables 2a to 2f in the Appendix. The 
+selected items for each scale are highlighted in bold. Multidimensional scaling coordinates for 
+the RIASEC scales of the Mini-IP are overlaid against the Short-IP coordinates in Figure 2. The 
+coordinates for the R and C scales of the 60-item Short-IP were fairly far away from each other 
+so Mini-IP items were selected to attempt to reduce this distance. Overall, a similar structure was 
+obtained for the Mini-IP and the Short-IP.  
+Using the data from the developmental sample, psychometric characteristics for the Mini-
+IP were calculated and compared with the Short-IP. Table 3 and 4 in the Appendix provides the 
+    
+ 
+11 
+ 
+full details on scale reliabilities and gender balance for the Mini-IP and the Short-IP. Cronbach’s 
+alpha for the Mini-IP RIASEC scales ranged from .70 to .75 (M = .73) compared to the alpha 
+coefficients for the Short-IP, which ranged from .78 to .87 (M = .81). Gender differences for 
+each scale in the Mini-IP showed similar effect sizes to the respective gender differences in the 
+Short-IP. Across the Short-IP and Mini-IP, males exhibited a higher score on the Realistic scale 
+(d = .84 for the Short-IP and .86 for the Mini-IP) and Investigative scale (d = .25 and .26). 
+Females on average scored higher on the Social scale (d = .42 and .59) and Conventional scale (d 
+= .31 and .36). There were minimal effect size differences for the Artistic and Enterprising scales. 
+The magnitude of gender differences obtained in the Mini-IP is less than those found in other 
+measures of vocational interest (Su, Rounds, & Armstrong, 2009).   
+ 
+Study 2: Validation Sample 
+Participants 
+ The Mini Interest Profiler was validated using new data from a sample of 600 participants 
+collected through Amazon’s Mechanical Turk (https://www.mturk.com). Participants were 
+required to have IP addresses within the United States and have at least 90% approval rating on 
+MTurk. Participants were compensated with USD 2.00 for completion of the online 
+questionnaire. The 60-item Short-IP with the 30-item Mini-IP embedded was administered to the 
+MTurk sample along with a short 20-item measure of the Big Five personality traits (Mini-IPIP 
+Scales; Donnellan et al., 2006). During data cleaning, we first excluded all participants aged 
+above 65 (retirement age). We also filtered out insufficient effort responders by removing 
+participants who failed at least one of the two quality control items (e.g., “Please select the 
+‘Strongly Like’ option”. The final sample comprised 575 participants (298 male 276 female). 
+The age of the participants ranged from 18 years old to 65 years old (M = 35.66, SD = 11.38), 
+and 77% of the sample was White, 9.4% was African-American, and 9% was Asian. 7.3% of the 
+sample referred to themselves as Hispanic or Latino. 95.8% of the sample was employed. All 
+measured characteristics of the sample can be found in Table 6.  
+Procedure 
+Since the present-day version of the Interest Profiler Short Form has a five-point response 
+scale, we recoded all responses from 1- (Strongly Dislike) to 3-(Unsure) as ‘0’ and responses 
+from 4-(Like) and 5-(Strongly Like) as ‘1’ in order to analyze the data with the 2-Parameter 
+    
+ 
+12 
+ 
+Logistic IRT model used in Study 1. Procedures for estimating item discrimination (a) and 
+difficulty (b) parameters were otherwise unchanged from Study 1.  
+Psychometric Characteristics 
+Results for our item and scale analyses are presented in Tables 7a-f to 13 in Appendix B. 
+Compared to the original item analysis with the developmental sample, the IRT analysis only 
+recommended switching out one item from the Conventional scale C3 (Load computer software 
+into a large computer network, a = .56) on the basis of lower discrimination. We decided to 
+retain the selected item based on its content coverage and previous viability in the developmental 
+sample. We also chose to rephrase the item for the final version of the Mini-IP to “Install 
+software across computers on a large network” both to update the item and to increase the 
+specificity of the action (‘Load’ versus ‘Install’) and perhaps improve the discrimination of the 
+item. Gender balance of the Mini-IP RIASEC Scales were similar to those of the Short-IP, with 
+the exception of the Conventional Scale which slightly favored females (d = .12) in the Short-IP, 
+while showing no gender difference in the Mini-IP (d = .00). Multidimensional scaling of the 
+inter-scale correlation matrix for the Mini-IP once again preserved the RIASEC structure of the 
+Interest Profiler Short Form (Figure 3). 
+ Reliability. Cronbach’s Alpha was calculated for the five-item scales of the Mini Interest 
+Profiler and the 10-item scales of the Short-IP (Table 9). The five-item interest scales had alpha 
+coefficients ranging from .74 to .81 and the ten-item RIASEC scales had coefficients ranging 
+from .85 to .90, indicating that the 30-item version meets satisfactory reliability standards for a 
+five-item scale. The high-point codes for each participant were determined for both the Mini 
+Interest Profiler and the original 60-item Short-IP and a Cohen’s Kappa statistic was calculated 
+to determine the degree of agreement between the two measures (Table 10). The Cohen’s Kappa 
+was .73, indicating a high degree of consistency between first-letter profiles produced by the 
+Mini-IP and the Short-IP. RIASEC profile correlations for the Short-IP and Mini-IP were also 
+calculated within individuals to provide more evidence for agreement between measures (rMdn 
+= .95, rMean = .92, SD = .12) 
+Validity. To assess convergent validity, the correlations between RIASEC scales of the 
+Mini Interest Profiler and a brief measure of Big Five personality traits were compared to past 
+meta-analytic correlations between interests and personality traits (Mount, Barrick, Scullen & 
+Rounds, 2005). As expected, Social and Enterprising interests were significantly correlated with 
+    
+ 
+13 
+ 
+Extraversion (r = .28 and .34 respectively), and Investigative and Artistic interests were 
+correlated significantly with Openness (r = .15 and .35 respectively). These correlations are very 
+similar to those reported in past personality trait and interest meta-analyses (Barrick, Mount, & 
+Gupta, 2003; Larson. Rottinghaus, & Borgen, 2002). Furthermore, the personality by interest 
+correlation matrix for the Mini-IP was very similar to the correlation matrix for the Short-IP 
+(Table 13), providing further support for the shortened measure. 
+ 
+Scoring for Paper-and-Pencil and Computerized IP (Long, Short, Mini) 
+The O*NET currently has three forms of the Interest Profiler: 180-item form (Long-IP), 
+60-item form (Short-IP), and 30-item form (Mini-IP).  Each of these IP forms can be used as a 
+self-scored assessment and computer-based assessment. In the case of the self-scored paper-and-
+pencil IP (Long, Short, Mini), the three-point response format is recommended where 
+participants are asked for “like,” “dislike,” or “unsure” responses to the items. Scores are then 
+computed by summing the number of “like” responses. In the case of the computerized 
+assessment for the Short and Mini Form, a five-point response format is recommended (note that 
+the computerized Long Form has retained a three-point response format). In the five-point 
+response format, participants indicate their interest in each activity from 0 = “strongly dislike,” 1 
+= “dislike,” 2 = “unsure,” 3 = “like,” and 4 = “strongly like.” Scores are computed by summing 
+responses for each of the six Holland types with a score range of 0 to 40 for the Short and 0 to 20 
+for the Mini.
+    
+ 
+14 
+ 
+Final Comments 
+A 30-item mini version of the Interest Profiler Short Form was developed for quick and 
+easy administration through mobile devices using item selection criteria from an IRT analysis, 
+content coverage, and gender balance. Results obtained between the initial developmental 
+sample and the results from the online validation sample from Amazon’s MTurk were similar, 
+supporting the validity of the Mini-IP. The Mini Interest Profiler showed acceptable levels of 
+reliability, and structural properties that reflect the organized structure of the RIASEC model. 
+The Mini-IP also shows expected correlations with a measure of the Big Five personality traits, 
+lending construct validity support. The Mini-IP is suitable for administration in mobile contexts 
+or as a measure embedded within a longer survey of multiple individual difference constructs. 
+    
+ 
+15 
+ 
+References 
+Barrick, M. R., Mount, M. K., & Gupta, R. (2003). Meta‐analysis of the relationship between the 
+five‐factor model of personality and Holland’s occupational types. Personnel Psychology, 
+56, 45-74. 
+Birnbaum, A. (1968). Some latent trait models and their use in inferring an examinee’s ability. In 
+F. M. Lord & M. R. Novick, Statistical Theories of Mental Test Scores (pp. 397 - 472). 
+Reading, MA: Addison-Wesley Publishing. 
+Budiu, R. (2015, April 19). Mobile user experience: Limitations and strengths. Retrieved from 
+https://www.nngroup.com/articles/mobile-ux/   
+Chernyshenko, O. S., Stark, S., Chan, K. Y., Drasgow, F., & Williams, B. (2001). Fitting item 
+response theory models to two personality inventories: Issues and insights. Multivariate 
+Behavioral Research, 36, 523-562. 
+Donnellan, M. B., Oswald, F. L., Baird, B. M., & Lucas, R. E. (2006). The mini-IPIP scales: 
+tiny-yet-effective measures of the Big Five factors of personality. Psychological 
+Assessment, 18, 192-203. 
+Drasgow, F., Levine, M. V., Tsien, S., Williams, B. A., & Mead, A. D. (1995). Fitting 
+polytomous item response models to multiple-choice tests. Applied Psychological 
+Measurement, 19, 145-165. 
+Fabrigar, L. R., Wegener, D. T., MacCallum, R. C., & Strahan, E. J. (1999). Evaluating the use 
+of exploratory factor analysis in psychological research. Psychological Methods, 4, 272-
+299. 
+Floyd, F. J., & Widaman, K. F. (1995). Factor analysis in the development and refinement of 
+clinical assessment instruments. Psychological Assessment, 7, 286-299. 
+Fraley, R. C., Waller, N. G., & Brennan, K. A. (2000). An item response theory analysis of self-
+report measures of adult attachment. Journal of Personality and Social Psychology, 78, 
+350-365. 
+Gosling, S. D., Rentfrow, P. J., & Swann, W. B. (2003). A very brief measure of the Bif-Five 
+personality domains. Journal of Research in Personality, 37, 504-528.  
+Hambleton, R. K., & Swaminathan, H. (1985). Item response theory: Principles and applications. 
+Boston, MA: Kluwer Academic Publishing. 
+    
+ 
+16 
+ 
+Hambleton, R. K., Swaminathan, H., & Rogers, J. (1991). Fundamentals of Item response 
+theory: Principles and applications. Newbury Park, CA: Sage Publishing. 
+Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work 
+environments (3rd ed.). Odessa, FL: Psychological Assessment Resources. 
+Kruskal, J.B. and Wish, M. (1978). Multidimensional Scaling. Sage University Paper series on 
+Quantitative Applications in the Social Sciences, 07–011, Beverly Hills and London: 
+Sage Publications. 
+Larson, L. M., Rottinghaus, P. J., & Borgen, F. H. (2002). Meta-analyses of big six interests and 
+big five personality factors. Journal of Vocational Behavior, 61, 217-239. 
+Lewis, P. & Rivkin, D. (1999). Development of the O*NET interest profiler. National Center for 
+O*Net Development, Raleigh, NC. < http://www.onetcenter.org/reports/IP.html> 
+Mount, M. K., Barrick, M. R., Scullen, S. M., & Rounds, J. (2005). Higher‐order dimensions of 
+the big five personality traits and the big six vocational interest types. Personnel 
+Psychology, 58(2), 447-478. 
+Mulvaney, S. A., Rothman, R. L., Dietrich, M. S., Wallston, K. A., Grove, E., Elasy, T. A., & 
+Johnson, K. B. (2012). Using mobile phones to measure adolescent diabetes adherence. 
+Health Psychology, 31, 43-50. 
+Pommerich, M. (2004). Using item response theory to develop an interest inventory. Armed 
+Services Vocational Aptitude Battery Career Exploration Program, Seaside, CA. 
+Rammstedt, B., & Beierlein, C. (2014). Can’t we make it any shorter? The limits of personality 
+assessment and ways to overcome them. Journal of Individual Differences, 35, 212-220. 
+Rounds, J., Su, R., Lewis, P., Rivkin, D. (2010). O*NET® Interest Profiler short form: 
+Psychometric characteristics. National Center for O*NET Development, Raleigh, NC. 
+http://www.onetcenter.org/reports/IPSF_Psychometric.html 
+Rounds, J., Mazzeo, S. E., Smith, T. J., Hubert, L., Lewis, P. & Rivkin, D. (1999a). O*NET® 
+computerized Interest Profiler: Reliability, validity, and comparability. National Center 
+for O*NET Development, Raleigh, NC. 
+<http://www.onetcenter.org/reports/CIP_RVC.html> 
+Rounds, J., Walker, C. M., Day, S. X., Hubert, L., Lewis, P. & Rivkin, D. (1999b). O*NET® 
+Interest Profiler: Reliability, validity, and self-scoring. National Center for O*NET 
+Development, Raleigh, NC. < http://www.onetcenter.org/reports/IP_RVS.html> 
+    
+ 
+17 
+ 
+Schmidt, F. L., Le, H., & Ilies, R. (2003). Beyond alpha: An empirical examination of the effects 
+of different sources of measurement error on reliability estimates for measures of 
+individual-differences constructs. Psychological Methods, 8, 206-224. 
+Shiffman, S., Stone, A. A., & Hufford, M. R. (2008). Ecological momentary assessment. Annual 
+Review of Clinical Psychology, 4, 1-32. 
+Smith, G. T., McCarthy, D. M., & Anderson, K. G. (2000). On the sins of short-form 
+development. Psychological Assessment, 12, 102-111. 
+Song, Z., Foo, M. D., & Uy, M. A. (2008). Mood spillover and crossover among dual-earner 
+couples: A cell phone event sampling study. Journal of Applied Psychology, 93, 443-450. 
+Stanton, J. M., Sinar, E. F., Balzer, W. K., & Smith, P. C. (2002). Issues and strategies for 
+reducing the length of self-report scales. Personnel Psychology, 55, 167-194. 
+Stark, S. (2001). MODFIT: A computer program for model-data fit. Unpublished manuscript. 
+University of Illinois at Urbana–Champaign. 
+Su, R., Rounds, J., & Armstrong, P. I. (2009). Men and things, women and people: A meta-
+analysis of sex differences in interests. Psychological Bulletin, 135, 859-884. 
+Thissen, D. (1991). Multilog user’s guide: Multiple categorical item and test scoring using item 
+response theory (Version 6.0) [Computer software]. Chicago, IL: Scientific Software. 
+    
+ 
+18 
+ 
+Appendix A 
+ 
+O*NET Mini Interest Profiler Items 
+ 
+    
+ 
+19 
+ 
+Realistic Items 
+Item # Content 
+1 Build kitchen cabinets 
+7 Repair household appliances 
+13 Assemble electronic parts 
+19 
+Drive a truck to deliver packages to offices and 
+homes 
+25 Test the quality of parts before shipment 
+ 
+ 
+Investigative Items 
+Item # Content 
+2 Develop a new medicine 
+8 Study ways to reduce water pollution 
+14 Conduct chemical experiments 
+20 Examine blood samples using a microscope 
+26 Develop a way to better predict the weather 
+ 
+ 
+Artistic Items 
+Item # Content 
+3 Write books or plays 
+9 Compose or arrange music 
+15 Create special effects for movies 
+21 Paint sets for plays 
+27 Write scripts for movies or television shows 
+ 
+ 
+Note. Item # refers to the suggested position of the item within the 30 items. Order was 
+determined using the original 60-item Short-IP as a guideline.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+20 
+ 
+ 
+Social Items 
+Item # Content 
+4 Help people with personal or emotional problems 
+10 Give career guidance to people 
+16 Perform rehabilitation therapy 
+22 Do volunteer work at a non-profit organization 
+28 Teach a high-school class 
+ 
+ 
+Enterprising Items 
+Item # Content 
+5 Manage a department within a large company 
+11 Start your own business 
+17 Negotiate business contracts 
+23 Market a new line of clothing 
+29 Sell merchandise at a department store 
+ 
+ 
+Conventional Items 
+Item # Content 
+6 Install software across computers on a large network  
+12 Operate a calculator 
+18 Keep shipping and receiving records 
+24 Inventory supplies using a hand-held computer 
+30 Stamp, sort, and distribute mail for an organization 
+ 
+ 
+Note. Item # refers to the suggested position of the item within the 30 items. Order was 
+determined using the original 60-item Short-IP as a guideline.  
+    
+ 
+21 
+ 
+Appendix B 
+ 
+Materials to Support the O*NET Mini Interest Profiler 
+Psychometric Characteristics 
+ 
+ 
+    
+ 
+22 
+ 
+List of Tables 
+ 
+Table 1 Description of Developmental Sample……………………………………. 
+ 
+25 
+ 
+Table 2a-f Item Parameters for Short-IP RIASEC Scales Using Developmental 
+Sample…………………………………………………………………….... 
+ 
+26-28 
+ 
+Table 3 Scale Means and Standard Deviations for the Validation Sample………… 
+ 
+29 
+ 
+Table 4 Scale-level Reliability and Gender Balance for Developmental Sample….. 
+ 
+30 
+ 
+Table 5 RIASEC Scale Intercorrelations for the 30-Item Mini Interest Profiler 
+(Lower Triangle) and the 60-Item Interest Profiler Short Form (Upper 
+Triangle) for the Developmental Sample………………………………….. 
+ 
+31 
+ 
+Table 6 Description of Amazon Mturk Validation Sample……………………….... 32 
+ 
+Table 7a-f Item Parameters for Short-IP RIASEC Scales Using Validation Sample..... 
+ 
+33-35 
+ 
+Table 8 RIASEC Scale Means and Standard Deviations for the Validation 
+Sample……………………………………………………………………… 
+ 
+36 
+ 
+Table 9 Scale-level Reliability and Gender Balance for Validation Sample……….. 37 
+ 
+Table 10 Cross Classification of the RIASEC High Point Codes for the 60-Item 
+Interest Profiler Short Form and 30-Item Mini Interest Profiler for the 
+Validation Sample………………………………………………………….. 
+ 
+38 
+ 
+Table 11 RIASEC Scale Intercorrelations for the 30-Item Mini Interest Profiler 
+(Lower Triangle) and the 60-Item Interest Profiler Short Form (Upper 
+Triangle) for the Validation Sample……………………………………….. 
+ 
+39 
+ 
+Table 12 Cross Correlations of the 30-Item Mini Interest Profiler and the 60-Item 
+Interest Profiler Short Form for the Validation Sample…………………… 
+ 
+40 
+ 
+Table 13 Personality Trait by RIASEC Scale Correlations for the 30-Item Mini 
+Interest Profiler and the 60-Item Interest Profiler Short Form for the 
+Validation Sample…………………………………………………………. 
+ 
+41 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+23 
+ 
+List of Figures 
+ 
+Figure 1 Kruskal Monotonic Multidimensional Scaling of the item-level 
+correlation matrix for the 60-item Interest Profiler Short Form for the 
+Developmental Sample……………………………………………………. 
+ 
+43 
+ 
+Figure 2 Kruskal Monotonic Multidimensional Scaling of the RIASEC scale 
+correlation matrix for both the 30-Item Mini Interest Profiler and the 60-
+item Interest Profiler Short Form for the Developmental Sample………… 
+ 
+44 
+ 
+Figure 3 Kruskal Monotonic Multidimensional Scaling of the RIASEC scale 
+correlation matrix for both the 30-Item Mini Interest Profiler and the 60-
+item Interest Profiler Short Form for the Validation Sample……………… 
+ 
+45 
+ 
+    
+ 
+24 
+ 
+TABLES
+    
+ 
+25 
+ 
+Table 1. 
+Description of Developmental Sample 
+ 
+Characteristic n % 
+Gender       
+   Male     437 41.2 
+   Female     624 58.8 
+Age       
+   18 or less    101 9.6 
+   19 to 22     171 16.2 
+   23 to 30     257 24.3 
+   31 to 40     250 23.6 
+   41 to 50     181 17.1 
+   >50     98 9.3 
+Education       
+   Less than high school   216 20.6 
+   High school degree    405 38.5 
+   Some college to BA    386 36.7 
+   > 16 years    44 4.2 
+Ethnicity       
+   White     620 59 
+   African American    264 25.1 
+   Hispanic     107 10.2 
+   Native American    27 2.6 
+   Asian or Pacific Is.    16 1.5 
+   Other     17 1.6 
+Employment Status      
+   Unemployed    658 62.4 
+   Part-time    216 20.5 
+   Full-time    179 17 
+   Military     1 0.1 
+Student Status      
+   High school    83 26.7 
+   Junior coll/vocational   84 27 
+   College     144 46.3 
+Region       
+   East (New York)    292 27.5 
+   West (Utah)    272 25.6 
+   North (Michigan)    217 20.5 
+   South (North Carolina)   280 26.4 
+Note. N = 1061. Column n's may not always sum up to the total N because of missing data. 
+ 
+    
+ 
+26 
+ 
+Table 2a. 
+Item Parameters for Short-IP Realistic Scale Using Developmental Sample (N = 1061) 
+    2PL 
+Item Averages 
+Males (N = 437) Females (N = 624) 
+Item # Content a b M SD M SD 
+1 Build kitchen cabinets 1.29 0.19 0.50 0.50 0.23 0.42 
+2 Lay brick or tile 1.35 0.57 0.42 0.50 0.23 0.42 
+3 Repair household appliances 1.63 0.26 0.51 0.50 0.25 0.43 
+4 Raise fish in a fish hatchery 0.70 1.40 0.40 0.49 0.16 0.37 
+5 Assemble electronic parts 1.22 0.43 0.54 0.50 0.25 0.43 
+6 Drive a truck to deliver packages to offices and homes 1.08 0.30 0.54 0.50 0.29 0.45 
+7 Test the quality of parts before shipment 1.03 0.19 0.49 0.50 0.26 0.44 
+8 Repair and install locks 1.62 0.45 0.44 0.50 0.16 0.37 
+9 Set up and operate machines to make products 1.32 0.43 0.46 0.50 0.19 0.39 
+10 Put out forest fires 0.75 0.54 0.47 0.50 0.19 0.39 
+Note. Items in bold were selected for the Mini-IP.  
+Table 2b. 
+Item Parameters for Short-IP Investigative Scale Using Developmental Sample (N = 1061) 
+    2PL 
+Item Averages 
+Males (N = 437) Females (N = 624) 
+Item # Content a b M SD M SD 
+1 Develop a new medicine 1.27 -0.16 0.55 0.50 0.45 0.50 
+2 Study ways to reduce water pollution 1.04 0.01 0.53 0.50 0.45 0.50 
+3 Conduct chemical experiments 1.25 0.34 0.44 0.50 0.31 0.46 
+4 Study the movement of planets 1.10 0.20 0.52 0.50 0.34 0.47 
+5 Examine blood samples using a microscope 1.31 0.25 0.37 0.48 0.40 0.49 
+6 Investigate the cause of a fire 0.71 -0.07 0.62 0.49 0.44 0.50 
+7 Develop a way to better predict the weather 0.88 0.17 0.48 0.50 0.34 0.47 
+8 Work in a biology lab 1.77 0.22 0.42 0.49 0.39 0.49 
+9 Invent a replacement for sugar 0.88 0.50 0.36 0.48 0.30 0.46 
+10 Do laboratory tests to identify diseases 1.60 0.05 0.40 0.49 0.43 0.50 
+Note. Items in bold were selected for the Mini-IP.  
+    
+ 
+27 
+ 
+Table 2c. 
+Item Parameters for Short-IP Artistic Scale Using Developmental Sample (N = 1061) 
+    2PL 
+Item Averages 
+Males (N = 437) Females (N = 624) 
+Item # Content a b M SD M SD 
+1 Write books or plays 1.18 0.15 0.44 0.5 0.56 0.5 
+2 Play a musical instrument 0.91 -0.26 0.62 0.49 0.61 0.49 
+3 Compose or arrange music 1.37 0.3 0.41 0.49 0.35 0.48 
+4 Draw pictures 0.79 -0.08 0.53 0.5 0.53 0.5 
+5 Create special effects for movies 1.2 -0.27 0.68 0.47 0.49 0.5 
+6 Paint sets for plays 0.8 0.35 0.35 0.48 0.42 0.49 
+7 Write scripts for movies or television shows 1.56 0.05 0.45 0.5 0.47 0.5 
+8 Perform jazz or tap dance 0.84 0.72 0.25 0.44 0.33 0.47 
+9 Sing in a band 1.13 0.38 0.42 0.49 0.4 0.49 
+10 Edit movies 1.28 -0.11 0.46 0.5 0.41 0.49 
+Note. Items in bold were selected for the Mini-IP. 
+Table 2d. 
+Item Parameters for Short-IP Social Scale Using Developmental Sample (N = 1061) 
+    2PL 
+Item Averages 
+Males (N = 437) Females (N = 624) 
+Item # Content a b M SD M SD 
+1 Teach an individual an exercise routine 0.96 0.12 0.39 0.49 0.53 0.5 
+2 Help people with personal or emotional problems 1.38 -0.4 0.58 0.49 0.75 0.44 
+3 Give career guidance to people 1.14 -0.35 0.49 0.5 0.62 0.49 
+4 Perform rehabilitation therapy 1.37 0.05 0.37 0.48 0.56 0.5 
+5 Do volunteer work at a non-profit organization 0.75 -0.21 0.48 0.5 0.67 0.47 
+6 Teach children how to play sports 0.99 -0.44 0.69 0.47 0.61 0.49 
+7 Teach sign language to people with hearing disabilities 0.94 0.08 0.31 0.46 0.58 0.49 
+8 Help conduct a group therapy session 1.06 -0.1 0.37 0.48 0.61 0.49 
+9 Take care of children at a day-care center 0.89 -0.01 0.27 0.44 0.57 0.5 
+10 Teach a high-school class 0.85 0.03 0.41 0.49 0.4 0.49 
+Note. Items in bold were selected for the Mini-IP.  
+    
+ 
+28 
+ 
+Table 2e. 
+Item Parameters for Short-IP Enterprising Scale Using Developmental Sample (N = 1061) 
+    2PL 
+Item Averages 
+Males (N = 437) Females (N = 624) 
+Item # Content A b M SD M SD 
+1 Buy and sell stocks and bonds 0.58 -0.04 0.45 0.5 0.38 0.49 
+2 Manage a retail store 2.2 -0.07 0.46 0.5 0.54 0.5 
+3 Operate a beauty salon or barber shop 0.99 0.45 0.18 0.39 0.4 0.49 
+4 Manage a department within a large company 1.18 -0.36 0.53 0.5 0.53 0.5 
+5 Start your own business 0.87 -1.4 0.84 0.36 0.74 0.44 
+6 Negotiate business contracts 0.95 0.16 0.5 0.5 0.39 0.49 
+7 Represent a client in a lawsuit 0.59 0 0.42 0.49 0.36 0.48 
+8 Market a new line of clothing 0.98 -0.14 0.4 0.49 0.48 0.5 
+9 Sell merchandise at a department store 1.26 0.23 0.27 0.44 0.38 0.49 
+10 Manage a clothing store 2.29 -0.07 0.37 0.48 0.46 0.5 
+Note. Items in bold were selected for the Mini-IP.  
+Table 2f. 
+Item Parameters for Short-IP Conventional Scale Using Developmental Sample (N = 1061) 
+    2PL 
+Item Averages 
+Males (N = 437) Females (N = 624) 
+Item # Content a b M SD M SD 
+1 Develop a spreadsheet using computer software 1.03 -0.05 0.43 0.5 0.47 0.5 
+2 Proofread records or forms 1.18 0.15 0.31 0.46 0.49 0.5 
+3 Load computer software into a large computer network 0.92 -0.17 0.44 0.5 0.45 0.5 
+4 Operate a calculator 1.1 -0.5 0.55 0.5 0.7 0.46 
+5 Keep shipping and receiving records 1.61 -0.07 0.42 0.49 0.47 0.5 
+6 Calculate the wages of employees 1.7 0.05 0.35 0.48 0.48 0.5 
+7 Inventory supplies using a hand-held computer 1.19 -0.06 0.4 0.49 0.48 0.5 
+8 Record rent payments 1.61 -0.07 0.33 0.47 0.51 0.5 
+9 Keep inventory records 2.09 -0.02 0.36 0.48 0.48 0.5 
+10 Stamp, sort, and distribute mail for an organization 1.09 0.06 0.27 0.44 0.5 0.5 
+Note. Items in bold were selected for the Mini-IP.  
+    
+ 
+29 
+ 
+Table 3.  
+Scale Means and Standard Deviations for the Developmental Sample 
+ 
+Total Male (N = 437) Female (N = 624) 
+ 
+M SD M SD M SD 
+Mini Interest Profiler 
+R 0.36 0.33 0.52 0.34 0.25 0.28 
+I 0.42 0.34 0.47 0.34 0.39 0.34 
+A 0.46 0.35 0.47 0.33 0.46 0.36 
+S 0.54 0.33 0.46 0.33 0.60 0.32 
+E 0.51 0.32 0.51 0.31 0.50 0.33 
+C 0.48 0.35 0.42 0.34 0.52 0.34 
+60-Item Interest Profiler Short Form 
+R 0.33 0.29 0.48 0.30 0.22 0.24 
+I 0.42 0.33 0.47 0.33 0.38 0.33 
+A 0.46 0.31 0.46 0.30 0.46 0.32 
+S 0.53 0.30 0.43 0.30 0.59 0.29 
+E 0.46 0.30 0.44 0.30 0.46 0.31 
+C 0.46 0.33 0.39 0.32 0.50 0.33 
+Note. N = 1061. R = realistic, I = investigative, A = artistic, S= Social, E =enterprising, C = 
+conventional. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+30 
+ 
+Table 4. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Scale-level Reliability and Gender Balance for Developmental Sample 
+ 30-Item Mini-IP 60-item Short-IP 
+Scale 
+Gender 
+Difference 
+Effect Size (d) Cronbach’s Alpha 
+Gender 
+Difference 
+Effect Size (d) Cronbach’s Alpha 
+R 0.84 0.73 0.95 0.78 
+I 0.25 0.74 0.26 0.82 
+A 0.03 0.75 0.02 0.78 
+S -0.41 0.70 -0.52 0.78 
+E 0.02 0.71 -0.07 0.87 
+C -0.31 0.74 -0.36 0.83 
+Note. N = 1061. R = realistic, I = investigative, A = artistic, S= Social, E =enterprising, C = 
+conventional. 
+    
+ 
+31 
+ 
+Table 5. 
+RIASEC Scale Intercorrelations for the 30-Item Mini Interest Profiler (Lower Triangle) 
+and the 60-Item Interest Profiler Short Form (Upper Triangle) for the Developmental 
+Sample 
+ 
+R I A S E C 
+R 
+ 
+.35 .20 .12 .23 .20 
+I .32 
+ 
+.44 .33 .29 .15 
+A .20 .41 
+ 
+.38 .41 .15 
+S .09 .32 .34 
+ 
+.43 .30 
+E .26 .29 .42 .36 
+ 
+.47 
+C .30 .17 .16 .23 .42 
+ Note. N = 1061. R = realistic, I = investigative, A = artistic, S = social, E 
+= enterprising, C = conventional.  
+ 
+ 
+    
+ 
+32 
+ 
+Table 6. 
+Description of Amazon Mturk Validation Sample 
+ 
+Characteristic n % 
+Gender       
+   Male     298 51.8 
+   Female     276 48.0 
+Age       
+   18 or less    1 0.2 
+   19 to 22     40 7.0 
+   23 to 30     198 34.4 
+   31 to 40     165 28.7 
+   41 to 50     92 17.0 
+   51 to 60     57 9.9 
+   61 to 65     22 3.8 
+Race       
+   White   443 77.0 
+   Asian    52 9.0 
+   Black or African American    54 9.4 
+   American Indian or Alaskan Native    5 0.9 
+   Native Hawaiian or Other Pacific Islander    2 0.3 
+   Other     17 3.0 
+Ethnicity       
+   Hispanic or Latino     42 7.3 
+   Not Hispanic or Latino     532 92.5 
+Employment Status       
+   Not employed (including students)     19 3.3 
+   Employed     551 95.8 
+   Missing     5 0.9 
+Note. N = 575. Column n's may not always sum up to the total N because of missing data 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+33 
+ 
+Table 7a. 
+Item Parameters for Short-IP Realistic Scale Using Validation Sample (N = 575) 
+    2PL 
+Item Averages 
+Male (N = 298) Female (N = 276) 
+Item # Content a b M SD M SD 
+1 Build kitchen cabinets 1.21 0.37 3.04 1.18 2.64 1.14 
+2 Lay brick or tile 0.89 0.90 2.67 1.20 2.38 1.18 
+3 Repair household appliances 1.26 0.49 3.04 1.22 2.54 1.17 
+4 Raise fish in a fish hatchery 0.47 0.58 3.02 1.29 2.79 1.37 
+5 Assemble electronic parts 1.10 0.21 3.42 1.14 2.59 1.13 
+6 Drive a truck to deliver packages to offices and homes 0.85 0.75 2.83 1.25 2.47 1.24 
+7 Test the quality of parts before shipment 1.49 0.38 3.17 1.15 2.63 1.14 
+8 Repair and install locks 2.26 0.61 2.90 1.23 2.28 1.08 
+9 Set up and operate machines to make products 1.32 0.41 3.15 1.20 2.51 1.09 
+10 Put out forest fires 0.60 0.80 3.00 1.33 2.41 1.23 
+Note. Items in bold were selected for the Mini-IP. Item # represents the order of items within the scale. 
+Table 7b. 
+Item Parameters for Short-IP Investigative Scale Using Validation Sample (N = 575) 
+    2PL 
+Item Averages 
+Male (N = 298) Female (N = 276) 
+Item # Content a b M SD M SD 
+1 Develop a new medicine 1.08 -0.19 3.43 1.11 3.33 1.20 
+2 Study ways to reduce water pollution 0.80 -0.27 3.48 1.17 3.30 1.19 
+3 Conduct chemical experiments 1.31 0.09 3.29 1.25 2.93 1.28 
+4 Study the movement of planets 0.82 -0.39 3.67 1.17 3.40 1.23 
+5 Examine blood samples using a microscope 1.46 0.00 3.17 1.18 3.27 1.27 
+6 Investigate the cause of a fire 0.80 -0.19 3.43 1.16 3.18 1.23 
+7 Develop a way to better predict the weather 0.96 -0.04 3.46 1.20 3.14 1.17 
+8 Work in a biology lab 2.01 -0.06 3.32 1.21 3.33 1.21 
+9 Invent a replacement for sugar 1.09 0.28 3.10 1.23 2.93 1.23 
+10 Do laboratory tests to identify diseases 2.17 -0.08 3.28 1.28 3.26 1.28 
+Note. Items in bold were selected for the Mini-IP. Item # represents the order of items within the scale. 
+    
+ 
+34 
+ 
+Table 7c. 
+Item Parameters for Short-IP Artistic Scale Using Validation Sample (N = 575) 
+    2PL 
+Item Averages 
+Male (N = 298) Female (N = 276) 
+Item # Content a b M SD M SD 
+1 Write books or plays 1.57 -0.26 3.20 1.42 3.84 1.21 
+2 Play a musical instrument 1.62 -0.52 3.60 1.34 3.88 1.17 
+3 Compose or arrange music 1.40 -0.12 3.32 1.35 3.43 1.25 
+4 Draw pictures 1.21 -0.28 3.23 1.29 3.68 1.21 
+5 Create special effects for movies 0.68 -0.82 3.75 1.19 3.64 1.22 
+6 Paint sets for plays 0.77 -0.04 2.88 1.25 3.60 1.26 
+7 Write scripts for movies or television shows 1.71 -0.25 3.31 1.36 3.60 1.29 
+8 Perform jazz or tap dance 1.22 0.57 2.32 1.23 3.01 1.35 
+9 Sing in a band 1.17 -0.05 3.07 1.43 3.37 1.37 
+10 Edit movies 0.98 -0.47 3.62 1.22 3.54 1.22 
+Note. Items in bold were selected for the Mini-IP. Item # represents the order of items within the scale. 
+Table 7d. 
+Item Parameters for Short-IP Social Scale Using Validation Sample (N = 575) 
+    2PL 
+Item Averages 
+Male (N = 298) Female (N = 276) 
+Item # Content a B M SD M SD 
+1 Teach an individual an exercise routine 0.71 0.29 2.95 1.28 3.09 1.29 
+2 Help people with personal or emotional problems 1.61 0.01 3.04 1.35 3.50 1.30 
+3 Give career guidance to people 1.16 0.10 2.92 1.23 3.31 1.23 
+4 Perform rehabilitation therapy 1.31 0.42 2.71 1.20 3.12 1.27 
+5 Do volunteer work at a non-profit organization 0.81 -0.47 3.23 1.19 3.81 1.05 
+6 Teach children how to play sports 0.81 0.27 3.05 1.32 2.92 1.31 
+7 Teach sign language to people with hearing disabilities 1.24 0.35 2.60 1.20 3.29 1.27 
+8 Help conduct a group therapy session 1.71 0.44 2.48 1.21 3.16 1.27 
+9 Take care of children at a day-care center 0.78 0.99 2.17 1.20 2.73 1.37 
+10 Teach a high-school class 0.66 0.84 2.62 1.28 2.69 1.30 
+Note. Items in bold were selected for the Mini-IP. Item # represents the order of items within the scale. 
+    
+ 
+35 
+ 
+Table 7e.  
+Item Parameters for Short-IP Enterprising Scale Using Validation Sample (N = 575) 
+    2PL 
+Item Averages 
+Male (N = 298) Female (N = 276) 
+Item # Content a b M SD M SD 
+1 Buy and sell stocks and bonds 0.35 0.79 3.16 1.30 2.64 1.29 
+2 Manage a retail store 1.86 0.63 2.48 1.15 2.78 1.26 
+3 Operate a beauty salon or barber shop 0.87 1.19 2.08 1.07 2.64 1.30 
+4 Manage a department within a large company 1.09 0.54 2.88 1.24 2.72 1.27 
+5 Start your own business 0.79 -0.70 3.76 1.13 3.78 1.15 
+6 Negotiate business contracts 0.78 0.69 2.90 1.30 2.55 1.26 
+7 Represent a client in a lawsuit 0.79 0.66 2.78 1.31 2.64 1.32 
+8 Market a new line of clothing 0.88 0.62 2.60 1.24 2.95 1.30 
+9 Sell merchandise at a department store 1.27 0.87 2.28 1.09 2.57 1.22 
+10 Manage a clothing store 2.43 0.61 2.39 1.18 2.71 1.30 
+Note. Items in bold were selected for the Mini-IP. Item # represents the order of items within the scale. 
+Table 7f. 
+Item Parameters for Short-IP Conventional Scale Using Validation Sample (N = 575) 
+    2PL 
+Item Averages 
+Male (N = 298) Female (N = 276) 
+Item # Content a b M SD M SD 
+1 Develop a spreadsheet using computer software 0.72 0.29 3.14 1.26 2.92 1.28 
+2 Proofread records or forms 1.01 0.39 2.59 1.24 3.20 1.25 
+3 Load computer software into a large computer network 0.56 0.22 3.38 1.22 2.76 1.26 
+4 Operate a calculator 0.85 0.12 3.16 1.14 3.11 1.22 
+5 Keep shipping and receiving records 2.00 0.39 2.75 1.19 2.94 1.21 
+6 Calculate the wages of employees 1.53 0.37 2.77 1.17 2.96 1.24 
+7 Inventory supplies using a hand-held computer 1.55 0.33 2.87 1.22 2.91 1.19 
+8 Record rent payments 1.73 0.42 2.68 1.17 2.95 1.20 
+9 Keep inventory records 2.86 0.28 2.79 1.19 3.03 1.25 
+10 Stamp, sort and distribute mail for an organization 1.35 0.39 2.66 1.19 3.09 1.26 
+Note. Items in bold were selected for the Mini-IP. Item # represents the order of items within the scale.
+    
+ 
+36 
+ 
+Table 8.  
+RIASEC Scale Means and Standard Deviations for the Validation Sample 
+ 
+Total Male (N = 298) Female (N = 276) 
+ 
+M SD M SD M SD 
+Mini Interest Profiler 
+R 2.85 0.91 3.10 0.91 2.58 0.83 
+I 3.28 0.89 3.36 0.90 3.19 0.89 
+A 3.45 0.98 3.29 0.99 3.62 0.93 
+S 3.09 0.93 2.91 0.92 3.28 0.90 
+E 2.90 0.87 2.88 0.84 2.91 0.89 
+C 2.97 0.90 2.96 0.88 2.96 0.93 
+60-Item Interest Profiler Short Form 
+R 2.79 0.85 3.02 0.86 2.52 0.76 
+I 3.29 0.88 3.36 0.87 3.21 0.87 
+A 3.39 0.94 3.23 0.94 3.56 0.91 
+S 2.96 0.90 2.78 0.89 3.16 0.87 
+E 2.76 0.82 2.73 0.80 2.80 0.84 
+C 2.93 0.89 2.88 0.87 2.99 0.91 
+Mini-IPIP Personality Scale 
+Extraversion 2.62 1.03 2.65 1.04 2.58 1.02 
+Agreeableness 3.78 0.85 3.61 0.86 3.94 0.80 
+Conscientiousness 3.66 0.81 3.61 0.81 3.71 0.82 
+Neuroticism 2.55 0.96 2.43 0.96 2.69 0.94 
+Intellect 3.87 0.82 3.87 0.86 3.86 0.79 
+Note. N = 575. R = realistic, I = investigative, A = artistic, S= Social, E =enterprising, C = 
+conventional. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+37 
+ 
+Table 9. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Scale-level Reliability and Gender Balance for Validation Sample 
+ 30-Item Mini-IP 60-item Short-IP  
+Scale 
+Gender 
+Difference 
+Effect Size (d) Cronbach’s Alpha 
+Gender 
+Difference 
+Effect Size (d) Cronbach’s Alpha 
+R 0.60 0.81 0.62 0.88 
+I 0.19 0.80 0.18 0.90 
+A -0.34 0.81 -0.35 0.90 
+S -0.41 0.79 -0.43 0.89 
+E -0.03 0.74 -0.08 0.85 
+C 0.00 0.79 -0.12 0.90 
+Note. N = 575. R = realistic, I = investigative, A = artistic, S= Social, E =enterprising, C = 
+conventional. 
+    
+ 
+38 
+ 
+Table 10. 
+Cross Classification of the RIASEC High Point Codes for the 60-Item Interest Profiler 
+Short Form and 30-Item Mini Interest Profiler for the Validation Sample 
+ 60-Item Interest Profiler Short Form 30-Item Mini-
+IP R I A S E C Total N  
+R 47 4 3 2 2 4 62 
+I 3 117 4 4 1 3 132 
+A 3 13 177 6 1 8 208 
+S 1 3 9 46 2 5 66 
+E 0 6 5 3 25 6 45 
+C 6 6 1 1 2 45 61 
+Total N  60 149 199 62 33 71 574 
+Note. Cohen’s Kappa was calculated for at least one match between the highest 
+scoring RIASEC code for each person, κ = 0.73. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+39 
+ 
+Table 11. 
+RIASEC Scale Intercorrelations for the 30-Item Mini Interest Profiler (Lower Triangle) 
+and the 60-Item Interest Profiler Short Form (Upper Triangle) for the Validation Sample 
+ 
+R I A S E C 
+R 
+ 
+.39 .11 .16 .25 .40 
+I .29 
+ 
+.27 .27 .19 .14 
+A .08 .27 
+ 
+.44 .25 .05 
+S .08 .24 .38 
+ 
+.43 .14 
+E .23 .19 .27 .37 
+ 
+.37 
+C .48 .16 .05 .10 .31 
+ Note. N = 575. R = realistic, I = investigative, A = artistic, S = social, E = 
+enterprising, C = conventional.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+40 
+ 
+Table 12. 
+Cross Correlations of the 30-Item Mini Interest Profiler and the 60-Item Interest Profiler 
+Short Form for the Validation Sample 
+  30-Item Mini Interest Profiler  
+ 
+ 
+R I A S E C 
+60-Item 
+Interest 
+Profiler 
+Short 
+Form 
+R .95 .38 .11 .12 .25 .47 
+I .29 .96 .28 .27 .21 .17 
+A .09 .25 .96 .41 .27 .05 
+S .12 .25 .41 .95 .41 .13 
+E .23 .17 .24 .39 .95 .34 
+C .41 .14 .06 .12 .33 .95 
+Note. N = 575. R = realistic, I = investigative, A = artistic, S = social, E = 
+enterprising, C = conventional.  
+    
+ 
+41 
+ 
+Table 13. 
+Personality Trait by RIASEC Scale Correlations for the 30-Item Mini Interest Profiler and 
+the 60-Item Interest Profiler Short Form for the Validation Sample 
+ 30-Item Mini Interest Profiler 
+ 
+R I A S E C 
+Extraversion -.02 .08 .07 .28* .34* -.12* 
+Agreeableness -.04 .06 .21* .40* .08 -.01 
+Conscientiousness -.01 -.07 -.05 -.05 .10* .00 
+Neuroticism -.04 -.02 .04 -.01 -.13* .06 
+Intellect .06 .15* .35* .16* .10* -.05 
+ 60-Item Interest Profiler Short Form 
+ 
+R I A S E C 
+Extraversion .00 .10* .10* .28* .32* -.11* 
+Agreeableness -.04 .08 .22* .38* .08 -.01 
+Conscientiousness -.02 -.07 -.05 -.04 .09* .03 
+Neuroticism -.03 -.00 .05 -.02 -.10* .06 
+Intellect .07 .18* .31* .13* .05 -.08 
+Note. N = 575. R = realistic, I = investigative, A = artistic, S = social, E =  
+enterprising, C = conventional. * = p < .05. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+42 
+ 
+FIGURES
+    
+ 
+43 
+ 
+Figure 1. Kruskal Monotonic Multidimensional Scaling of the item-level correlation matrix for the 60-item Interest Profiler 
+Short Form for the Developmental Sample 
+ 
+ 
+Note. Labels for each point correspond to the individual item number in the Short-IP. The purpose of this graph was to select items fro 
+each RIASEC scale such that the resultant scale correlations would give a good circular structure corresponding to Holland’s (1997) 
+model. Kruskal STRESS = .20 and RSQ = .78.
+-2 -1 0 1 2
+dimension_1
+-2
+-1
+0
+1
+2dimension_2
+R2
+R6
+R9
+R3
+R8
+R4
+R1R5
+R10
+R7
+I4I8
+I10
+I5
+I2
+I3I1
+I9
+I6
+I7
+A7
+A9
+A3
+A8
+A5
+A4
+A10
+A1
+A2
+A6
+S2
+S9 S4S8S3S5
+S7
+S10
+S6
+S1
+E2
+E9
+E4 E6
+E7
+E5
+E10
+E3
+E1
+E8
+C9
+C8
+C5C7
+C2
+C10
+C1C4
+C3
+C6
+    
+ 
+44 
+ 
+Figure 2. Kruskal Monotonic Multidimensional Scaling of the RIASEC subscale correlation matrix for both the 30-Item Mini 
+Interest Profiler and the 60-item Interest Profiler Short Form for the Developmental Sample, overlaid onto one two-
+dimensional space 
+ 
+Note. A 90-degree anticlockwise rotation was applied to the coordinates for the 60-item Interest Profiler. The Short Form and Long 
+Form were scaled separately. Numbers next to the letters indicate the number of items in the RIASEC subscale. Interest Profiler Short 
+Form: Kruskal STRESS = .03 and RSQ = .99; 30-Item Mini Interest Profiler: Kruskal STRESS = .04 and RSQ = .98. R = realistic, I = 
+investigative, A = artistic, S = social, E = enterprising, C = conventional. 
+ 
+ 
+MDS Coordinate Values 
+ 
+30-Item Mini-IP 60-Item Short-IP 
+R -1.21 -0.50 -1.12 0.79 
+I 0.14 -0.95 -0.76 -0.45 
+A 0.71 -0.36 -0.18 -0.86 
+S 0.98 0.41 0.76 -0.53 
+E 0.11 0.48 0.52 0.15 
+C -0.73 0.92 0.78 0.90 
+ I II I II 
+    
+ 
+45 
+ 
+Figure 3. Kruskal Monotonic Multidimensional Scaling of the RIASEC subscale correlation matrix for both the 30-Item Mini 
+Interest Profiler and the 60-item Interest Profiler Short Form for the Validation Sample, overlaid onto one two-dimensional 
+space 
+ 
+Note. The Short Form and Long Form were scaled separately. Numbers next to the subscales indicate the number of items in the 
+RIASEC subscale. Interest Profiler Short Form: Kruskal STRESS = .02 and RSQ = .99; 30-Item Mini Interest Profiler: Kruskal 
+STRESS < .01 and RSQ = .99. R = realistic, I = investigative, A = artistic, S = social, E = enterprising, C = conventional. 
+ 
+ 
+MDS Coordinate Values 
+ 
+30-Item Mini-IP 60-Item Short-IP 
+R -1.04 -0.28 -0.84 -0.56 
+I 0.07 -0.94 0.13 -0.98 
+A 1.06 -0.19 1.10 -0.05 
+S 0.91 0.32 0.78 0.34 
+E 0.08 0.74 -0.06 0.79 
+C -1.09 0.35 -1.11 0.45 
+ I II I II 

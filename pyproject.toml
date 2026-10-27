@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isla-questionnaires"
+version = "0.1.0"
+description = "Offline, data-driven questionnaires with traceable scoring"
+readme = "README.md"
+license-files = ["THIRD_PARTY_NOTICES.md"]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+isla-questionnaires = "isla_questionnaires.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["isla_questionnaires*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+isla_questionnaires = ["data/*.json", "data/*/*.json", "data/sources/**/*"]

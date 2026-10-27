@@ -1,0 +1,43 @@
+{
+  "source": {
+    "repository": "stmueller/OpenScales",
+    "commit": "d555b04a1961181a63f91b534bc1096bcbd1dcdc",
+    "url": "https://github.com/stmueller/OpenScales",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "scales/openscales/GSE/GSE.osd",
+      "scales/openscales/RSES/RSES.osd",
+      "scales/openscales/SWLS/SWLS.osd",
+      "scales/openscales/ERQ/ERQ.osd",
+      "scales/openscales/DOSPERT/DOSPERT.osd",
+      "scales/openscales/IE-4/IE-4.osd",
+      "scales/openscales/ESS-BSTS/ESS-BSTS.osd",
+      "scales/openscales/ESS-ITS/ESS-ITS.osd",
+      "scales/openscales/ESS-PE/ESS-PE.osd",
+      "scales/openscales/SECS/SECS.osd",
+      "scales/openscales/ESS-PVQ21/ESS-PVQ21.osd"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/openscales/scales/openscales/ESS-PVQ21/ESS-PVQ21.osd",
+      "sha256": "18ae31f54a06599b79dfe0638123ddc48f6e39b4b3bdeb169610e69d01ba2f3c"
+    },
+    {
+      "path": "sources/openscales/LICENSE",
+      "sha256": "bc573016a61d7c5dfd3d32762c2240586cb1f4e5fc776ecc04319aa8ca2ec37d"
+    }
+  ],
+  "verification": {
+    "level": "source_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "ESS male-portrait form; preserve 1=very much like me to 6=not like me at all. Lower raw AND lower centered score indicate stronger endorsement. Fix contradictory upstream interpretation of centered-score sign.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

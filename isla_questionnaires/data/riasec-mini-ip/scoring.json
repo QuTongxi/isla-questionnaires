@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "riasec-mini-ip",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "R",
+      "name": "Realistic",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "19",
+          "reverse": false
+        }
+      ],
+      "description": "Realistic interest: sum of five responses, range 0–20. Higher scores indicate stronger interest."
+    },
+    {
+      "id": "I",
+      "name": "Investigative",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        }
+      ],
+      "description": "Investigative interest: sum of five responses, range 0–20. Higher scores indicate stronger interest."
+    },
+    {
+      "id": "A",
+      "name": "Artistic",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        }
+      ],
+      "description": "Artistic interest: sum of five responses, range 0–20. Higher scores indicate stronger interest."
+    },
+    {
+      "id": "S",
+      "name": "Social",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": false
+        }
+      ],
+      "description": "Social interest: sum of five responses, range 0–20. Higher scores indicate stronger interest."
+    },
+    {
+      "id": "E",
+      "name": "Enterprising",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        }
+      ],
+      "description": "Enterprising interest: sum of five responses, range 0–20. Higher scores indicate stronger interest."
+    },
+    {
+      "id": "C",
+      "name": "Conventional",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        }
+      ],
+      "description": "Conventional interest: sum of five responses, range 0–20. Higher scores indicate stronger interest."
+    }
+  ]
+}

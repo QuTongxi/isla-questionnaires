@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "ess-social-trust",
+  "version": "1.0.0",
+  "name": "Breyer Social Trust Scale",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Answer each item using the displayed response scale.",
+  "expected_items": 3,
+  "items": [
+    {
+      "id": "ppltrst",
+      "text": "Generally speaking, would you say that most people can be trusted, or that you can't be too careful in dealing with people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "You can't be too careful"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Most people can be trusted"
+        }
+      ],
+      "help": "Please answer the following questions using a score from 0 to 10."
+    },
+    {
+      "id": "pplfair",
+      "text": "Do you think that most people would try to take advantage of you if they got the chance, or would they try to be fair?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Most people would try to take advantage of me"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "Most people would try to be fair"
+        }
+      ],
+      "help": "Please answer the following questions using a score from 0 to 10."
+    },
+    {
+      "id": "pplhlp",
+      "text": "Would you say that most of the time people try to be helpful or that they are mostly looking out for themselves?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "People mostly look out for themselves"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "7"
+        },
+        {
+          "value": 8,
+          "label": "8"
+        },
+        {
+          "value": 9,
+          "label": "9"
+        },
+        {
+          "value": 10,
+          "label": "People mostly try to be helpful"
+        }
+      ],
+      "help": "Please answer the following questions using a score from 0 to 10."
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Three-item mean is a descriptive index; it is not an official ESS diagnostic classification.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "id": "grit-s",
+  "version": "1.0.0",
+  "name": "Short Grit Scale (Grit-S)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Indicate how well each statement describes you.",
+  "expected_items": 8,
+  "items": [
+    {
+      "id": "grit-1",
+      "text": "New ideas and projects sometimes distract me from previous ones.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "grit-2",
+      "text": "I have been obsessed with a certain idea or project for a short time but later lost interest.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "grit-3",
+      "text": "I often set a goal but later choose to pursue a different one.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "grit-4",
+      "text": "I have difficulty maintaining my focus on projects that take more than a few months to complete.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "grit-5",
+      "text": "I finish whatever I begin.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "grit-6",
+      "text": "Setbacks don't discourage me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "grit-7",
+      "text": "I am a hard worker.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "grit-8",
+      "text": "I am diligent.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all like me"
+        },
+        {
+          "value": 2,
+          "label": "Not much like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "Mostly like me"
+        },
+        {
+          "value": 5,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Only source data and explicit dimension keys are used; no generic scoreLikert normalization or personality labels."
+  ]
+}

@@ -1,0 +1,1844 @@
+{
+  "schema_version": 1,
+  "id": "pvq-rr",
+  "version": "1.0.0",
+  "name": "PVQ-RR (source 57-item form)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "How much like you is this person?",
+  "expected_items": 57,
+  "items": [
+    {
+      "id": "1",
+      "text": "It is important to him to form his views independently.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "It is important to him that his country is secure and stable.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "It is important to him to have a good time.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "It is important to him to avoid upsetting other people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "It is important to him that the weak and vulnerable in society be protected.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "It is important to him that people do what he says they should.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "It is important to him never to think he deserves more than other people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "It is important to him to care for nature.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "It is important to him that no one should ever shame him.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "It is important to him always to look for different things to do.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "It is important to him to take care of people he is close to.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "It is important to him to have the power that money can bring.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "It is very important to him to avoid disease and protect his health.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "It is important to him to be tolerant toward all kinds of people and groups.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "It is important to him never to violate rules or regulations.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "It is important to him to make his own decisions about his life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "It is important to him to have ambitions in life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "It is important to him to maintain traditional values and ways of thinking.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "It is important to him that people he knows have full confidence in him.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "It is important to him to be wealthy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "It is important to him to take part in activities to defend nature.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "It is important to him never to annoy anyone.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "It is important to him to develop his own opinions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "It is important to him to protect his public image.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "It is very important to him to help the people dear to him.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "It is important to him to be personally safe and secure.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "It is important to him to be a dependable and trustworthy friend.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "It is important to him to take risks that make life exciting.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "It is important to him to have the power to make people do what he wants.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "It is important to him to plan his activities independently.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "It is important to him to follow rules even when no-one is watching.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "It is important to him to be very successful.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "It is important to him to follow his family's customs or the customs of a religion.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "34",
+      "text": "It is important to him to listen to and understand people who are different from him.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "35",
+      "text": "It is important to him to have a strong state that can defend its citizens.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "36",
+      "text": "It is important to him to enjoy life's pleasures.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "37",
+      "text": "It is important to him that every person in the world have equal opportunities in life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "38",
+      "text": "It is important to him to be humble.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "39",
+      "text": "It is important to him to figure things out himself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "40",
+      "text": "It is important to him to honor the traditional practices of his culture.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "41",
+      "text": "It is important to him to be the one who tells others what to do.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "42",
+      "text": "It is important to him to obey all the laws.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "43",
+      "text": "It is important to him to have all sorts of new experiences.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "44",
+      "text": "It is important to him to own expensive things that show his wealth.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "45",
+      "text": "It is important to him to protect the natural environment from destruction or pollution.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "46",
+      "text": "It is important to him to take advantage of every opportunity to have fun.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "47",
+      "text": "It is important to him to concern himself with every need of his dear ones.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "48",
+      "text": "It is important to him that people recognize what he achieves.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "49",
+      "text": "It is important to him never to be humiliated.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "50",
+      "text": "It is important to him that his country protect itself against all threats.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "51",
+      "text": "It is important to him never to make other people angry.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "52",
+      "text": "It is important to him that everyone be treated justly, even people he doesn't know.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "53",
+      "text": "It is important to him to avoid anything dangerous.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "54",
+      "text": "It is important to him to be satisfied with what he has and not ask for more.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "55",
+      "text": "It is important to him that all his friends and family can rely on him completely.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "56",
+      "text": "It is important to him to be free to choose what he does by himself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "57",
+      "text": "It is important to him to accept people even when he disagrees with them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not like me at all"
+        },
+        {
+          "value": 2,
+          "label": "Not like me"
+        },
+        {
+          "value": 3,
+          "label": "A little like me"
+        },
+        {
+          "value": 4,
+          "label": "Moderately like me"
+        },
+        {
+          "value": 5,
+          "label": "Like me"
+        },
+        {
+          "value": 6,
+          "label": "Very much like me"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "Verify original item wording, value key and response coding: this source reverses the common 1=very much like me orientation."
+  ],
+  "notes": []
+}

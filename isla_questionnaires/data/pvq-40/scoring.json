@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "pvq-40",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "achievement",
+      "name": "Achievement",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "4",
+          "reverse": false
+        }
+      ],
+      "description": "Achievement: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "benevolence",
+      "name": "Benevolence",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        }
+      ],
+      "description": "Benevolence: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "conformity",
+      "name": "Conformity",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": false
+        }
+      ],
+      "description": "Conformity: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "hedonism",
+      "name": "Hedonism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        }
+      ],
+      "description": "Hedonism: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": false
+        }
+      ],
+      "description": "Power: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        }
+      ],
+      "description": "Security: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "self-direction",
+      "name": "Self-Direction",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        }
+      ],
+      "description": "Self-Direction: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "stimulation",
+      "name": "Stimulation",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "28",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        }
+      ],
+      "description": "Stimulation: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "tradition",
+      "name": "Tradition",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "31",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": false
+        },
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "34",
+          "reverse": false
+        }
+      ],
+      "description": "Tradition: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "universalism",
+      "name": "Universalism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "35",
+          "reverse": false
+        },
+        {
+          "item": "36",
+          "reverse": false
+        },
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "39",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        }
+      ],
+      "description": "Universalism: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "id": "riasec-mini-ip",
+  "version": "1.0.0",
+  "name": "O*NET Mini Interest Profiler (2016 computerized form)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Indicate how much you would like or dislike doing each work activity.",
+  "expected_items": 30,
+  "items": [
+    {
+      "id": "1",
+      "text": "Build kitchen cabinets",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "Develop a new medicine",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "Write books or plays",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "Help people with personal or emotional problems",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "Manage a department within a large company",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "Install software across computers on a large network",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "Repair household appliances",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "Study ways to reduce water pollution",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "Compose or arrange music",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "Give career guidance to people",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "Start your own business",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "Operate a calculator",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "Assemble electronic parts",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "Conduct chemical experiments",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "Create special effects for movies",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "Perform rehabilitation therapy",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "Negotiate business contracts",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "Keep shipping and receiving records",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "Drive a truck to deliver packages to offices and homes",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "Examine blood samples using a microscope",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "Paint sets for plays",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "Do volunteer work at a non-profit organization",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "Market a new line of clothing",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "Inventory supplies using a hand-held computer",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "Test the quality of parts before shipment",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "Develop a way to better predict the weather",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "Write scripts for movies or television shows",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "Teach a high-school class",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "Sell merchandise at a department store",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "Stamp, sort, and distribute mail for an organization",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 1,
+          "label": "Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Unsure"
+        },
+        {
+          "value": 3,
+          "label": "Like"
+        },
+        {
+          "value": 4,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use Appendix A original suggested order and report page 13 computerized coding 0–4, sum 0–20. Do not substitute the repository’s altered 1–5 item bank. No occupation recommendation database is bundled."
+  ]
+}

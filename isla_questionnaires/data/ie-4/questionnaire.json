@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "id": "ie-4",
+  "version": "1.0.0",
+  "name": "Internal–External Locus of Control Short Scale–4 (IE-4)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "The following statements may apply more or less to you. To what extent do you think each statement applies to you personally?",
+  "expected_items": 4,
+  "items": [
+    {
+      "id": "ie_401",
+      "text": "I'm my own boss.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Does not apply at all"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "Applies completely"
+        }
+      ],
+      "help": "The following statements may apply more or less to you. To what extent do you think each statement applies to you personally?"
+    },
+    {
+      "id": "ie_402",
+      "text": "If I work hard, I will succeed.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Does not apply at all"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "Applies completely"
+        }
+      ],
+      "help": "The following statements may apply more or less to you. To what extent do you think each statement applies to you personally?"
+    },
+    {
+      "id": "ie_403",
+      "text": "Whether at work or in my private life: What I do is mainly determined by others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Does not apply at all"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "Applies completely"
+        }
+      ],
+      "help": "The following statements may apply more or less to you. To what extent do you think each statement applies to you personally?"
+    },
+    {
+      "id": "ie_404",
+      "text": "Fate often gets in the way of my plans.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Does not apply at all"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "Applies completely"
+        }
+      ],
+      "help": "The following statements may apply more or less to you. To what extent do you think each statement applies to you personally?"
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

@@ -1,0 +1,1621 @@
+{
+  "schema_version": 1,
+  "id": "epq-r",
+  "version": "1.0.0",
+  "name": "Eysenck Personality Questionnaire - Revised",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Answer each question Yes or No, according to your usual way of acting or feeling.",
+  "expected_items": 100,
+  "items": [
+    {
+      "id": "1",
+      "text": "Do you have many different hobbies?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "Do you stop to think things over before doing anything?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "Does your mood often go up and down?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "Have you ever taken the praise for something you knew someone else had really done?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "Do you take much notice of what people think?.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "Are you a talkative person?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "Would being in debt worry you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "Do you ever feel 'just miserable' for no reason?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "Do you give money to charities?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "Were you ever greedy by helping yourself to more than your share of anything?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "Are you rather lively?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "Would it upset you a lot to see a child or an animal suffer?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "Do you often worry about things you should not have done or said?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "Do you dislike people who don't know how to behave themselves?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "If you say you will do something, do you always keep your promise no matter how inconvenient it might be?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "Can you usually let yourself go and enjoy yourself at a lively party?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "Are you an irritable person?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "Should people always respect the law?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "Have you ever blamed someone for doing something you knew was really your fault?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "Do you enjoy meeting new people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "Are good manners very important?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "Are your feelings easily hurt?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "Are all your habits good and desirable ones?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "Do you tend to keep in the background on social occasions?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "Would you take drugs which may have strange or dangerous effects?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "Do you often feel 'fed-up'?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "Have you ever taken anything (even a pin or button) that belonged to someone else?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "Do you like going out a lot?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "Do you prefer to go your own way rather than act by the rules?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "Do you enjoy hurting people you love?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "Are you often troubled about feelings of guilt?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "Do you sometimes talk about things you know nothing about?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "Do you prefer reading to meeting people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "34",
+      "text": "Do you have enemies who want to harm you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "35",
+      "text": "Would you call yourself a nervous person?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "36",
+      "text": "Do you have many friends?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "37",
+      "text": "Do you enjoy practical jokes that can sometimes really hurt people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "38",
+      "text": "Are you a worrier?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "39",
+      "text": "As a child did you do as you were told immediately and without grumbling?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "40",
+      "text": "Would you call yourself happy-go-lucky?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "41",
+      "text": "Do good manners and cleanliness matter much to you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "42",
+      "text": "Have you often gone against your parents' wishes?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "43",
+      "text": "Do you worry about awful things that might happen?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "44",
+      "text": "Have you ever broken or lost something belonging to someone else?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "45",
+      "text": "Do you usually take the initiative in making new friends?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "46",
+      "text": "Would you call yourself tense or 'highly-strung'?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "47",
+      "text": "Are you mostly quiet when you are with other people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "48",
+      "text": "Do you think marriage is old-fashioned and should be done away with?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "49",
+      "text": "Do you sometimes boast a little?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "50",
+      "text": "Are you more easy-going about right and wrong than most people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "51",
+      "text": "Can you easily get some life into a rather dull party?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "52",
+      "text": "Do you worry about your health?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "53",
+      "text": "Have you ever said anything bad or nasty about anyone?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "54",
+      "text": "Do you enjoy co-operating with others?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "55",
+      "text": "Do you like telling jokes and funny stories to your friends?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "56",
+      "text": "Do most things taste the same to you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "57",
+      "text": "As a child were you ever cheeky to your parents?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "58",
+      "text": "Do you like mixing with people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "59",
+      "text": "Does it worry you if you know there are mistakes in your work?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "60",
+      "text": "Do you suffer from sleeplessness?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "61",
+      "text": "Have people said that you sometimes act too rashly?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "62",
+      "text": "Do you always wash before a meal?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "63",
+      "text": "Do you nearly always have a 'ready answer' when people talk to you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "64",
+      "text": "Do you like to arrive at appointments in plenty of time?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "65",
+      "text": "Have you often felt listless and tired for no reason?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "66",
+      "text": "Have you ever cheated at a game?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "67",
+      "text": "Do you like doing things in which you have to act quickly?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "68",
+      "text": "Is (or was) your mother a good woman?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "69",
+      "text": "Do you often make decisions on the spur of the moment?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "70",
+      "text": "Do you often feel life is very dull?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "71",
+      "text": "Have you ever taken advantage of someone?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "72",
+      "text": "Do you often take on more activities than you have time for?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "73",
+      "text": "Are there several people who keep trying to avoid you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "74",
+      "text": "Do you worry a lot about your looks?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "75",
+      "text": "Do you think people spend too much time safeguarding their future with savings and insurance?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "76",
+      "text": "Have you ever wished that you were dead?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "77",
+      "text": "Would you dodge paying taxes if you were sure you could never be found out?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "78",
+      "text": "Can you get a patty going?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "79",
+      "text": "Do you try not to be rude to people?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "80",
+      "text": "Do you worry too long after an embarrassing experience?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "81",
+      "text": "Do you generally 'look before you leap'?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "82",
+      "text": "Have you ever insisted on having your own way?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "83",
+      "text": "Do you suffer from 'nerves'?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "84",
+      "text": "Do you often feel lonely?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "85",
+      "text": "Can you on the whole trust people to tell the truth?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "86",
+      "text": "Do you always practice what you preach?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "87",
+      "text": "Are you easily hurt when people find fault with you or the work you do?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "88",
+      "text": "Is it better to follow society's rules than go your own way?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "89",
+      "text": "Have you ever been late for an appointment or work?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "90",
+      "text": "Do you like plenty of bustle and excitement around you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "91",
+      "text": "Would you like other people to be afraid of you?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "92",
+      "text": "Are you sometimes bubbling over with energy and sometimes very sluggish?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "93",
+      "text": "Do you sometimes put off until tomorrow what you ought to do today?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "94",
+      "text": "Do other people think of you as being very lively?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "95",
+      "text": "Do people tell you a lot of lies?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "96",
+      "text": "Do you believe one has special duties to one's family?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "97",
+      "text": "Are you touchy about some things?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "98",
+      "text": "Are you always willing to admit it when you have made a mistake?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "99",
+      "text": "Would you feel very sorry for an animal caught in a trap?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "100",
+      "text": "When your temper rises, do you find it difficult to control?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified."
+  ]
+}

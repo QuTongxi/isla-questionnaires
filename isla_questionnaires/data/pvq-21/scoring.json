@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "pvq-21",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "self_direction",
+      "name": "Self-Direction",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ipcrtiv",
+          "reverse": false
+        },
+        {
+          "item": "impfree",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of ipcrtiv and impfree. Range 1–6; lower = stronger self-direction value."
+    },
+    {
+      "id": "stimulation",
+      "name": "Stimulation",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "impdiff",
+          "reverse": false
+        },
+        {
+          "item": "ipadvnt",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of impdiff and ipadvnt. Range 1–6; lower = stronger stimulation value."
+    },
+    {
+      "id": "hedonism",
+      "name": "Hedonism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ipgdtim",
+          "reverse": false
+        },
+        {
+          "item": "impfun",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of ipgdtim and impfun. Range 1–6; lower = stronger hedonism value."
+    },
+    {
+      "id": "achievement",
+      "name": "Achievement",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ipshabt",
+          "reverse": false
+        },
+        {
+          "item": "ipsuces",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of ipshabt and ipsuces. Range 1–6; lower = stronger achievement value."
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "imprich",
+          "reverse": false
+        },
+        {
+          "item": "iprspot",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of imprich and iprspot. Range 1–6; lower = stronger power value."
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "impsafe",
+          "reverse": false
+        },
+        {
+          "item": "ipstrgv",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of impsafe and ipstrgv. Range 1–6; lower = stronger security value."
+    },
+    {
+      "id": "conformity",
+      "name": "Conformity",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ipfrule",
+          "reverse": false
+        },
+        {
+          "item": "ipbhprp",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of ipfrule and ipbhprp. Range 1–6; lower = stronger conformity value."
+    },
+    {
+      "id": "tradition",
+      "name": "Tradition",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ipmodst",
+          "reverse": false
+        },
+        {
+          "item": "imptrad",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of ipmodst and imptrad. Range 1–6; lower = stronger tradition value."
+    },
+    {
+      "id": "benevolence",
+      "name": "Benevolence",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "iphlppl",
+          "reverse": false
+        },
+        {
+          "item": "iplylfr",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of iphlppl and iplylfr. Range 1–6; lower = stronger benevolence value."
+    },
+    {
+      "id": "universalism",
+      "name": "Universalism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ipeqopt",
+          "reverse": false
+        },
+        {
+          "item": "ipudrst",
+          "reverse": false
+        },
+        {
+          "item": "impenv",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of ipeqopt, ipudrst, and impenv. Range 1–6; lower = stronger universalism value."
+    },
+    {
+      "id": "grand_mean",
+      "name": "grand_mean",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ipcrtiv",
+          "reverse": false
+        },
+        {
+          "item": "imprich",
+          "reverse": false
+        },
+        {
+          "item": "ipeqopt",
+          "reverse": false
+        },
+        {
+          "item": "ipshabt",
+          "reverse": false
+        },
+        {
+          "item": "impsafe",
+          "reverse": false
+        },
+        {
+          "item": "impdiff",
+          "reverse": false
+        },
+        {
+          "item": "ipfrule",
+          "reverse": false
+        },
+        {
+          "item": "ipudrst",
+          "reverse": false
+        },
+        {
+          "item": "ipmodst",
+          "reverse": false
+        },
+        {
+          "item": "ipgdtim",
+          "reverse": false
+        },
+        {
+          "item": "impfree",
+          "reverse": false
+        },
+        {
+          "item": "iphlppl",
+          "reverse": false
+        },
+        {
+          "item": "ipsuces",
+          "reverse": false
+        },
+        {
+          "item": "ipstrgv",
+          "reverse": false
+        },
+        {
+          "item": "ipadvnt",
+          "reverse": false
+        },
+        {
+          "item": "ipbhprp",
+          "reverse": false
+        },
+        {
+          "item": "iprspot",
+          "reverse": false
+        },
+        {
+          "item": "iplylfr",
+          "reverse": false
+        },
+        {
+          "item": "impenv",
+          "reverse": false
+        },
+        {
+          "item": "imptrad",
+          "reverse": false
+        },
+        {
+          "item": "impfun",
+          "reverse": false
+        }
+      ],
+      "description": "Grand mean of all 21 items. Used as the centering constant for ipsatization."
+    },
+    {
+      "id": "self_direction-centered",
+      "name": "Self-Direction (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "ipcrtiv",
+          "reverse": false
+        },
+        {
+          "item": "impfree",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "stimulation-centered",
+      "name": "Stimulation (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "impdiff",
+          "reverse": false
+        },
+        {
+          "item": "ipadvnt",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "hedonism-centered",
+      "name": "Hedonism (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "ipgdtim",
+          "reverse": false
+        },
+        {
+          "item": "impfun",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "achievement-centered",
+      "name": "Achievement (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "ipshabt",
+          "reverse": false
+        },
+        {
+          "item": "ipsuces",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "power-centered",
+      "name": "Power (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "imprich",
+          "reverse": false
+        },
+        {
+          "item": "iprspot",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "security-centered",
+      "name": "Security (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "impsafe",
+          "reverse": false
+        },
+        {
+          "item": "ipstrgv",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "conformity-centered",
+      "name": "Conformity (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "ipfrule",
+          "reverse": false
+        },
+        {
+          "item": "ipbhprp",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "tradition-centered",
+      "name": "Tradition (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "ipmodst",
+          "reverse": false
+        },
+        {
+          "item": "imptrad",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "benevolence-centered",
+      "name": "Benevolence (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "iphlppl",
+          "reverse": false
+        },
+        {
+          "item": "iplylfr",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    },
+    {
+      "id": "universalism-centered",
+      "name": "Universalism (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "ipeqopt",
+          "reverse": false
+        },
+        {
+          "item": "ipudrst",
+          "reverse": false
+        },
+        {
+          "item": "impenv",
+          "reverse": false
+        }
+      ],
+      "description": "Raw dimension mean minus mean of all 21 responses. Lower = relatively stronger value endorsement.",
+      "reference_items": [
+        "ipcrtiv",
+        "imprich",
+        "ipeqopt",
+        "ipshabt",
+        "impsafe",
+        "impdiff",
+        "ipfrule",
+        "ipudrst",
+        "ipmodst",
+        "ipgdtim",
+        "impfree",
+        "iphlppl",
+        "ipsuces",
+        "ipstrgv",
+        "ipadvnt",
+        "ipbhprp",
+        "iprspot",
+        "iplylfr",
+        "impenv",
+        "imptrad",
+        "impfun"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1253 @@
+{
+  "schema_version": 1,
+  "id": "bfi-44",
+  "version": "1.0.0",
+  "name": "Big Five Inventory",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "I see myself as someone who…",
+  "expected_items": 44,
+  "items": [
+    {
+      "id": "1",
+      "text": "Is talkative.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "Tends to find fault with others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "Does a thorough job.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "Is depressed, blue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "Is original, comes up with new ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "Is reserved.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "Is helpful and unselfish with others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "Can be somewhat careless.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "Is relaxed, handles stress well.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "Is curious about many different things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "Is full of energy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "Starts quarrels with others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "Is a reliable worker.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "Can be tense.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "Is ingenious, a deep thinker.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "Generates a lot of enthusiasm.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "Has a forgiving nature.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "Tends to be disorganized.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "Worries a lot.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "Has an active imagination.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "Tends to be quiet.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "Is generally trusting.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "Tends to be lazy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "Is emotionally stable, not easily upset.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "Is inventive.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "Has an assertive personality.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "Can be cold and aloof.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "Perseveres until the task is finished.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "Can be moody.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "Values artistic, aesthetic experiences.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "Is sometimes shy, inhibited.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "Is considerate and kind to almost everyone.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "Does things efficiently.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "34",
+      "text": "Remains calm in tense situations.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "35",
+      "text": "Prefers work that is routine.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "36",
+      "text": "Is outgoing, sociable.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "37",
+      "text": "Is sometimes rude to others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "38",
+      "text": "Makes plans and follows through with them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "39",
+      "text": "Gets nervous easily.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "40",
+      "text": "Likes to reflect, play with ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "41",
+      "text": "Has few artistic interests.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "42",
+      "text": "Likes to cooperate with others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "43",
+      "text": "Is easily distracted.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "44",
+      "text": "Is sophisticated in art, music, or literature.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Disagree strongly"
+        },
+        {
+          "value": 2,
+          "label": "Disagree a little"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree a little"
+        },
+        {
+          "value": 5,
+          "label": "Agree strongly"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "id": "ess-political-efficacy",
+  "version": "1.0.0",
+  "name": "Political Efficacy Battery (ESS)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "The following questions ask about your views on politics.",
+  "expected_items": 4,
+  "items": [
+    {
+      "id": "psppsgv",
+      "text": "How much would you say the political system allows people like you to have a say in what the government does?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all"
+        },
+        {
+          "value": 2,
+          "label": "Very little"
+        },
+        {
+          "value": 3,
+          "label": "Some"
+        },
+        {
+          "value": 4,
+          "label": "A lot"
+        },
+        {
+          "value": 5,
+          "label": "A great deal"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "actrolga",
+      "text": "How able do you think you are to take an active role in a group involved with political issues?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all able"
+        },
+        {
+          "value": 2,
+          "label": "A little able"
+        },
+        {
+          "value": 3,
+          "label": "Quite able"
+        },
+        {
+          "value": 4,
+          "label": "Very able"
+        },
+        {
+          "value": 5,
+          "label": "Completely able"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "psppipla",
+      "text": "How much would you say that the political system allows people like you to have an influence on politics?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all"
+        },
+        {
+          "value": 2,
+          "label": "Very little"
+        },
+        {
+          "value": 3,
+          "label": "Some"
+        },
+        {
+          "value": 4,
+          "label": "A lot"
+        },
+        {
+          "value": 5,
+          "label": "A great deal"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "cptppola",
+      "text": "How confident are you in your own ability to participate in politics?",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at all confident"
+        },
+        {
+          "value": 2,
+          "label": "A little confident"
+        },
+        {
+          "value": 3,
+          "label": "Quite confident"
+        },
+        {
+          "value": 4,
+          "label": "Very confident"
+        },
+        {
+          "value": 5,
+          "label": "Completely confident"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Return each original ESS item score; omit repository-created composite/group means because they are not an ESS classification standard.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

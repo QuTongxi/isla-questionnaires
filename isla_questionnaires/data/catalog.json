@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "questionnaires": [
+    {
+      "id": "bfi-44",
+      "name": "Big Five Inventory",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 44,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "7112397eb57d3d3b6c3ed1327d86bffc325ccafec4d32fe1097e96f6425befd4",
+        "scoring": "044e6628cbd211eabb545b62852199348d4bab4620ccf835e05b4bdf9ebedb57",
+        "provenance": "781a9edce90b71e0ee14839008a1b7f27c4babe244540ae3bc53edc2e1df7293"
+      }
+    },
+    {
+      "id": "cabin",
+      "name": "Comprehensive Assessment of Basic Interests",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 164,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "2911068945d0d2fe4eae223d1eb4b4d7f782cba09fb4293fb6f7d75e36a0ce1a",
+        "scoring": "bf45bbb56d7ec8a58b0ea6bcc809331de5abcf1ea2626423ad4a5f4db9e66623",
+        "provenance": "0aa7c9c59b3f07b3fd71bd6115685c7cf903f9ca741a1dd996372eddc069dc06"
+      }
+    },
+    {
+      "id": "crt-7",
+      "name": "Cognitive Reflection Test (CRT-7)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 7,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "f28e6d50f2881ffd17b67e4799cefdb92a29235eb243cb660ac0e4e0953987fd",
+        "scoring": "3dab227d97b65346ee1a0dd828692ec67f08950af29d459245e4f0d86d1f3303",
+        "provenance": "9d44d417ffa17a3a39f7e90ca28d5b09849e623a5dfa6a8d637354b45c7dde89"
+      }
+    },
+    {
+      "id": "dospert-rt-30",
+      "name": "Domain-Specific Risk-Taking Scale (Revised)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 30,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "2a1999373629676cdb246b0127435c693d8ae23f3313dfbb4bea75b57947ea78",
+        "scoring": "23757eae77980f0f18647135deae9dc31f407e0d4505967199c1aab1ba5889ae",
+        "provenance": "20029fa88bef6a02a575ab8c4915384aefde89591080bd3747b720bb53637b09"
+      }
+    },
+    {
+      "id": "ecr-r",
+      "name": "Experiences in Close Relationships-Revised",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 36,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "46f2df349dc0d9371988140657740829e036fcc4cffe3c8ce3c5efe4de36832b",
+        "scoring": "5073fad79943cf7a2b06a1abb67ff74b717f48c525a7f2987a7ebc846f74829f",
+        "provenance": "fb7ddcc35d0cfa12ecd159bfa61f5c95711c55946c7bbb6bff256885d25da572"
+      }
+    },
+    {
+      "id": "eis",
+      "name": "Emotional Intelligence Scale",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 33,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "dd38f7dd001eef6e94e9f292cff086702d016eae601f5893d0f42d138f5b8da5",
+        "scoring": "85491c57f4fe04d973bca524f81551e5745e8441ca8fe61c531ffe515f52fef1",
+        "provenance": "5a839e556982533d953df443c461833d1811569f6415744cef51e67f6fe47f47"
+      }
+    },
+    {
+      "id": "epq-r",
+      "name": "Eysenck Personality Questionnaire - Revised",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 100,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "7e8c91562ffdbdad6ffd08e042fb6ba27c70d4318ddd2b048e606427b9c0e2e9",
+        "scoring": "275d5b72a915901605a0b5fe85ecab25659b28fa2d3248164ddf79cba01a0b2d",
+        "provenance": "7eb84d7de2cc97d7278382a713d73cf38ee9cb31266f15cd493a244dd34e077f"
+      }
+    },
+    {
+      "id": "erq",
+      "name": "Emotion Regulation Questionnaire",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 10,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "06624c74d4b04aa2f305df84b7329aae9315839e9ef50634e184ab5e938fafea",
+        "scoring": "e04de73c0a9d6f4a57c915242a4cc378296f925f41c66750eb5d80b50f457eb3",
+        "provenance": "b5812648e1ba0adec6ee7eb81c047807b3e7cd49102473a846470fceabdcfd61"
+      }
+    },
+    {
+      "id": "ess-institutional-trust",
+      "name": "Institutional Trust Scale (ESS)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 7,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "ac08c0d56a476c0f1385049493bcc9b5f05a2e4e8cf5da5b9bd8ed53d542ef23",
+        "scoring": "4a6b284659bfb1aded040cfca9dfa6ee160e0321af05dbdd411341277b963dc3",
+        "provenance": "df2af265a8124f11cd245690c6a46ba9bf268898f0e6cf2d2cbd1271c59a98bc"
+      }
+    },
+    {
+      "id": "ess-political-efficacy",
+      "name": "Political Efficacy Battery (ESS)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 4,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "30ace0f49ae214d6ddfcbcb03bab5474471b5737409066a22c2a90685655b6f5",
+        "scoring": "4667c066b6c5a391d7d014d92524ae50b7bb82815e3c390ca68042659df047ab",
+        "provenance": "09f25ba87c9ab54f5819d19995d2464e112edaafc0e1a17d7c219f3bb7215483"
+      }
+    },
+    {
+      "id": "ess-social-trust",
+      "name": "Breyer Social Trust Scale",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 3,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "182da35c67646fed239f6cced73e0d9bea1f46ce29a2e1d522a827471427eb95",
+        "scoring": "79be88b8ab08afd2a51ead0dc674dcbc81ae37a05a7896cfc366f83a2e672a8a",
+        "provenance": "b59523e6897d46ee38458b996957cfa4976aab0f370e1bafc0e4ffe06f189670"
+      }
+    },
+    {
+      "id": "grit-o",
+      "name": "Original Grit Scale (Grit-O)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 12,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Source reorders and rephrases some 12-item Grit items; original administration form must be restored before release."
+      ],
+      "sha256": {
+        "questionnaire": "d0db00952a6849dd472069eb2190162630fdbadc44b0fffa4dc54818a4a15c11",
+        "scoring": "2b78ecc5da65bed778f658fc361f26a5b279ea82725f1d882a6550f293dddf6e",
+        "provenance": "a5053ac6f3a04dd5aeaa79795c76ae68b601cb559c920f800e8fadde96d22b2a"
+      }
+    },
+    {
+      "id": "grit-s",
+      "name": "Short Grit Scale (Grit-S)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 8,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "e0ed8f2dee4d9e7c7018e0b6b14922ec5f07caef6abe564699af324526d462d5",
+        "scoring": "95b2efb064fb80acfd7d34a43ff511af755322bd7cbec7a1e4d18068a33d8292",
+        "provenance": "41081792391d1e52d28b61240452df171a02ae678cfef02fa634fd23410092d2"
+      }
+    },
+    {
+      "id": "gse",
+      "name": "General Self-Efficacy Scale",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 10,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "cf8b5f3a1b9ddf1ae52c688e09099934a64a1072c0b09b84963e518d22cada05",
+        "scoring": "20083bac536ddc5820e559bc9d20c96e856c5e4ecea93b77372323b769e46cec",
+        "provenance": "1ba0e795bb89f95d41d99f5f53fc174d449a7f272e7ff609c0b5972bb33ba52e"
+      }
+    },
+    {
+      "id": "hexaco-60",
+      "name": "HEXACO-PI-R 60-item English self-report",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 60,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "c679d2c97198d3e6589dd84c57370ae7c5c6555570419ef4d0aa98f46198971b",
+        "scoring": "99fc74fb5337f2d813f38ff016d8a0fba6c6fe5af26ebb7def12e286124531bf",
+        "provenance": "078fa51b8dabf6be5e0ae62e13494aa9d219fb7910552f26108f4061f91db3d1"
+      }
+    },
+    {
+      "id": "ie-4",
+      "name": "Internal–External Locus of Control Short Scale–4 (IE-4)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 4,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "a8d1ed62013d7b97b49d8ab7dab41c420207bc0f51d3396c0b80d65b6c6061d2",
+        "scoring": "469f36ad22e4bb286d2be352f0247c63ab8c8efa3bf4d8d37151a4b1ad5ca51e",
+        "provenance": "81714479d6e6d0a85e28fc77b7504d7057265e8fdd541a4f2517bcb64e096844"
+      }
+    },
+    {
+      "id": "ipip-50",
+      "name": "IPIP Big Five — 50-item form (Goldberg)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 50,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "bb6b50d37f6a4ead858ebe75eee224582765751c249f22a145732ea4658a674b",
+        "scoring": "7265cf3f826017a20e5d8a84de7f52a8d1e8f34b6e4ec3fd272a6fea7b4eb47d",
+        "provenance": "234be8991b4fd73ce0e38f764fe85e2ef28ff2cbffbf8ba2b37225c454155424"
+      }
+    },
+    {
+      "id": "ipip-neo-120",
+      "name": "IPIP-NEO-120",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 120,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "cc8b600a3554f4f581560f015ce0d758ca10d3658f24743c2f6d3711b6df1b88",
+        "scoring": "2e35258f6f3bdbfa15fd004e4c6c9339d26ff71f76e139571cfaf13e92f2d10e",
+        "provenance": "6238f07ef1bddddf550c10bd9da61efe33b1a1dcb89b08a184c5e63b84356b51"
+      }
+    },
+    {
+      "id": "iri-28",
+      "name": "Interpersonal Reactivity Index",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 28,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Source reorders items by factor and uses 1–5 rather than original 0–4 anchors. Verify the original form, order, and scoring before release."
+      ],
+      "sha256": {
+        "questionnaire": "ed734e789543155763d5890eff3bdc9af14185a9de28382949d1dc16715592cd",
+        "scoring": "f5dab93f14da6789baf6f4c2393e84ec62819607e276ff94d043628a5eca19c4",
+        "provenance": "2928bbe422bddd2063881b34d18a1da71ce00a68ede01c71001315b8bc833d35"
+      }
+    },
+    {
+      "id": "ius-12",
+      "name": "Intolerance of Uncertainty Scale (Short Form)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 12,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Source changes original item wording, including the last item; recover the original IUS-12 administration form before release."
+      ],
+      "sha256": {
+        "questionnaire": "d2ba682c78c46bbe58540d20cfe53dc8399dbbaec47514ac5b9579c96c396be9",
+        "scoring": "91f9cfa8a104cba961b7837173fbe872c429216bb98fe503e373220b67b2ae3a",
+        "provenance": "e38d58f8758873acb5907c64b5037050fe9c974516502c82c0fbdb37f2aa3848"
+      }
+    },
+    {
+      "id": "levenson-ipc-24",
+      "name": "Levenson Multidimensional Locus of Control (IPC)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 24,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Duplicate/mismatched item wording and 1–6 versus -3,-2,-1,+1,+2,+3 response coding require original-form verification. Do not apply an assumed +24 conversion."
+      ],
+      "sha256": {
+        "questionnaire": "e07aa3aadced9468b34b43c416db15885f806ffc0dea3c80e0a93e67016d4db4",
+        "scoring": "8bea351f799f4428d8de24d1e8e87470dfe19192a140e23d7e893efe03d82131",
+        "provenance": "9897f5174a5fd5088585e5f2954e37bc3f7ca2ea0a0126845489adb63ecb4833"
+      }
+    },
+    {
+      "id": "lot-r",
+      "name": "Life Orientation Test-Revised",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 10,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "df4a864c430a16a5773503f302d25e2cccefcc7df18e67263ba871be73d0317c",
+        "scoring": "5052353e5d502fe6ed8c5e19574ab952a7f639b7a93c6d9153b5a96711100a2f",
+        "provenance": "980838a955f5fd6f61bb33e666fbd434fe2d4137ecfd4eb4e8070cf12d076361"
+      }
+    },
+    {
+      "id": "mfq-2",
+      "name": "Moral Foundations Questionnaire 2",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 36,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Source contains reworded items and 5 response options; verify the original MFQ-2 form and 6-point response anchors before release."
+      ],
+      "sha256": {
+        "questionnaire": "e21403915ba1fa2ad738b858a0c7d0a1f2ff2f3a22b0b2bb7078ae5b3aa8c89d",
+        "scoring": "e3b1bf1f4dd3a84a9d54d310fdf3b19fd6af443b46e3b30011264b863e7b41fe",
+        "provenance": "b7d1892c1e30f4a7f6d48a6fe36712f96983cca063507900ca9bcd8c4a65044d"
+      }
+    },
+    {
+      "id": "mfq-30",
+      "name": "Moral Foundations Questionnaire (MFQ-30)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 30,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "This source omits two unscored attention items and changes some wording. Full original administration form must be verified before automatic release."
+      ],
+      "sha256": {
+        "questionnaire": "87af0183cf2729df291114c3d0d349a0075920be093a0cdab2932c43d9160d7c",
+        "scoring": "0ea90afb04fac01fe8c80fe6bd17f635fbc2b7436bada42dfa3f7e9253b69562",
+        "provenance": "0df9dd050fd6b65c98d18095c137beef1595c5ff043f6feaa94105030a5e15c6"
+      }
+    },
+    {
+      "id": "ncs-18",
+      "name": "Need for Cognition Scale (NCS-18)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 18,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Source uses a 1–5 agreement response form; original extremely uncharacteristic/characteristic anchors and version-specific coding must be checked."
+      ],
+      "sha256": {
+        "questionnaire": "5c58d3c2a847475e058ee3af28f2f999e0e4d65ae518e94e6a2b23e63f1137a5",
+        "scoring": "e247c9cb1d797c8c06576818f03ee27d71c5f9f9049b4e10fdc20f917b940c60",
+        "provenance": "c283984533945bd79b072d46e2b55a9e4c1fa475aaccdcb3d96db4bd9e56f115"
+      }
+    },
+    {
+      "id": "pvq-21",
+      "name": "Portrait Values Questionnaire – 21 (ESS Human Values Scale)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 21,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "455539a0acc93c5444569fd551995744391b82a2431c64bb60ec2b5af3d674ba",
+        "scoring": "ff499eacc64f55f4ed3255bc38fb6bf40c5e789185b185751b5f2753c8d32703",
+        "provenance": "9f47c0615b3229e181fc24d424f52ce7350e371d6b5fcae04cde3bf041a56b37"
+      }
+    },
+    {
+      "id": "pvq-40",
+      "name": "PVQ-40 (source neutral-portrait form)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 40,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Source groups items by value and uses a neutral-pronoun adaptation; restore original administration order and verify response anchors before release."
+      ],
+      "sha256": {
+        "questionnaire": "98328da5d837b34c13c0403a35bf8649f0830a5b0f8384c2098d4c3b536b6cef",
+        "scoring": "78289dc3b604125e4ae2252dd3b8921a0ab8836b8288719476fc5e11e12f6e02",
+        "provenance": "5456f4598b45debc0c35d6726fa324bfde5e2bb56700eeaa5dd5d0cdd3c40f73"
+      }
+    },
+    {
+      "id": "pvq-rr",
+      "name": "PVQ-RR (source 57-item form)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 57,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Verify original item wording, value key and response coding: this source reverses the common 1=very much like me orientation."
+      ],
+      "sha256": {
+        "questionnaire": "17e9e8c0b13bce4065699b1073b6cb37dca114dc44d39514b22133eb45084164",
+        "scoring": "d81897e8257e0db4206606f877643dc72a4a740c9c55fd58652cf284af5abfc9",
+        "provenance": "977708117f9066daed2eb5bd639cbe46444e918c925496074e0bfe7560bb7f17"
+      }
+    },
+    {
+      "id": "reflection-demo",
+      "name": "Qualitative reflection — API demonstration",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "manual",
+      "items": 3,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "fd00d5325ec04fb164abab254c270ba43a8600c4794cbac3da9e71c0d69d0d82",
+        "scoring": "299346efe535540eba6b56ffd830f511fed0663083541a129fb17388600d6d59",
+        "provenance": "8c759e3de085d1468fa84f15e82631b55522c5e38cf8f8aa2973261abf6b5f70"
+      }
+    },
+    {
+      "id": "riasec-mini-ip",
+      "name": "O*NET Mini Interest Profiler (2016 computerized form)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 30,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "c0501b757b3ab726a58305cca9468fb9bdcc559ebe07440a1611f3c2bbe78f7c",
+        "scoring": "6b3eae8b3e42f048a40a2c1ba81c2e6b4f7b31cec492be79c0ad0837556413b8",
+        "provenance": "ba1eb4a9429895e8d36f9b83eb4306fc0221064478b86f67e5c6320b13107174"
+      }
+    },
+    {
+      "id": "rses",
+      "name": "Rosenberg Self-Esteem Scale",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 10,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "8959f37a5c8e2abe57eb451d7b9af65fa33aebc990a38f14929b7c9a118d7841",
+        "scoring": "96403fe10b666fad32b1312f69cca6424eeef4bd2d135873564053017ba62c87",
+        "provenance": "703c276fc3514e5c91135d2e9bb18d1719d692f3e40a2bd07cddc479bdd63030"
+      }
+    },
+    {
+      "id": "scc",
+      "name": "自我概念清晰性量表（来源译本待核）",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 12,
+      "languages": [
+        "zh"
+      ],
+      "review_notes": [
+        "第一题译文将“自己的信念相互冲突”改成与其他人的看法冲突；不能将这个译本作为原标准量表自动评分。"
+      ],
+      "sha256": {
+        "questionnaire": "31f1a2cde91577668e6b8dc12677c90046ede6118bbc068e64d5bff4eb3056f3",
+        "scoring": "7602b8973072a869021a6607c6b344c0bb6ccfc77af7fe176659a510e969842d",
+        "provenance": "9fdcd8ddaf79306b7affb7857a604dd21aefa9e8a5134e45adacc2ec5ae3c276"
+      }
+    },
+    {
+      "id": "secs",
+      "name": "Social and Economic Conservatism Scale",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 12,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Upstream supplies only a composite; original social/economic subscale keys and exact aggregation need primary-source verification before release."
+      ],
+      "sha256": {
+        "questionnaire": "6563dd19a754dc62ba7d9ed03320ebbd2dfac4a63afe8dc57b9cec8d58b29901",
+        "scoring": "883f28f642a5edd40628932f9689a3bbf387e78e879a7c0270578ac647b9c723",
+        "provenance": "c3ddf02c8e554e6f096fd2c3bec3ea4beabe6103c7bfd34b17634ef3dc8deed6"
+      }
+    },
+    {
+      "id": "self-monitoring-18",
+      "name": "Self-Monitoring Scale (Revised)",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 18,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "db01724b929191b57d87dcba17045fab33fd0f746e157c3adb1a017ea9da92b4",
+        "scoring": "a76bde359870190e442f4a8d679013f33e6ab60efc9d3741ea09c75633991239",
+        "provenance": "cfdb752173d9a84d92f37d5be042b831d493e966a5aaa9e9803ae1656dbc6a60"
+      }
+    },
+    {
+      "id": "srhi",
+      "name": "Self-Report Habit Index (source form)",
+      "version": "1.0.0",
+      "status": "review_required",
+      "mode": "automatic",
+      "items": 12,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [
+        "Source expands the daily-routine item to daily/weekly/monthly; verify the original item wording and aggregation rule before release."
+      ],
+      "sha256": {
+        "questionnaire": "cce478e98777563cc692b6e698e7f9469ca0f7bba66ac772655ca9c548ec8138",
+        "scoring": "c9eb8ed4d047f9eec6e4d6dfeef109841ee75a79901aaf2bf89dd5d17a39c1cd",
+        "provenance": "b7179fb46f7ca8b2755ddce6058d0c86d97d0cc258e935c0f291c509fa4fef5a"
+      }
+    },
+    {
+      "id": "swls",
+      "name": "Satisfaction With Life Scale",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 5,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "b150172e50cc70841cb4d248529fb7fb11fdabcc2e788afab55a3110836a4616",
+        "scoring": "1925e068c53482bf0497e1eb9fcb824bfcb21ce5cf4792b0be0fc000179ed107",
+        "provenance": "4393144dc0a393e57301d7127f4c9d42974c9abab14f3144b0e85452a8bce835"
+      }
+    },
+    {
+      "id": "wleis",
+      "name": "Wong and Law Emotional Intelligence Scale",
+      "version": "1.0.0",
+      "status": "available",
+      "mode": "automatic",
+      "items": 16,
+      "languages": [
+        "en"
+      ],
+      "review_notes": [],
+      "sha256": {
+        "questionnaire": "cc61f5946b3fe28093a55343736ca18690ba3d0f914edfc367b65dbcafba325a",
+        "scoring": "b6138d31cdfff718c753566f7ba73dec6d57166a0d5257a2e0eef943b8879289",
+        "provenance": "499a2fa72a6ca90bebef3847e8a007c94e6d9abe18e2bda43b48ddd42dedc964"
+      }
+    }
+  ]
+}

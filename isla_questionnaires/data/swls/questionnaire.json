@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "id": "swls",
+  "version": "1.0.0",
+  "name": "Satisfaction With Life Scale",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Below are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each item by clicking the appropriate selection. Please be open and honest in your responding.",
+  "expected_items": 5,
+  "items": [
+    {
+      "id": "swls1",
+      "text": "In most ways my life is close to my ideal.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "Below are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each item by clicking the appropriate selection. Please be open and honest in your responding."
+    },
+    {
+      "id": "swls2",
+      "text": "The conditions of my life are excellent.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "Below are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each item by clicking the appropriate selection. Please be open and honest in your responding."
+    },
+    {
+      "id": "swls3",
+      "text": "I am satisfied with my life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "Below are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each item by clicking the appropriate selection. Please be open and honest in your responding."
+    },
+    {
+      "id": "swls4",
+      "text": "So far I have gotten the important things I want in life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "Below are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each item by clicking the appropriate selection. Please be open and honest in your responding."
+    },
+    {
+      "id": "swls5",
+      "text": "If I could live my life over, I would change almost nothing.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "Below are five statements that you may agree or disagree with. Using the scale below, indicate your agreement with each item by clicking the appropriate selection. Please be open and honest in your responding."
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Correct upstream reversed option labels against the author’s form: 1=strongly disagree, 7=strongly agree. Sum 5–35; interpretation intervals copied explicitly from the author’s English form, not generated by the runtime.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

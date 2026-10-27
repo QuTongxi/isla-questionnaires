@@ -1,0 +1,52 @@
+Scoring Keys for the 60-Item Version  
+ 
+Honesty-Humility  
+ Sincerity    6, 30R, 54  
+ Fairness    12R, 36, 60R  
+ Greed-Avoidance   18, 42R  
+ Modesty    24R, 48R  
+Emotionality  
+ Fearfulness    5, 29, 53R  
+ Anxiety    11, 35R  
+ Dependence    17, 41R 
+ Sentimentality    23, 47, 59R 
+Extraversion  
+ Social Self-Esteem   4, 28R, 52R  
+ Social Boldness   10R, 34, 58  
+ Sociability    16, 40  
+ Liveliness    22, 46R 
+Agreeableness  
+ Forgiveness    3, 27  
+ Gentleness    9R, 33, 51  
+ Flexibility    15R, 39, 57R  
+ Patience    21R, 45  
+Conscientiousness  
+ Organization    2, 26R  
+ Diligence    8, 32R  
+ Perfectionism    14R, 38, 50  
+ Prudence    20R, 44R, 56R  
+Openness to Experience  
+ Aesthetic Appreciation   1R, 25  
+ Inquisitiveness    7, 31R 
+ Creativity    13, 37, 49R  
+ Unconventionality   19R, 43, 55R  
+ 
+ 
+ 
+Notes   
+ 
+Items indicated with R are reverse-keyed items; for these items, responses should be 
+reversed prior to computing scale scores:  5 Æ 1, 4 Æ 2, 3 Æ 3, 2 Æ 4, 1 Æ 5  
+ 
+Facet scale scores should be computed as means across all items in facet, after recoding 
+of reverse-keyed items. Note that the facet scales of the 100- and 60-item versions of the 
+HEXACO-PI-R are very short and are not intended to have high levels of internal-
+consistency reliability. They are recommended for use as predictors of conceptually 
+related criterion variables and as indicators of the HEXACO personality factors. 
+ 
+Factor scale scores should be computed as means across all items in factor. If 
+orthogonal factor scale scores are desired, these can be calculated as varimax-rotated 
+principal components of facet scales as calculated by a computer statistical package. 
+(Note that a moderately large sample size (~250) may be needed to produce a stable 
+component solution.) 
+ 

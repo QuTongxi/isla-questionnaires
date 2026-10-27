@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "bfi-44",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": "Extraversion",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": true
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": true
+        },
+        {
+          "item": "26",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": true
+        },
+        {
+          "item": "36",
+          "reverse": false
+        }
+      ],
+      "description": "Extraversion: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "agreeableness",
+      "name": "Agreeableness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": true
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": true
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": true
+        },
+        {
+          "item": "32",
+          "reverse": false
+        },
+        {
+          "item": "37",
+          "reverse": true
+        },
+        {
+          "item": "42",
+          "reverse": false
+        }
+      ],
+      "description": "Agreeableness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "conscientiousness",
+      "name": "Conscientiousness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": true
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": true
+        },
+        {
+          "item": "23",
+          "reverse": true
+        },
+        {
+          "item": "28",
+          "reverse": false
+        },
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "43",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "neuroticism",
+      "name": "Neuroticism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": true
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "34",
+          "reverse": true
+        },
+        {
+          "item": "39",
+          "reverse": false
+        }
+      ],
+      "description": "Neuroticism: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "openness",
+      "name": "Openness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        },
+        {
+          "item": "35",
+          "reverse": true
+        },
+        {
+          "item": "40",
+          "reverse": false
+        },
+        {
+          "item": "41",
+          "reverse": true
+        },
+        {
+          "item": "44",
+          "reverse": false
+        }
+      ],
+      "description": "Openness: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

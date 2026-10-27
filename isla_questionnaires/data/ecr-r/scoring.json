@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ecr-r",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "attachment-related-anxiety",
+      "name": "Attachment-related Anxiety",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": true
+        },
+        {
+          "item": "12",
+          "reverse": false
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": false
+        }
+      ],
+      "description": "Attachment-related Anxiety: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "attachment-related-avoidance",
+      "name": "Attachment-related Avoidance",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": true
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": true
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": true
+        },
+        {
+          "item": "27",
+          "reverse": true
+        },
+        {
+          "item": "28",
+          "reverse": true
+        },
+        {
+          "item": "29",
+          "reverse": true
+        },
+        {
+          "item": "30",
+          "reverse": true
+        },
+        {
+          "item": "31",
+          "reverse": true
+        },
+        {
+          "item": "32",
+          "reverse": false
+        },
+        {
+          "item": "33",
+          "reverse": true
+        },
+        {
+          "item": "34",
+          "reverse": true
+        },
+        {
+          "item": "35",
+          "reverse": true
+        },
+        {
+          "item": "36",
+          "reverse": true
+        }
+      ],
+      "description": "Attachment-related Avoidance: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

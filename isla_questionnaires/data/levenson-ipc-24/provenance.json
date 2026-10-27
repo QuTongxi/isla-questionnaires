@@ -1,0 +1,38 @@
+{
+  "source": {
+    "repository": "AnthonyDavidAdams/personality-bench",
+    "commit": "fe3b6ddf2eda9d2cee39c7db55f14f8d7f73db1d",
+    "url": "https://github.com/AnthonyDavidAdams/personality-bench",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "instruments/ipip50.json",
+      "instruments/ncs18.json",
+      "instruments/mfq30.json",
+      "instruments/pvq21.json",
+      "instruments/locus_levenson.json"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/personality-bench/instruments/locus_levenson.json",
+      "sha256": "dcfb62b00fcba5f9ecdbff10632244e4812d55a3dbcc36d7c031eb0061457e3e"
+    },
+    {
+      "path": "sources/personality-bench/LICENSE",
+      "sha256": "5ce6f75b6a351fc7807abb17edbe22ba8b71942779f435d677a5db1de990faf3"
+    }
+  ],
+  "verification": {
+    "level": "pending",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": [
+      "Duplicate/mismatched item wording and 1–6 versus -3,-2,-1,+1,+2,+3 response coding require original-form verification. Do not apply an assumed +24 conversion."
+    ]
+  },
+  "transformations": [
+    "Preserve source item order and text. Source implementation percentile/0–100 normalization is not used."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

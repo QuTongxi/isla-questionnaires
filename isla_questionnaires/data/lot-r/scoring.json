@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "lot-r",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "optimistic",
+      "name": "Optimistic",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "3",
+          "reverse": true
+        },
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": true
+        },
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "10",
+          "reverse": false
+        }
+      ],
+      "description": "Optimistic: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

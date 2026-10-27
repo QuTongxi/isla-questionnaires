@@ -1,0 +1,728 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "hexaco-60",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "honesty-humility",
+      "name": "Honesty-Humility",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": true
+        },
+        {
+          "item": "54",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": true
+        },
+        {
+          "item": "36",
+          "reverse": false
+        },
+        {
+          "item": "60",
+          "reverse": true
+        },
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "42",
+          "reverse": true
+        },
+        {
+          "item": "24",
+          "reverse": true
+        },
+        {
+          "item": "48",
+          "reverse": true
+        }
+      ],
+      "description": "Honesty-Humility: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "emotionality",
+      "name": "Emotionality",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "53",
+          "reverse": true
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "35",
+          "reverse": true
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "41",
+          "reverse": true
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "47",
+          "reverse": false
+        },
+        {
+          "item": "59",
+          "reverse": true
+        }
+      ],
+      "description": "Emotionality: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "extraversion",
+      "name": "Extraversion",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": true
+        },
+        {
+          "item": "52",
+          "reverse": true
+        },
+        {
+          "item": "10",
+          "reverse": true
+        },
+        {
+          "item": "34",
+          "reverse": false
+        },
+        {
+          "item": "58",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "46",
+          "reverse": true
+        }
+      ],
+      "description": "Extraversion: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "agreeableness",
+      "name": "Agreeableness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "51",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": true
+        },
+        {
+          "item": "39",
+          "reverse": false
+        },
+        {
+          "item": "57",
+          "reverse": true
+        },
+        {
+          "item": "21",
+          "reverse": true
+        },
+        {
+          "item": "45",
+          "reverse": false
+        }
+      ],
+      "description": "Agreeableness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "conscientiousness",
+      "name": "Conscientiousness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": true
+        },
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": true
+        },
+        {
+          "item": "14",
+          "reverse": true
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "50",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": true
+        },
+        {
+          "item": "44",
+          "reverse": true
+        },
+        {
+          "item": "56",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "openness-to-experience",
+      "name": "Openness to Experience",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": true
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": true
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "49",
+          "reverse": true
+        },
+        {
+          "item": "19",
+          "reverse": true
+        },
+        {
+          "item": "43",
+          "reverse": false
+        },
+        {
+          "item": "55",
+          "reverse": true
+        }
+      ],
+      "description": "Openness to Experience: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "sincerity",
+      "name": "Sincerity",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": true
+        },
+        {
+          "item": "54",
+          "reverse": false
+        }
+      ],
+      "description": "Sincerity: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "fairness",
+      "name": "Fairness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "12",
+          "reverse": true
+        },
+        {
+          "item": "36",
+          "reverse": false
+        },
+        {
+          "item": "60",
+          "reverse": true
+        }
+      ],
+      "description": "Fairness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "greed-avoidance",
+      "name": "Greed-Avoidance",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "42",
+          "reverse": true
+        }
+      ],
+      "description": "Greed-Avoidance: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "modesty",
+      "name": "Modesty",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "24",
+          "reverse": true
+        },
+        {
+          "item": "48",
+          "reverse": true
+        }
+      ],
+      "description": "Modesty: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "fearfulness",
+      "name": "Fearfulness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "53",
+          "reverse": true
+        }
+      ],
+      "description": "Fearfulness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "anxiety",
+      "name": "Anxiety",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "35",
+          "reverse": true
+        }
+      ],
+      "description": "Anxiety: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "dependence",
+      "name": "Dependence",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "41",
+          "reverse": true
+        }
+      ],
+      "description": "Dependence: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "sentimentality",
+      "name": "Sentimentality",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "47",
+          "reverse": false
+        },
+        {
+          "item": "59",
+          "reverse": true
+        }
+      ],
+      "description": "Sentimentality: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "social-self-esteem",
+      "name": "Social Self-Esteem",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": true
+        },
+        {
+          "item": "52",
+          "reverse": true
+        }
+      ],
+      "description": "Social Self-Esteem: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "social-boldness",
+      "name": "Social Boldness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "10",
+          "reverse": true
+        },
+        {
+          "item": "34",
+          "reverse": false
+        },
+        {
+          "item": "58",
+          "reverse": false
+        }
+      ],
+      "description": "Social Boldness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "sociability",
+      "name": "Sociability",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        }
+      ],
+      "description": "Sociability: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "liveliness",
+      "name": "Liveliness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "46",
+          "reverse": true
+        }
+      ],
+      "description": "Liveliness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "forgiveness",
+      "name": "Forgiveness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        }
+      ],
+      "description": "Forgiveness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "gentleness",
+      "name": "Gentleness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "51",
+          "reverse": false
+        }
+      ],
+      "description": "Gentleness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "flexibility",
+      "name": "Flexibility",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "15",
+          "reverse": true
+        },
+        {
+          "item": "39",
+          "reverse": false
+        },
+        {
+          "item": "57",
+          "reverse": true
+        }
+      ],
+      "description": "Flexibility: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "patience",
+      "name": "Patience",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "21",
+          "reverse": true
+        },
+        {
+          "item": "45",
+          "reverse": false
+        }
+      ],
+      "description": "Patience: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "organization",
+      "name": "Organization",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": true
+        }
+      ],
+      "description": "Organization: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "diligence",
+      "name": "Diligence",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": true
+        }
+      ],
+      "description": "Diligence: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "perfectionism",
+      "name": "Perfectionism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "14",
+          "reverse": true
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "50",
+          "reverse": false
+        }
+      ],
+      "description": "Perfectionism: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "prudence",
+      "name": "Prudence",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "20",
+          "reverse": true
+        },
+        {
+          "item": "44",
+          "reverse": true
+        },
+        {
+          "item": "56",
+          "reverse": true
+        }
+      ],
+      "description": "Prudence: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "aesthetic-appreciation",
+      "name": "Aesthetic Appreciation",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": true
+        },
+        {
+          "item": "25",
+          "reverse": false
+        }
+      ],
+      "description": "Aesthetic Appreciation: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "inquisitiveness",
+      "name": "Inquisitiveness",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": true
+        }
+      ],
+      "description": "Inquisitiveness: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "creativity",
+      "name": "Creativity",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "49",
+          "reverse": true
+        }
+      ],
+      "description": "Creativity: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "unconventionality",
+      "name": "Unconventionality",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "19",
+          "reverse": true
+        },
+        {
+          "item": "43",
+          "reverse": false
+        },
+        {
+          "item": "55",
+          "reverse": true
+        }
+      ],
+      "description": "Unconventionality: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

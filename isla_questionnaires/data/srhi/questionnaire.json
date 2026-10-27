@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "id": "srhi",
+  "version": "1.0.0",
+  "name": "Self-Report Habit Index (source form)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "Rate the following statements about {{behavior}}.",
+  "expected_items": 12,
+  "items": [
+    {
+      "id": "srhi_1",
+      "text": "I do frequently",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_2",
+      "text": "I do automatically",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_3",
+      "text": "I do without having to consciously remember",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_4",
+      "text": "that makes me feel weird if I do not do it",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_5",
+      "text": "I do without thinking",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_6",
+      "text": "that would require effort not to do it",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_7",
+      "text": "that belongs to my daily, weekly, or monthly routine",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_8",
+      "text": "I start doing before I realize I'm doing it",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_9",
+      "text": "I would find hard not to do",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_10",
+      "text": "I have no need to think about doing",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_11",
+      "text": "that's typically \"me\"",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    },
+    {
+      "id": "srhi_12",
+      "text": "I have been doing for a long time",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": "{{behavior}} is something…"
+    }
+  ],
+  "parameters": {
+    "behavior": {
+      "required": true
+    }
+  },
+  "review_notes": [
+    "Source expands the daily-routine item to daily/weekly/monthly; verify the original item wording and aggregation rule before release."
+  ],
+  "notes": []
+}

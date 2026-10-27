@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "self-monitoring-18",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "self-monitoring",
+      "name": "Self-Monitoring",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "sm-1",
+          "reverse": true
+        },
+        {
+          "item": "sm-2",
+          "reverse": true
+        },
+        {
+          "item": "sm-3",
+          "reverse": true
+        },
+        {
+          "item": "sm-4",
+          "reverse": false
+        },
+        {
+          "item": "sm-5",
+          "reverse": false
+        },
+        {
+          "item": "sm-6",
+          "reverse": false
+        },
+        {
+          "item": "sm-7",
+          "reverse": true
+        },
+        {
+          "item": "sm-8",
+          "reverse": false
+        },
+        {
+          "item": "sm-9",
+          "reverse": true
+        },
+        {
+          "item": "sm-10",
+          "reverse": false
+        },
+        {
+          "item": "sm-11",
+          "reverse": true
+        },
+        {
+          "item": "sm-12",
+          "reverse": false
+        },
+        {
+          "item": "sm-13",
+          "reverse": true
+        },
+        {
+          "item": "sm-14",
+          "reverse": true
+        },
+        {
+          "item": "sm-15",
+          "reverse": true
+        },
+        {
+          "item": "sm-16",
+          "reverse": true
+        },
+        {
+          "item": "sm-17",
+          "reverse": false
+        },
+        {
+          "item": "sm-18",
+          "reverse": false
+        }
+      ],
+      "description": "Social adaptiveness vs. behavioral consistency"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "id": "rses",
+  "version": "1.0.0",
+  "name": "Rosenberg Self-Esteem Scale",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement.",
+  "expected_items": 10,
+  "items": [
+    {
+      "id": "rses1",
+      "text": "I feel that I'm a person of worth, at least on an equal plane with others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses2",
+      "text": "I feel that I have a number of good qualities.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses3",
+      "text": "All in all, I am inclined to feel that I am a failure.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses4",
+      "text": "I am able to do things as well as most other people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses5",
+      "text": "I feel I do not have much to be proud of.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses6",
+      "text": "I take a positive attitude toward myself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses7",
+      "text": "On the whole, I am satisfied with myself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses8",
+      "text": "I wish I could have more respect for myself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses9",
+      "text": "I certainly feel useless at times.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    },
+    {
+      "id": "rses10",
+      "text": "At times, I think I am no good at all.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Agree"
+        },
+        {
+          "value": 3,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how much you agree or disagree with each statement."
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

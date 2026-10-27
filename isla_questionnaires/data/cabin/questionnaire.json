@@ -1,0 +1,4613 @@
+{
+  "schema_version": 1,
+  "id": "cabin",
+  "version": "1.0.0",
+  "name": "Comprehensive Assessment of Basic Interests",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Indicate how much you would like or dislike performing each activity.",
+  "expected_items": 164,
+  "items": [
+    {
+      "id": "1",
+      "text": "Repair car engines.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "Perform aircraft maintenance.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "Maintain wind turbine generators.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "Install radio communication systems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "Build wood wall shelves.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "Build kitchen cabinets.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "Sand and refinish a piece of furniture.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "Build a fence.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "Drive a bus.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "Drive a delivery truck.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "Operate a train.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "Operate a crane to move freight and cargo.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "Load and unload aircraft baggage.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "Load and unload cargo.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "Move building materials on construction sites.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "Pack and move products in a warehouse.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "Arrest suspects of criminal acts.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "Conduct surveillance of suspects.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "Inspect people and vehicles for illegal goods.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "Investigate reports of organized crime.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "Farm and harvest crops.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "Inspect orchards to detect diSEMses or pests.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "Learn about soil and climate requirements of various plants.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "Apply principles of soil science to conserve land.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "Water and fertilize garden plants.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "Survey forest areas and access roads.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "Plant trees in a nature preserve.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "Work to restore a wildlife habitat.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "Treat and care for injured animals.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "Feed and bathe animals in a zoo.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "Exercise animals daily to keep them healthy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "Find stray animals and take them to a shelter.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "Play a team or individual sport.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "34",
+      "text": "Participate in athletic events.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "35",
+      "text": "Train for a competitive sport.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "36",
+      "text": "Coach practice sessions for a sports team.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "37",
+      "text": "Design a structure that can withstand heavy wind.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "38",
+      "text": "Develop lighter and stronger materials for new products.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "39",
+      "text": "Redesign a production line to improve its efficiency.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "40",
+      "text": "Improve the human-machine interface of an operation system.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "41",
+      "text": "Study the formation and evolution of galaxies.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "42",
+      "text": "Analyze a mineral sample found on Mars.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "43",
+      "text": "Investigate the molecular structure of an unknown substance.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "44",
+      "text": "Study the causes for earthquakes and tsunamis.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "45",
+      "text": "Map human gene structure.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "46",
+      "text": "Study the physiological structure of animals.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "47",
+      "text": "Investigate the genetic sequence of organisms.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "48",
+      "text": "ReSEMrch newly discovered bacteria with laboratory experiments.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "49",
+      "text": "Examine how viruses infect the human body.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "50",
+      "text": "Investigate the cause of a chronic health problem.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "51",
+      "text": "ReSEMrch the side effects of a medicine.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "52",
+      "text": "Investigate prevention methods for diSEMses.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "53",
+      "text": "Study cultural differences between groups.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "54",
+      "text": "Investigate how poverty influences educational attainment.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "55",
+      "text": "Study the effects of public policy on violence reduction.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "56",
+      "text": "ReSEMrch why people have stereotypes and prejudice.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "57",
+      "text": "Study the history of an ancient society.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "58",
+      "text": "Study various branches of philosophy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "59",
+      "text": "Compare the modern history of different countries.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "60",
+      "text": "Document the traditions of a remote community.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "61",
+      "text": "Solve mathematical problems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "62",
+      "text": "Learn about a new theory in geometry.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "63",
+      "text": "Use mathematical equations to solve practical problems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "64",
+      "text": "Develop a statistical model to explain a phenomenon.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "65",
+      "text": "Test and compare different software.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "66",
+      "text": "Create a new computer database.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "67",
+      "text": "Monitor the daily performance of computer systems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "68",
+      "text": "Diagnose and resolve computer hardware or software problems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "69",
+      "text": "Sketch a picture.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "70",
+      "text": "Paint a landscape.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "71",
+      "text": "Draw illustrations for a book.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "72",
+      "text": "Create a unique piece of artwork.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "73",
+      "text": "Create a piece of artistic and functional furniture.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "74",
+      "text": "Create the set for a movie or stage play.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "75",
+      "text": "Design the layout and lighting of an exhibition.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "76",
+      "text": "Design unique packaging for a product.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "77",
+      "text": "Perform on stage for a group of people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "78",
+      "text": "Act in a play.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "79",
+      "text": "Act out an emotional movie scene.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "80",
+      "text": "Perform comedy to entertain an audience.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "81",
+      "text": "Play a musical instrument.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "82",
+      "text": "Compose an original piece of music.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "83",
+      "text": "Play in a band.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "84",
+      "text": "Arrange background music for a show.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "85",
+      "text": "Write a novel.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "86",
+      "text": "Write short stories.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "87",
+      "text": "Compose a poem.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "88",
+      "text": "Study creative writing.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "89",
+      "text": "Direct a TV show.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "90",
+      "text": "Write a movie screenplay.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "91",
+      "text": "Host a radio program.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "92",
+      "text": "Develop a podcast series.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "93",
+      "text": "Select ingredients to prepare food.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "94",
+      "text": "Create the recipe for a new dish.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "95",
+      "text": "Create a new cooking technique to enhance flavor.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "96",
+      "text": "Learn about required temperature and time for baking pastries.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "97",
+      "text": "Teach students a new set of skills.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "98",
+      "text": "Explain a topic to someone with no prior knowledge of the subject.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "99",
+      "text": "Teach a beginner how to perform a task.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "100",
+      "text": "Teach visitors on educational field trips.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "101",
+      "text": "Volunteer at a community service center.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "102",
+      "text": "Help someone overcome an obstacle in personal life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "103",
+      "text": "Provide aid to students from underprivileged backgrounds.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "104",
+      "text": "Assist people with disabilities in finding employment.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "105",
+      "text": "Treat patients for acute illnesses or injuries.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "106",
+      "text": "Care for patients in critical condition.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "107",
+      "text": "Monitor patient reactions to medicines.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "108",
+      "text": "Formulate treatment plans for patients.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "109",
+      "text": "Provide spiritual guidance for others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "110",
+      "text": "Explain a religious text to people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "111",
+      "text": "Teach religious beliefs and rituals.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "112",
+      "text": "Work with a religious youth group.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "113",
+      "text": "Arrange travel plans and accommodations for clients.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "114",
+      "text": "Greet guests and answer questions at an information desk.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "115",
+      "text": "Help clients plan for their special occasions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "116",
+      "text": "Organize recreational activities for clients.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "117",
+      "text": "Coach others to develop leadership skills.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "118",
+      "text": "Coach people to prepare for job interviews.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "119",
+      "text": "Advise people in meeting their professional goals.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "120",
+      "text": "Instruct clients in effective communication techniques.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "121",
+      "text": "Negotiate a business deal.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "122",
+      "text": "Set up a string of small business enterprises.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "123",
+      "text": "Expand a business to incorporate a new line of products.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "124",
+      "text": "Beat competitors through strategic business practices.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "125",
+      "text": "Persuade customers to try a new product.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "126",
+      "text": "Increase sales for a company during a promotion week.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "127",
+      "text": "Sell services to a target group of people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "128",
+      "text": "Learn tactics to be effective at sales.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "129",
+      "text": "Lead an advertising campaign.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "130",
+      "text": "Market a company on social media platforms.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "131",
+      "text": "Coordinate marketing activities to promote a new product.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "132",
+      "text": "Distribute promotional materials to advertise an event.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "133",
+      "text": "Make investment decisions based on financial data.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "134",
+      "text": "Analyze the financial information of a company.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "135",
+      "text": "Project future expenditures of a business.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "136",
+      "text": "Assess potential risks and gains of an investment.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "137",
+      "text": "Prepare employee payroll.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "138",
+      "text": "Monitor account balance and prepare monthly statements.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "139",
+      "text": "Keep accounting records for a company.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "140",
+      "text": "Calculate tax deductions for a business.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "141",
+      "text": "Hire employees and process hiring-related paperwork.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "142",
+      "text": "Conduct orientation sessions for new workers.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "143",
+      "text": "Explain company policies and benefits to employees.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "144",
+      "text": "Conduct surveys of employee satisfaction.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "145",
+      "text": "Enter personnel records into a computer program.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "146",
+      "text": "Catalog files in an office.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "147",
+      "text": "Print and disSEMinate documents to be used at a conference.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "148",
+      "text": "Keep track of customer requests.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "149",
+      "text": "Manage a medium-sized organization.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "150",
+      "text": "Supervise a large number of workers.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "151",
+      "text": "Serve as the chairperson for a corporate board.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "152",
+      "text": "Serve as the president of a professional association.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "153",
+      "text": "Present your ideas at a conference.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "154",
+      "text": "Speak as the representative of an organization.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "155",
+      "text": "Be the speaker at a fund-raising event for a worthy cause.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "156",
+      "text": "Make a public speech to raise awareness of community issues.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "157",
+      "text": "Run for a political office.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "158",
+      "text": "Be the head of the city council.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "159",
+      "text": "Lead a committee to make policy decisions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "160",
+      "text": "Assume political leadership responsibilities.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "161",
+      "text": "Defend a client against a legal charge.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "162",
+      "text": "Present logical arguments in a courtroom.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "163",
+      "text": "Provide compelling evidence for a trial.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "164",
+      "text": "Resolve legal disputes between parties.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neither like nor dislike"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly like"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified."
+  ]
+}

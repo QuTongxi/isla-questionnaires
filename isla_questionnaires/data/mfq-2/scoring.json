@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "mfq-2",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "care",
+      "name": "Care",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "mfq-1",
+          "reverse": false
+        },
+        {
+          "item": "mfq-2",
+          "reverse": false
+        },
+        {
+          "item": "mfq-3",
+          "reverse": false
+        },
+        {
+          "item": "mfq-4",
+          "reverse": false
+        },
+        {
+          "item": "mfq-5",
+          "reverse": false
+        },
+        {
+          "item": "mfq-6",
+          "reverse": false
+        }
+      ],
+      "description": "Sensitivity to suffering, cruelty, and harm"
+    },
+    {
+      "id": "equality",
+      "name": "Equality",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "mfq-7",
+          "reverse": false
+        },
+        {
+          "item": "mfq-8",
+          "reverse": false
+        },
+        {
+          "item": "mfq-9",
+          "reverse": false
+        },
+        {
+          "item": "mfq-10",
+          "reverse": false
+        },
+        {
+          "item": "mfq-11",
+          "reverse": false
+        },
+        {
+          "item": "mfq-12",
+          "reverse": false
+        }
+      ],
+      "description": "Fairness as equal treatment and equal outcomes"
+    },
+    {
+      "id": "proportionality",
+      "name": "Proportionality",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "mfq-13",
+          "reverse": false
+        },
+        {
+          "item": "mfq-14",
+          "reverse": false
+        },
+        {
+          "item": "mfq-15",
+          "reverse": false
+        },
+        {
+          "item": "mfq-16",
+          "reverse": false
+        },
+        {
+          "item": "mfq-17",
+          "reverse": false
+        },
+        {
+          "item": "mfq-18",
+          "reverse": false
+        }
+      ],
+      "description": "Fairness as proportional to effort and merit"
+    },
+    {
+      "id": "loyalty",
+      "name": "Loyalty",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "mfq-19",
+          "reverse": false
+        },
+        {
+          "item": "mfq-20",
+          "reverse": false
+        },
+        {
+          "item": "mfq-21",
+          "reverse": false
+        },
+        {
+          "item": "mfq-22",
+          "reverse": false
+        },
+        {
+          "item": "mfq-23",
+          "reverse": false
+        },
+        {
+          "item": "mfq-24",
+          "reverse": false
+        }
+      ],
+      "description": "Commitment to one's group and willingness to sacrifice"
+    },
+    {
+      "id": "authority",
+      "name": "Authority",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "mfq-25",
+          "reverse": false
+        },
+        {
+          "item": "mfq-26",
+          "reverse": false
+        },
+        {
+          "item": "mfq-27",
+          "reverse": false
+        },
+        {
+          "item": "mfq-28",
+          "reverse": false
+        },
+        {
+          "item": "mfq-29",
+          "reverse": false
+        },
+        {
+          "item": "mfq-30",
+          "reverse": false
+        }
+      ],
+      "description": "Respect for hierarchy, tradition, and social order"
+    },
+    {
+      "id": "purity",
+      "name": "Purity",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "mfq-31",
+          "reverse": false
+        },
+        {
+          "item": "mfq-32",
+          "reverse": false
+        },
+        {
+          "item": "mfq-33",
+          "reverse": false
+        },
+        {
+          "item": "mfq-34",
+          "reverse": false
+        },
+        {
+          "item": "mfq-35",
+          "reverse": false
+        },
+        {
+          "item": "mfq-36",
+          "reverse": false
+        }
+      ],
+      "description": "Concerns about sanctity, contamination, and degradation"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "source": {
+    "repository": "Chuan-Peng-Lab/PSV_Dataset",
+    "commit": "c72034ffc8303fa230a6b0334872245380e42558",
+    "url": "https://github.com/Chuan-Peng-Lab/PSV_Dataset",
+    "license_files": [],
+    "files": [
+      "04_code_and_reproducibility/procedure/day1/surveys/selfclarity.js"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/psv/04_code_and_reproducibility/procedure/day1/surveys/selfclarity.js",
+      "sha256": "41eb13dd4ed161fbf1f6ba57d8867f4dc69ba645886cf738d79f18f0c149f1b7"
+    },
+    {
+      "path": "sources/extracted.json",
+      "sha256": "72abba644e18f8e451b06abbc0858bd56e54847925ba2f0edbad5803cfb16727"
+    }
+  ],
+  "verification": {
+    "level": "pending",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": [
+      "第一题译文将“自己的信念相互冲突”改成与其他人的看法冲突；不能将这个译本作为原标准量表自动评分。"
+    ]
+  },
+  "transformations": [],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

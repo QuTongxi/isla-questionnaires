@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ipip-50",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": "Extraversion",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": true
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": true
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": true
+        },
+        {
+          "item": "31",
+          "reverse": false
+        },
+        {
+          "item": "36",
+          "reverse": true
+        },
+        {
+          "item": "41",
+          "reverse": false
+        },
+        {
+          "item": "46",
+          "reverse": true
+        }
+      ],
+      "description": "Extraversion: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "agreeableness",
+      "name": "Agreeableness",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": true
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": true
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": true
+        },
+        {
+          "item": "27",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": true
+        },
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "42",
+          "reverse": false
+        },
+        {
+          "item": "47",
+          "reverse": false
+        }
+      ],
+      "description": "Agreeableness: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "conscientiousness",
+      "name": "Conscientiousness",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": true
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": true
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": true
+        },
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "38",
+          "reverse": true
+        },
+        {
+          "item": "43",
+          "reverse": false
+        },
+        {
+          "item": "48",
+          "reverse": false
+        }
+      ],
+      "description": "Conscientiousness: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "neuroticism",
+      "name": "Neuroticism",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "19",
+          "reverse": true
+        },
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "34",
+          "reverse": false
+        },
+        {
+          "item": "39",
+          "reverse": false
+        },
+        {
+          "item": "44",
+          "reverse": false
+        },
+        {
+          "item": "49",
+          "reverse": false
+        }
+      ],
+      "description": "Neuroticism: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "openness",
+      "name": "Openness / Intellect",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": true
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": true
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": true
+        },
+        {
+          "item": "35",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        },
+        {
+          "item": "45",
+          "reverse": false
+        },
+        {
+          "item": "50",
+          "reverse": false
+        }
+      ],
+      "description": "Openness / Intellect: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

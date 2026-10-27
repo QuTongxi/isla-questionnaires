@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "crt-7",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "correct",
+      "name": "Correct answers",
+      "operation": "correct_count",
+      "terms": [
+        {
+          "item": "crt-1",
+          "accepted": [
+            5
+          ]
+        },
+        {
+          "item": "crt-2",
+          "accepted": [
+            5
+          ]
+        },
+        {
+          "item": "crt-3",
+          "accepted": [
+            47
+          ]
+        },
+        {
+          "item": "crt-4",
+          "accepted": [
+            4
+          ]
+        },
+        {
+          "item": "crt-5",
+          "accepted": [
+            29
+          ]
+        },
+        {
+          "item": "crt-6",
+          "accepted": [
+            20
+          ]
+        },
+        {
+          "item": "crt-7",
+          "accepted": [
+            "c"
+          ]
+        }
+      ],
+      "description": "Number of correct answers out of 7. Numeric answers use the units stated in each item; last answer accepts c (case-insensitive)."
+    }
+  ]
+}

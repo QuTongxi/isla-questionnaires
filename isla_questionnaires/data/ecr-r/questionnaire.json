@@ -1,0 +1,1319 @@
+{
+  "schema_version": 1,
+  "id": "ecr-r",
+  "version": "1.0.0",
+  "name": "Experiences in Close Relationships-Revised",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "The statements below concern how you feel in emotionally intimate relationships. We are interested in how you generally experience relationships, not just in what is happening in a current relationship. Respond to each statement to indicate how much you agree or disagree with the statement.",
+  "expected_items": 36,
+  "items": [
+    {
+      "id": "1",
+      "text": "I'm afraid that I will lose my partner's love.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "I often worry that my partner will not want to stay with me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "I often worry that my partner doesn't really love me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "I worry that romantic partners won’t care about me as much as I care about them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "I often wish that my partner's feelings for me were as strong as my feelings for him or her.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "I worry a lot about my relationships.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "When my partner is out of sight, I worry that he or she might become interested in someone else.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "When I show my feelings for romantic partners, I'm afraid they will not feel the same about me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "I rarely worry about my partner leaving me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "My romantic partner makes me doubt myself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "I do not often worry about being abandoned.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "I find that my partner(s) don't want to get as close as I would like.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "Sometimes romantic partners change their feelings about me for no apparent reason.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "My desire to be very close sometimes scares people away.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "I'm afraid that once a romantic partner gets to know me, he or she won't like who I really am.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "It makes me mad that I don't get the affection and support I need from my partner.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "I worry that I won't measure up to other people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "My partner only seems to notice me when I’m angry.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "I prefer not to show a partner how I feel deep down.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "I feel comfortable sharing my private thoughts and feelings with my partner.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "I find it difficult to allow myself to depend on romantic partners.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "I am very comfortable being close to romantic partners.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "I don't feel comfortable opening up to romantic partners.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "I prefer not to be too close to romantic partners.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "I get uncomfortable when a romantic partner wants to be very close.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "I find it relatively easy to get close to my partner.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "It's not difficult for me to get close to my partner.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "I usually discuss my problems and concerns with my partner.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "It helps to turn to my romantic partner in times of need.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "I tell my partner just about everything.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "I talk things over with my partner.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "I am nervous when partners get too close to me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "I feel comfortable depending on romantic partners.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "34",
+      "text": "I find it easy to depend on romantic partners.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "35",
+      "text": "It's easy for me to be affectionate with my partner.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "36",
+      "text": "My partner really understands me and my needs.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified.",
+    "Replace upstream transcription errors with the author’s English item text; use anxiety and avoidance means, never inferred four-type attachment labels.",
+    "The author page specifies endpoint anchors only; middle response points remain numeric."
+  ]
+}

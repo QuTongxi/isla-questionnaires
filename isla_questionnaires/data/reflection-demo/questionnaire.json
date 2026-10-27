@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "reflection-demo",
+  "version": "1.0.0",
+  "name": "Qualitative reflection — API demonstration",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Write freely. This is an API demonstration, not a validated questionnaire.",
+  "expected_items": 3,
+  "items": [
+    {
+      "id": "context",
+      "text": "Describe the situation you want to reflect on.",
+      "type": "text"
+    },
+    {
+      "id": "response",
+      "text": "Describe your thoughts, feelings, and actions in that situation.",
+      "type": "text"
+    },
+    {
+      "id": "reflection",
+      "text": "What would you like a human reviewer to consider?",
+      "type": "text"
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Project-authored example, excluded from the 36-instrument inventory. A human supplies any interpretation."
+  ]
+}

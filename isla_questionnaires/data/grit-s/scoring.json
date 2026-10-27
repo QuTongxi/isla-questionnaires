@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "grit-s",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "perseverance",
+      "name": "Perseverance of Effort",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "grit-5",
+          "reverse": false
+        },
+        {
+          "item": "grit-6",
+          "reverse": false
+        },
+        {
+          "item": "grit-7",
+          "reverse": false
+        },
+        {
+          "item": "grit-8",
+          "reverse": false
+        }
+      ],
+      "description": "Tendency to work hard and finish what you start"
+    },
+    {
+      "id": "interest_consistency",
+      "name": "Consistency of Interest",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "grit-1",
+          "reverse": true
+        },
+        {
+          "item": "grit-2",
+          "reverse": true
+        },
+        {
+          "item": "grit-3",
+          "reverse": true
+        },
+        {
+          "item": "grit-4",
+          "reverse": true
+        }
+      ],
+      "description": "Tendency to maintain focus on the same goals over time"
+    },
+    {
+      "id": "total",
+      "name": "Total",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "grit-1",
+          "reverse": true
+        },
+        {
+          "item": "grit-2",
+          "reverse": true
+        },
+        {
+          "item": "grit-3",
+          "reverse": true
+        },
+        {
+          "item": "grit-4",
+          "reverse": true
+        },
+        {
+          "item": "grit-5",
+          "reverse": false
+        },
+        {
+          "item": "grit-6",
+          "reverse": false
+        },
+        {
+          "item": "grit-7",
+          "reverse": false
+        },
+        {
+          "item": "grit-8",
+          "reverse": false
+        }
+      ],
+      "description": "Total: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

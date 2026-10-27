@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "swls",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "swlsscore",
+      "name": "Swlsscore",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "swls1",
+          "reverse": false
+        },
+        {
+          "item": "swls2",
+          "reverse": false
+        },
+        {
+          "item": "swls3",
+          "reverse": false
+        },
+        {
+          "item": "swls4",
+          "reverse": false
+        },
+        {
+          "item": "swls5",
+          "reverse": false
+        }
+      ],
+      "description": "Swlsscore: sum of keyed responses.",
+      "interpretation": {
+        "source": "https://labs.psychology.illinois.edu/~ediener/Documents/SWLS_English.doc",
+        "bands": [
+          {
+            "min": 5,
+            "max": 9,
+            "label": "Extremely dissatisfied"
+          },
+          {
+            "min": 10,
+            "max": 14,
+            "label": "Dissatisfied"
+          },
+          {
+            "min": 15,
+            "max": 19,
+            "label": "Slightly dissatisfied"
+          },
+          {
+            "min": 20,
+            "max": 20,
+            "label": "Neutral"
+          },
+          {
+            "min": 21,
+            "max": 25,
+            "label": "Slightly satisfied"
+          },
+          {
+            "min": 26,
+            "max": 30,
+            "label": "Satisfied"
+          },
+          {
+            "min": 31,
+            "max": 35,
+            "label": "Extremely satisfied"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ess-institutional-trust",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "trstprl",
+      "name": "The country's parliament",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "trstprl",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "trstlgl",
+      "name": "The legal system",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "trstlgl",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "trstplc",
+      "name": "The police",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "trstplc",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "trstplt",
+      "name": "Politicians",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "trstplt",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "trstprt",
+      "name": "Political parties",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "trstprt",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "trstep",
+      "name": "The European Parliament",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "trstep",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "trstun",
+      "name": "The United Nations",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "trstun",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    }
+  ]
+}

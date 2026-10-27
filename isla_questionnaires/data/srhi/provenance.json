@@ -1,0 +1,30 @@
+{
+  "source": {
+    "repository": "Bulgy404/health-habit-hub",
+    "commit": "758aaafb6f747d160cfd3dd120e2015eeea33a01",
+    "url": "https://github.com/Bulgy404/health-habit-hub",
+    "license_files": [],
+    "files": [
+      "app/utils/srhi.js"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/health-habit-hub/app/utils/srhi.js",
+      "sha256": "80fc1ebef113e4d50e1ee464eb0c568b9e5184039cc4d0a3348fc340facdc609"
+    },
+    {
+      "path": "sources/extracted.json",
+      "sha256": "72abba644e18f8e451b06abbc0858bd56e54847925ba2f0edbad5803cfb16727"
+    }
+  ],
+  "verification": {
+    "level": "pending",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": [
+      "Source expands the daily-routine item to daily/weekly/monthly; verify the original item wording and aggregation rule before release."
+    ]
+  },
+  "transformations": [],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

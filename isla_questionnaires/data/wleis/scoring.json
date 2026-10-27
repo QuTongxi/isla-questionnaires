@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "wleis",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "sea",
+      "name": "SEA",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "4",
+          "reverse": false
+        }
+      ],
+      "description": "SEA: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "oea",
+      "name": "OEA",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        }
+      ],
+      "description": "OEA: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "uoe",
+      "name": "UOE",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": false
+        }
+      ],
+      "description": "UOE: mean of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "roe",
+      "name": "ROE",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        }
+      ],
+      "description": "ROE: mean of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

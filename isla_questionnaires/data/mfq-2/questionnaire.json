@@ -1,0 +1,1030 @@
+{
+  "schema_version": 1,
+  "id": "mfq-2",
+  "version": "1.0.0",
+  "name": "Moral Foundations Questionnaire 2",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "Indicate how well each statement describes you.",
+  "expected_items": 36,
+  "items": [
+    {
+      "id": "mfq-1",
+      "text": "Compassion for those who are suffering is the most crucial virtue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-2",
+      "text": "One of the worst things a person could do is hurt a defenseless animal.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-3",
+      "text": "It can never be right to kill a human being.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-4",
+      "text": "I am empathetic toward those people who have suffered in their lives.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-5",
+      "text": "I believe that the government should do more to help the needy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-6",
+      "text": "I think caring for people who are weak or vulnerable is an important virtue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-7",
+      "text": "When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-8",
+      "text": "Justice is the most important requirement for a society.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-9",
+      "text": "I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-10",
+      "text": "Everyone should have an equal say in decisions that affect their lives.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-11",
+      "text": "Discrimination against anyone on the basis of race, gender, or sexual orientation is morally wrong.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-12",
+      "text": "It is unfair that some people have so much more money than others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-13",
+      "text": "People who work hard deserve to earn more than those who do not.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-14",
+      "text": "The effort a worker puts into a job ought to be reflected in the size of a raise they receive.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-15",
+      "text": "Employees who produce more should be paid more.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-16",
+      "text": "In a fair society, those who work hard should live better lives.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-17",
+      "text": "I believe that merit should determine one's success, not family connections.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-18",
+      "text": "People who contribute more to society should receive more in return.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-19",
+      "text": "I am proud of my country's history.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-20",
+      "text": "It is more important to be a team player than to express oneself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-21",
+      "text": "I would never betray a friend, even if I would get rewarded for doing so.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-22",
+      "text": "People should be loyal to their family members, even when they have done something wrong.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-23",
+      "text": "It is important for members of a group to stick together, even when they disagree.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-24",
+      "text": "A group is only strong when its members are unified.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-25",
+      "text": "Respect for authority is something all children need to learn.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-26",
+      "text": "I believe that one of the problems with today's youth is that they don't respect their elders enough.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-27",
+      "text": "Men and women each have different roles to play in society.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-28",
+      "text": "If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-29",
+      "text": "I think the world would be a better place if people showed more respect for tradition.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-30",
+      "text": "Respect for authority and leadership is an important virtue for children to learn.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-31",
+      "text": "People should not do things that are disgusting, even if no one is harmed.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-32",
+      "text": "I would call some acts wrong on the grounds that they are unnatural.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-33",
+      "text": "Chastity is an important and valuable virtue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-34",
+      "text": "I think certain acts are wrong even if they do not hurt anyone.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-35",
+      "text": "When you defile a place of worship, you are doing harm to all who hold it sacred.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "mfq-36",
+      "text": "It is important to maintain one's purity, both in mind and in body.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither Agree nor Disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "Source contains reworded items and 5 response options; verify the original MFQ-2 form and 6-point response anchors before release."
+  ],
+  "notes": [
+    "Only source data and explicit dimension keys are used; no generic scoreLikert normalization or personality labels."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "source": {
+    "repository": "Neph0s/InCharacter",
+    "commit": "f554202a94d4a83dc5407245bb18981899e872e6",
+    "url": "https://github.com/Neph0s/InCharacter",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "data/questionnaires/BFI.json",
+      "data/questionnaires/EPQ-R.json",
+      "data/questionnaires/ECR-R.json",
+      "data/questionnaires/LOT-R.json",
+      "data/questionnaires/WLEIS.json",
+      "data/questionnaires/EIS.json",
+      "data/questionnaires/CABIN.json"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/incharacter/data/questionnaires/CABIN.json",
+      "sha256": "db6321f75ad32e4137ccf4758412c4b5683ef76f1b1d14d9ac7a5e8802f69f20"
+    },
+    {
+      "path": "sources/incharacter/LICENSE",
+      "sha256": "e646576fd9f5522fcddbedd6663b6a1a38656f8ab84be251e2a0cdfb77ab6478"
+    }
+  ],
+  "verification": {
+    "level": "source_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

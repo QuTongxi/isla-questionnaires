@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "id": "wleis",
+  "version": "1.0.0",
+  "name": "Wong and Law Emotional Intelligence Scale",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Please indicate how much you agree or disagree with each statement.",
+  "expected_items": 16,
+  "items": [
+    {
+      "id": "1",
+      "text": "I have a good sense of why I feel certain feelings most of the time.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "I have a good understanding of my own emotions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "I really understand what I feel.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "I always know whether I am happy or not.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "I always know my friends' emotions from their behaviour.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "I am a good observer of others' emotions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "I am sensitive to the feelings and emotions of others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "I have a good understanding of the emotions of people around me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "I always set goals for myself and then try my best to achieve them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "I always tell myself I am a competent person.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "I am a self-motivating person.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "I would always encourage myself to try my best.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "I am able to control my temper so that I can handle difficulties rationally.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "I am quite capable of controlling my own emotions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "I can always calm down quickly when I am very angry.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "I have good control of my emotions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 5,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 6,
+          "label": "Agree"
+        },
+        {
+          "value": 7,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified."
+  ]
+}

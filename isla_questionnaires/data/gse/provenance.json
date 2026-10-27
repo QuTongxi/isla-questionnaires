@@ -1,0 +1,55 @@
+{
+  "source": {
+    "repository": "stmueller/OpenScales",
+    "commit": "d555b04a1961181a63f91b534bc1096bcbd1dcdc",
+    "url": "https://github.com/stmueller/OpenScales",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "scales/openscales/GSE/GSE.osd",
+      "scales/openscales/RSES/RSES.osd",
+      "scales/openscales/SWLS/SWLS.osd",
+      "scales/openscales/ERQ/ERQ.osd",
+      "scales/openscales/DOSPERT/DOSPERT.osd",
+      "scales/openscales/IE-4/IE-4.osd",
+      "scales/openscales/ESS-BSTS/ESS-BSTS.osd",
+      "scales/openscales/ESS-ITS/ESS-ITS.osd",
+      "scales/openscales/ESS-PE/ESS-PE.osd",
+      "scales/openscales/SECS/SECS.osd",
+      "scales/openscales/ESS-PVQ21/ESS-PVQ21.osd"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/openscales/scales/openscales/GSE/GSE.osd",
+      "sha256": "82a01b1c275aa8e758e520917e9392662da24e8755cd96036eaf25236be3583d"
+    },
+    {
+      "path": "sources/openscales/LICENSE",
+      "sha256": "bc573016a61d7c5dfd3d32762c2240586cb1f4e5fc776ecc04319aa8ca2ec37d"
+    },
+    {
+      "path": "sources/primary/gse-english.html",
+      "sha256": "d55e9c0046919ba4d4fe70f3a6099c1e1ecb0952eed256d6a21455a5e23f7b7c"
+    },
+    {
+      "path": "sources/primary/gse-english.txt",
+      "sha256": "6a4610a237c7f5056e3425427b4a2ce91f47c8ed60834e16ab28accc8026b197"
+    },
+    {
+      "path": "sources/primary/gse-scoring.html",
+      "sha256": "26fa86b496aff7fcf591581ace41c99f72a2f7e76ba333d34a16b2541bbc1d25"
+    }
+  ],
+  "verification": {
+    "level": "primary_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Use original author’s English items, replacing paraphrases in the OpenScales English table. Sum all ten 1–4 responses.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

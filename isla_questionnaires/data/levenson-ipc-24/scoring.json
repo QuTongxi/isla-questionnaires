@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "levenson-ipc-24",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "loc_internal",
+      "name": "Internal Locus",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        }
+      ],
+      "description": "Internal Locus: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "loc_powerful_others",
+      "name": "Powerful Others Locus",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        }
+      ],
+      "description": "Powerful Others Locus: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "loc_chance",
+      "name": "Chance Locus",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        }
+      ],
+      "description": "Chance Locus: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

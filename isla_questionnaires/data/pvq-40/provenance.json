@@ -1,0 +1,32 @@
+{
+  "source": {
+    "repository": "holi-lab/Psychometric-Item-Validation",
+    "commit": "798253a4b123865e5a5add337c8fbcf55d29ff03",
+    "url": "https://github.com/holi-lab/Psychometric-Item-Validation",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "data/official_item/Schwartz/PVQ-40_they.json"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/holi/data/official_item/Schwartz/PVQ-40_they.json",
+      "sha256": "a8e7b078dd5f54a7c145a6963bba85aba6a8d3d76abca18b9be9ec00a4e31d06"
+    },
+    {
+      "path": "sources/holi/LICENSE",
+      "sha256": "62487ac6d197fec1a84e418ff110ec17e1ec8768afa3f9390c0bba664d9e180d"
+    }
+  ],
+  "verification": {
+    "level": "pending",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": [
+      "Source groups items by value and uses a neutral-pronoun adaptation; restore original administration order and verify response anchors before release."
+    ]
+  },
+  "transformations": [],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

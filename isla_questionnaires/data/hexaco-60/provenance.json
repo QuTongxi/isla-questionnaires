@@ -1,0 +1,38 @@
+{
+  "source": {
+    "repository": "primary-author-material",
+    "url": "https://hexaco.org/hexaco-inventory"
+  },
+  "files": [
+    {
+      "path": "sources/primary/hexaco-self60.doc",
+      "sha256": "a8219ddbbcfbe3a2ce0b6a95cef3804b71dc06bc47fc2720160587f8c5e7a23d"
+    },
+    {
+      "path": "sources/primary/hexaco-self60.txt",
+      "sha256": "f0aad025997bd9695cd4a3b03947ff9091c9f48ff3713bb72e1b622fbdddb1b1"
+    },
+    {
+      "path": "sources/primary/hexaco-keys.pdf",
+      "sha256": "1755074462920b9ea59dd4d7550cf41a45c638eb1d1b0d980c812ee9794c516d"
+    },
+    {
+      "path": "sources/primary/hexaco-keys.txt",
+      "sha256": "8445f9ce8633b68e0750dea83630481de84a8077bf1489e588a9445961613c72"
+    },
+    {
+      "path": "sources/primary/hexaco-terms.html",
+      "sha256": "e8066d9449e8c43476685c2841c957ea4d9a35e5e2008a8923f013be3cf69a64"
+    }
+  ],
+  "verification": {
+    "level": "primary_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Replace the mislabeled IPIP-like repository form with the authors’ actual English HEXACO-60. Factor means use all 10 keyed items, not an unweighted mean of unequal-length facets.",
+    "Author terms restrict use to non-profit academic research; public survey/app access restrictions apply. This bundled source does not grant unrestricted redistribution."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

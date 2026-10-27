@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 Ashita Orbis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+THIRD-PARTY PSYCHOMETRIC INSTRUMENT ITEM TEXT — EXCLUSION FROM THIS LICENSE
+
+The MIT license above applies to the original code and original content of this
+project. It does NOT apply to the verbatim item text (the question wording and
+statements presented to respondents) of the third-party psychometric instruments
+reproduced in this repository where that item text is the copyrighted work of
+its original author or publisher. Such item text is expressly EXCLUDED from the
+grant above. It is included in this repository for non-commercial research and
+educational use only, under each instrument's own terms, and remains the property
+of its respective copyright holders. No right to redistribute, sublicense,
+relicense, or make commercial use of that excluded item text is granted by this
+repository, and no representation is made that permission to do so has been
+obtained. The instruments affected by this exclusion, together with their
+authors, sources, and license status, are listed in
+LICENSES/THIRD-PARTY-INSTRUMENTS.md. Item text that is public domain or released
+under a redistribution-permitting license (also identified in that file) remains
+covered by the MIT license above.

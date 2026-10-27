@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "gse",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "self_efficacy",
+      "name": "General Self-Efficacy",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "gse1",
+          "reverse": false
+        },
+        {
+          "item": "gse2",
+          "reverse": false
+        },
+        {
+          "item": "gse3",
+          "reverse": false
+        },
+        {
+          "item": "gse4",
+          "reverse": false
+        },
+        {
+          "item": "gse5",
+          "reverse": false
+        },
+        {
+          "item": "gse6",
+          "reverse": false
+        },
+        {
+          "item": "gse7",
+          "reverse": false
+        },
+        {
+          "item": "gse8",
+          "reverse": false
+        },
+        {
+          "item": "gse9",
+          "reverse": false
+        },
+        {
+          "item": "gse10",
+          "reverse": false
+        }
+      ],
+      "description": "Sum of all 10 items. Range 10–40; higher = greater general self-efficacy. No recoding required."
+    }
+  ]
+}

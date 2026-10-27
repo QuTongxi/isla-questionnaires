@@ -1,0 +1,790 @@
+{
+  "schema_version": 1,
+  "id": "levenson-ipc-24",
+  "version": "1.0.0",
+  "name": "Levenson Multidimensional Locus of Control (IPC)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "Respond to each statement using the displayed scale.",
+  "expected_items": 24,
+  "items": [
+    {
+      "id": "1",
+      "text": "Whether or not I get to be a leader depends mostly on my ability.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "To a great extent my life is controlled by accidental happenings.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "I feel like what happens in my life is mostly determined by powerful people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "Whether or not I get into a car accident depends mostly on how good a driver I am.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "When I make plans, I am almost certain to make them work.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "Often there is no chance of protecting my personal interests from bad luck happenings.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "When I get what I want, it's usually because I'm lucky.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "Although I might have good ability, I will not be given leadership responsibility without appealing to those in positions of power.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "How many friends I have depends on how nice a person I am.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "I have often found that what is going to happen will happen.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "My life is chiefly controlled by powerful others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "Whether or not I get into a car accident is mostly a matter of luck.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "People like myself have very little chance of protecting our personal interests when they conflict with those of strong pressure groups.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "It's not always wise for me to plan too far ahead because many things turn out to be a matter of good or bad fortune.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "Getting what I want requires pleasing those people above me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "Whether or not I get to be a leader depends on whether I'm lucky enough to be in the right place at the right time.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "If important people were to decide they didn't like me, I probably wouldn't make many friends.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "I can pretty much determine what will happen in my life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "I am usually able to protect my personal interests.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "Whether or not I get into a car accident depends mostly on the other driver.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "When I get what I want, it's usually because I worked hard for it.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "In order to have my plans work, I make sure that they fit in with the desires of people who have power over me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "My life is determined by my own actions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "It's chiefly a matter of fate whether or not I have a few friends or many friends.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 4,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 5,
+          "label": "Agree"
+        },
+        {
+          "value": 6,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "Duplicate/mismatched item wording and 1–6 versus -3,-2,-1,+1,+2,+3 response coding require original-form verification. Do not apply an assumed +24 conversion."
+  ],
+  "notes": [
+    "Preserve source item order and text. Source implementation percentile/0–100 normalization is not used."
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "id": "scc",
+  "version": "1.0.0",
+  "name": "自我概念清晰性量表（来源译本待核）",
+  "languages": [
+    "zh"
+  ],
+  "default_language": "zh",
+  "status": "review_required",
+  "instructions": "以下提及的是人们关于自己的一些看法， 这些描述并无好坏对错之分，请您按照自己的实际情况， 判断对下列所列的条目的赞同程度， 1 代表“非常不同意”，2 代表“比较不同意”，3 代表“不确定”， 4 代表“比较同意”，5 代表“非常同意”。",
+  "expected_items": 12,
+  "items": [
+    {
+      "id": "1",
+      "text": "我对自己的看法常常和其他人对我的看法相冲突。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "关于自己，今天我有这样的想法，而明天我又会有另外的想法。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "我花很多的时间去考虑我到底是一个怎样的人。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "有些时候我感觉到我不是真正想成为的那个人。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "当我想到过去我是个什么样的人的时候，我不确定我过去到底是不是那样。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "我对自己各方面品质（如能力、脾气、性格等)的认识，很少感到冲突。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "有些时候我认为，我了解他人比了解自己的要多。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "我对自己的想法，变化的非常频繁。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "如果让我描述自己的品质（比如世界观、人生观、价值观、理想等），今天的描述很可能和昨天的不一样。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "即使我想告诉，我也不认为我会告诉其他人我真的想要什么。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "一般来讲，我清楚的知道我是谁、我是怎么样的人。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "我通常很难下决定，因为我真的不知道自己想要什么。",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "非常不同意"
+        },
+        {
+          "value": 2,
+          "label": "比较不同意"
+        },
+        {
+          "value": 3,
+          "label": "不确定"
+        },
+        {
+          "value": 4,
+          "label": "比较同意"
+        },
+        {
+          "value": 5,
+          "label": "非常同意"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "第一题译文将“自己的信念相互冲突”改成与其他人的看法冲突；不能将这个译本作为原标准量表自动评分。"
+  ],
+  "notes": []
+}

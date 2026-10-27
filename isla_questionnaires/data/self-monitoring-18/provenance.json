@@ -1,0 +1,45 @@
+{
+  "source": {
+    "repository": "AshitaOrbis/psyche-public",
+    "commit": "28480802ce025a986a6574c013d2c7d07084c8ec",
+    "url": "https://github.com/AshitaOrbis/psyche-public",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "web/src/instruments/hexaco-60.ts",
+      "web/src/instruments/iri-28.ts",
+      "web/src/instruments/mfq-2.ts",
+      "web/src/instruments/grit-s.ts",
+      "web/src/instruments/grit-o.ts",
+      "web/src/instruments/ius-12.ts",
+      "web/src/instruments/self-monitoring-18.ts",
+      "web/src/instruments/crt-7.ts",
+      "web/src/instruments/open-ended.ts"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/psyche/web/src/instruments/self-monitoring-18.ts",
+      "sha256": "43a30a7870f68fa384b47c0f3bcc263f4b54cb0d9f90024f27d75d036191ee2d"
+    },
+    {
+      "path": "sources/psyche/LICENSE",
+      "sha256": "9c46e6cada70366f9da007cbfc560884efd3212ec94460ab795f14081c11aa99"
+    },
+    {
+      "path": "sources/extracted.json",
+      "sha256": "72abba644e18f8e451b06abbc0858bd56e54847925ba2f0edbad5803cfb16727"
+    }
+  ],
+  "verification": {
+    "level": "source_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Only source data and explicit dimension keys are used; no generic scoreLikert normalization or personality labels.",
+    "Explicit binary input: 0=False, 1=True. Reverse-keyed items score 1 for False. Sum 0–18; no inferred high/low cutoff."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

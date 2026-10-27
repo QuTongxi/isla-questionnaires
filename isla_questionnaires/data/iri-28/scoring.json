@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "iri-28",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "fantasy",
+      "name": "Fantasy",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "iri-1",
+          "reverse": false
+        },
+        {
+          "item": "iri-2",
+          "reverse": false
+        },
+        {
+          "item": "iri-3",
+          "reverse": true
+        },
+        {
+          "item": "iri-4",
+          "reverse": true
+        },
+        {
+          "item": "iri-5",
+          "reverse": false
+        },
+        {
+          "item": "iri-6",
+          "reverse": false
+        },
+        {
+          "item": "iri-7",
+          "reverse": false
+        }
+      ],
+      "description": "Tendency to imaginatively transpose oneself into fictional situations"
+    },
+    {
+      "id": "perspective_taking",
+      "name": "Perspective Taking",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "iri-8",
+          "reverse": true
+        },
+        {
+          "item": "iri-9",
+          "reverse": false
+        },
+        {
+          "item": "iri-10",
+          "reverse": false
+        },
+        {
+          "item": "iri-11",
+          "reverse": true
+        },
+        {
+          "item": "iri-12",
+          "reverse": false
+        },
+        {
+          "item": "iri-13",
+          "reverse": false
+        },
+        {
+          "item": "iri-14",
+          "reverse": false
+        }
+      ],
+      "description": "Tendency to spontaneously adopt the psychological point of view of others"
+    },
+    {
+      "id": "empathic_concern",
+      "name": "Empathic Concern",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "iri-15",
+          "reverse": false
+        },
+        {
+          "item": "iri-16",
+          "reverse": true
+        },
+        {
+          "item": "iri-17",
+          "reverse": false
+        },
+        {
+          "item": "iri-18",
+          "reverse": true
+        },
+        {
+          "item": "iri-19",
+          "reverse": true
+        },
+        {
+          "item": "iri-20",
+          "reverse": false
+        },
+        {
+          "item": "iri-21",
+          "reverse": false
+        }
+      ],
+      "description": "Tendency to experience feelings of warmth, compassion, and concern for others"
+    },
+    {
+      "id": "personal_distress",
+      "name": "Personal Distress",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "iri-22",
+          "reverse": false
+        },
+        {
+          "item": "iri-23",
+          "reverse": false
+        },
+        {
+          "item": "iri-24",
+          "reverse": false
+        },
+        {
+          "item": "iri-25",
+          "reverse": false
+        },
+        {
+          "item": "iri-26",
+          "reverse": true
+        },
+        {
+          "item": "iri-27",
+          "reverse": false
+        },
+        {
+          "item": "iri-28",
+          "reverse": true
+        }
+      ],
+      "description": "Tendency to experience feelings of personal anxiety and discomfort in response to others' distress"
+    }
+  ]
+}

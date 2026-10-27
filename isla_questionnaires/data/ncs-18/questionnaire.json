@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "id": "ncs-18",
+  "version": "1.0.0",
+  "name": "Need for Cognition Scale (NCS-18)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "Respond to each statement using the displayed scale.",
+  "expected_items": 18,
+  "items": [
+    {
+      "id": "1",
+      "text": "I would prefer complex to simple problems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "I like to have the responsibility of handling a situation that requires a lot of thinking.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "Thinking is not my idea of fun.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "I would rather do something that requires little thought than something that is sure to challenge my thinking abilities.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "I try to anticipate and avoid situations where there is a likely chance I will have to think in depth about something.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "I find satisfaction in deliberating hard and for long hours.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "I only think as hard as I have to.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "I prefer to think about small daily projects to long-term ones.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "I like tasks that require little thought once I've learned them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "The idea of relying on thought to make my way to the top appeals to me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "I really enjoy a task that involves coming up with new solutions to problems.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "Learning new ways to think doesn't excite me very much.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "I prefer my life to be filled with puzzles I must solve.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "The notion of thinking abstractly is appealing to me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "I would prefer a task that is intellectual, difficult, and important to one that is somewhat important but does not require much thought.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "I feel relief rather than satisfaction after completing a task that required a lot of mental effort.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "It's enough for me that something gets the job done; I don't care how or why it works.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "I usually end up deliberating about issues even when they do not affect me personally.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "Source uses a 1–5 agreement response form; original extremely uncharacteristic/characteristic anchors and version-specific coding must be checked."
+  ],
+  "notes": [
+    "Preserve source item order and text. Source implementation percentile/0–100 normalization is not used."
+  ]
+}

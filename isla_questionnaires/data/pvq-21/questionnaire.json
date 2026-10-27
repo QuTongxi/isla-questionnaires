@@ -1,0 +1,693 @@
+{
+  "schema_version": 1,
+  "id": "pvq-21",
+  "version": "1.0.0",
+  "name": "Portrait Values Questionnaire – 21 (ESS Human Values Scale)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Now I will briefly describe some people. Please listen to each description and tell me how much each person is or is not like you.",
+  "expected_items": 21,
+  "items": [
+    {
+      "id": "ipcrtiv",
+      "text": "Thinking up new ideas and being creative is important to him. He likes to do things in his own original way.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "imprich",
+      "text": "It is important to him to be rich. He wants to have a lot of money and expensive things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipeqopt",
+      "text": "He thinks it is important that every person in the world should be treated equally. He believes everyone should have equal opportunities in life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipshabt",
+      "text": "It's important to him to show his abilities. He wants people to admire what he does.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "impsafe",
+      "text": "It is important to him to live in secure surroundings. He avoids anything that might endanger his safety.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "impdiff",
+      "text": "He likes surprises and is always looking for new things to do. He thinks it is important to do lots of different things in life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipfrule",
+      "text": "He believes that people should do what they're told. He thinks people should follow rules at all times, even when no-one is watching.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipudrst",
+      "text": "It is important to him to listen to people who are different from him. Even when he disagrees with them, he still wants to understand them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipmodst",
+      "text": "It is important to him to be humble and modest. He tries not to draw attention to himself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipgdtim",
+      "text": "Having a good time is important to him. He likes to \"spoil\" himself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "impfree",
+      "text": "It is important to him to make his own decisions about what he does. He likes to be free and not depend on others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "iphlppl",
+      "text": "It's very important to him to help the people around him. He wants to care for their well-being.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipsuces",
+      "text": "Being very successful is important to him. He hopes people will recognise his achievements.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipstrgv",
+      "text": "It is important to him that the government ensures his safety against all threats. He wants the state to be strong so it can defend its citizens.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipadvnt",
+      "text": "He looks for adventures and likes to take risks. He wants to have an exciting life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "ipbhprp",
+      "text": "It is important to him always to behave properly. He wants to avoid doing anything people would say is wrong.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "iprspot",
+      "text": "It is important to him to get respect from others. He wants people to do what he says.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "iplylfr",
+      "text": "It is important to him to be loyal to his friends. He wants to devote himself to people close to him.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "impenv",
+      "text": "He strongly believes that people should care for nature. Looking after the environment is important to him.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "imptrad",
+      "text": "Tradition is important to him. He tries to follow the customs handed down by his religion or his family.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    },
+    {
+      "id": "impfun",
+      "text": "He seeks every chance he can to have fun. It is important to him to do things that give him pleasure.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": "How much like you is this person?"
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "ESS male-portrait form; preserve 1=very much like me to 6=not like me at all. Lower raw AND lower centered score indicate stronger endorsement. Fix contradictory upstream interpretation of centered-score sign.",
+    "No missing-value imputation. Source report templates, guessed norm thresholds and generated text are not used."
+  ]
+}

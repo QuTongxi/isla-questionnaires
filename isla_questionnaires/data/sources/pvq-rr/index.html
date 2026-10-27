@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVQ-RR Assessment (57-Item Official)</title>
+    <style>
+        /* CSS Variables & Theming - Enhanced contrast from Candidate B */
+        :root {
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --success: #10b981;
+            --danger: #ef4444;
+            --shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            --card-lift: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+            /* Higher-Order Domain Colors */
+            --color-oc: #3b82f6; /* Openness to Change */
+            --color-se: #f59e0b; /* Self-Enhancement */
+            --color-co: #8b5cf6; /* Conservation */
+            --color-st: #10b981; /* Self-Transcendence */
+        }
+
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+            --card-lift: 0 8px 15px -3px rgba(0, 0, 0, 0.5);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; transition: background-color 0.3s, color 0.3s; padding-bottom: 60px; }
+
+        /* Structural Layout */
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+
+        .top-nav { display: flex; justify-content: space-between; align-items: center; max-width: 900px; margin: 20px auto; padding: 0 20px; }
+        .theme-toggle { background: var(--card-bg); color: var(--text-main); border: 1px solid var(--border); padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: 600; transition: all 0.2s; }
+        .theme-toggle:hover { border-color: var(--primary); }
+
+        #progress-wrapper { position: sticky; top: 0; background: var(--bg-color); z-index: 1000; padding: 12px 20px; display: none; border-bottom: 1px solid var(--border); box-shadow: var(--shadow); }
+        .progress-header { display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-bottom: 8px; max-width: 900px; margin-left: auto; margin-right: auto; }
+        .progress-container { max-width: 900px; margin: 0 auto; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+        #progress-bar { height: 100%; width: 0%; background: var(--primary); transition: width 0.3s ease; }
+
+        /* Setup Section */
+        #setup-section { background: var(--card-bg); padding: 40px; border-radius: 12px; box-shadow: var(--shadow); text-align: center; border-top: 4px solid var(--primary); animation: fadeIn 0.4s ease; }
+        .gender-options { display: flex; justify-content: center; gap: 16px; margin-top: 30px; flex-wrap: wrap; }
+        .gender-btn { padding: 14px 32px; font-size: 1.05rem; background: var(--card-bg); color: var(--primary); border: 2px solid var(--primary); border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.2s; min-width: 150px; }
+        .gender-btn:hover { background: var(--primary); color: white; transform: translateY(-2px); }
+
+        /* Assessment Section */
+        #assessment-section { display: none; animation: fadeIn 0.4s ease; }
+        .instructions { background: var(--card-bg); padding: 28px; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 30px; border-left: 4px solid var(--primary); }
+
+        .question-card { background: var(--card-bg); padding: 32px; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 24px; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; border: 2px solid transparent; }
+        .question-card:hover { transform: translateY(-2px); box-shadow: var(--card-lift); }
+        .question-card.done { border-color: var(--success); }
+        .question-card.missed { border-color: var(--danger); box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15); animation: shake 0.4s; }
+        .question-text { font-weight: 600; font-size: 1.1rem; margin-bottom: 24px; display: flex; gap: 12px; align-items: flex-start; }
+        .q-num { background: var(--primary); color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: bold; flex-shrink: 0; }
+
+        /* Likert Scale */
+        .likert-group { display: flex; justify-content: space-between; position: relative; max-width: 100%; margin: 0 auto; }
+        .likert-group::before { content: ''; position: absolute; top: 22px; left: 8%; right: 8%; height: 2px; background: var(--border); z-index: 0; }
+        .likert-option { flex: 1; display: flex; flex-direction: column; align-items: center; cursor: pointer; position: relative; z-index: 1; }
+        .likert-option input[type="radio"] { display: none; }
+        .likert-bubble { width: 44px; height: 44px; border-radius: 50%; background: var(--card-bg); border: 2px solid var(--border); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--text-muted); transition: all 0.2s ease; margin-bottom: 8px; }
+        .likert-option:hover .likert-bubble { border-color: var(--primary); color: var(--primary); }
+        .likert-option input[type="radio"]:checked + .likert-bubble { background: var(--primary); border-color: var(--primary); color: white; transform: scale(1.15); box-shadow: 0 0 12px rgba(59, 130, 246, 0.35); }
+        .likert-label-text { font-size: 0.8rem; text-align: center; color: var(--text-muted); font-weight: 500; line-height: 1.2; padding: 0 4px; }
+        .likert-option input[type="radio"]:checked ~ .likert-label-text { color: var(--primary); font-weight: bold; }
+
+        button.action-btn { display: block; width: 100%; padding: 18px; font-size: 1.15rem; background: var(--primary); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; margin-top: 30px; transition: background 0.2s; box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3); }
+        button.action-btn:hover { background: var(--primary-hover); }
+
+        /* Results Section */
+        #results-section { display: none; animation: fadeIn 0.4s ease; }
+        .result-card { background: var(--card-bg); padding: 24px; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 20px; position: relative; }
+        .result-header { font-size: 1.4rem; font-weight: bold; margin-bottom: 12px; border-bottom: 2px solid var(--primary); padding-bottom: 8px; color: var(--text-main); text-align: center; }
+
+        /* Higher-Order Grid */
+        .ho-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 20px; }
+        .ho-box { padding: 16px; border-radius: 8px; border-left: 4px solid; background: var(--bg-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .ho-title { font-weight: bold; font-size: 1.1rem; margin-bottom: 5px; }
+        .ho-score { font-size: 1.6rem; font-weight: 900; margin-bottom: 8px; }
+        .ho-items { font-size: 0.82rem; color: var(--text-muted); line-height: 1.4; }
+
+        /* Bar Chart with Rich Tooltip */
+        .bar-row { display: flex; align-items: center; margin-bottom: 12px; position: relative; cursor: pointer; }
+        .bar-label { width: 180px; font-weight: 600; font-size: 0.9rem; flex-shrink: 0; }
+        .bar-wrapper { flex: 1; height: 26px; background: var(--bg-color); position: relative; border-radius: 6px; margin: 0 15px; border-left: 1px solid var(--border); border-right: 1px solid var(--border); }
+        .bar-zero-line { position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: var(--text-muted); z-index: 10; }
+        .bar-fill { height: 100%; position: absolute; top: 0; transition: width 1s cubic-bezier(0.4, 0, 0.2, 1); width: 0%; opacity: 0.9; border-radius: 3px; }
+        .bar-score { width: 56px; text-align: right; font-family: monospace; font-weight: bold; font-size: 1.05rem; }
+
+        .rich-tooltip { visibility: hidden; width: 280px; background-color: #1e293b; color: #f8fafc; text-align: left; border-radius: 8px; padding: 14px; position: absolute; z-index: 100; bottom: 110%; left: 50%; transform: translateX(-50%); opacity: 0; transition: opacity 0.2s; font-size: 0.85rem; box-shadow: 0 10px 15px rgba(0,0,0,0.3); font-weight: normal; line-height: 1.5; pointer-events: none; border: 1px solid #334155; }
+        .rich-tooltip::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -6px; border-width: 6px; border-style: solid; border-color: #1e293b transparent transparent transparent; }
+        .bar-row:hover .rich-tooltip { visibility: visible; opacity: 1; }
+
+        /* Circumplex Chart */
+        .circle-container { text-align: center; margin: 20px auto; position: relative; max-width: 650px; }
+        svg { max-width: 100%; height: auto; display: block; margin: 0 auto; overflow: visible; }
+        #svg-tooltip { position: absolute; background: rgba(30, 41, 59, 0.95); color: #fff; padding: 12px 16px; border-radius: 8px; font-size: 0.85rem; pointer-events: none; opacity: 0; transition: opacity 0.1s; z-index: 50; text-align: left; box-shadow: 0 10px 15px rgba(0,0,0,0.3); min-width: 220px; transform: translate(-50%, -130%); border: 1px solid #334155; }
+
+        /* Export Controls */
+        .export-grid { display: flex; gap: 15px; margin-top: 30px; flex-wrap: wrap; }
+        .export-btn { flex: 1; min-width: 180px; padding: 14px; background: var(--bg-color); border: 2px solid var(--border); color: var(--text-main); border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.95rem; transition: all 0.2s; }
+        .export-btn:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-2px); }
+
+        footer { text-align: center; padding: 30px; font-size: 0.85rem; color: var(--text-muted); margin-top: 40px; border-top: 1px solid var(--border); }
+        footer a { color: var(--primary); text-decoration: none; font-weight: bold; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+
+        /* Mobile Adjustments */
+        @media (max-width: 640px) {
+            .likert-bubble { width: 36px; height: 36px; font-size: 0.85rem; margin-bottom: 4px; }
+            .likert-label-text { font-size: 0.65rem; max-width: 52px; padding: 0; }
+            .likert-group::before { top: 18px; left: 6%; right: 6%; }
+            .question-card { padding: 18px; }
+
+            .ho-grid { grid-template-columns: 1fr; }
+            .bar-row { flex-direction: column; align-items: flex-start; margin-bottom: 24px; }
+            .bar-label { width: 100%; margin-bottom: 8px; }
+            .bar-wrapper { width: 100%; margin: 0 0 8px 0; }
+            .bar-score { width: 100%; text-align: left; }
+            .rich-tooltip { display: none; }
+        }
+
+        /* Print Formatting */
+        @media print {
+            body { background: white; color: black; padding: 0; }
+            .top-nav, #progress-wrapper, .export-grid, footer { display: none !important; }
+            .result-card { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; margin-bottom: 20px; }
+            #results-section { display: block !important; }
+            .bar-fill { opacity: 1 !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+            .ho-box { border: 1px solid #ccc; border-left-width: 5px; }
+            .q-num { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body class="dark-mode">
+
+<header class="top-nav">
+    <div style="font-weight: bold; font-size: 1.3rem; letter-spacing: -0.5px;">PVQ-RR Assessment</div>
+    <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">☀️ Light Mode</button>
+</header>
+
+<div id="progress-wrapper">
+    <div class="progress-header">
+        <span>Assessment Progress</span>
+        <span id="progress-text">0/57 answered (0%)</span>
+    </div>
+    <div class="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+</div>
+
+<main class="container">
+    <!-- Setup -->
+    <section id="setup-section">
+        <h1 style="margin-bottom: 15px; font-size: 2.2rem; letter-spacing: -0.5px;">Personal Value Profile</h1>
+        <p style="color: var(--text-muted); margin-bottom: 25px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+            Based on Schwartz's Refined Theory of Basic Human Values. To maximize empirical accuracy and reduce subconscious bias, this assessment uses "portraits" (descriptions of other people). <br><br>
+            <strong>Select the pronouns you prefer these portrait descriptions to use:</strong>
+        </p>
+        <div class="gender-options">
+            <button class="gender-btn" onclick="startAssessment('female')">She / Her</button>
+            <button class="gender-btn" onclick="startAssessment('male')">He / Him</button>
+            <button class="gender-btn" onclick="startAssessment('neutral')">They / Them</button>
+        </div>
+    </section>
+
+    <!-- Assessment -->
+    <section id="assessment-section">
+        <article class="instructions">
+            <h3 style="margin-bottom: 10px; font-size: 1.2rem;">Instructions</h3>
+            <p>Below are brief descriptions of different people. Read each description and indicate how much that person is or is not like you.</p>
+        </article>
+        <form id="pvq-form">
+            <div id="questions-container"></div>
+            <button type="submit" class="action-btn" id="submit-btn">Calculate My Value Profile</button>
+        </form>
+    </section>
+
+    <!-- Results -->
+    <section id="results-section">
+        <article class="result-card">
+            <div class="result-header">Your Psychological Value Hierarchy</div>
+            <div style="text-align: center;">
+                <p style="color: var(--text-muted); font-size: 0.95rem;">
+                    Scores are <em>Centered</em> (your Raw Mean minus your Overall Base Rating) to correct for scale-use bias. <br>
+                    Positive (<span style="color: var(--success); font-weight: bold;">+</span>) indicates a value prioritized above your baseline; Negative (<span style="color: var(--danger); font-weight: bold;">−</span>) indicates priority below it.
+                </p>
+                <div style="display: inline-block; background: var(--bg-color); padding: 10px 20px; border-radius: 8px; margin-top: 15px; font-weight: 600; border: 1px solid var(--border); font-size: 1.1rem;">
+                    Your Base Rating (MRAT): <span id="mrat-display" style="color: var(--primary);"></span> / 6.00
+                </div>
+            </div>
+        </article>
+
+        <article class="result-card">
+            <div class="result-header">The 4 Higher-Order Dimensions</div>
+            <p style="font-size: 0.9rem; color: var(--text-muted); text-align: center;">Broad motivational goals encompassing the 19 narrow values.</p>
+            <div class="ho-grid" id="ho-container"></div>
+        </article>
+
+        <article class="result-card" id="circle-card">
+            <div class="result-header">Theoretical Value Circumplex</div>
+            <p style="font-size: 0.9rem; color: var(--text-muted); text-align: center;">
+                Values arranged in Schwartz's theoretical circular continuum. Adjacent values are compatible; opposite values conflict.<br>
+                <em>Hover over data points to explore exact scores.</em>
+            </p>
+            <div class="circle-container" id="circle-chart-container">
+                <div id="svg-tooltip"></div>
+            </div>
+        </article>
+
+        <article class="result-card">
+            <div class="result-header">The 19 Specific Values</div>
+            <div id="bar-chart-container"></div>
+        </article>
+
+        <div class="export-grid">
+            <button class="export-btn" onclick="downloadCirclePNG()">📸 Export Chart as PNG</button>
+            <button class="export-btn" onclick="downloadCSV()">📊 Export Data (CSV)</button>
+            <button class="export-btn" onclick="window.print()">🖨️ Print Full Report</button>
+            <button class="export-btn" onclick="location.reload()" style="background: var(--card-bg); color: var(--primary); border-color: var(--primary);">🔄 Retake Assessment</button>
+        </div>
+
+        <footer>
+            <strong>Disclaimer:</strong> This tool is provided for educational and self-reflection purposes only. It is not a clinical instrument.<br>
+            Original paper: <a href="https://doi.org/10.1007/978-3-319-56352-7_3" target="_blank">https://doi.org/10.1007/978-3-319-56352-7_3</a>
+        </footer>
+    </section>
+</main>
+
+<script>
+    /* =========================================
+       INITIALIZATION & THEME STORAGE
+       ========================================= */
+    document.addEventListener('DOMContentLoaded', () => {
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.remove('dark-mode');
+            document.getElementById('theme-btn').innerText = '🌙 Dark Mode';
+        }
+    });
+
+    /* =========================================
+       DATA ARCHITECTURE & DICTIONARIES
+       ========================================= */
+    const pronounMaps = {
+        male: { obj:"him", pos:"his", sub:"he", say:"says", deserve:"deserves", is:"is", know:"knows", want:"wants", ref:"himself", achieve:"achieves", donot:"doesn't", have:"has", do:"does", disagree:"disagrees" },
+        female: { obj:"her", pos:"her", sub:"she", say:"says", deserve:"deserves", is:"is", know:"knows", want:"wants", ref:"herself", achieve:"achieves", donot:"doesn't", have:"has", do:"does", disagree:"disagrees" },
+        neutral: { obj:"them", pos:"their", sub:"they", say:"say", deserve:"deserve", is:"are", know:"know", want:"want", ref:"themselves", achieve:"achieve", donot:"don't", have:"have", do:"do", disagree:"disagree" }
+    };
+
+    const baseItems = [
+        "It is important to {obj} to form {pos} views independently.",
+        "It is important to {obj} that {pos} country is secure and stable.",
+        "It is important to {obj} to have a good time.",
+        "It is important to {obj} to avoid upsetting other people.",
+        "It is important to {obj} that the weak and vulnerable in society be protected.",
+        "It is important to {obj} that people do what {sub} {say} they should.",
+        "It is important to {obj} never to think {sub} {deserve} more than other people.",
+        "It is important to {obj} to care for nature.",
+        "It is important to {obj} that no one should ever shame {obj}.",
+        "It is important to {obj} always to look for different things to do.",
+        "It is important to {obj} to take care of people {sub} {is} close to.",
+        "It is important to {obj} to have the power that money can bring.",
+        "It is very important to {obj} to avoid disease and protect {pos} health.",
+        "It is important to {obj} to be tolerant toward all kinds of people and groups.",
+        "It is important to {obj} never to violate rules or regulations.",
+        "It is important to {obj} to make {pos} own decisions about {pos} life.",
+        "It is important to {obj} to have ambitions in life.",
+        "It is important to {obj} to maintain traditional values and ways of thinking.",
+        "It is important to {obj} that people {sub} {know} have full confidence in {obj}.",
+        "It is important to {obj} to be wealthy.",
+        "It is important to {obj} to take part in activities to defend nature.",
+        "It is important to {obj} never to annoy anyone.",
+        "It is important to {obj} to develop {pos} own opinions.",
+        "It is important to {obj} to protect {pos} public image.",
+        "It is very important to {obj} to help the people dear to {obj}.",
+        "It is important to {obj} to be personally safe and secure.",
+        "It is important to {obj} to be a dependable and trustworthy friend.",
+        "It is important to {obj} to take risks that make life exciting.",
+        "It is important to {obj} to have the power to make people do what {sub} {want}.",
+        "It is important to {obj} to plan {pos} activities independently.",
+        "It is important to {obj} to follow rules even when no-one is watching.",
+        "It is important to {obj} to be very successful.",
+        "It is important to {obj} to follow {pos} family's customs or the customs of a religion.",
+        "It is important to {obj} to listen to and understand people who are different from {obj}.",
+        "It is important to {obj} to have a strong state that can defend its citizens.",
+        "It is important to {obj} to enjoy life's pleasures.",
+        "It is important to {obj} that every person in the world have equal opportunities in life.",
+        "It is important to {obj} to be humble.",
+        "It is important to {obj} to figure things out {ref}.",
+        "It is important to {obj} to honor the traditional practices of {pos} culture.",
+        "It is important to {obj} to be the one who tells others what to do.",
+        "It is important to {obj} to obey all the laws.",
+        "It is important to {obj} to have all sorts of new experiences.",
+        "It is important to {obj} to own expensive things that show {pos} wealth.",
+        "It is important to {obj} to protect the natural environment from destruction or pollution.",
+        "It is important to {obj} to take advantage of every opportunity to have fun.",
+        "It is important to {obj} to concern {ref} with every need of {pos} dear ones.",
+        "It is important to {obj} that people recognize what {sub} {achieve}.",
+        "It is important to {obj} never to be humiliated.",
+        "It is important to {obj} that {pos} country protect itself against all threats.",
+        "It is important to {obj} never to make other people angry.",
+        "It is important to {obj} that everyone be treated justly, even people {sub} {donot} know.",
+        "It is important to {obj} to avoid anything dangerous.",
+        "It is important to {obj} to be satisfied with what {sub} {have} and not ask for more.",
+        "It is important to {obj} that all {pos} friends and family can rely on {obj} completely.",
+        "It is important to {obj} to be free to choose what {sub} {do} by {ref}.",
+        "It is important to {obj} to accept people even when {sub} {disagree} with them."
+    ];
+
+    const valueMeta = {
+        "SDT": { name: "Self-Direction: Thought", desc: "Freedom to cultivate one's own ideas and abilities.", ho: "Openness to Change", colorCode: "var(--color-oc)", hexLight: "#3b82f6", hexDark: "#3b82f6", items: [1, 23, 39] },
+        "SDA": { name: "Self-Direction: Action", desc: "Freedom to determine one's own actions.", ho: "Openness to Change", colorCode: "var(--color-oc)", hexLight: "#3b82f6", hexDark: "#3b82f6", items: [16, 30, 56] },
+        "ST": { name: "Stimulation", desc: "Excitement, novelty, and challenge in life.", ho: "Openness to Change", colorCode: "var(--color-oc)", hexLight: "#3b82f6", hexDark: "#3b82f6", items: [10, 28, 43] },
+        "HE": { name: "Hedonism", desc: "Pleasure and sensuous gratification for oneself.", ho: "Openness to Change", colorCode: "var(--color-oc)", hexLight: "#3b82f6", hexDark: "#3b82f6", items: [3, 36, 46] },
+        "AC": { name: "Achievement", desc: "Personal success through demonstrating competence.", ho: "Self-Enhancement", colorCode: "var(--color-se)", hexLight: "#f59e0b", hexDark: "#f59e0b", items: [17, 32, 48] },
+        "POD": { name: "Power: Dominance", desc: "Power through exercising control over people.", ho: "Self-Enhancement", colorCode: "var(--color-se)", hexLight: "#f59e0b", hexDark: "#f59e0b", items: [6, 29, 41] },
+        "POR": { name: "Power: Resources", desc: "Power through control of material and social resources.", ho: "Self-Enhancement", colorCode: "var(--color-se)", hexLight: "#f59e0b", hexDark: "#f59e0b", items: [12, 20, 44] },
+        "FAC": { name: "Face", desc: "Security and power through maintaining one's public image.", ho: "Separate Value", colorCode: "var(--color-se)", hexLight: "#f59e0b", hexDark: "#f59e0b", items: [9, 24, 49] },
+        "SEP": { name: "Security: Personal", desc: "Safety in one's immediate environment.", ho: "Conservation", colorCode: "var(--color-co)", hexLight: "#8b5cf6", hexDark: "#8b5cf6", items: [13, 26, 53] },
+        "SES": { name: "Security: Societal", desc: "Safety and stability in the wider society.", ho: "Conservation", colorCode: "var(--color-co)", hexLight: "#8b5cf6", hexDark: "#8b5cf6", items: [2, 35, 50] },
+        "TR": { name: "Tradition", desc: "Maintaining cultural, family, or religious traditions.", ho: "Conservation", colorCode: "var(--color-co)", hexLight: "#8b5cf6", hexDark: "#8b5cf6", items: [18, 33, 40] },
+        "COR": { name: "Conformity: Rules", desc: "Compliance with rules, laws, and formal obligations.", ho: "Conservation", colorCode: "var(--color-co)", hexLight: "#8b5cf6", hexDark: "#8b5cf6", items: [15, 31, 42] },
+        "COI": { name: "Conformity: Interpersonal", desc: "Avoidance of upsetting or harming other people.", ho: "Conservation", colorCode: "var(--color-co)", hexLight: "#8b5cf6", hexDark: "#8b5cf6", items: [4, 22, 51] },
+        "HUM": { name: "Humility", desc: "Recognizing one's insignificance in the larger scheme of things.", ho: "Separate Value", colorCode: "var(--color-co)", hexLight: "#8b5cf6", hexDark: "#8b5cf6", items: [7, 38, 54] },
+        "UNN": { name: "Universalism: Nature", desc: "Preservation of the natural environment.", ho: "Self-Transcendence", colorCode: "var(--color-st)", hexLight: "#10b981", hexDark: "#10b981", items: [8, 21, 45] },
+        "UNC": { name: "Universalism: Concern", desc: "Commitment to equality, justice, and protection for all.", ho: "Self-Transcendence", colorCode: "var(--color-st)", hexLight: "#10b981", hexDark: "#10b981", items: [5, 37, 52] },
+        "UNT": { name: "Universalism: Tolerance", desc: "Acceptance and understanding of those who are different.", ho: "Self-Transcendence", colorCode: "var(--color-st)", hexLight: "#10b981", hexDark: "#10b981", items: [14, 34, 57] },
+        "BEC": { name: "Benevolence: Caring", desc: "Devotion to the welfare of in-group members.", ho: "Self-Transcendence", colorCode: "var(--color-st)", hexLight: "#10b981", hexDark: "#10b981", items: [11, 25, 47] },
+        "BED": { name: "Benevolence: Dependability", desc: "Being a reliable and trustworthy member of the in-group.", ho: "Self-Transcendence", colorCode: "var(--color-st)", hexLight: "#10b981", hexDark: "#10b981", items: [19, 27, 55] }
+    };
+
+    // Strict Ordering Constants
+    const circularOrder = ["SDT", "SDA", "ST", "HE", "AC", "POD", "POR", "FAC", "SEP", "SES", "TR", "COR", "COI", "HUM", "UNN", "UNC", "UNT", "BEC", "BED"];
+    const hoOrder = ["Openness to Change", "Self-Enhancement", "Conservation", "Self-Transcendence"];
+    const labels1to6 = ["Not like me at all", "Not like me", "A little like me", "Moderately like me", "Like me", "Very much like me"];
+
+    let answeredQuestions = new Set();
+    let globalResultsData = null; // Store for re-rendering on theme toggle
+
+    /* =========================================
+       UI & STATE MANAGEMENT
+       ========================================= */
+    function toggleTheme() {
+        document.body.classList.toggle('dark-mode');
+        const isDark = document.body.classList.contains('dark-mode');
+        document.getElementById('theme-btn').innerText = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+
+        // Save preference for retakes
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+        // Re-render SVG to apply explicit hex colors needed for PNG export
+        if (globalResultsData) {
+            renderSVG(globalResultsData.results);
+        }
+    }
+
+    function startAssessment(genderSelection) {
+        document.getElementById('setup-section').style.display = 'none';
+        document.getElementById('assessment-section').style.display = 'block';
+        document.getElementById('progress-wrapper').style.display = 'block';
+
+        const container = document.getElementById('questions-container');
+        container.innerHTML = '';
+        const map = pronounMaps[genderSelection];
+
+        baseItems.forEach((template, index) => {
+            let itemText = template;
+            for (const [key, val] of Object.entries(map)) {
+                itemText = itemText.split(`{${key}}`).join(val);
+            }
+
+            const qNum = index + 1;
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.id = `card-q${qNum}`;
+
+            card.innerHTML = `
+                <div class="question-text"><div class="q-num">${qNum}</div> <div>${itemText}</div></div>
+                <div class="likert-group">
+                    ${[1,2,3,4,5,6].map(val => `
+                        <label class="likert-option">
+                            <input type="radio" name="q${qNum}" value="${val}">
+                            <div class="likert-bubble">${val}</div>
+                            <div class="likert-label-text">${labels1to6[val-1]}</div>
+                        </label>
+                    `).join('')}
+                </div>
+            `;
+
+            // Interaction & Progress Event
+            card.querySelectorAll('input[type="radio"]').forEach(radio => {
+                radio.addEventListener('change', () => {
+                    answeredQuestions.add(qNum);
+                    card.classList.remove('missed');
+                    card.classList.add('done');
+                    const pct = Math.round((answeredQuestions.size / 57) * 100);
+                    document.getElementById('progress-bar').style.width = `${pct}%`;
+                    document.getElementById('progress-text').innerText = `${answeredQuestions.size}/57 answered (${pct}%)`;
+                });
+            });
+            container.appendChild(card);
+        });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    /* =========================================
+       CALCULATIONS & SUBMISSION
+       ========================================= */
+    document.getElementById('pvq-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        document.querySelectorAll('.question-card').forEach(c => c.classList.remove('missed'));
+        let missedCards = [];
+        let responses = {};
+        let totalSum = 0;
+
+        // Validation Sweep
+        for (let i = 1; i <= 57; i++) {
+            const selected = document.querySelector(`input[name="q${i}"]:checked`);
+            if (selected) {
+                const val = parseInt(selected.value);
+                responses[i] = val;
+                totalSum += val;
+            } else {
+                missedCards.push(document.getElementById(`card-q${i}`));
+            }
+        }
+
+        if (missedCards.length > 0) {
+            missedCards[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // Add a delay before applying the shake class so it shakes after scrolling
+            setTimeout(() => {
+                missedCards.forEach(c => c.classList.add('missed'));
+            }, 600);
+            return;
+        }
+
+        // Psychometrics: Calculate Base Mean (MRAT)
+        const mrat = totalSum / 57;
+        document.getElementById('mrat-display').innerText = mrat.toFixed(2);
+
+        // Calculate 19 Narrow Scores
+        let results = {};
+        let hoSums = { "Openness to Change": {sum:0, count:0}, "Self-Enhancement": {sum:0, count:0}, "Conservation": {sum:0, count:0}, "Self-Transcendence": {sum:0, count:0} };
+
+        for (const [code, meta] of Object.entries(valueMeta)) {
+            let sum = 0;
+            meta.items.forEach(num => sum += responses[num]);
+            const raw = sum / meta.items.length;
+            const centered = raw - mrat;
+
+            results[code] = { ...meta, raw: raw, centered: centered };
+
+            if (hoSums[meta.ho]) {
+                hoSums[meta.ho].sum += centered;
+                hoSums[meta.ho].count += 1;
+            }
+        }
+
+        // Calculate 4 Higher-Order Scores
+        let hoResults = {};
+        for (const [ho, data] of Object.entries(hoSums)) {
+            hoResults[ho] = data.sum / data.count;
+        }
+
+        globalResultsData = { mrat, results, hoResults };
+
+        // Render Dashboards
+        document.getElementById('assessment-section').style.display = 'none';
+        document.getElementById('progress-wrapper').style.display = 'none';
+        document.getElementById('results-section').style.display = 'block';
+
+        renderHigherOrder(hoResults);
+        renderBarChart(results);
+        renderSVG(results);
+
+        // Ensure scrolling triggers properly after DOM layout calculation
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 50);
+    });
+
+    /* =========================================
+       RENDER FUNCTIONS
+       ========================================= */
+    function renderHigherOrder(hoResults) {
+        const hoColors = { "Openness to Change": "var(--color-oc)", "Self-Enhancement": "var(--color-se)", "Conservation": "var(--color-co)", "Self-Transcendence": "var(--color-st)" };
+        const container = document.getElementById('ho-container');
+        container.innerHTML = '';
+
+        // Render in fixed theoretical order
+        hoOrder.forEach(ho => {
+            const score = hoResults[ho];
+            const children = Object.values(valueMeta).filter(v => v.ho === ho).map(v => v.name).join(", ");
+            const div = document.createElement('div');
+            div.className = 'ho-box';
+            div.style.borderLeftColor = hoColors[ho];
+
+            // Domain specific color coded score
+            div.innerHTML = `
+                <div class="ho-title" style="color: ${hoColors[ho]}">${ho}</div>
+                <div class="ho-score" style="color: ${hoColors[ho]};">${score > 0 ? '+' : ''}${score.toFixed(2)}</div>
+                <div class="ho-items">${children}</div>
+            `;
+            container.appendChild(div);
+        });
+    }
+
+    function renderBarChart(results) {
+        const container = document.getElementById('bar-chart-container');
+        container.innerHTML = '';
+        const sorted = Object.values(results).sort((a, b) => b.centered - a.centered);
+
+        // Fixed scale logic prevents distortion for flat profiles
+        const MAX_DEVIATION = 3.0;
+
+        sorted.forEach((res, index) => {
+            const row = document.createElement('div');
+            row.className = 'bar-row';
+
+            const scoreColor = res.centered >= 0 ? 'var(--success)' : 'var(--danger)';
+            const tooltipHTML = `
+                <div class="rich-tooltip">
+                    <strong>${res.name}</strong><br>
+                    <span style="color:#94a3b8;font-size:0.8rem;">${res.ho}</span>
+                    <hr style="border:0; border-top:1px solid #334155; margin:8px 0;">
+                    Centered: <strong>${res.centered>0?'+':''}${res.centered.toFixed(2)}</strong><br>
+                    Raw Mean: ${res.raw.toFixed(2)}<br>
+                    <span style="font-size:0.8rem; color:#cbd5e1; display:block; margin-top:6px;">${res.desc}</span>
+                </div>
+            `;
+
+            // Label is color coded by Higher-Order Domain
+            const label = document.createElement('div');
+            label.className = 'bar-label';
+            label.style.color = res.colorCode;
+            label.innerText = res.name;
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'bar-wrapper';
+            wrapper.innerHTML = `<div class="bar-zero-line"></div>`;
+
+            const fill = document.createElement('div');
+            fill.className = 'bar-fill';
+            fill.style.backgroundColor = res.colorCode;
+
+            let clamped = Math.max(-MAX_DEVIATION, Math.min(MAX_DEVIATION, res.centered));
+            let widthPct = (Math.abs(clamped) / MAX_DEVIATION) * 50;
+
+            if (res.centered >= 0) fill.style.left = '50%';
+            else fill.style.right = '50%';
+
+            wrapper.appendChild(fill);
+
+            const scoreDiv = document.createElement('div');
+            scoreDiv.className = 'bar-score';
+            scoreDiv.style.color = scoreColor;
+            scoreDiv.innerText = (res.centered > 0 ? '+' : '') + res.centered.toFixed(2);
+
+            // Append tooltip to the entire row wrapper
+            row.innerHTML += tooltipHTML;
+            row.appendChild(label); row.appendChild(wrapper); row.appendChild(scoreDiv);
+            container.appendChild(row);
+
+            // Trigger Animation
+            setTimeout(() => { fill.style.width = `${widthPct}%`; }, 100 + (index * 40));
+        });
+    }
+
+    function renderSVG(results) {
+        const isDark = document.body.classList.contains('dark-mode');
+        const gridColor = isDark ? '#334155' : '#e2e8f0';
+        const zeroColor = isDark ? '#94a3b8' : '#64748b';
+
+        const size = 800;
+        const cx = size/2, cy = size/2;
+        const rMax = 320, rMin = 60;
+
+        let absoluteMax = Math.max(...Object.values(results).map(v => Math.abs(v.centered)), 1);
+
+        let radialLines = "";
+        let points = [];
+        let dots = "";
+        let labels = "";
+
+        // Build Elements
+        circularOrder.forEach((code, i) => {
+            const res = results[code];
+            const hexColor = isDark ? res.hexDark : res.hexLight;
+            const angle = (2 * Math.PI * i / 19) - Math.PI/2;
+
+            // Map [-absMax, +absMax] to [rMin, rMax]
+            const normalized = res.centered / absoluteMax;
+            const r = rMin + ((normalized + 1) / 2) * (rMax - rMin);
+
+            const x = cx + r * Math.cos(angle);
+            const y = cy + r * Math.sin(angle);
+            points.push(`${x},${y}`);
+
+            // Radial Grid Lines (Center to Max)
+            const rx = cx + rMax * Math.cos(angle);
+            const ry = cy + rMax * Math.sin(angle);
+            radialLines += `<line x1="${cx}" y1="${cy}" x2="${rx}" y2="${ry}" stroke="${gridColor}" stroke-width="1"/>`;
+
+            // Interactive Dots
+            dots += `<circle cx="${x}" cy="${y}" r="8" fill="${hexColor}" stroke="none" style="cursor:pointer; transition: r 0.1s;" onmouseover="showSvgTooltip(event, '${code}')" onmouseout="hideSvgTooltip(event)"/>`;
+
+            // Text Labels around Circumference
+            const lRad = rMax + 30;
+            const lx = cx + lRad * Math.cos(angle);
+            const ly = cy + lRad * Math.sin(angle);
+            const anchor = lx < cx - 10 ? "end" : lx > cx + 10 ? "start" : "middle";
+            labels += `<text x="${lx}" y="${ly}" text-anchor="${anchor}" dominant-baseline="middle" font-size="14" font-weight="bold" fill="${hexColor}">${code}</text>`;
+        });
+
+        // The Polygon Connector
+        const polygon = `<polygon points="${points.join(' ')}" fill="rgba(59, 130, 246, 0.12)" stroke="#3b82f6" stroke-width="2.5"/>`;
+
+        // Concentric Zero Guide
+        const rZero = rMin + (rMax - rMin) * 0.5;
+        const guides = [rMin, rMin + (rMax-rMin)*0.25, rZero, rMin + (rMax-rMin)*0.75, rMax];
+        const circles = guides.map((r, i) => `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${i===2 ? zeroColor : gridColor}" stroke-width="${i===2 ? '2' : '1'}" stroke-dasharray="${i===2 ? 'none' : '4,4'}"/>`).join('');
+
+        // Explicit xmlns required for canvas export to PNG
+        const svgContent = `
+            <svg viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg" id="value-circle-svg" style="max-width:100%; height:auto;">
+                ${radialLines}
+                ${circles}
+                ${polygon}
+                ${dots}
+                ${labels}
+                <text x="${cx}" y="${cy - rZero - 8}" text-anchor="middle" font-size="12" font-weight="bold" fill="${zeroColor}">Zero Baseline (MRAT)</text>
+            </svg>
+        `;
+
+        const container = document.getElementById('circle-chart-container');
+        // Clear previous SVG, keeping tooltip div
+        container.querySelectorAll('svg').forEach(s => s.remove());
+        container.insertAdjacentHTML('afterbegin', svgContent);
+    }
+
+    // SVG Interactivity
+    function showSvgTooltip(e, code) {
+        e.target.setAttribute('r', '12');
+        const tt = document.getElementById('svg-tooltip');
+        const res = globalResultsData.results[code];
+
+        tt.innerHTML = `<strong>${res.name}</strong><br><span style="color:#94a3b8;font-size:0.8rem;">${res.ho}</span><hr style="border:0; border-top:1px solid #334155; margin:6px 0;">Centered: <strong>${res.centered>0?'+':''}${res.centered.toFixed(2)}</strong><br>Raw Mean: ${res.raw.toFixed(2)}<br><span style="font-size:0.8rem; color:#cbd5e1;">${res.desc}</span>`;
+
+        const container = document.getElementById('circle-chart-container');
+        const rect = container.getBoundingClientRect();
+        tt.style.left = `${e.clientX - rect.left}px`;
+        tt.style.top = `${e.clientY - rect.top}px`;
+        tt.style.opacity = '1';
+    }
+
+    function hideSvgTooltip(e) {
+        e.target.setAttribute('r', '8');
+        document.getElementById('svg-tooltip').style.opacity = '0';
+    }
+
+    /* =========================================
+       EXPORT FUNCTIONS
+       ========================================= */
+    function downloadCSV() {
+        let csv = "Code,Value Name,Higher-Order Domain,Raw Mean,Centered Score\n";
+        for (const [code, res] of Object.entries(globalResultsData.results)) {
+            csv += `"${code}","${res.name}","${res.ho}",${res.raw.toFixed(3)},${res.centered.toFixed(3)}\n`;
+        }
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "PVQ_RR_Results.csv";
+        document.body.appendChild(link); link.click(); document.body.removeChild(link);
+    }
+
+    function downloadCirclePNG() {
+        const svg = document.getElementById('value-circle-svg');
+        const svgData = new XMLSerializer().serializeToString(svg);
+        const canvas = document.createElement('canvas');
+
+        // High-Resolution Export
+        canvas.width = 1600; canvas.height = 1600;
+        const ctx = canvas.getContext('2d');
+        const img = new Image();
+
+        img.onload = function() {
+            // Theme-aware background fill
+            ctx.fillStyle = document.body.classList.contains('dark-mode') ? '#1e293b' : '#ffffff';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Draw SVG scaled up
+            ctx.drawImage(img, 0, 0, 1600, 1600);
+
+            const a = document.createElement('a');
+            a.download = 'PVQ_RR_Circumplex.png';
+            a.href = canvas.toDataURL('image/png');
+            a.click();
+        };
+        // Encode properly
+        img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgData);
+    }
+</script>
+
+</body>
+</html>

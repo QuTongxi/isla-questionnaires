@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "eis",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "emotionally-intelligent",
+      "name": "Emotionally Intelligent",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "5",
+          "reverse": true
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": false
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": true
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": false
+        },
+        {
+          "item": "33",
+          "reverse": true
+        }
+      ],
+      "description": "Emotionally Intelligent: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

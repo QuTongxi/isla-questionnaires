@@ -1,0 +1,982 @@
+{
+  "schema_version": 1,
+  "id": "mfq-30",
+  "version": "1.0.0",
+  "name": "Moral Foundations Questionnaire (MFQ-30)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "Respond to each statement using the displayed scale.",
+  "expected_items": 30,
+  "items": [
+    {
+      "id": "1",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone suffered emotionally.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not some people were treated differently than others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone's action showed love for their country.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone showed a lack of respect for authority.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone violated standards of purity and decency.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone cared for someone weak or vulnerable.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone acted unfairly.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone did something to betray his or her group.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone conformed to the traditions of society.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone did something disgusting.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone was cruel.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone was denied his or her rights.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone showed a lack of loyalty.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not an action caused chaos or disorder.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "When you decide whether something is right or wrong, to what extent is the following relevant: Whether or not someone acted in a way that God would approve of.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Not at all relevant"
+        },
+        {
+          "value": 1,
+          "label": "Not very relevant"
+        },
+        {
+          "value": 2,
+          "label": "Slightly relevant"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat relevant"
+        },
+        {
+          "value": 4,
+          "label": "Very relevant"
+        },
+        {
+          "value": 5,
+          "label": "Extremely relevant"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "Compassion for those who are suffering is the most crucial virtue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "I am proud of my country's history.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "Respect for authority is something all children need to learn.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "People should not do things that are disgusting, even if no one is harmed.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "One of the worst things a person could do is hurt a defenseless animal.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "Justice is the most important requirement for a society.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "People should be loyal to their family members, even when they have done something wrong.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "Men and women each have different roles to play in society.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "I would call some acts wrong on the grounds that they are unnatural.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "It can never be right to kill a human being.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "It is more important to be a team player than to express oneself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "Chastity is an important and valuable virtue.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Moderately disagree"
+        },
+        {
+          "value": 2,
+          "label": "Slightly disagree"
+        },
+        {
+          "value": 3,
+          "label": "Slightly agree"
+        },
+        {
+          "value": 4,
+          "label": "Moderately agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "This source omits two unscored attention items and changes some wording. Full original administration form must be verified before automatic release."
+  ],
+  "notes": [
+    "Preserve source item order and text. Source implementation percentile/0–100 normalization is not used."
+  ]
+}

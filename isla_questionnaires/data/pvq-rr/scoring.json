@@ -1,0 +1,1889 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "pvq-rr",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "SDT",
+      "name": "Self-Direction: Thought",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "39",
+          "reverse": false
+        }
+      ],
+      "description": "Freedom to cultivate one's own ideas and abilities."
+    },
+    {
+      "id": "SDT-centered",
+      "name": "Self-Direction: Thought (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "39",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "SDA",
+      "name": "Self-Direction: Action",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        },
+        {
+          "item": "56",
+          "reverse": false
+        }
+      ],
+      "description": "Freedom to determine one's own actions."
+    },
+    {
+      "id": "SDA-centered",
+      "name": "Self-Direction: Action (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        },
+        {
+          "item": "56",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "ST",
+      "name": "Stimulation",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": false
+        },
+        {
+          "item": "43",
+          "reverse": false
+        }
+      ],
+      "description": "Excitement, novelty, and challenge in life."
+    },
+    {
+      "id": "ST-centered",
+      "name": "Stimulation (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": false
+        },
+        {
+          "item": "43",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "HE",
+      "name": "Hedonism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "36",
+          "reverse": false
+        },
+        {
+          "item": "46",
+          "reverse": false
+        }
+      ],
+      "description": "Pleasure and sensuous gratification for oneself."
+    },
+    {
+      "id": "HE-centered",
+      "name": "Hedonism (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "36",
+          "reverse": false
+        },
+        {
+          "item": "46",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "AC",
+      "name": "Achievement",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": false
+        },
+        {
+          "item": "48",
+          "reverse": false
+        }
+      ],
+      "description": "Personal success through demonstrating competence."
+    },
+    {
+      "id": "AC-centered",
+      "name": "Achievement (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "32",
+          "reverse": false
+        },
+        {
+          "item": "48",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "POD",
+      "name": "Power: Dominance",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "41",
+          "reverse": false
+        }
+      ],
+      "description": "Power through exercising control over people."
+    },
+    {
+      "id": "POD-centered",
+      "name": "Power: Dominance (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "41",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "POR",
+      "name": "Power: Resources",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "12",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "44",
+          "reverse": false
+        }
+      ],
+      "description": "Power through control of material and social resources."
+    },
+    {
+      "id": "POR-centered",
+      "name": "Power: Resources (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "12",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "44",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "FAC",
+      "name": "Face",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "49",
+          "reverse": false
+        }
+      ],
+      "description": "Security and power through maintaining one's public image."
+    },
+    {
+      "id": "FAC-centered",
+      "name": "Face (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "49",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Security: Personal",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        },
+        {
+          "item": "53",
+          "reverse": false
+        }
+      ],
+      "description": "Safety in one's immediate environment."
+    },
+    {
+      "id": "SEP-centered",
+      "name": "Security: Personal (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        },
+        {
+          "item": "53",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "SES",
+      "name": "Security: Societal",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "35",
+          "reverse": false
+        },
+        {
+          "item": "50",
+          "reverse": false
+        }
+      ],
+      "description": "Safety and stability in the wider society."
+    },
+    {
+      "id": "SES-centered",
+      "name": "Security: Societal (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "35",
+          "reverse": false
+        },
+        {
+          "item": "50",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "TR",
+      "name": "Tradition",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        }
+      ],
+      "description": "Maintaining cultural, family, or religious traditions."
+    },
+    {
+      "id": "TR-centered",
+      "name": "Tradition (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "33",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "COR",
+      "name": "Conformity: Rules",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": false
+        },
+        {
+          "item": "42",
+          "reverse": false
+        }
+      ],
+      "description": "Compliance with rules, laws, and formal obligations."
+    },
+    {
+      "id": "COR-centered",
+      "name": "Conformity: Rules (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": false
+        },
+        {
+          "item": "42",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "COI",
+      "name": "Conformity: Interpersonal",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "51",
+          "reverse": false
+        }
+      ],
+      "description": "Avoidance of upsetting or harming other people."
+    },
+    {
+      "id": "COI-centered",
+      "name": "Conformity: Interpersonal (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "51",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "HUM",
+      "name": "Humility",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "54",
+          "reverse": false
+        }
+      ],
+      "description": "Recognizing one's insignificance in the larger scheme of things."
+    },
+    {
+      "id": "HUM-centered",
+      "name": "Humility (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "54",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "UNN",
+      "name": "Universalism: Nature",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "45",
+          "reverse": false
+        }
+      ],
+      "description": "Preservation of the natural environment."
+    },
+    {
+      "id": "UNN-centered",
+      "name": "Universalism: Nature (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "45",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "UNC",
+      "name": "Universalism: Concern",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "52",
+          "reverse": false
+        }
+      ],
+      "description": "Commitment to equality, justice, and protection for all."
+    },
+    {
+      "id": "UNC-centered",
+      "name": "Universalism: Concern (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "52",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "UNT",
+      "name": "Universalism: Tolerance",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "34",
+          "reverse": false
+        },
+        {
+          "item": "57",
+          "reverse": false
+        }
+      ],
+      "description": "Acceptance and understanding of those who are different."
+    },
+    {
+      "id": "UNT-centered",
+      "name": "Universalism: Tolerance (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "34",
+          "reverse": false
+        },
+        {
+          "item": "57",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "BEC",
+      "name": "Benevolence: Caring",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "47",
+          "reverse": false
+        }
+      ],
+      "description": "Devotion to the welfare of in-group members."
+    },
+    {
+      "id": "BEC-centered",
+      "name": "Benevolence: Caring (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "47",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    },
+    {
+      "id": "BED",
+      "name": "Benevolence: Dependability",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        },
+        {
+          "item": "55",
+          "reverse": false
+        }
+      ],
+      "description": "Being a reliable and trustworthy member of the in-group."
+    },
+    {
+      "id": "BED-centered",
+      "name": "Benevolence: Dependability (centered)",
+      "operation": "centered_mean",
+      "terms": [
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        },
+        {
+          "item": "55",
+          "reverse": false
+        }
+      ],
+      "description": "Source response direction: higher = stronger relative endorsement.",
+      "reference_items": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ]
+    }
+  ]
+}

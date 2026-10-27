@@ -1,0 +1,4755 @@
+{
+  "crt-7": {
+    "id": "crt-7",
+    "name": "Cognitive Reflection Test (CRT-7)",
+    "shortName": "CRT",
+    "description": "Measures tendency to override intuitive but incorrect responses with reflective, correct ones.",
+    "citation": "Toplak, M. E., West, R. F., & Stanovich, K. E. (2014). Assessing miserly information processing. Thinking & Reasoning, 20(2), 219-243.",
+    "itemCount": 7,
+    "estimatedMinutes": 5,
+    "scales": [
+      {
+        "id": "crt-analytic",
+        "name": "Analytic Thinking"
+      }
+    ],
+    "items": [
+      {
+        "id": "crt-1",
+        "text": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? (in cents)",
+        "response": {
+          "type": "numeric"
+        },
+        "scaleId": "crt-analytic"
+      },
+      {
+        "id": "crt-2",
+        "text": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets? (in minutes)",
+        "response": {
+          "type": "numeric"
+        },
+        "scaleId": "crt-analytic"
+      },
+      {
+        "id": "crt-3",
+        "text": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake? (in days)",
+        "response": {
+          "type": "numeric"
+        },
+        "scaleId": "crt-analytic"
+      },
+      {
+        "id": "crt-4",
+        "text": "If John can drink one barrel of water in 6 days, and Mary can drink one barrel of water in 12 days, how long would it take them to drink one barrel of water together? (in days)",
+        "response": {
+          "type": "numeric"
+        },
+        "scaleId": "crt-analytic"
+      },
+      {
+        "id": "crt-5",
+        "text": "Jerry received both the 15th highest and the 15th lowest mark in the class. How many students are in the class?",
+        "response": {
+          "type": "numeric"
+        },
+        "scaleId": "crt-analytic"
+      },
+      {
+        "id": "crt-6",
+        "text": "A man buys a pig for $60, sells it for $70, buys it back for $80, and sells it finally for $90. How much has he made? (in dollars)",
+        "response": {
+          "type": "numeric"
+        },
+        "scaleId": "crt-analytic"
+      },
+      {
+        "id": "crt-7",
+        "text": "Simon decided to invest $8,000 in the stock market one day early in 2008. Six months after he invested, on July 17, the stocks he had purchased were down 50%. Fortunately for Simon, from July 17 to October 17, the stocks he had purchased went up 75%. At this point, Simon has: (a) broken even in the stock market, (b) is ahead of where he began, (c) has lost money. Enter a, b, or c.",
+        "response": {
+          "type": "text"
+        },
+        "scaleId": "crt-analytic"
+      }
+    ]
+  },
+  "grit-o": {
+    "id": "grit-o",
+    "name": "Original Grit Scale (Grit-O)",
+    "shortName": "Grit (Full)",
+    "description": "Full 12-item grit scale measuring sustained passion and perseverance for long-term goals. Three scores: Perseverance of Effort, Consistency of Interest, and Overall Grit composite.",
+    "citation": "Duckworth, A. L., Peterson, C., Matthews, M. D., & Kelly, D. R. (2007). Grit: Perseverance and passion for long-term goals. Journal of Personality and Social Psychology, 92(6), 1087-1101.",
+    "itemCount": 12,
+    "estimatedMinutes": 2,
+    "scales": [
+      {
+        "id": "perseverance",
+        "name": "Perseverance of Effort",
+        "description": "Tendency to work hard and finish what you start"
+      },
+      {
+        "id": "interest_consistency",
+        "name": "Consistency of Interest",
+        "description": "Tendency to maintain focus on the same goals over time"
+      },
+      {
+        "id": "overall",
+        "name": "Overall Grit",
+        "description": "Composite of perseverance and interest consistency"
+      }
+    ],
+    "items": [
+      {
+        "id": "grit-o-1",
+        "text": "I often set a goal but later choose to pursue a different one.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-o-2",
+        "text": "New ideas and projects sometimes distract me from previous ones.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-o-3",
+        "text": "I become interested in new pursuits every few months.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-o-4",
+        "text": "My interests change from year to year.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-o-5",
+        "text": "I have been obsessed with a certain idea or project for a short time but later lost interest.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-o-6",
+        "text": "I have difficulty maintaining my focus on projects that take more than a few months to complete.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-o-7",
+        "text": "I have achieved a goal that took years of work.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-o-8",
+        "text": "I have overcome setbacks to conquer an important challenge.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-o-9",
+        "text": "I finish whatever I begin.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-o-10",
+        "text": "Setbacks don't discourage me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-o-11",
+        "text": "I am a hard worker.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-o-12",
+        "text": "I am diligent.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      }
+    ]
+  },
+  "grit-s": {
+    "id": "grit-s",
+    "name": "Short Grit Scale (Grit-S)",
+    "shortName": "Grit",
+    "description": "Measures grit — sustained passion and perseverance for long-term goals. Two subscales: Perseverance of Effort (keeping going) and Consistency of Interest (staying focused on the same goals).",
+    "citation": "Duckworth, A. L., & Quinn, P. D. (2009). Development and validation of the Short Grit Scale (Grit-S). Journal of Personality Assessment, 91, 166-174.",
+    "itemCount": 8,
+    "estimatedMinutes": 1,
+    "scales": [
+      {
+        "id": "perseverance",
+        "name": "Perseverance of Effort",
+        "description": "Tendency to work hard and finish what you start"
+      },
+      {
+        "id": "interest_consistency",
+        "name": "Consistency of Interest",
+        "description": "Tendency to maintain focus on the same goals over time"
+      }
+    ],
+    "items": [
+      {
+        "id": "grit-1",
+        "text": "New ideas and projects sometimes distract me from previous ones.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-2",
+        "text": "I have been obsessed with a certain idea or project for a short time but later lost interest.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-3",
+        "text": "I often set a goal but later choose to pursue a different one.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-4",
+        "text": "I have difficulty maintaining my focus on projects that take more than a few months to complete.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "interest_consistency",
+        "reversed": true
+      },
+      {
+        "id": "grit-5",
+        "text": "I finish whatever I begin.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-6",
+        "text": "Setbacks don't discourage me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-7",
+        "text": "I am a hard worker.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      },
+      {
+        "id": "grit-8",
+        "text": "I am diligent.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at all like me",
+            "Not much like me",
+            "Somewhat like me",
+            "Mostly like me",
+            "Very much like me"
+          ]
+        },
+        "scaleId": "perseverance",
+        "reversed": false
+      }
+    ]
+  },
+  "hexaco-60": {
+    "id": "hexaco-60",
+    "name": "HEXACO-60",
+    "shortName": "HEXACO",
+    "description": "6-factor personality model including Honesty-Humility, which is not measured by the Big Five. Provides a complementary perspective to NEO instruments.",
+    "citation": "Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure of the major dimensions of personality. Journal of Personality Assessment, 91, 340-345. IPIP items from ipip.ori.org.",
+    "itemCount": 60,
+    "estimatedMinutes": 8,
+    "scales": [
+      {
+        "id": "hh",
+        "name": "Honesty-Humility",
+        "description": "Sincerity, fairness, greed avoidance, modesty"
+      },
+      {
+        "id": "em",
+        "name": "Emotionality",
+        "description": "Fearfulness, anxiety, dependence, sentimentality"
+      },
+      {
+        "id": "ex",
+        "name": "Extraversion",
+        "description": "Social self-esteem, social boldness, sociability, liveliness"
+      },
+      {
+        "id": "ag",
+        "name": "Agreeableness",
+        "description": "Forgiveness, gentleness, flexibility, patience"
+      },
+      {
+        "id": "co",
+        "name": "Conscientiousness",
+        "description": "Organization, diligence, perfectionism, prudence"
+      },
+      {
+        "id": "op",
+        "name": "Openness to Experience",
+        "description": "Aesthetic appreciation, inquisitiveness, creativity, unconventionality"
+      }
+    ],
+    "items": [
+      {
+        "id": "hexaco-1",
+        "text": "I would never accept a bribe, even if it were very large.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-2",
+        "text": "I would be tempted to use counterfeit money, if I were sure I could get away with it.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-3",
+        "text": "If I knew that I could never get caught, I would be willing to steal a million dollars.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-4",
+        "text": "I would never take things that aren't mine.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-5",
+        "text": "I would like to be seen driving around in a very expensive car.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-6",
+        "text": "I would get a lot of pleasure from owning expensive luxury goods.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-7",
+        "text": "Having a lot of money is not especially important to me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-8",
+        "text": "I think that I am entitled to more respect than the average person is.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-9",
+        "text": "I want people to know that I am an important person of high status.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-10",
+        "text": "I am an ordinary person who is no better than others.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "hh",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-11",
+        "text": "I would feel afraid if I had to travel in bad weather conditions.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-12",
+        "text": "I don't mind doing jobs that involve dangerous work.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-13",
+        "text": "When it comes to physical danger, I am very fearful.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-14",
+        "text": "Even in an emergency I wouldn't feel like panicking.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-15",
+        "text": "I sometimes can't help worrying about little things.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-16",
+        "text": "I worry a lot less than most people do.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-17",
+        "text": "I can handle difficult situations without needing emotional support from anyone else.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-18",
+        "text": "Whenever I feel worried about something, I want to share my concern with another person.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-19",
+        "text": "I feel like crying when I see other people crying.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-20",
+        "text": "I remain unemotional even in situations where most people get very sentimental.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "em",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-21",
+        "text": "I feel reasonably satisfied with myself overall.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-22",
+        "text": "I think most people like some aspects of my personality.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-23",
+        "text": "I feel that I am an unpopular person.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-24",
+        "text": "I sometimes feel that I am a worthless person.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-25",
+        "text": "In social situations, I'm usually the one who makes the first move.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-26",
+        "text": "When I'm in a group of people, I'm often the one who speaks on behalf of the group.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-27",
+        "text": "I tend to feel quite self-conscious when speaking in front of a group of people.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-28",
+        "text": "I prefer jobs that involve active social interaction to those that involve working alone.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-29",
+        "text": "The first thing that I always do in a new place is to make friends.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-30",
+        "text": "On most days, I feel cheerful and optimistic.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ex",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-31",
+        "text": "I rarely hold a grudge, even against people who have badly wronged me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-32",
+        "text": "My attitude toward people who have treated me badly is 'forgive and forget'.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-33",
+        "text": "If someone has cheated me once, I will always feel suspicious of that person.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-34",
+        "text": "I find it hard to fully forgive someone who has done something mean to me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-35",
+        "text": "I tend to be lenient in judging other people.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-36",
+        "text": "People sometimes tell me that I am too critical of others.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-37",
+        "text": "Even when people make a lot of mistakes, I rarely say anything negative.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-38",
+        "text": "People sometimes tell me that I'm too stubborn.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-39",
+        "text": "I am usually quite flexible in my opinions when people disagree with me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-40",
+        "text": "When people tell me that I'm wrong, my first reaction is to argue with them.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "ag",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-41",
+        "text": "I plan ahead and organize things, to avoid scrambling at the last minute.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-42",
+        "text": "I often push myself very hard when trying to achieve a goal.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-43",
+        "text": "When working on something, I don't pay much attention to small details.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-44",
+        "text": "I make a lot of mistakes because I don't think before I act.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-45",
+        "text": "People often call me a perfectionist.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-46",
+        "text": "I prefer to do whatever comes to mind, rather than stick to a plan.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-47",
+        "text": "I do only the minimum amount of work needed to get by.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-48",
+        "text": "When working, I sometimes have difficulties due to being disorganized.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-49",
+        "text": "I always try to be accurate in my work, even at the expense of time.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-50",
+        "text": "When I have a deadline, I often leave things to the last minute.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "co",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-51",
+        "text": "I would be quite bored by a visit to an art gallery.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-52",
+        "text": "I would enjoy creating a work of art, such as a novel, a song, or a painting.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-53",
+        "text": "If I had the opportunity, I would like to attend a classical music concert.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-54",
+        "text": "Sometimes I like to just watch the wind as it blows through the trees.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-55",
+        "text": "I enjoy looking at maps of different places.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-56",
+        "text": "I think of myself as a somewhat eccentric person.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-57",
+        "text": "I find it boring to discuss philosophy.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": true
+      },
+      {
+        "id": "hexaco-58",
+        "text": "People have often told me that I have a good imagination.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-59",
+        "text": "I like people who have unconventional views.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": false
+      },
+      {
+        "id": "hexaco-60",
+        "text": "I have never really enjoyed looking through an encyclopedia.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "op",
+        "reversed": true
+      }
+    ]
+  },
+  "iri-28": {
+    "id": "iri-28",
+    "name": "Interpersonal Reactivity Index",
+    "shortName": "IRI",
+    "description": "Decomposes empathy into four dimensions: Fantasy (emotional identification with fiction), Perspective-Taking (cognitive empathy), Empathic Concern (affective empathy for others), and Personal Distress (self-focused anxiety in response to others' distress).",
+    "citation": "Davis, M. H. (1983). Measuring individual differences in empathy: Evidence for a multidimensional approach. Journal of Personality and Social Psychology, 44, 113-126.",
+    "itemCount": 28,
+    "estimatedMinutes": 5,
+    "scales": [
+      {
+        "id": "fantasy",
+        "name": "Fantasy",
+        "description": "Tendency to imaginatively transpose oneself into fictional situations"
+      },
+      {
+        "id": "perspective_taking",
+        "name": "Perspective Taking",
+        "description": "Tendency to spontaneously adopt the psychological point of view of others"
+      },
+      {
+        "id": "empathic_concern",
+        "name": "Empathic Concern",
+        "description": "Tendency to experience feelings of warmth, compassion, and concern for others"
+      },
+      {
+        "id": "personal_distress",
+        "name": "Personal Distress",
+        "description": "Tendency to experience feelings of personal anxiety and discomfort in response to others' distress"
+      }
+    ],
+    "items": [
+      {
+        "id": "iri-1",
+        "text": "I daydream and fantasize, with some regularity, about things that might happen to me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "fantasy",
+        "reversed": false
+      },
+      {
+        "id": "iri-2",
+        "text": "I really get involved with the feelings of the characters in a novel.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "fantasy",
+        "reversed": false
+      },
+      {
+        "id": "iri-3",
+        "text": "I am usually objective when I watch a movie or play, and I don't often get completely caught up in it.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "fantasy",
+        "reversed": true
+      },
+      {
+        "id": "iri-4",
+        "text": "Becoming extremely involved in a good book or movie is somewhat rare for me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "fantasy",
+        "reversed": true
+      },
+      {
+        "id": "iri-5",
+        "text": "After seeing a play or movie, I have felt as though I were one of the characters.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "fantasy",
+        "reversed": false
+      },
+      {
+        "id": "iri-6",
+        "text": "When I am reading an interesting story or novel, I imagine how I would feel if the events in the story were happening to me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "fantasy",
+        "reversed": false
+      },
+      {
+        "id": "iri-7",
+        "text": "When I watch a good movie, I can very easily put myself in the place of a leading character.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "fantasy",
+        "reversed": false
+      },
+      {
+        "id": "iri-8",
+        "text": "I sometimes find it difficult to see things from the 'other person's' point of view.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "perspective_taking",
+        "reversed": true
+      },
+      {
+        "id": "iri-9",
+        "text": "I try to look at everybody's side of a disagreement before I make a decision.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "perspective_taking",
+        "reversed": false
+      },
+      {
+        "id": "iri-10",
+        "text": "I sometimes try to understand my friends better by imagining how things look from their perspective.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "perspective_taking",
+        "reversed": false
+      },
+      {
+        "id": "iri-11",
+        "text": "If I'm sure I'm right about something, I don't waste much time listening to other people's arguments.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "perspective_taking",
+        "reversed": true
+      },
+      {
+        "id": "iri-12",
+        "text": "I believe that there are two sides to every question and try to look at them both.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "perspective_taking",
+        "reversed": false
+      },
+      {
+        "id": "iri-13",
+        "text": "When I'm upset at someone, I usually try to 'put myself in their shoes' for a while.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "perspective_taking",
+        "reversed": false
+      },
+      {
+        "id": "iri-14",
+        "text": "Before criticizing somebody, I try to imagine how I would feel if I were in their place.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "perspective_taking",
+        "reversed": false
+      },
+      {
+        "id": "iri-15",
+        "text": "I often have tender, concerned feelings for people less fortunate than me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "empathic_concern",
+        "reversed": false
+      },
+      {
+        "id": "iri-16",
+        "text": "Sometimes I don't feel very sorry for other people when they are having problems.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "empathic_concern",
+        "reversed": true
+      },
+      {
+        "id": "iri-17",
+        "text": "When I see someone being taken advantage of, I feel kind of protective towards them.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "empathic_concern",
+        "reversed": false
+      },
+      {
+        "id": "iri-18",
+        "text": "Other people's misfortunes do not usually disturb me a great deal.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "empathic_concern",
+        "reversed": true
+      },
+      {
+        "id": "iri-19",
+        "text": "When I see someone being treated unfairly, I sometimes don't feel very much pity for them.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "empathic_concern",
+        "reversed": true
+      },
+      {
+        "id": "iri-20",
+        "text": "I am often quite touched by things that I see happen.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "empathic_concern",
+        "reversed": false
+      },
+      {
+        "id": "iri-21",
+        "text": "I would describe myself as a pretty soft-hearted person.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "empathic_concern",
+        "reversed": false
+      },
+      {
+        "id": "iri-22",
+        "text": "In emergency situations, I feel apprehensive and ill-at-ease.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "personal_distress",
+        "reversed": false
+      },
+      {
+        "id": "iri-23",
+        "text": "I sometimes feel helpless when I am in the middle of a very emotional situation.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "personal_distress",
+        "reversed": false
+      },
+      {
+        "id": "iri-24",
+        "text": "When I see someone who badly needs help in an emergency, I go to pieces.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "personal_distress",
+        "reversed": false
+      },
+      {
+        "id": "iri-25",
+        "text": "Being in a tense emotional situation scares me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "personal_distress",
+        "reversed": false
+      },
+      {
+        "id": "iri-26",
+        "text": "I am usually pretty effective in dealing with emergencies.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "personal_distress",
+        "reversed": true
+      },
+      {
+        "id": "iri-27",
+        "text": "I tend to lose control during emergencies.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "personal_distress",
+        "reversed": false
+      },
+      {
+        "id": "iri-28",
+        "text": "When I see someone get hurt, I tend to remain calm.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Does Not Describe Me Well",
+            "Slightly",
+            "Moderately",
+            "Well",
+            "Describes Me Very Well"
+          ]
+        },
+        "scaleId": "personal_distress",
+        "reversed": true
+      }
+    ]
+  },
+  "ius-12": {
+    "id": "ius-12",
+    "name": "Intolerance of Uncertainty Scale (Short Form)",
+    "shortName": "IUS-12",
+    "description": "Measures difficulty tolerating ambiguity and the unknown. Two subscales: Prospective anxiety (worry about future uncertainty) and Inhibitory anxiety (behavioral paralysis under uncertainty).",
+    "citation": "Carleton, R. N., Norton, M. A., & Asmundson, G. J. (2007). Fearing the unknown: A short version of the Intolerance of Uncertainty Scale. Journal of Anxiety Disorders, 21, 105-117.",
+    "itemCount": 12,
+    "estimatedMinutes": 2,
+    "scales": [
+      {
+        "id": "prospective",
+        "name": "Prospective Anxiety",
+        "description": "Cognitive apprehension about future uncertainty"
+      },
+      {
+        "id": "inhibitory",
+        "name": "Inhibitory Anxiety",
+        "description": "Behavioral paralysis due to uncertainty"
+      }
+    ],
+    "items": [
+      {
+        "id": "ius-1",
+        "text": "Unforeseen events upset me greatly.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "prospective",
+        "reversed": false
+      },
+      {
+        "id": "ius-2",
+        "text": "It frustrates me not having all the information I need.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "prospective",
+        "reversed": false
+      },
+      {
+        "id": "ius-3",
+        "text": "Uncertainty keeps me from living a full life.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "prospective",
+        "reversed": false
+      },
+      {
+        "id": "ius-4",
+        "text": "One should always look ahead so as to avoid surprises.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "prospective",
+        "reversed": false
+      },
+      {
+        "id": "ius-5",
+        "text": "A small unforeseen event can spoil everything, even with the best of planning.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "prospective",
+        "reversed": false
+      },
+      {
+        "id": "ius-6",
+        "text": "When it's time to act, uncertainty paralyses me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "prospective",
+        "reversed": false
+      },
+      {
+        "id": "ius-7",
+        "text": "I always want to know what the future has in store for me.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "prospective",
+        "reversed": false
+      },
+      {
+        "id": "ius-8",
+        "text": "I can't stand being taken by surprise.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "inhibitory",
+        "reversed": false
+      },
+      {
+        "id": "ius-9",
+        "text": "The smallest doubt can stop me from acting.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "inhibitory",
+        "reversed": false
+      },
+      {
+        "id": "ius-10",
+        "text": "I should be able to organize everything in advance.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "inhibitory",
+        "reversed": false
+      },
+      {
+        "id": "ius-11",
+        "text": "I must get away from all uncertain situations.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "inhibitory",
+        "reversed": false
+      },
+      {
+        "id": "ius-12",
+        "text": "Uncertainty keeps me from sleeping soundly.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Not at All Characteristic of Me",
+            "A Little Characteristic of Me",
+            "Somewhat Characteristic of Me",
+            "Very Characteristic of Me",
+            "Entirely Characteristic of Me"
+          ]
+        },
+        "scaleId": "inhibitory",
+        "reversed": false
+      }
+    ]
+  },
+  "mfq-2": {
+    "id": "mfq-2",
+    "name": "Moral Foundations Questionnaire 2",
+    "shortName": "MFQ-2",
+    "description": "Measures endorsement of six moral foundations: Care, Equality, Proportionality, Loyalty, Authority, and Purity. Updated from the original MFQ-30 with improved psychometric properties and the Equality/Proportionality distinction.",
+    "citation": "Atari, M., Haidt, J., Graham, J., Koleva, S., Stevens, S. T., & Dehghani, M. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. Journal of Personality and Social Psychology, 125(5), 1157-1188.",
+    "itemCount": 36,
+    "estimatedMinutes": 7,
+    "scales": [
+      {
+        "id": "care",
+        "name": "Care",
+        "description": "Sensitivity to suffering, cruelty, and harm"
+      },
+      {
+        "id": "equality",
+        "name": "Equality",
+        "description": "Fairness as equal treatment and equal outcomes"
+      },
+      {
+        "id": "proportionality",
+        "name": "Proportionality",
+        "description": "Fairness as proportional to effort and merit"
+      },
+      {
+        "id": "loyalty",
+        "name": "Loyalty",
+        "description": "Commitment to one's group and willingness to sacrifice"
+      },
+      {
+        "id": "authority",
+        "name": "Authority",
+        "description": "Respect for hierarchy, tradition, and social order"
+      },
+      {
+        "id": "purity",
+        "name": "Purity",
+        "description": "Concerns about sanctity, contamination, and degradation"
+      }
+    ],
+    "items": [
+      {
+        "id": "mfq-1",
+        "text": "Compassion for those who are suffering is the most crucial virtue.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "care",
+        "reversed": false
+      },
+      {
+        "id": "mfq-2",
+        "text": "One of the worst things a person could do is hurt a defenseless animal.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "care",
+        "reversed": false
+      },
+      {
+        "id": "mfq-3",
+        "text": "It can never be right to kill a human being.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "care",
+        "reversed": false
+      },
+      {
+        "id": "mfq-4",
+        "text": "I am empathetic toward those people who have suffered in their lives.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "care",
+        "reversed": false
+      },
+      {
+        "id": "mfq-5",
+        "text": "I believe that the government should do more to help the needy.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "care",
+        "reversed": false
+      },
+      {
+        "id": "mfq-6",
+        "text": "I think caring for people who are weak or vulnerable is an important virtue.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "care",
+        "reversed": false
+      },
+      {
+        "id": "mfq-7",
+        "text": "When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "equality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-8",
+        "text": "Justice is the most important requirement for a society.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "equality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-9",
+        "text": "I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "equality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-10",
+        "text": "Everyone should have an equal say in decisions that affect their lives.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "equality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-11",
+        "text": "Discrimination against anyone on the basis of race, gender, or sexual orientation is morally wrong.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "equality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-12",
+        "text": "It is unfair that some people have so much more money than others.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "equality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-13",
+        "text": "People who work hard deserve to earn more than those who do not.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "proportionality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-14",
+        "text": "The effort a worker puts into a job ought to be reflected in the size of a raise they receive.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "proportionality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-15",
+        "text": "Employees who produce more should be paid more.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "proportionality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-16",
+        "text": "In a fair society, those who work hard should live better lives.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "proportionality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-17",
+        "text": "I believe that merit should determine one's success, not family connections.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "proportionality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-18",
+        "text": "People who contribute more to society should receive more in return.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "proportionality",
+        "reversed": false
+      },
+      {
+        "id": "mfq-19",
+        "text": "I am proud of my country's history.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "loyalty",
+        "reversed": false
+      },
+      {
+        "id": "mfq-20",
+        "text": "It is more important to be a team player than to express oneself.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "loyalty",
+        "reversed": false
+      },
+      {
+        "id": "mfq-21",
+        "text": "I would never betray a friend, even if I would get rewarded for doing so.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "loyalty",
+        "reversed": false
+      },
+      {
+        "id": "mfq-22",
+        "text": "People should be loyal to their family members, even when they have done something wrong.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "loyalty",
+        "reversed": false
+      },
+      {
+        "id": "mfq-23",
+        "text": "It is important for members of a group to stick together, even when they disagree.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "loyalty",
+        "reversed": false
+      },
+      {
+        "id": "mfq-24",
+        "text": "A group is only strong when its members are unified.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "loyalty",
+        "reversed": false
+      },
+      {
+        "id": "mfq-25",
+        "text": "Respect for authority is something all children need to learn.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "authority",
+        "reversed": false
+      },
+      {
+        "id": "mfq-26",
+        "text": "I believe that one of the problems with today's youth is that they don't respect their elders enough.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "authority",
+        "reversed": false
+      },
+      {
+        "id": "mfq-27",
+        "text": "Men and women each have different roles to play in society.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "authority",
+        "reversed": false
+      },
+      {
+        "id": "mfq-28",
+        "text": "If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "authority",
+        "reversed": false
+      },
+      {
+        "id": "mfq-29",
+        "text": "I think the world would be a better place if people showed more respect for tradition.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "authority",
+        "reversed": false
+      },
+      {
+        "id": "mfq-30",
+        "text": "Respect for authority and leadership is an important virtue for children to learn.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "authority",
+        "reversed": false
+      },
+      {
+        "id": "mfq-31",
+        "text": "People should not do things that are disgusting, even if no one is harmed.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "purity",
+        "reversed": false
+      },
+      {
+        "id": "mfq-32",
+        "text": "I would call some acts wrong on the grounds that they are unnatural.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "purity",
+        "reversed": false
+      },
+      {
+        "id": "mfq-33",
+        "text": "Chastity is an important and valuable virtue.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "purity",
+        "reversed": false
+      },
+      {
+        "id": "mfq-34",
+        "text": "I think certain acts are wrong even if they do not hurt anyone.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "purity",
+        "reversed": false
+      },
+      {
+        "id": "mfq-35",
+        "text": "When you defile a place of worship, you are doing harm to all who hold it sacred.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "purity",
+        "reversed": false
+      },
+      {
+        "id": "mfq-36",
+        "text": "It is important to maintain one's purity, both in mind and in body.",
+        "response": {
+          "type": "likert",
+          "min": 1,
+          "max": 5,
+          "labels": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neither Agree nor Disagree",
+            "Agree",
+            "Strongly Agree"
+          ]
+        },
+        "scaleId": "purity",
+        "reversed": false
+      }
+    ]
+  },
+  "open-ended": {
+    "id": "open-ended",
+    "name": "Self-Reflection Prompts",
+    "shortName": "Reflection",
+    "description": "Open-ended questions for qualitative personality analysis. No right answers — write freely.",
+    "citation": "Custom instrument for qualitative triangulation.",
+    "itemCount": 10,
+    "estimatedMinutes": 15,
+    "scales": [
+      {
+        "id": "qualitative",
+        "name": "Qualitative Responses"
+      },
+      {
+        "id": "word-count",
+        "name": "Total Word Count"
+      }
+    ],
+    "items": [
+      {
+        "id": "open-1",
+        "text": "Describe yourself as you would to a stranger who will never see you. Be as honest as possible.",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-2",
+        "text": "What are you most proud of? What are you least proud of?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-3",
+        "text": "How do you typically respond to conflict or disagreement?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-4",
+        "text": "Describe a decision you made recently that you found difficult. What made it hard?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-5",
+        "text": "What gives you energy? What drains you?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-6",
+        "text": "How have you changed in the last five years? What caused the change?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-7",
+        "text": "What do your closest friends value most about you? What do they wish you'd change?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-8",
+        "text": "Describe your relationship with uncertainty and ambiguity.",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-9",
+        "text": "What topic could you talk about for hours? Why does it matter to you?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      },
+      {
+        "id": "open-10",
+        "text": "If you could design your ideal day with no obligations, what would it look like?",
+        "response": {
+          "type": "text",
+          "minWords": 30
+        },
+        "scaleId": "qualitative"
+      }
+    ]
+  },
+  "self-monitoring-18": {
+    "id": "self-monitoring-18",
+    "name": "Self-Monitoring Scale (Revised)",
+    "shortName": "Self-Monitor",
+    "description": "Measures the extent to which people monitor and control their expressive behavior and self-presentation. High = social chameleon; Low = cross-situationally consistent.",
+    "citation": "Snyder, M., & Gangestad, S. (1986). On the nature of self-monitoring: Matters of assessment, matters of validity. Journal of Personality and Social Psychology, 51, 125-139.",
+    "itemCount": 18,
+    "estimatedMinutes": 3,
+    "scales": [
+      {
+        "id": "self-monitoring",
+        "name": "Self-Monitoring",
+        "description": "Social adaptiveness vs. behavioral consistency"
+      }
+    ],
+    "items": [
+      {
+        "id": "sm-1",
+        "text": "I find it hard to imitate the behavior of other people.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-2",
+        "text": "At parties and social gatherings, I do not attempt to do or say things that others will like.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-3",
+        "text": "I can only argue for ideas which I already believe.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-4",
+        "text": "I can make impromptu speeches even on topics about which I have almost no information.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      },
+      {
+        "id": "sm-5",
+        "text": "I guess I put on a show to impress or entertain others.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      },
+      {
+        "id": "sm-6",
+        "text": "I would probably make a good actor.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      },
+      {
+        "id": "sm-7",
+        "text": "In a group of people I am rarely the center of attention.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-8",
+        "text": "In different situations and with different people, I often act like very different persons.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      },
+      {
+        "id": "sm-9",
+        "text": "I am not particularly good at making other people like me.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-10",
+        "text": "I'm not always the person I appear to be.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      },
+      {
+        "id": "sm-11",
+        "text": "I would not change my opinions (or the way I do things) in order to please someone or win their favor.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-12",
+        "text": "I have considered being an entertainer.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      },
+      {
+        "id": "sm-13",
+        "text": "I have never been good at games like charades or improvisational acting.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-14",
+        "text": "I have trouble changing my behavior to suit different people and different situations.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-15",
+        "text": "At a party I let others keep the jokes and stories going.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-16",
+        "text": "I feel a bit awkward in company and do not show up quite as well as I should.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": true
+      },
+      {
+        "id": "sm-17",
+        "text": "I can look anyone in the eye and tell a lie with a straight face (if for a right end).",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      },
+      {
+        "id": "sm-18",
+        "text": "I may deceive people by being friendly when I really dislike them.",
+        "response": {
+          "type": "binary",
+          "labels": [
+            "True",
+            "False"
+          ]
+        },
+        "scaleId": "self-monitoring",
+        "reversed": false
+      }
+    ]
+  },
+  "bigfive": [
+    {
+      "id": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
+      "text": "Worry about things",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 1
+    },
+    {
+      "id": "d50a597f-632b-4f7b-89e6-6d85b50fd1c9",
+      "text": "Make friends easily",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 1
+    },
+    {
+      "id": "888dd864-7449-4e96-8d5c-7a439603ea91",
+      "text": "Have a vivid imagination",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 1
+    },
+    {
+      "id": "ce2fbbf8-7a97-4199-bda5-117e4ecdf3b6",
+      "text": "Trust others",
+      "keyed": "plus",
+      "domain": "A",
+      "facet": 1
+    },
+    {
+      "id": "c7f53c3c-2e77-432f-bb71-7470b67d3aa9",
+      "text": "Complete tasks successfully",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 1
+    },
+    {
+      "id": "48ad12ce-470e-4339-90ac-ea8c43a0103e",
+      "text": "Get angry easily",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 2
+    },
+    {
+      "id": "458f3957-2359-4077-ade1-34525d633063",
+      "text": "Love large parties",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 2
+    },
+    {
+      "id": "58d571e5-d725-4cf8-a438-32c16ee28eb6",
+      "text": "Believe in the importance of art",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 2
+    },
+    {
+      "id": "0cf79e27-e702-45c2-9471-04ac96b58e0e",
+      "text": "Use others for my own ends",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 2
+    },
+    {
+      "id": "cda1ca17-b599-4561-a6cd-ff9d36062d27",
+      "text": "Like to tidy up",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 2
+    },
+    {
+      "id": "5e8550d7-b8ef-4905-950a-f81d735d39e2",
+      "text": "Often feel blue",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 3
+    },
+    {
+      "id": "8af754f2-68e9-48f3-8c5d-2e6633d4472c",
+      "text": "Take charge",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 3
+    },
+    {
+      "id": "0727def6-3d18-4221-bf38-86b58f9f3eed",
+      "text": "Experience my emotions intensely",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 3
+    },
+    {
+      "id": "ccf3a5c8-fb50-4bd4-8e7a-22af3d657279",
+      "text": "Love to help others",
+      "keyed": "plus",
+      "domain": "A",
+      "facet": 3
+    },
+    {
+      "id": "73d84e5d-cbf5-47f0-b8cb-4d2159a52e32",
+      "text": "Keep my promises",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 3
+    },
+    {
+      "id": "b2d9ef74-73f5-4ea8-b00c-7aaca15937df",
+      "text": "Find it difficult to approach others",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 4
+    },
+    {
+      "id": "48a761ef-438e-409b-ae59-ea2ce8f84414",
+      "text": "Am always busy",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 4
+    },
+    {
+      "id": "cae55842-8957-4e3b-83b3-ceff98fb9dcf",
+      "text": "Prefer variety to routine",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 4
+    },
+    {
+      "id": "e2028ad3-b128-4f76-be57-398bfe2aff22",
+      "text": "Love a good fight",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 4
+    },
+    {
+      "id": "b7fc949b-02b6-4cb9-a3e2-dbb3d824b55f",
+      "text": "Work hard",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 4
+    },
+    {
+      "id": "481efd08-c810-43b1-a952-f8ac9052f96b",
+      "text": "Go on binges",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 5
+    },
+    {
+      "id": "987efee2-899f-4a65-b9b5-1589ef0460d7",
+      "text": "Love excitement",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 5
+    },
+    {
+      "id": "e1e804c7-4a1d-498f-8610-f95147af9d1d",
+      "text": "Love to read challenging material",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 5
+    },
+    {
+      "id": "71029381-3908-4c68-91e1-e41fb45542a2",
+      "text": "Believe that I am better than others",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 5
+    },
+    {
+      "id": "f6076eea-56ae-4b46-97f1-5f94a7676c96",
+      "text": "Am always prepared",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 5
+    },
+    {
+      "id": "2f519935-92e8-48ad-9746-4a0f8b38466a",
+      "text": "Panic easily",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 6
+    },
+    {
+      "id": "899c3f66-51d0-46ea-963a-6fc36d3b3cb9",
+      "text": "Radiate joy",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 6
+    },
+    {
+      "id": "79186f48-e7fa-4df4-b74b-b0627ee244e1",
+      "text": "Tend to vote for liberal political candidates",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 6
+    },
+    {
+      "id": "fd50e1ca-d9e0-4037-a7a1-a191d4db2d96",
+      "text": "Sympathize with the homeless",
+      "keyed": "plus",
+      "domain": "A",
+      "facet": 6
+    },
+    {
+      "id": "bd9eec0a-b68b-472c-8803-7db29c308cdb",
+      "text": "Jump into things without thinking",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 6
+    },
+    {
+      "id": "7f92ab2c-265c-4b84-8c74-09f9bb9d41a7",
+      "text": "Fear for the worst",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 1
+    },
+    {
+      "id": "af55f014-788c-4b6e-92c4-b2b59dc8a28d",
+      "text": "Feel comfortable around people",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 1
+    },
+    {
+      "id": "08ff6dca-02a5-4aeb-aaa4-2ecf2526f143",
+      "text": "Enjoy wild flights of fantasy",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 1
+    },
+    {
+      "id": "6f66cdc0-9044-457b-b40d-501ecae15ee7",
+      "text": "Believe that others have good intentions",
+      "keyed": "plus",
+      "domain": "A",
+      "facet": 1
+    },
+    {
+      "id": "f110fc66-2e9e-413c-920b-19f05e63d7ac",
+      "text": "Excel in what I do",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 1
+    },
+    {
+      "id": "7dab2a37-8635-4fc7-86b7-0abf13c183c9",
+      "text": "Get irritated easily",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 2
+    },
+    {
+      "id": "28ab59a0-e7cd-4fce-94e3-bba2ecc023b6",
+      "text": "Talk to a lot of different people at parties",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 2
+    },
+    {
+      "id": "b5919f2f-cded-4745-a9ce-c02703cee807",
+      "text": "See beauty in things that others might not notice",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 2
+    },
+    {
+      "id": "5a5fa975-d024-4ac8-8845-2823f957c21b",
+      "text": "Cheat to get ahead",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 2
+    },
+    {
+      "id": "adf33f9f-45bd-43e3-af25-4c491176d97f",
+      "text": "Often forget to put things back in their proper place",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 2
+    },
+    {
+      "id": "f0a14e16-d726-47e9-a2c1-647fd3d7d52e",
+      "text": "Dislike myself",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 3
+    },
+    {
+      "id": "0b38e3d3-c15c-454c-b034-f4eb7ae1580a",
+      "text": "Try to lead others",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 3
+    },
+    {
+      "id": "5631b856-ff34-4f76-a0cd-edc7104c3bfa",
+      "text": "Feel others' emotions",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 3
+    },
+    {
+      "id": "ada867af-4db1-4e3d-a604-2b695c1806e5",
+      "text": "Am concerned about others",
+      "keyed": "plus",
+      "domain": "A",
+      "facet": 3
+    },
+    {
+      "id": "c55e3958-00c4-4fc3-9118-47d8f31bfde1",
+      "text": "Tell the truth",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 3
+    },
+    {
+      "id": "acd8fadc-5399-4a67-b5ff-9d1ada049c01",
+      "text": "Am afraid to draw attention to myself",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 4
+    },
+    {
+      "id": "d07b6c67-0d02-4948-a997-bb84ac234cd8",
+      "text": "Am always on the go",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 4
+    },
+    {
+      "id": "33b81fd0-7e32-4cd8-a13a-d5f5f754f998",
+      "text": "Prefer to stick with things that I know",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 4
+    },
+    {
+      "id": "d9a9a180-29c9-4ec5-8621-2256d411def7",
+      "text": "Yell at people",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 4
+    },
+    {
+      "id": "f12c3d9d-1d12-4aa6-ad2e-009cd0651cbb",
+      "text": "Do more than what's expected of me",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 4
+    },
+    {
+      "id": "9891b7ba-a494-4307-aafe-301d8db506c6",
+      "text": "Rarely overindulge",
+      "keyed": "minus",
+      "domain": "N",
+      "facet": 5
+    },
+    {
+      "id": "f1675af6-88bf-4376-a946-0281e762b39c",
+      "text": "Seek adventure",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 5
+    },
+    {
+      "id": "95a3f20c-f933-4d19-a2c1-a7dbdf63c562",
+      "text": "Avoid philosophical discussions",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 5
+    },
+    {
+      "id": "7df44711-4cd4-4b05-8830-73fcc3ebdab5",
+      "text": "Think highly of myself",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 5
+    },
+    {
+      "id": "9d3cb5c7-955c-43a4-b6c7-b07ed01dcbd9",
+      "text": "Carry out my plans",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 5
+    },
+    {
+      "id": "13c58810-3864-42ba-aa87-d4166f858756",
+      "text": "Become overwhelmed by events",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 6
+    },
+    {
+      "id": "961376e0-16a1-4c14-b059-789e63d11b63",
+      "text": "Have a lot of fun",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 6
+    },
+    {
+      "id": "f08e1b27-3673-4898-9cae-896482d0d9f9",
+      "text": "Believe that there is no absolute right and wrong",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 6
+    },
+    {
+      "id": "c2038c12-7a37-47a8-9983-831bd6692aab",
+      "text": "Feel sympathy for those who are worse off than myself",
+      "keyed": "plus",
+      "domain": "A",
+      "facet": 6
+    },
+    {
+      "id": "956f3e17-ff17-4af5-a52f-9222b8968106",
+      "text": "Make rash decisions",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 6
+    },
+    {
+      "id": "4d81238b-5407-47d4-88e5-dc0e38aa14f5",
+      "text": "Am afraid of many things",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 1
+    },
+    {
+      "id": "9f9166f0-fa94-4c14-a91d-3eecd8395794",
+      "text": "Avoid contacts with others",
+      "keyed": "minus",
+      "domain": "E",
+      "facet": 1
+    },
+    {
+      "id": "23a1034f-fab7-4887-a66e-5ef4eaafb25e",
+      "text": "Love to daydream",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 1
+    },
+    {
+      "id": "c63e6121-c3ed-40cc-abc2-c1e6ea1e0858",
+      "text": "Trust what people say",
+      "keyed": "plus",
+      "domain": "A",
+      "facet": 1
+    },
+    {
+      "id": "02ee1930-36a7-4caa-b10c-c93efb682a44",
+      "text": "Handle tasks smoothly",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 1
+    },
+    {
+      "id": "da8e6ed1-2296-4c58-8fdb-66f2f591989b",
+      "text": "Lose my temper",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 2
+    },
+    {
+      "id": "03c10b30-b88f-4c63-8acc-71251ca24615",
+      "text": "Prefer to be alone",
+      "keyed": "minus",
+      "domain": "E",
+      "facet": 2
+    },
+    {
+      "id": "751a04bc-5adf-485a-8ea4-4308406ae85b",
+      "text": "Do not like poetry",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 2
+    },
+    {
+      "id": "982e83c2-d34e-48da-9c71-78494ab05c85",
+      "text": "Take advantage of others",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 2
+    },
+    {
+      "id": "f4891687-0ff0-47af-a4f6-d1202c8f6676",
+      "text": "Leave a mess in my room",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 2
+    },
+    {
+      "id": "743d8973-1de1-4485-91b4-8a5cf63e7d44",
+      "text": "Am often down in the dumps",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 3
+    },
+    {
+      "id": "2452f034-8273-4f71-9122-a40f5ead31ba",
+      "text": "Take control of things",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 3
+    },
+    {
+      "id": "2a300001-6e05-4c79-b8b5-2ccae4c3d463",
+      "text": "Rarely notice my emotional reactions",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 3
+    },
+    {
+      "id": "cd54bd76-ca9c-4030-b325-bb8d896bcb3f",
+      "text": "Am indifferent to the feelings of others",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 3
+    },
+    {
+      "id": "4e6e3a34-176f-4e6e-8730-1341611f972b",
+      "text": "Break rules",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 3
+    },
+    {
+      "id": "20062533-a33d-4c1e-9cd9-bff868015b3f",
+      "text": "Only feel comfortable with friends",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 4
+    },
+    {
+      "id": "b2a077d5-1fe0-4b06-ab63-35455e001e54",
+      "text": "Do a lot in my spare time",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 4
+    },
+    {
+      "id": "0d2e65ab-95d9-482f-beb4-3239a3a4944a",
+      "text": "Dislike changes",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 4
+    },
+    {
+      "id": "0de0f900-cede-4538-9c00-5da4f830b028",
+      "text": "Insult people",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 4
+    },
+    {
+      "id": "a9c97d6b-6721-4150-8d84-64ef3082f164",
+      "text": "Do just enough work to get by",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 4
+    },
+    {
+      "id": "9f2e7f90-0ca5-4ed0-9fe5-e060238a9b5e",
+      "text": "Easily resist temptations",
+      "keyed": "minus",
+      "domain": "N",
+      "facet": 5
+    },
+    {
+      "id": "7dd6cf2d-5c14-48c2-8ae5-633a7a596c71",
+      "text": "Enjoy being reckless",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 5
+    },
+    {
+      "id": "fecc35f7-681e-4889-a404-4a973a3dfef0",
+      "text": "Have difficulty understanding abstract ideas",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 5
+    },
+    {
+      "id": "1d686958-6fe7-432f-85e6-186b99e4e232",
+      "text": "Have a high opinion of myself",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 5
+    },
+    {
+      "id": "c7db0ed8-df7d-49bf-942f-59e46ef743c4",
+      "text": "Waste my time",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 5
+    },
+    {
+      "id": "b7e0e393-9b21-4e0d-adf3-8f28fb5b9d87",
+      "text": "Feel that I'm unable to deal with things",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 6
+    },
+    {
+      "id": "79d956e8-1118-402a-a0e2-9380af18243e",
+      "text": "Love life",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 6
+    },
+    {
+      "id": "96ba77b2-1a44-4dfd-95f9-ae4d1f714460",
+      "text": "Tend to vote for conservative political candidates",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 6
+    },
+    {
+      "id": "77f54ab4-0fba-4efb-8700-066c7490eb87",
+      "text": "Am not interested in other people's problems",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 6
+    },
+    {
+      "id": "a354cf7c-8d11-46ac-acc5-da90d2048637",
+      "text": "Rush into things",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 6
+    },
+    {
+      "id": "43b03992-3f32-4ed1-a6f8-5d6d3e7ed246",
+      "text": "Get stressed out easily",
+      "keyed": "plus",
+      "domain": "N",
+      "facet": 1
+    },
+    {
+      "id": "41702602-08e4-4e2b-9a19-291d9efc581a",
+      "text": "Keep others at a distance",
+      "keyed": "minus",
+      "domain": "E",
+      "facet": 1
+    },
+    {
+      "id": "935a7413-abac-4f54-9169-d1fbd39da752",
+      "text": "Like to get lost in thought",
+      "keyed": "plus",
+      "domain": "O",
+      "facet": 1
+    },
+    {
+      "id": "432dbde8-8756-4ff0-80d5-f47018235139",
+      "text": "Distrust people",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 1
+    },
+    {
+      "id": "5727c93f-317b-4af1-a686-77fc9fbc5033",
+      "text": "Know how to get things done",
+      "keyed": "plus",
+      "domain": "C",
+      "facet": 1
+    },
+    {
+      "id": "d32bd062-4eb2-401b-99b2-e7afea39ca9b",
+      "text": "Am not easily annoyed",
+      "keyed": "minus",
+      "domain": "N",
+      "facet": 2
+    },
+    {
+      "id": "9a47184f-6046-4e68-a61b-3d9b357b86ea",
+      "text": "Avoid crowds",
+      "keyed": "minus",
+      "domain": "E",
+      "facet": 2
+    },
+    {
+      "id": "87c5b27e-59a8-4c48-8ba8-f5413d735693",
+      "text": "Do not enjoy going to art museums",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 2
+    },
+    {
+      "id": "11b20adb-abed-4363-894c-3dd823ae0540",
+      "text": "Obstruct others' plans",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 2
+    },
+    {
+      "id": "50418d86-712c-45d9-adc4-ea0231c93cf5",
+      "text": "Leave my belongings around",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 2
+    },
+    {
+      "id": "f40e421f-6c24-4be2-bd9f-28d33358d8c6",
+      "text": "Feel comfortable with myself",
+      "keyed": "minus",
+      "domain": "N",
+      "facet": 3
+    },
+    {
+      "id": "8791f37b-686f-47c3-9db7-74c009951321",
+      "text": "Wait for others to lead the way",
+      "keyed": "minus",
+      "domain": "E",
+      "facet": 3
+    },
+    {
+      "id": "4fd25155-9cc2-4cd6-8852-3e0ca2d5e95d",
+      "text": "Don't understand people who get emotional",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 3
+    },
+    {
+      "id": "b68af20d-24f9-4c27-85cc-fe0858994888",
+      "text": "Take no time for others",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 3
+    },
+    {
+      "id": "54423933-0ebb-44a7-bdd9-2a9b100c70f2",
+      "text": "Break my promises",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 3
+    },
+    {
+      "id": "7317848c-3e1b-422f-bb16-02efc504f677",
+      "text": "Am not bothered by difficult social situations",
+      "keyed": "minus",
+      "domain": "N",
+      "facet": 4
+    },
+    {
+      "id": "7d93e1ca-46e8-4a30-9623-42a80c9b420c",
+      "text": "Like to take it easy",
+      "keyed": "minus",
+      "domain": "E",
+      "facet": 4
+    },
+    {
+      "id": "a7f43928-8982-4ed5-8656-7a80346fe979",
+      "text": "Am attached to conventional ways",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 4
+    },
+    {
+      "id": "17910a55-a64a-4ed0-8b46-293e2fa2fe03",
+      "text": "Get back at others",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 4
+    },
+    {
+      "id": "3890bb43-2695-4b8d-b289-ee10d11cc884",
+      "text": "Put little time and effort into my work",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 4
+    },
+    {
+      "id": "49a85680-53aa-4208-86b5-dccc7a6f8e37",
+      "text": "Am able to control my cravings",
+      "keyed": "minus",
+      "domain": "N",
+      "facet": 5
+    },
+    {
+      "id": "10f90fa9-649c-4631-ac4c-3dd3f751597d",
+      "text": "Act wild and crazy",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 5
+    },
+    {
+      "id": "b86de003-c3c4-4cc8-9385-5ac8a0142c34",
+      "text": "Am not interested in theoretical discussions",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 5
+    },
+    {
+      "id": "80c1d149-7050-481a-9953-aefb441642e7",
+      "text": "Boast about my virtues",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 5
+    },
+    {
+      "id": "51403620-968c-42fa-a772-65ba5ad8396f",
+      "text": "Have difficulty starting tasks",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 5
+    },
+    {
+      "id": "88a3c2fe-3aa4-4f46-9322-da656332268a",
+      "text": "Remain calm under pressure",
+      "keyed": "minus",
+      "domain": "N",
+      "facet": 6
+    },
+    {
+      "id": "e7b31bdc-5f6b-40ec-ba91-f5919b0f170e",
+      "text": "Look at the bright side of life",
+      "keyed": "plus",
+      "domain": "E",
+      "facet": 6
+    },
+    {
+      "id": "580b08d1-3c94-46e9-9d07-d6d80c698127",
+      "text": "Believe that we should be tough on crime",
+      "keyed": "minus",
+      "domain": "O",
+      "facet": 6
+    },
+    {
+      "id": "48bee420-60c0-45cd-be43-3893dbc1969a",
+      "text": "Try not to think about the needy",
+      "keyed": "minus",
+      "domain": "A",
+      "facet": 6
+    },
+    {
+      "id": "ea3327ea-3529-4be4-8e2d-2174731ae4d7",
+      "text": "Act without thinking",
+      "keyed": "minus",
+      "domain": "C",
+      "facet": 6
+    }
+  ],
+  "pvqrr": {
+    "pronounMaps": {
+      "male": {
+        "obj": "him",
+        "pos": "his",
+        "sub": "he",
+        "say": "says",
+        "deserve": "deserves",
+        "is": "is",
+        "know": "knows",
+        "want": "wants",
+        "ref": "himself",
+        "achieve": "achieves",
+        "donot": "doesn't",
+        "have": "has",
+        "do": "does",
+        "disagree": "disagrees"
+      },
+      "female": {
+        "obj": "her",
+        "pos": "her",
+        "sub": "she",
+        "say": "says",
+        "deserve": "deserves",
+        "is": "is",
+        "know": "knows",
+        "want": "wants",
+        "ref": "herself",
+        "achieve": "achieves",
+        "donot": "doesn't",
+        "have": "has",
+        "do": "does",
+        "disagree": "disagrees"
+      },
+      "neutral": {
+        "obj": "them",
+        "pos": "their",
+        "sub": "they",
+        "say": "say",
+        "deserve": "deserve",
+        "is": "are",
+        "know": "know",
+        "want": "want",
+        "ref": "themselves",
+        "achieve": "achieve",
+        "donot": "don't",
+        "have": "have",
+        "do": "do",
+        "disagree": "disagree"
+      }
+    },
+    "baseItems": [
+      "It is important to {obj} to form {pos} views independently.",
+      "It is important to {obj} that {pos} country is secure and stable.",
+      "It is important to {obj} to have a good time.",
+      "It is important to {obj} to avoid upsetting other people.",
+      "It is important to {obj} that the weak and vulnerable in society be protected.",
+      "It is important to {obj} that people do what {sub} {say} they should.",
+      "It is important to {obj} never to think {sub} {deserve} more than other people.",
+      "It is important to {obj} to care for nature.",
+      "It is important to {obj} that no one should ever shame {obj}.",
+      "It is important to {obj} always to look for different things to do.",
+      "It is important to {obj} to take care of people {sub} {is} close to.",
+      "It is important to {obj} to have the power that money can bring.",
+      "It is very important to {obj} to avoid disease and protect {pos} health.",
+      "It is important to {obj} to be tolerant toward all kinds of people and groups.",
+      "It is important to {obj} never to violate rules or regulations.",
+      "It is important to {obj} to make {pos} own decisions about {pos} life.",
+      "It is important to {obj} to have ambitions in life.",
+      "It is important to {obj} to maintain traditional values and ways of thinking.",
+      "It is important to {obj} that people {sub} {know} have full confidence in {obj}.",
+      "It is important to {obj} to be wealthy.",
+      "It is important to {obj} to take part in activities to defend nature.",
+      "It is important to {obj} never to annoy anyone.",
+      "It is important to {obj} to develop {pos} own opinions.",
+      "It is important to {obj} to protect {pos} public image.",
+      "It is very important to {obj} to help the people dear to {obj}.",
+      "It is important to {obj} to be personally safe and secure.",
+      "It is important to {obj} to be a dependable and trustworthy friend.",
+      "It is important to {obj} to take risks that make life exciting.",
+      "It is important to {obj} to have the power to make people do what {sub} {want}.",
+      "It is important to {obj} to plan {pos} activities independently.",
+      "It is important to {obj} to follow rules even when no-one is watching.",
+      "It is important to {obj} to be very successful.",
+      "It is important to {obj} to follow {pos} family's customs or the customs of a religion.",
+      "It is important to {obj} to listen to and understand people who are different from {obj}.",
+      "It is important to {obj} to have a strong state that can defend its citizens.",
+      "It is important to {obj} to enjoy life's pleasures.",
+      "It is important to {obj} that every person in the world have equal opportunities in life.",
+      "It is important to {obj} to be humble.",
+      "It is important to {obj} to figure things out {ref}.",
+      "It is important to {obj} to honor the traditional practices of {pos} culture.",
+      "It is important to {obj} to be the one who tells others what to do.",
+      "It is important to {obj} to obey all the laws.",
+      "It is important to {obj} to have all sorts of new experiences.",
+      "It is important to {obj} to own expensive things that show {pos} wealth.",
+      "It is important to {obj} to protect the natural environment from destruction or pollution.",
+      "It is important to {obj} to take advantage of every opportunity to have fun.",
+      "It is important to {obj} to concern {ref} with every need of {pos} dear ones.",
+      "It is important to {obj} that people recognize what {sub} {achieve}.",
+      "It is important to {obj} never to be humiliated.",
+      "It is important to {obj} that {pos} country protect itself against all threats.",
+      "It is important to {obj} never to make other people angry.",
+      "It is important to {obj} that everyone be treated justly, even people {sub} {donot} know.",
+      "It is important to {obj} to avoid anything dangerous.",
+      "It is important to {obj} to be satisfied with what {sub} {have} and not ask for more.",
+      "It is important to {obj} that all {pos} friends and family can rely on {obj} completely.",
+      "It is important to {obj} to be free to choose what {sub} {do} by {ref}.",
+      "It is important to {obj} to accept people even when {sub} {disagree} with them."
+    ],
+    "valueMeta": {
+      "SDT": {
+        "name": "Self-Direction: Thought",
+        "desc": "Freedom to cultivate one's own ideas and abilities.",
+        "ho": "Openness to Change",
+        "colorCode": "var(--color-oc)",
+        "hexLight": "#3b82f6",
+        "hexDark": "#3b82f6",
+        "items": [
+          1,
+          23,
+          39
+        ]
+      },
+      "SDA": {
+        "name": "Self-Direction: Action",
+        "desc": "Freedom to determine one's own actions.",
+        "ho": "Openness to Change",
+        "colorCode": "var(--color-oc)",
+        "hexLight": "#3b82f6",
+        "hexDark": "#3b82f6",
+        "items": [
+          16,
+          30,
+          56
+        ]
+      },
+      "ST": {
+        "name": "Stimulation",
+        "desc": "Excitement, novelty, and challenge in life.",
+        "ho": "Openness to Change",
+        "colorCode": "var(--color-oc)",
+        "hexLight": "#3b82f6",
+        "hexDark": "#3b82f6",
+        "items": [
+          10,
+          28,
+          43
+        ]
+      },
+      "HE": {
+        "name": "Hedonism",
+        "desc": "Pleasure and sensuous gratification for oneself.",
+        "ho": "Openness to Change",
+        "colorCode": "var(--color-oc)",
+        "hexLight": "#3b82f6",
+        "hexDark": "#3b82f6",
+        "items": [
+          3,
+          36,
+          46
+        ]
+      },
+      "AC": {
+        "name": "Achievement",
+        "desc": "Personal success through demonstrating competence.",
+        "ho": "Self-Enhancement",
+        "colorCode": "var(--color-se)",
+        "hexLight": "#f59e0b",
+        "hexDark": "#f59e0b",
+        "items": [
+          17,
+          32,
+          48
+        ]
+      },
+      "POD": {
+        "name": "Power: Dominance",
+        "desc": "Power through exercising control over people.",
+        "ho": "Self-Enhancement",
+        "colorCode": "var(--color-se)",
+        "hexLight": "#f59e0b",
+        "hexDark": "#f59e0b",
+        "items": [
+          6,
+          29,
+          41
+        ]
+      },
+      "POR": {
+        "name": "Power: Resources",
+        "desc": "Power through control of material and social resources.",
+        "ho": "Self-Enhancement",
+        "colorCode": "var(--color-se)",
+        "hexLight": "#f59e0b",
+        "hexDark": "#f59e0b",
+        "items": [
+          12,
+          20,
+          44
+        ]
+      },
+      "FAC": {
+        "name": "Face",
+        "desc": "Security and power through maintaining one's public image.",
+        "ho": "Separate Value",
+        "colorCode": "var(--color-se)",
+        "hexLight": "#f59e0b",
+        "hexDark": "#f59e0b",
+        "items": [
+          9,
+          24,
+          49
+        ]
+      },
+      "SEP": {
+        "name": "Security: Personal",
+        "desc": "Safety in one's immediate environment.",
+        "ho": "Conservation",
+        "colorCode": "var(--color-co)",
+        "hexLight": "#8b5cf6",
+        "hexDark": "#8b5cf6",
+        "items": [
+          13,
+          26,
+          53
+        ]
+      },
+      "SES": {
+        "name": "Security: Societal",
+        "desc": "Safety and stability in the wider society.",
+        "ho": "Conservation",
+        "colorCode": "var(--color-co)",
+        "hexLight": "#8b5cf6",
+        "hexDark": "#8b5cf6",
+        "items": [
+          2,
+          35,
+          50
+        ]
+      },
+      "TR": {
+        "name": "Tradition",
+        "desc": "Maintaining cultural, family, or religious traditions.",
+        "ho": "Conservation",
+        "colorCode": "var(--color-co)",
+        "hexLight": "#8b5cf6",
+        "hexDark": "#8b5cf6",
+        "items": [
+          18,
+          33,
+          40
+        ]
+      },
+      "COR": {
+        "name": "Conformity: Rules",
+        "desc": "Compliance with rules, laws, and formal obligations.",
+        "ho": "Conservation",
+        "colorCode": "var(--color-co)",
+        "hexLight": "#8b5cf6",
+        "hexDark": "#8b5cf6",
+        "items": [
+          15,
+          31,
+          42
+        ]
+      },
+      "COI": {
+        "name": "Conformity: Interpersonal",
+        "desc": "Avoidance of upsetting or harming other people.",
+        "ho": "Conservation",
+        "colorCode": "var(--color-co)",
+        "hexLight": "#8b5cf6",
+        "hexDark": "#8b5cf6",
+        "items": [
+          4,
+          22,
+          51
+        ]
+      },
+      "HUM": {
+        "name": "Humility",
+        "desc": "Recognizing one's insignificance in the larger scheme of things.",
+        "ho": "Separate Value",
+        "colorCode": "var(--color-co)",
+        "hexLight": "#8b5cf6",
+        "hexDark": "#8b5cf6",
+        "items": [
+          7,
+          38,
+          54
+        ]
+      },
+      "UNN": {
+        "name": "Universalism: Nature",
+        "desc": "Preservation of the natural environment.",
+        "ho": "Self-Transcendence",
+        "colorCode": "var(--color-st)",
+        "hexLight": "#10b981",
+        "hexDark": "#10b981",
+        "items": [
+          8,
+          21,
+          45
+        ]
+      },
+      "UNC": {
+        "name": "Universalism: Concern",
+        "desc": "Commitment to equality, justice, and protection for all.",
+        "ho": "Self-Transcendence",
+        "colorCode": "var(--color-st)",
+        "hexLight": "#10b981",
+        "hexDark": "#10b981",
+        "items": [
+          5,
+          37,
+          52
+        ]
+      },
+      "UNT": {
+        "name": "Universalism: Tolerance",
+        "desc": "Acceptance and understanding of those who are different.",
+        "ho": "Self-Transcendence",
+        "colorCode": "var(--color-st)",
+        "hexLight": "#10b981",
+        "hexDark": "#10b981",
+        "items": [
+          14,
+          34,
+          57
+        ]
+      },
+      "BEC": {
+        "name": "Benevolence: Caring",
+        "desc": "Devotion to the welfare of in-group members.",
+        "ho": "Self-Transcendence",
+        "colorCode": "var(--color-st)",
+        "hexLight": "#10b981",
+        "hexDark": "#10b981",
+        "items": [
+          11,
+          25,
+          47
+        ]
+      },
+      "BED": {
+        "name": "Benevolence: Dependability",
+        "desc": "Being a reliable and trustworthy member of the in-group.",
+        "ho": "Self-Transcendence",
+        "colorCode": "var(--color-st)",
+        "hexLight": "#10b981",
+        "hexDark": "#10b981",
+        "items": [
+          19,
+          27,
+          55
+        ]
+      }
+    },
+    "labels1to6": [
+      "Not like me at all",
+      "Not like me",
+      "A little like me",
+      "Moderately like me",
+      "Like me",
+      "Very much like me"
+    ]
+  },
+  "srhi": [
+    {
+      "id": "srhi_1",
+      "en": "I do frequently",
+      "de": "das ich häufig tue"
+    },
+    {
+      "id": "srhi_2",
+      "en": "I do automatically",
+      "de": "das ich automatisch tue"
+    },
+    {
+      "id": "srhi_3",
+      "en": "I do without having to consciously remember",
+      "de": "das ich tue, ohne mich bewusst erinnern zu müssen"
+    },
+    {
+      "id": "srhi_4",
+      "en": "that makes me feel weird if I do not do it",
+      "de": "bei dem ich mich komisch fühle, wenn ich es nicht tue"
+    },
+    {
+      "id": "srhi_5",
+      "en": "I do without thinking",
+      "de": "das ich tue, ohne darüber nachzudenken"
+    },
+    {
+      "id": "srhi_6",
+      "en": "that would require effort not to do it",
+      "de": "das mich Anstrengung kosten würde, es nicht zu tun"
+    },
+    {
+      "id": "srhi_7",
+      "en": "that belongs to my daily, weekly, or monthly routine",
+      "de": "das zu meiner täglichen, wöchentlichen oder monatlichen Routine gehört"
+    },
+    {
+      "id": "srhi_8",
+      "en": "I start doing before I realize I'm doing it",
+      "de": "mit dem ich anfange, ohne zu bemerken, dass ich es tue"
+    },
+    {
+      "id": "srhi_9",
+      "en": "I would find hard not to do",
+      "de": "das mir schwerfallen würde, es nicht zu tun"
+    },
+    {
+      "id": "srhi_10",
+      "en": "I have no need to think about doing",
+      "de": "worüber ich nicht nachdenken muss, um es zu tun"
+    },
+    {
+      "id": "srhi_11",
+      "en": "that's typically \"me\"",
+      "de": "das typisch für mich ist"
+    },
+    {
+      "id": "srhi_12",
+      "en": "I have been doing for a long time",
+      "de": "das ich schon seit langer Zeit mache"
+    }
+  ],
+  "scc": {
+    "type": "survey",
+    "items": [
+      "我对自己的看法常常和其他人对我的看法相冲突。",
+      "关于自己，今天我有这样的想法，而明天我又会有另外的想法。",
+      "我花很多的时间去考虑我到底是一个怎样的人。",
+      "有些时候我感觉到我不是真正想成为的那个人。",
+      "当我想到过去我是个什么样的人的时候，我不确定我过去到底是不是那样。",
+      "我对自己各方面品质（如能力、脾气、性格等)的认识，很少感到冲突。",
+      "有些时候我认为，我了解他人比了解自己的要多。",
+      "我对自己的想法，变化的非常频繁。",
+      "如果让我描述自己的品质（比如世界观、人生观、价值观、理想等），今天的描述很可能和昨天的不一样。",
+      "即使我想告诉，我也不认为我会告诉其他人我真的想要什么。",
+      "一般来讲，我清楚的知道我是谁、我是怎么样的人。",
+      "我通常很难下决定，因为我真的不知道自己想要什么。"
+    ],
+    "scale": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "reverse": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    "scoring_index": 1,
+    "instructions": "<p><div style = \"font-size: 25px\">以下提及的是人们关于自己的一些看法，<br>这些描述并无好坏对错之分，请您按照自己的实际情况，<br>判断对下列所列的条目的赞同程度，<br>1 代表“非常不同意”，2 代表“比较不同意”，3 代表“不确定”，<br>4 代表“比较同意”，5 代表“非常同意”。</div> </p>",
+    "randomize_question_order": false,
+    "scale_repeat": 6,
+    "survey_width": 950,
+    "item_width": 50
+  }
+}

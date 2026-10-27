@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "reflection-demo",
+  "mode": "manual",
+  "missing_policy": "require_complete",
+  "dimensions": []
+}

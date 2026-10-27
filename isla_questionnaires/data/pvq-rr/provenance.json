@@ -1,0 +1,36 @@
+{
+  "source": {
+    "repository": "Aurareus/PVQ-RR-Assessment",
+    "commit": "09b251f334609dd028f997ea1fa9666c3932a3fb",
+    "url": "https://github.com/Aurareus/PVQ-RR-Assessment",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "index.html"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/pvq-rr/index.html",
+      "sha256": "1e029dbb2b39d17107069f78794c33c083e780c1eb2fbe49eec794da7a1e95ef"
+    },
+    {
+      "path": "sources/pvq-rr/LICENSE",
+      "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+    },
+    {
+      "path": "sources/extracted.json",
+      "sha256": "72abba644e18f8e451b06abbc0858bd56e54847925ba2f0edbad5803cfb16727"
+    }
+  ],
+  "verification": {
+    "level": "pending",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": [
+      "Verify original item wording, value key and response coding: this source reverses the common 1=very much like me orientation."
+    ]
+  },
+  "transformations": [],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

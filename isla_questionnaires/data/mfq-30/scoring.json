@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "mfq-30",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "care",
+      "name": "Care / Harm",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "21",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        }
+      ],
+      "description": "Care / Harm: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "fairness",
+      "name": "Fairness / Cheating",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "2",
+          "reverse": false
+        },
+        {
+          "item": "7",
+          "reverse": false
+        },
+        {
+          "item": "12",
+          "reverse": false
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "27",
+          "reverse": false
+        }
+      ],
+      "description": "Fairness / Cheating: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "loyalty",
+      "name": "Loyalty / Betrayal",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "18",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": false
+        }
+      ],
+      "description": "Loyalty / Betrayal: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "authority",
+      "name": "Authority / Subversion",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "4",
+          "reverse": false
+        },
+        {
+          "item": "9",
+          "reverse": false
+        },
+        {
+          "item": "14",
+          "reverse": false
+        },
+        {
+          "item": "19",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        }
+      ],
+      "description": "Authority / Subversion: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "sanctity",
+      "name": "Sanctity / Degradation",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "5",
+          "reverse": false
+        },
+        {
+          "item": "10",
+          "reverse": false
+        },
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        }
+      ],
+      "description": "Sanctity / Degradation: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

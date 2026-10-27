@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ius-12",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "prospective",
+      "name": "Prospective Anxiety",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "ius-1",
+          "reverse": false
+        },
+        {
+          "item": "ius-2",
+          "reverse": false
+        },
+        {
+          "item": "ius-3",
+          "reverse": false
+        },
+        {
+          "item": "ius-4",
+          "reverse": false
+        },
+        {
+          "item": "ius-5",
+          "reverse": false
+        },
+        {
+          "item": "ius-6",
+          "reverse": false
+        },
+        {
+          "item": "ius-7",
+          "reverse": false
+        }
+      ],
+      "description": "Cognitive apprehension about future uncertainty"
+    },
+    {
+      "id": "inhibitory",
+      "name": "Inhibitory Anxiety",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "ius-8",
+          "reverse": false
+        },
+        {
+          "item": "ius-9",
+          "reverse": false
+        },
+        {
+          "item": "ius-10",
+          "reverse": false
+        },
+        {
+          "item": "ius-11",
+          "reverse": false
+        },
+        {
+          "item": "ius-12",
+          "reverse": false
+        }
+      ],
+      "description": "Behavioral paralysis due to uncertainty"
+    },
+    {
+      "id": "total",
+      "name": "Total",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "ius-1",
+          "reverse": false
+        },
+        {
+          "item": "ius-2",
+          "reverse": false
+        },
+        {
+          "item": "ius-3",
+          "reverse": false
+        },
+        {
+          "item": "ius-4",
+          "reverse": false
+        },
+        {
+          "item": "ius-5",
+          "reverse": false
+        },
+        {
+          "item": "ius-6",
+          "reverse": false
+        },
+        {
+          "item": "ius-7",
+          "reverse": false
+        },
+        {
+          "item": "ius-8",
+          "reverse": false
+        },
+        {
+          "item": "ius-9",
+          "reverse": false
+        },
+        {
+          "item": "ius-10",
+          "reverse": false
+        },
+        {
+          "item": "ius-11",
+          "reverse": false
+        },
+        {
+          "item": "ius-12",
+          "reverse": false
+        }
+      ],
+      "description": "Total: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

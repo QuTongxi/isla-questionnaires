@@ -1,0 +1,69 @@
+# RIASEC 30-item assessment bank (O*NET Interest Profiler — Mini-IP)
+# Source: O*NET Interest Profiler Mini-IP (30 items)
+# Official reference: https://services.onetcenter.org/v1.9/reference/mnm/ip/ip_questions_30
+# License: O*NET content is available under O*NET Terms of Use.
+#   https://www.onetcenter.org/terms.html
+# These are the OFFICIAL English item texts from the O*NET API reference.
+# Vietnamese translations below are derived from official items.
+# Scoring: Each item rated 1-5 (Strongly Disagree → Strongly Like).
+# RIASEC score = sum of item scores for that dimension, then normalized.
+
+assessment_bank:
+  assessment_id: riasec
+  version: "onet-ip-30-official-v1"
+  locale: en-US
+  scoring_version: "det-v3"
+  source: "O*NET Interest Profiler Mini-IP (30 items)"
+  source_url: "https://services.onetcenter.org/v1.9/reference/mnm/ip/ip_questions_30"
+  license_note: "O*NET Terms of Use apply. See https://www.onetcenter.org/terms.html"
+  dimensions: [R, I, A, S, E, C]
+  items_per_dimension: 5
+  total_items: 30
+  answer_options:
+    - {value: 1, label: "Strongly Dislike"}
+    - {value: 2, label: "Dislike"}
+    - {value: 3, label: "Neutral"}
+    - {value: 4, label: "Like"}
+    - {value: 5, label: "Strongly Like"}
+  items:
+    # Realistic (R) — 5 items
+    - {id: "RIASEC_R_1", dimension: R, prompt: "Build kitchen cabinets", prompt_vi: "Tôi thích làm tủ bếp bằng gỗ"}
+    - {id: "RIASEC_R_2", dimension: R, prompt: "Repair a washing machine", prompt_vi: "Tôi thích sửa chữa máy giặt"}
+    - {id: "RIASEC_R_3", dimension: R, prompt: "Assemble electronic parts", prompt_vi: "Tôi thích lắp ráp linh kiện điện tử"}
+    - {id: "RIASEC_R_4", dimension: R, prompt: "Work with wood", prompt_vi: "Tôi thích làm việc với gỗ"}
+    - {id: "RIASEC_R_5", dimension: R, prompt: "Repair a car engine", prompt_vi: "Tôi thích sửa chữa động cơ xe hơi"}
+
+    # Investigative (I) — 5 items
+    - {id: "RIASEC_I_1", dimension: I, prompt: "Develop a new medicine", prompt_vi: "Tôi thích nghiên cứu phát triển thuốc mới"}
+    - {id: "RIASEC_I_2", dimension: I, prompt: "Analyze data to solve a problem", prompt_vi: "Tôi thích phân tích dữ liệu để giải quyết vấn đề"}
+    - {id: "RIASEC_I_3", dimension: I, prompt: "Conduct a scientific experiment", prompt_vi: "Tôi thích làm thí nghiệm khoa học"}
+    - {id: "RIASEC_I_4", dimension: I, prompt: "Learn how the body works", prompt_vi: "Tôi thích tìm hiểu cách cơ thể hoạt động"}
+    - {id: "RIASEC_I_5", dimension: I, prompt: "Solve math problems", prompt_vi: "Tôi thích giải các bài toán"}
+
+    # Artistic (A) — 5 items
+    - {id: "RIASEC_A_1", dimension: A, prompt: "Write a short story", prompt_vi: "Tôi thích viết truyện ngắn"}
+    - {id: "RIASEC_A_2", dimension: A, prompt: "Draw a picture", prompt_vi: "Tôi thích vẽ tranh"}
+    - {id: "RIASEC_A_3", dimension: A, prompt: "Play a musical instrument", prompt_vi: "Tôi thích chơi nhạc cụ"}
+    - {id: "RIASEC_A_4", dimension: A, prompt: "Act in a play", prompt_vi: "Tôi thích diễn kịch"}
+    - {id: "RIASEC_A_5", dimension: A, prompt: "Design a poster", prompt_vi: "Tôi thích thiết kế áp phích"}
+
+    # Social (S) — 5 items
+    - {id: "RIASEC_S_1", dimension: S, prompt: "Teach a class", prompt_vi: "Tôi thích giảng dạy một lớp học"}
+    - {id: "RIASEC_S_2", dimension: S, prompt: "Help someone with a personal problem", prompt_vi: "Tôi thích giúp ai đó giải quyết vấn đề cá nhân"}
+    - {id: "RIASEC_S_3", dimension: S, prompt: "Volunteer at a hospital", prompt_vi: "Tôi thích làm tình nguyện tại bệnh viện"}
+    - {id: "RIASEC_S_4", dimension: S, prompt: "Counsel someone", prompt_vi: "Tôi thích tư vấn cho ai đó"}
+    - {id: "RIASEC_S_5", dimension: S, prompt: "Organize a community event", prompt_vi: "Tôi thích tổ chức sự kiện cộng đồng"}
+
+    # Enterprising (E) — 5 items
+    - {id: "RIASEC_E_1", dimension: E, prompt: "Sell a product", prompt_vi: "Tôi thích bán hàng"}
+    - {id: "RIASEC_E_2", dimension: E, prompt: "Lead a team", prompt_vi: "Tôi thích dẫn dắt một nhóm"}
+    - {id: "RIASEC_E_3", dimension: E, prompt: "Start a business", prompt_vi: "Tôi thích khởi nghiệp kinh doanh"}
+    - {id: "RIASEC_E_4", dimension: E, prompt: "Manage a project", prompt_vi: "Tôi thích quản lý một dự án"}
+    - {id: "RIASEC_E_5", dimension: E, prompt: "Persuade others to buy something", prompt_vi: "Tôi thích thuyết phục người khác mua thứ gì đó"}
+
+    # Conventional (C) — 5 items
+    - {id: "RIASEC_C_1", dimension: C, prompt: "Organize files", prompt_vi: "Tôi thích sắp xếp hồ sơ tài liệu"}
+    - {id: "RIASEC_C_2", dimension: C, prompt: "Keep track of inventory", prompt_vi: "Tôi thích theo dõi kiểm kê hàng hóa"}
+    - {id: "RIASEC_C_3", dimension: C, prompt: "Type reports", prompt_vi: "Tôi thích đánh máy báo cáo"}
+    - {id: "RIASEC_C_4", dimension: C, prompt: "Work with numbers", prompt_vi: "Tôi thích làm việc với các con số"}
+    - {id: "RIASEC_C_5", dimension: C, prompt: "Maintain records", prompt_vi: "Tôi thích lưu trữ và bảo quản hồ sơ"}

@@ -1,0 +1,468 @@
+
+
+
+
+
+
+
+The General Self
+
+
+
+
+
+
+
+ 
+
+
+
+The
+General Self-Efficacy Scale (GSE)
+
+
+
+ 
+
+
+
+  
+
+    
+Authors
+
+    
+ Ralf Schwarzer
+    & Matthias Jerusalem
+    
+
+  
+
+  
+
+    
+Languages
+
+    
+The scale is
+    available in 33 languages at http://userpage.fu-berlin.de/~health/selfscal.htm
+
+  
+
+  
+
+    
+Origin
+
+    
+German version
+    developed in 1979 by Matthias Jerusalem and Ralf Schwarzer, and later revised and adapted
+    to 26 other languages by various co-authors. 
+
+    
+Citation:
+
+    
+Schwarzer,
+    R., & Jerusalem, M. (1995). Generalized Self-Efficacy scale. In J.
+    Weinman, S. Wright, & M. Johnston, Measures in health psychology: A
+    user’s portfolio. Causal and control beliefs (pp. 35-37). Windsor, UK: NFER-NELSON.
+
+  
+
+  
+
+    
+Purpose
+
+    
+The
+    scale was created to assess a general sense of perceived self-efficacy with the aim in
+    mind to predict coping with daily hassles as well as adaptation after experiencing all
+    kinds of stressful life events. 
+
+  
+
+  
+
+    
+Population
+
+    
+The
+    scale is designed for the general adult population, including adolescents. Persons below
+    the age of 12 should not be tested. 
+
+  
+
+  
+
+    
+Administration
+
+    
+The scale is
+    usually self-administered, as part of a more comprehensive questionnaire. Preferably, the
+    10 items are mixed at random into a larger pool of items that have the same response
+    format. Time: It requires 4 minutes on average. Scoring: Responses are made on a 4-point
+    scale. Sum up the responses to all 10 items to yield the final composite score with a
+    range from 10 to 40. No recoding.
+
+  
+
+  
+
+    
+Description
+
+    
+The construct of
+    Perceived Self-Efficacy reflects an optimistic self-belief (Schwarzer, 1992). This is the
+    belief that one can perform a novel or difficult tasks, or cope with adversity -- in
+    various domains of human functioning.  Perceived self-efficacy facilitates
+    goal-setting, effort investment,  persistence in face of barriers and recovery from
+    setbacks. It can be regarded as a positive resistance resource factor. Ten items are
+    designed to tap this construct. Each item refers to successful coping and implies an
+    internal-stable attribution of success. Perceived self-efficacy is an operative construct,
+    i.e., it is related to subsequent behavior and, therefore, is relevant for clinical
+    practice and behavior change.
+
+  
+
+  
+
+    
+Coverage
+
+    
+The scale can be
+    applied, for example, to patients before and after surgery to assess changes in quality of
+    life. Also, it can be used in patients with chronic pain or those within a rehabilitation
+    program.
+
+  
+
+  
+
+    
+Reliability
+
+    
+In samples from
+    23 nations, Cronbach’s alphas ranged from .76 to .90, with the majority in the high
+    .80s. The scale is unidimensional.
+
+  
+
+  
+
+    
+Validity
+
+    
+Criterion-related
+    validity is documented in numerous correlation studies where positive coefficients were
+    found with favorable emotions, dispositional optimism, and work satisfaction. Negative
+    coefficients were found with depression, anxiety, stress, burnout, and health complaints.
+    In studies with cardiac patients, their recovery over a half-year time period could be
+    predicted by pre-surgery self-efficacy.
+
+    
+More at:
+
+    
+http://userpage.fu-berlin.de/~health/self/selfeff_public.htm
+
+  
+
+  
+
+    
+Strengths
+
+    
+The measure has
+    been used internationally with success for two decades. It is suitable for a broad range
+    of applications. It can be taken to predict adaptation after life changes, but it is also
+    suitable as an indicator of quality of life at any point in time.
+
+  
+
+  
+
+    
+Weaknesses
+
+    
+As a general
+    measure, it does not tap specific behavior change. Therefore, in most applications it is
+    necessary to add a few items to cover the particular content of the survey or intervention
+    (such as smoking cessation self-efficacy, or physical exercise self-efficacy). How to
+    write such items is described in Schwarzer and Fuchs (1996).
+
+  
+
+  
+
+    
+Bibliography
+    (by year)
+
+    
+ 
+
+    
+Jerusalem,
+    M., & Schwarzer, R. (1992). Self-efficacy as a resource factor in stress
+    appraisal processes. In R. Schwarzer (Ed.), Self-efficacy: Thought control of action
+    (pp. 195-213). Washington, DC: Hemisphere.
+
+    
+Schwarzer,
+    R. (Ed.) (1992).
+    Self-efficacy: Thought control of action. Washington, DC: Hemisphere. 
+
+    
+Schwarzer, R., & Jerusalem, M. (1995).
+    Generalized
+    Self-Efficacy scale. In J. Weinman, S. Wright, & M. Johnston, Measures in
+    health psychology: A user’s portfolio. Causal and control beliefs (pp. 35-37). Windsor, UK: NFER-NELSON.
+
+    
+Zhang,
+    J. X., & Schwarzer, R. (1995). Measuring optimistic self-beliefs: A Chinese
+    adaptation of the General Self-Efficacy Scale. Psychologia: An International Journal of Psychology in the Orient, 38 (3), 174-181.
+
+    
+Bäßler, J.,
+    & Schwarzer, R. (1996). Evaluación de la autoeficacia: Adaptación española
+    de la escala de autoeficacia general [Measuring generalized self-beliefs: A Spanish
+    adaptation of the General Self-Efficacy scale]. Ansiedad y Estrés, 2 (1), 1-8. 
+
+    
+Schwarzer, R.,
+    & Fuchs, R. (1996). Self-efficacy
+    and health behaviors. In M. Conner & P. Norman (Eds.), Predicting health behavior:
+    Research and practice with social cognition models. (pp. 163-196) Buckingham, UK: Open
+    University Press.
+
+    
+Schwarzer, R.,
+    Jerusalem, M., & Romek, V. (1996). Russian version of the General Self-Efficacy Scale. Foreign Psychology (Moscow), 7, 71-77 [in
+    Russian].
+
+    
+Schwarzer, R.,
+    Bäßler, J., Kwiatek, P., Schröder, K., & Zhang, J. X. (1997). The assessment of optimistic
+    self-beliefs: Comparison of the German, Spanish, and Chinese versions of the General
+    Self-Efficacy Scale. Applied Psychology: An International Review, 46 (1), 69-88.
+
+    
+Schwarzer,
+    R., & Born, A. (1997). Optimistic self-beliefs:  Assessment of general
+    perceived self-efficacy in thirteen cultures. World Psychology, 3(1-2),
+    177-190.
+
+    
+Schwarzer, R.,
+    Born, A., Iwawaki, S., Lee, Y.-M., Saito, E., & Yue, X. (1997). The assessment
+    of optimistic self-beliefs: Comparison of the Chinese, Indonesian, Japanese and Korean
+    versions of the General Self-Efficacy Scale. Psychologia: An International Journal of
+    Psychology in the Orient, 40 (1), 1-13.
+
+    
+Schwarzer, R.,
+    Mueller, J., & Greenglass, E. (1999). Assessment of perceived general
+    self-efficacy on the Internet: Data collection in cyberspace. Anxiety, Stress, and
+    Coping, 12, 145-161. 
+
+    
+Rimm, H., &
+    Jerusalem, M. (1999). Adaptation and validation of an Estonian version of the
+    General Self-Efficacy Scale (ESES).  Anxiety, Stress, and Coping, 12, 329-345.
+
+    
+Schwarzer, R., & Scholz, U.
+    (2000). Cross-Cultural Assessment of
+    Coping Resources: The General Perceived Self-Efficacy Scale. Paper presented at the
+    First Asian Congress of Health Psychology: Health Psychology and Culture, Tokyo, Japan.
+
+    
+Scholz, U., Gutiérrez-Doña,
+    B., Sud, S., & Schwarzer, R. (2001-submitted). Is perceived self-efficacy a
+    universal construct? Psychometric findings from 25 countries.
+
+  
+
+  
+
+    
+Contact
+
+    
+Prof. Dr. Ralf
+    Schwarzer, 
+
+    Freie Universität Berlin, Psychologie, 
+
+    Habelschwerdter Allee 45, 
+
+    14195 Berlin, Germany,
+
+    FAX +49 (30)838-55634 
+
+    E-mail: health@zedat.fu-berlin.de
+
+    
+http://www.RalfSchwarzer.de
+
+  
+
+  
+
+    
+Appendix
+
+    
+English version by Ralf Schwarzer & Matthias Jerusalem, 1995
+
+  
+
+  
+
+    
+ 
+
+    
+      
+
+        
+1
+
+        
+I can
+        always manage to solve difficult problems if I try hard enough. 
+
+      
+
+      
+
+        
+2
+
+        
+If
+        someone opposes me, I can find the means and ways to get what I want. 
+
+      
+
+      
+
+        
+3
+
+        
+It is
+        easy for me to stick to my aims and accomplish my goals. 
+
+      
+
+      
+
+        
+4
+
+        
+I am
+        confident that I could deal efficiently with unexpected events. 
+
+      
+
+      
+
+        
+5
+
+        
+Thanks
+        to my resourcefulness, I know how to handle unforeseen situations. 
+
+      
+
+      
+
+        
+6
+
+        
+I can
+        solve most problems if I invest the necessary effort. 
+
+      
+
+      
+
+        
+7
+
+        
+I can
+        remain calm when facing difficulties because I can rely on my coping abilities. 
+
+      
+
+      
+
+        
+8
+
+        
+When
+        I am confronted with a problem, I can usually find several solutions. 
+
+      
+
+      
+
+        
+9
+
+        
+If I
+        am in trouble, I can usually think of a solution. 
+
+      
+
+      
+
+        
+10
+
+        
+I can
+        usually handle whatever comes my way.
+
+      
+
+    
+    
+
+  
+
+  
+
+    Response Format
+
+    
+ 1 = Not at all true   2 = Hardly
+    true   3 = Moderately true   4 = Exactly true
+
+  
+
+
+
+
+ 
+
+
+

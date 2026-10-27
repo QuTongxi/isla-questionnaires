@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ie-4",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "internal",
+      "name": "Internal Locus of Control",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ie_401",
+          "reverse": false
+        },
+        {
+          "item": "ie_402",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of items 1 and 2. Range 1-5."
+    },
+    {
+      "id": "external",
+      "name": "External Locus of Control",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "ie_403",
+          "reverse": false
+        },
+        {
+          "item": "ie_404",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of items 3 and 4. Range 1-5."
+    }
+  ]
+}

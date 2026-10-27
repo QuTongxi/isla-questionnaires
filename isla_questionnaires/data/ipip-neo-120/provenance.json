@@ -1,0 +1,41 @@
+{
+  "source": {
+    "repository": "rubynor/bigfive-web",
+    "commit": "e8f3caca49edafb9bc6b927eff7fbc1264312c24",
+    "url": "https://github.com/rubynor/bigfive-web",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "packages/questions/src/data/en/questions.ts",
+      "packages/questions/src/data/en/choices.ts"
+    ]
+  },
+  "files": [
+    {
+      "path": "sources/bigfive-web/packages/questions/src/data/en/questions.ts",
+      "sha256": "43f7e3b8f62eebeef0fd7620fe0ce586c949200468f45c1abf5c0016acb258db"
+    },
+    {
+      "path": "sources/bigfive-web/packages/questions/src/data/en/choices.ts",
+      "sha256": "8a308f98464061b7ae5e44d410594b1ff3f56073477632544665729e3f0335f4"
+    },
+    {
+      "path": "sources/bigfive-web/LICENSE",
+      "sha256": "6e569c7596b65e56abf12d4494a26b582c0c966c29f2437a13bf16415cda6ca8"
+    },
+    {
+      "path": "sources/extracted.json",
+      "sha256": "72abba644e18f8e451b06abbc0858bd56e54847925ba2f0edbad5803cfb16727"
+    }
+  ],
+  "verification": {
+    "level": "source_key_checked",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Keep the 120 original source UUIDs, order, domain/facet mapping and key direction. Report raw sums, without invented population percentiles."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

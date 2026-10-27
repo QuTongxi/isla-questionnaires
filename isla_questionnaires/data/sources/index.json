@@ -1,0 +1,146 @@
+{
+  "incharacter": {
+    "repository": "Neph0s/InCharacter",
+    "commit": "f554202a94d4a83dc5407245bb18981899e872e6",
+    "url": "https://github.com/Neph0s/InCharacter",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "data/questionnaires/BFI.json",
+      "data/questionnaires/EPQ-R.json",
+      "data/questionnaires/ECR-R.json",
+      "data/questionnaires/LOT-R.json",
+      "data/questionnaires/WLEIS.json",
+      "data/questionnaires/EIS.json",
+      "data/questionnaires/CABIN.json"
+    ]
+  },
+  "openscales": {
+    "repository": "stmueller/OpenScales",
+    "commit": "d555b04a1961181a63f91b534bc1096bcbd1dcdc",
+    "url": "https://github.com/stmueller/OpenScales",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "scales/openscales/GSE/GSE.osd",
+      "scales/openscales/RSES/RSES.osd",
+      "scales/openscales/SWLS/SWLS.osd",
+      "scales/openscales/ERQ/ERQ.osd",
+      "scales/openscales/DOSPERT/DOSPERT.osd",
+      "scales/openscales/IE-4/IE-4.osd",
+      "scales/openscales/ESS-BSTS/ESS-BSTS.osd",
+      "scales/openscales/ESS-ITS/ESS-ITS.osd",
+      "scales/openscales/ESS-PE/ESS-PE.osd",
+      "scales/openscales/SECS/SECS.osd",
+      "scales/openscales/ESS-PVQ21/ESS-PVQ21.osd"
+    ]
+  },
+  "personality-bench": {
+    "repository": "AnthonyDavidAdams/personality-bench",
+    "commit": "fe3b6ddf2eda9d2cee39c7db55f14f8d7f73db1d",
+    "url": "https://github.com/AnthonyDavidAdams/personality-bench",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "instruments/ipip50.json",
+      "instruments/ncs18.json",
+      "instruments/mfq30.json",
+      "instruments/pvq21.json",
+      "instruments/locus_levenson.json"
+    ]
+  },
+  "bigfive-web": {
+    "repository": "rubynor/bigfive-web",
+    "commit": "e8f3caca49edafb9bc6b927eff7fbc1264312c24",
+    "url": "https://github.com/rubynor/bigfive-web",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "packages/questions/src/data/en/questions.ts",
+      "packages/questions/src/data/en/choices.ts"
+    ]
+  },
+  "psyche": {
+    "repository": "AshitaOrbis/psyche-public",
+    "commit": "28480802ce025a986a6574c013d2c7d07084c8ec",
+    "url": "https://github.com/AshitaOrbis/psyche-public",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "web/src/instruments/hexaco-60.ts",
+      "web/src/instruments/iri-28.ts",
+      "web/src/instruments/mfq-2.ts",
+      "web/src/instruments/grit-s.ts",
+      "web/src/instruments/grit-o.ts",
+      "web/src/instruments/ius-12.ts",
+      "web/src/instruments/self-monitoring-18.ts",
+      "web/src/instruments/crt-7.ts",
+      "web/src/instruments/open-ended.ts"
+    ]
+  },
+  "psv": {
+    "repository": "Chuan-Peng-Lab/PSV_Dataset",
+    "commit": "c72034ffc8303fa230a6b0334872245380e42558",
+    "url": "https://github.com/Chuan-Peng-Lab/PSV_Dataset",
+    "license_files": [],
+    "files": [
+      "04_code_and_reproducibility/procedure/day1/surveys/selfclarity.js"
+    ]
+  },
+  "holi": {
+    "repository": "holi-lab/Psychometric-Item-Validation",
+    "commit": "798253a4b123865e5a5add337c8fbcf55d29ff03",
+    "url": "https://github.com/holi-lab/Psychometric-Item-Validation",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "data/official_item/Schwartz/PVQ-40_they.json"
+    ]
+  },
+  "pvq-rr": {
+    "repository": "Aurareus/PVQ-RR-Assessment",
+    "commit": "09b251f334609dd028f997ea1fa9666c3932a3fb",
+    "url": "https://github.com/Aurareus/PVQ-RR-Assessment",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "index.html"
+    ]
+  },
+  "chatbot-study": {
+    "repository": "KaluJo/chatbot-study",
+    "commit": "c1585408c63be7e4a6b7c3595f688026c18c03e9",
+    "url": "https://github.com/KaluJo/chatbot-study",
+    "license_files": [
+      "LICENSE"
+    ],
+    "files": [
+      "components/survey/value-utils.ts"
+    ]
+  },
+  "health-habit-hub": {
+    "repository": "Bulgy404/health-habit-hub",
+    "commit": "758aaafb6f747d160cfd3dd120e2015eeea33a01",
+    "url": "https://github.com/Bulgy404/health-habit-hub",
+    "license_files": [],
+    "files": [
+      "app/utils/srhi.js"
+    ]
+  },
+  "career": {
+    "repository": "thphuc06/agentic-career-recommendation-system",
+    "commit": "87844ee3e19717875f59f727b5a313b231f5a81e",
+    "url": "https://github.com/thphuc06/agentic-career-recommendation-system",
+    "license_files": [],
+    "files": [
+      "data/generated/assessment_riasec_30.yaml"
+    ]
+  }
+}

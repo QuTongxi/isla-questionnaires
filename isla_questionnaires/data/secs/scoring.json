@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "secs",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "conservatism",
+      "name": "Social and Economic Conservatism",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "secs1",
+          "reverse": true
+        },
+        {
+          "item": "secs2",
+          "reverse": false
+        },
+        {
+          "item": "secs3",
+          "reverse": false
+        },
+        {
+          "item": "secs4",
+          "reverse": false
+        },
+        {
+          "item": "secs5",
+          "reverse": true
+        },
+        {
+          "item": "secs6",
+          "reverse": false
+        },
+        {
+          "item": "secs7",
+          "reverse": false
+        },
+        {
+          "item": "secs8",
+          "reverse": false
+        },
+        {
+          "item": "secs9",
+          "reverse": false
+        },
+        {
+          "item": "secs10",
+          "reverse": false
+        },
+        {
+          "item": "secs11",
+          "reverse": false
+        },
+        {
+          "item": "secs12",
+          "reverse": false
+        }
+      ],
+      "description": "Mean of items after reverse-coding Abortion and Welfare benefits (0-100). Divide by 10 for 0-10 scale. Higher = more conservative."
+    }
+  ]
+}

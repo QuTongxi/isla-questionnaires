@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ess-political-efficacy",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "psppsgv",
+      "name": "How much would you say the political system allows people like you to have a say in what the government does?",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "psppsgv",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "actrolga",
+      "name": "How able do you think you are to take an active role in a group involved with political issues?",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "actrolga",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "psppipla",
+      "name": "How much would you say that the political system allows people like you to have an influence on politics?",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "psppipla",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    },
+    {
+      "id": "cptppola",
+      "name": "How confident are you in your own ability to participate in politics?",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "cptppola",
+          "reverse": false
+        }
+      ],
+      "description": "Original ESS item score. Higher means greater reported trust/efficacy; no unofficial composite or cutoff."
+    }
+  ]
+}

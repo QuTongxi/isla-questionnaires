@@ -1,0 +1,16 @@
+{
+  "source": {
+    "repository": "primary-author-material",
+    "url": "project-authored"
+  },
+  "files": [],
+  "verification": {
+    "level": "demo",
+    "scope": "Versioned item text, response coding and declarative score rules; not a validation study or diagnostic approval.",
+    "blockers": []
+  },
+  "transformations": [
+    "Project-authored example, excluded from the 36-instrument inventory. A human supplies any interpretation."
+  ],
+  "license_notice": "Original questionnaire rights and source licenses remain applicable. See source files and THIRD_PARTY_NOTICES.md."
+}

@@ -1,0 +1,1248 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "ipip-neo-120",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "N",
+      "name": "Neuroticism",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
+          "reverse": false
+        },
+        {
+          "item": "48ad12ce-470e-4339-90ac-ea8c43a0103e",
+          "reverse": false
+        },
+        {
+          "item": "5e8550d7-b8ef-4905-950a-f81d735d39e2",
+          "reverse": false
+        },
+        {
+          "item": "b2d9ef74-73f5-4ea8-b00c-7aaca15937df",
+          "reverse": false
+        },
+        {
+          "item": "481efd08-c810-43b1-a952-f8ac9052f96b",
+          "reverse": false
+        },
+        {
+          "item": "2f519935-92e8-48ad-9746-4a0f8b38466a",
+          "reverse": false
+        },
+        {
+          "item": "7f92ab2c-265c-4b84-8c74-09f9bb9d41a7",
+          "reverse": false
+        },
+        {
+          "item": "7dab2a37-8635-4fc7-86b7-0abf13c183c9",
+          "reverse": false
+        },
+        {
+          "item": "f0a14e16-d726-47e9-a2c1-647fd3d7d52e",
+          "reverse": false
+        },
+        {
+          "item": "acd8fadc-5399-4a67-b5ff-9d1ada049c01",
+          "reverse": false
+        },
+        {
+          "item": "9891b7ba-a494-4307-aafe-301d8db506c6",
+          "reverse": true
+        },
+        {
+          "item": "13c58810-3864-42ba-aa87-d4166f858756",
+          "reverse": false
+        },
+        {
+          "item": "4d81238b-5407-47d4-88e5-dc0e38aa14f5",
+          "reverse": false
+        },
+        {
+          "item": "da8e6ed1-2296-4c58-8fdb-66f2f591989b",
+          "reverse": false
+        },
+        {
+          "item": "743d8973-1de1-4485-91b4-8a5cf63e7d44",
+          "reverse": false
+        },
+        {
+          "item": "20062533-a33d-4c1e-9cd9-bff868015b3f",
+          "reverse": false
+        },
+        {
+          "item": "9f2e7f90-0ca5-4ed0-9fe5-e060238a9b5e",
+          "reverse": true
+        },
+        {
+          "item": "b7e0e393-9b21-4e0d-adf3-8f28fb5b9d87",
+          "reverse": false
+        },
+        {
+          "item": "43b03992-3f32-4ed1-a6f8-5d6d3e7ed246",
+          "reverse": false
+        },
+        {
+          "item": "d32bd062-4eb2-401b-99b2-e7afea39ca9b",
+          "reverse": true
+        },
+        {
+          "item": "f40e421f-6c24-4be2-bd9f-28d33358d8c6",
+          "reverse": true
+        },
+        {
+          "item": "7317848c-3e1b-422f-bb16-02efc504f677",
+          "reverse": true
+        },
+        {
+          "item": "49a85680-53aa-4208-86b5-dccc7a6f8e37",
+          "reverse": true
+        },
+        {
+          "item": "88a3c2fe-3aa4-4f46-9322-da656332268a",
+          "reverse": true
+        }
+      ],
+      "description": "Neuroticism: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "N1",
+      "name": "Neuroticism facet 1",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
+          "reverse": false
+        },
+        {
+          "item": "7f92ab2c-265c-4b84-8c74-09f9bb9d41a7",
+          "reverse": false
+        },
+        {
+          "item": "4d81238b-5407-47d4-88e5-dc0e38aa14f5",
+          "reverse": false
+        },
+        {
+          "item": "43b03992-3f32-4ed1-a6f8-5d6d3e7ed246",
+          "reverse": false
+        }
+      ],
+      "description": "Neuroticism facet 1: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "N2",
+      "name": "Neuroticism facet 2",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "48ad12ce-470e-4339-90ac-ea8c43a0103e",
+          "reverse": false
+        },
+        {
+          "item": "7dab2a37-8635-4fc7-86b7-0abf13c183c9",
+          "reverse": false
+        },
+        {
+          "item": "da8e6ed1-2296-4c58-8fdb-66f2f591989b",
+          "reverse": false
+        },
+        {
+          "item": "d32bd062-4eb2-401b-99b2-e7afea39ca9b",
+          "reverse": true
+        }
+      ],
+      "description": "Neuroticism facet 2: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "N3",
+      "name": "Neuroticism facet 3",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "5e8550d7-b8ef-4905-950a-f81d735d39e2",
+          "reverse": false
+        },
+        {
+          "item": "f0a14e16-d726-47e9-a2c1-647fd3d7d52e",
+          "reverse": false
+        },
+        {
+          "item": "743d8973-1de1-4485-91b4-8a5cf63e7d44",
+          "reverse": false
+        },
+        {
+          "item": "f40e421f-6c24-4be2-bd9f-28d33358d8c6",
+          "reverse": true
+        }
+      ],
+      "description": "Neuroticism facet 3: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "N4",
+      "name": "Neuroticism facet 4",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "b2d9ef74-73f5-4ea8-b00c-7aaca15937df",
+          "reverse": false
+        },
+        {
+          "item": "acd8fadc-5399-4a67-b5ff-9d1ada049c01",
+          "reverse": false
+        },
+        {
+          "item": "20062533-a33d-4c1e-9cd9-bff868015b3f",
+          "reverse": false
+        },
+        {
+          "item": "7317848c-3e1b-422f-bb16-02efc504f677",
+          "reverse": true
+        }
+      ],
+      "description": "Neuroticism facet 4: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "N5",
+      "name": "Neuroticism facet 5",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "481efd08-c810-43b1-a952-f8ac9052f96b",
+          "reverse": false
+        },
+        {
+          "item": "9891b7ba-a494-4307-aafe-301d8db506c6",
+          "reverse": true
+        },
+        {
+          "item": "9f2e7f90-0ca5-4ed0-9fe5-e060238a9b5e",
+          "reverse": true
+        },
+        {
+          "item": "49a85680-53aa-4208-86b5-dccc7a6f8e37",
+          "reverse": true
+        }
+      ],
+      "description": "Neuroticism facet 5: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "N6",
+      "name": "Neuroticism facet 6",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "2f519935-92e8-48ad-9746-4a0f8b38466a",
+          "reverse": false
+        },
+        {
+          "item": "13c58810-3864-42ba-aa87-d4166f858756",
+          "reverse": false
+        },
+        {
+          "item": "b7e0e393-9b21-4e0d-adf3-8f28fb5b9d87",
+          "reverse": false
+        },
+        {
+          "item": "88a3c2fe-3aa4-4f46-9322-da656332268a",
+          "reverse": true
+        }
+      ],
+      "description": "Neuroticism facet 6: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "E",
+      "name": "Extraversion",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "d50a597f-632b-4f7b-89e6-6d85b50fd1c9",
+          "reverse": false
+        },
+        {
+          "item": "458f3957-2359-4077-ade1-34525d633063",
+          "reverse": false
+        },
+        {
+          "item": "8af754f2-68e9-48f3-8c5d-2e6633d4472c",
+          "reverse": false
+        },
+        {
+          "item": "48a761ef-438e-409b-ae59-ea2ce8f84414",
+          "reverse": false
+        },
+        {
+          "item": "987efee2-899f-4a65-b9b5-1589ef0460d7",
+          "reverse": false
+        },
+        {
+          "item": "899c3f66-51d0-46ea-963a-6fc36d3b3cb9",
+          "reverse": false
+        },
+        {
+          "item": "af55f014-788c-4b6e-92c4-b2b59dc8a28d",
+          "reverse": false
+        },
+        {
+          "item": "28ab59a0-e7cd-4fce-94e3-bba2ecc023b6",
+          "reverse": false
+        },
+        {
+          "item": "0b38e3d3-c15c-454c-b034-f4eb7ae1580a",
+          "reverse": false
+        },
+        {
+          "item": "d07b6c67-0d02-4948-a997-bb84ac234cd8",
+          "reverse": false
+        },
+        {
+          "item": "f1675af6-88bf-4376-a946-0281e762b39c",
+          "reverse": false
+        },
+        {
+          "item": "961376e0-16a1-4c14-b059-789e63d11b63",
+          "reverse": false
+        },
+        {
+          "item": "9f9166f0-fa94-4c14-a91d-3eecd8395794",
+          "reverse": true
+        },
+        {
+          "item": "03c10b30-b88f-4c63-8acc-71251ca24615",
+          "reverse": true
+        },
+        {
+          "item": "2452f034-8273-4f71-9122-a40f5ead31ba",
+          "reverse": false
+        },
+        {
+          "item": "b2a077d5-1fe0-4b06-ab63-35455e001e54",
+          "reverse": false
+        },
+        {
+          "item": "7dd6cf2d-5c14-48c2-8ae5-633a7a596c71",
+          "reverse": false
+        },
+        {
+          "item": "79d956e8-1118-402a-a0e2-9380af18243e",
+          "reverse": false
+        },
+        {
+          "item": "41702602-08e4-4e2b-9a19-291d9efc581a",
+          "reverse": true
+        },
+        {
+          "item": "9a47184f-6046-4e68-a61b-3d9b357b86ea",
+          "reverse": true
+        },
+        {
+          "item": "8791f37b-686f-47c3-9db7-74c009951321",
+          "reverse": true
+        },
+        {
+          "item": "7d93e1ca-46e8-4a30-9623-42a80c9b420c",
+          "reverse": true
+        },
+        {
+          "item": "10f90fa9-649c-4631-ac4c-3dd3f751597d",
+          "reverse": false
+        },
+        {
+          "item": "e7b31bdc-5f6b-40ec-ba91-f5919b0f170e",
+          "reverse": false
+        }
+      ],
+      "description": "Extraversion: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "E1",
+      "name": "Extraversion facet 1",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "d50a597f-632b-4f7b-89e6-6d85b50fd1c9",
+          "reverse": false
+        },
+        {
+          "item": "af55f014-788c-4b6e-92c4-b2b59dc8a28d",
+          "reverse": false
+        },
+        {
+          "item": "9f9166f0-fa94-4c14-a91d-3eecd8395794",
+          "reverse": true
+        },
+        {
+          "item": "41702602-08e4-4e2b-9a19-291d9efc581a",
+          "reverse": true
+        }
+      ],
+      "description": "Extraversion facet 1: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "E2",
+      "name": "Extraversion facet 2",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "458f3957-2359-4077-ade1-34525d633063",
+          "reverse": false
+        },
+        {
+          "item": "28ab59a0-e7cd-4fce-94e3-bba2ecc023b6",
+          "reverse": false
+        },
+        {
+          "item": "03c10b30-b88f-4c63-8acc-71251ca24615",
+          "reverse": true
+        },
+        {
+          "item": "9a47184f-6046-4e68-a61b-3d9b357b86ea",
+          "reverse": true
+        }
+      ],
+      "description": "Extraversion facet 2: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "E3",
+      "name": "Extraversion facet 3",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "8af754f2-68e9-48f3-8c5d-2e6633d4472c",
+          "reverse": false
+        },
+        {
+          "item": "0b38e3d3-c15c-454c-b034-f4eb7ae1580a",
+          "reverse": false
+        },
+        {
+          "item": "2452f034-8273-4f71-9122-a40f5ead31ba",
+          "reverse": false
+        },
+        {
+          "item": "8791f37b-686f-47c3-9db7-74c009951321",
+          "reverse": true
+        }
+      ],
+      "description": "Extraversion facet 3: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "E4",
+      "name": "Extraversion facet 4",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "48a761ef-438e-409b-ae59-ea2ce8f84414",
+          "reverse": false
+        },
+        {
+          "item": "d07b6c67-0d02-4948-a997-bb84ac234cd8",
+          "reverse": false
+        },
+        {
+          "item": "b2a077d5-1fe0-4b06-ab63-35455e001e54",
+          "reverse": false
+        },
+        {
+          "item": "7d93e1ca-46e8-4a30-9623-42a80c9b420c",
+          "reverse": true
+        }
+      ],
+      "description": "Extraversion facet 4: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "E5",
+      "name": "Extraversion facet 5",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "987efee2-899f-4a65-b9b5-1589ef0460d7",
+          "reverse": false
+        },
+        {
+          "item": "f1675af6-88bf-4376-a946-0281e762b39c",
+          "reverse": false
+        },
+        {
+          "item": "7dd6cf2d-5c14-48c2-8ae5-633a7a596c71",
+          "reverse": false
+        },
+        {
+          "item": "10f90fa9-649c-4631-ac4c-3dd3f751597d",
+          "reverse": false
+        }
+      ],
+      "description": "Extraversion facet 5: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "E6",
+      "name": "Extraversion facet 6",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "899c3f66-51d0-46ea-963a-6fc36d3b3cb9",
+          "reverse": false
+        },
+        {
+          "item": "961376e0-16a1-4c14-b059-789e63d11b63",
+          "reverse": false
+        },
+        {
+          "item": "79d956e8-1118-402a-a0e2-9380af18243e",
+          "reverse": false
+        },
+        {
+          "item": "e7b31bdc-5f6b-40ec-ba91-f5919b0f170e",
+          "reverse": false
+        }
+      ],
+      "description": "Extraversion facet 6: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "O",
+      "name": "Openness",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "888dd864-7449-4e96-8d5c-7a439603ea91",
+          "reverse": false
+        },
+        {
+          "item": "58d571e5-d725-4cf8-a438-32c16ee28eb6",
+          "reverse": false
+        },
+        {
+          "item": "0727def6-3d18-4221-bf38-86b58f9f3eed",
+          "reverse": false
+        },
+        {
+          "item": "cae55842-8957-4e3b-83b3-ceff98fb9dcf",
+          "reverse": false
+        },
+        {
+          "item": "e1e804c7-4a1d-498f-8610-f95147af9d1d",
+          "reverse": false
+        },
+        {
+          "item": "79186f48-e7fa-4df4-b74b-b0627ee244e1",
+          "reverse": false
+        },
+        {
+          "item": "08ff6dca-02a5-4aeb-aaa4-2ecf2526f143",
+          "reverse": false
+        },
+        {
+          "item": "b5919f2f-cded-4745-a9ce-c02703cee807",
+          "reverse": false
+        },
+        {
+          "item": "5631b856-ff34-4f76-a0cd-edc7104c3bfa",
+          "reverse": false
+        },
+        {
+          "item": "33b81fd0-7e32-4cd8-a13a-d5f5f754f998",
+          "reverse": true
+        },
+        {
+          "item": "95a3f20c-f933-4d19-a2c1-a7dbdf63c562",
+          "reverse": true
+        },
+        {
+          "item": "f08e1b27-3673-4898-9cae-896482d0d9f9",
+          "reverse": false
+        },
+        {
+          "item": "23a1034f-fab7-4887-a66e-5ef4eaafb25e",
+          "reverse": false
+        },
+        {
+          "item": "751a04bc-5adf-485a-8ea4-4308406ae85b",
+          "reverse": true
+        },
+        {
+          "item": "2a300001-6e05-4c79-b8b5-2ccae4c3d463",
+          "reverse": true
+        },
+        {
+          "item": "0d2e65ab-95d9-482f-beb4-3239a3a4944a",
+          "reverse": true
+        },
+        {
+          "item": "fecc35f7-681e-4889-a404-4a973a3dfef0",
+          "reverse": true
+        },
+        {
+          "item": "96ba77b2-1a44-4dfd-95f9-ae4d1f714460",
+          "reverse": true
+        },
+        {
+          "item": "935a7413-abac-4f54-9169-d1fbd39da752",
+          "reverse": false
+        },
+        {
+          "item": "87c5b27e-59a8-4c48-8ba8-f5413d735693",
+          "reverse": true
+        },
+        {
+          "item": "4fd25155-9cc2-4cd6-8852-3e0ca2d5e95d",
+          "reverse": true
+        },
+        {
+          "item": "a7f43928-8982-4ed5-8656-7a80346fe979",
+          "reverse": true
+        },
+        {
+          "item": "b86de003-c3c4-4cc8-9385-5ac8a0142c34",
+          "reverse": true
+        },
+        {
+          "item": "580b08d1-3c94-46e9-9d07-d6d80c698127",
+          "reverse": true
+        }
+      ],
+      "description": "Openness: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "O1",
+      "name": "Openness facet 1",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "888dd864-7449-4e96-8d5c-7a439603ea91",
+          "reverse": false
+        },
+        {
+          "item": "08ff6dca-02a5-4aeb-aaa4-2ecf2526f143",
+          "reverse": false
+        },
+        {
+          "item": "23a1034f-fab7-4887-a66e-5ef4eaafb25e",
+          "reverse": false
+        },
+        {
+          "item": "935a7413-abac-4f54-9169-d1fbd39da752",
+          "reverse": false
+        }
+      ],
+      "description": "Openness facet 1: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "O2",
+      "name": "Openness facet 2",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "58d571e5-d725-4cf8-a438-32c16ee28eb6",
+          "reverse": false
+        },
+        {
+          "item": "b5919f2f-cded-4745-a9ce-c02703cee807",
+          "reverse": false
+        },
+        {
+          "item": "751a04bc-5adf-485a-8ea4-4308406ae85b",
+          "reverse": true
+        },
+        {
+          "item": "87c5b27e-59a8-4c48-8ba8-f5413d735693",
+          "reverse": true
+        }
+      ],
+      "description": "Openness facet 2: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "O3",
+      "name": "Openness facet 3",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "0727def6-3d18-4221-bf38-86b58f9f3eed",
+          "reverse": false
+        },
+        {
+          "item": "5631b856-ff34-4f76-a0cd-edc7104c3bfa",
+          "reverse": false
+        },
+        {
+          "item": "2a300001-6e05-4c79-b8b5-2ccae4c3d463",
+          "reverse": true
+        },
+        {
+          "item": "4fd25155-9cc2-4cd6-8852-3e0ca2d5e95d",
+          "reverse": true
+        }
+      ],
+      "description": "Openness facet 3: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "O4",
+      "name": "Openness facet 4",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "cae55842-8957-4e3b-83b3-ceff98fb9dcf",
+          "reverse": false
+        },
+        {
+          "item": "33b81fd0-7e32-4cd8-a13a-d5f5f754f998",
+          "reverse": true
+        },
+        {
+          "item": "0d2e65ab-95d9-482f-beb4-3239a3a4944a",
+          "reverse": true
+        },
+        {
+          "item": "a7f43928-8982-4ed5-8656-7a80346fe979",
+          "reverse": true
+        }
+      ],
+      "description": "Openness facet 4: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "O5",
+      "name": "Openness facet 5",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "e1e804c7-4a1d-498f-8610-f95147af9d1d",
+          "reverse": false
+        },
+        {
+          "item": "95a3f20c-f933-4d19-a2c1-a7dbdf63c562",
+          "reverse": true
+        },
+        {
+          "item": "fecc35f7-681e-4889-a404-4a973a3dfef0",
+          "reverse": true
+        },
+        {
+          "item": "b86de003-c3c4-4cc8-9385-5ac8a0142c34",
+          "reverse": true
+        }
+      ],
+      "description": "Openness facet 5: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "O6",
+      "name": "Openness facet 6",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "79186f48-e7fa-4df4-b74b-b0627ee244e1",
+          "reverse": false
+        },
+        {
+          "item": "f08e1b27-3673-4898-9cae-896482d0d9f9",
+          "reverse": false
+        },
+        {
+          "item": "96ba77b2-1a44-4dfd-95f9-ae4d1f714460",
+          "reverse": true
+        },
+        {
+          "item": "580b08d1-3c94-46e9-9d07-d6d80c698127",
+          "reverse": true
+        }
+      ],
+      "description": "Openness facet 6: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "A",
+      "name": "Agreeableness",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "ce2fbbf8-7a97-4199-bda5-117e4ecdf3b6",
+          "reverse": false
+        },
+        {
+          "item": "0cf79e27-e702-45c2-9471-04ac96b58e0e",
+          "reverse": true
+        },
+        {
+          "item": "ccf3a5c8-fb50-4bd4-8e7a-22af3d657279",
+          "reverse": false
+        },
+        {
+          "item": "e2028ad3-b128-4f76-be57-398bfe2aff22",
+          "reverse": true
+        },
+        {
+          "item": "71029381-3908-4c68-91e1-e41fb45542a2",
+          "reverse": true
+        },
+        {
+          "item": "fd50e1ca-d9e0-4037-a7a1-a191d4db2d96",
+          "reverse": false
+        },
+        {
+          "item": "6f66cdc0-9044-457b-b40d-501ecae15ee7",
+          "reverse": false
+        },
+        {
+          "item": "5a5fa975-d024-4ac8-8845-2823f957c21b",
+          "reverse": true
+        },
+        {
+          "item": "ada867af-4db1-4e3d-a604-2b695c1806e5",
+          "reverse": false
+        },
+        {
+          "item": "d9a9a180-29c9-4ec5-8621-2256d411def7",
+          "reverse": true
+        },
+        {
+          "item": "7df44711-4cd4-4b05-8830-73fcc3ebdab5",
+          "reverse": true
+        },
+        {
+          "item": "c2038c12-7a37-47a8-9983-831bd6692aab",
+          "reverse": false
+        },
+        {
+          "item": "c63e6121-c3ed-40cc-abc2-c1e6ea1e0858",
+          "reverse": false
+        },
+        {
+          "item": "982e83c2-d34e-48da-9c71-78494ab05c85",
+          "reverse": true
+        },
+        {
+          "item": "cd54bd76-ca9c-4030-b325-bb8d896bcb3f",
+          "reverse": true
+        },
+        {
+          "item": "0de0f900-cede-4538-9c00-5da4f830b028",
+          "reverse": true
+        },
+        {
+          "item": "1d686958-6fe7-432f-85e6-186b99e4e232",
+          "reverse": true
+        },
+        {
+          "item": "77f54ab4-0fba-4efb-8700-066c7490eb87",
+          "reverse": true
+        },
+        {
+          "item": "432dbde8-8756-4ff0-80d5-f47018235139",
+          "reverse": true
+        },
+        {
+          "item": "11b20adb-abed-4363-894c-3dd823ae0540",
+          "reverse": true
+        },
+        {
+          "item": "b68af20d-24f9-4c27-85cc-fe0858994888",
+          "reverse": true
+        },
+        {
+          "item": "17910a55-a64a-4ed0-8b46-293e2fa2fe03",
+          "reverse": true
+        },
+        {
+          "item": "80c1d149-7050-481a-9953-aefb441642e7",
+          "reverse": true
+        },
+        {
+          "item": "48bee420-60c0-45cd-be43-3893dbc1969a",
+          "reverse": true
+        }
+      ],
+      "description": "Agreeableness: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "A1",
+      "name": "Agreeableness facet 1",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "ce2fbbf8-7a97-4199-bda5-117e4ecdf3b6",
+          "reverse": false
+        },
+        {
+          "item": "6f66cdc0-9044-457b-b40d-501ecae15ee7",
+          "reverse": false
+        },
+        {
+          "item": "c63e6121-c3ed-40cc-abc2-c1e6ea1e0858",
+          "reverse": false
+        },
+        {
+          "item": "432dbde8-8756-4ff0-80d5-f47018235139",
+          "reverse": true
+        }
+      ],
+      "description": "Agreeableness facet 1: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "A2",
+      "name": "Agreeableness facet 2",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "0cf79e27-e702-45c2-9471-04ac96b58e0e",
+          "reverse": true
+        },
+        {
+          "item": "5a5fa975-d024-4ac8-8845-2823f957c21b",
+          "reverse": true
+        },
+        {
+          "item": "982e83c2-d34e-48da-9c71-78494ab05c85",
+          "reverse": true
+        },
+        {
+          "item": "11b20adb-abed-4363-894c-3dd823ae0540",
+          "reverse": true
+        }
+      ],
+      "description": "Agreeableness facet 2: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "A3",
+      "name": "Agreeableness facet 3",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "ccf3a5c8-fb50-4bd4-8e7a-22af3d657279",
+          "reverse": false
+        },
+        {
+          "item": "ada867af-4db1-4e3d-a604-2b695c1806e5",
+          "reverse": false
+        },
+        {
+          "item": "cd54bd76-ca9c-4030-b325-bb8d896bcb3f",
+          "reverse": true
+        },
+        {
+          "item": "b68af20d-24f9-4c27-85cc-fe0858994888",
+          "reverse": true
+        }
+      ],
+      "description": "Agreeableness facet 3: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "A4",
+      "name": "Agreeableness facet 4",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "e2028ad3-b128-4f76-be57-398bfe2aff22",
+          "reverse": true
+        },
+        {
+          "item": "d9a9a180-29c9-4ec5-8621-2256d411def7",
+          "reverse": true
+        },
+        {
+          "item": "0de0f900-cede-4538-9c00-5da4f830b028",
+          "reverse": true
+        },
+        {
+          "item": "17910a55-a64a-4ed0-8b46-293e2fa2fe03",
+          "reverse": true
+        }
+      ],
+      "description": "Agreeableness facet 4: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "A5",
+      "name": "Agreeableness facet 5",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "71029381-3908-4c68-91e1-e41fb45542a2",
+          "reverse": true
+        },
+        {
+          "item": "7df44711-4cd4-4b05-8830-73fcc3ebdab5",
+          "reverse": true
+        },
+        {
+          "item": "1d686958-6fe7-432f-85e6-186b99e4e232",
+          "reverse": true
+        },
+        {
+          "item": "80c1d149-7050-481a-9953-aefb441642e7",
+          "reverse": true
+        }
+      ],
+      "description": "Agreeableness facet 5: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "A6",
+      "name": "Agreeableness facet 6",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "fd50e1ca-d9e0-4037-a7a1-a191d4db2d96",
+          "reverse": false
+        },
+        {
+          "item": "c2038c12-7a37-47a8-9983-831bd6692aab",
+          "reverse": false
+        },
+        {
+          "item": "77f54ab4-0fba-4efb-8700-066c7490eb87",
+          "reverse": true
+        },
+        {
+          "item": "48bee420-60c0-45cd-be43-3893dbc1969a",
+          "reverse": true
+        }
+      ],
+      "description": "Agreeableness facet 6: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "C",
+      "name": "Conscientiousness",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "c7f53c3c-2e77-432f-bb71-7470b67d3aa9",
+          "reverse": false
+        },
+        {
+          "item": "cda1ca17-b599-4561-a6cd-ff9d36062d27",
+          "reverse": false
+        },
+        {
+          "item": "73d84e5d-cbf5-47f0-b8cb-4d2159a52e32",
+          "reverse": false
+        },
+        {
+          "item": "b7fc949b-02b6-4cb9-a3e2-dbb3d824b55f",
+          "reverse": false
+        },
+        {
+          "item": "f6076eea-56ae-4b46-97f1-5f94a7676c96",
+          "reverse": false
+        },
+        {
+          "item": "bd9eec0a-b68b-472c-8803-7db29c308cdb",
+          "reverse": true
+        },
+        {
+          "item": "f110fc66-2e9e-413c-920b-19f05e63d7ac",
+          "reverse": false
+        },
+        {
+          "item": "adf33f9f-45bd-43e3-af25-4c491176d97f",
+          "reverse": true
+        },
+        {
+          "item": "c55e3958-00c4-4fc3-9118-47d8f31bfde1",
+          "reverse": false
+        },
+        {
+          "item": "f12c3d9d-1d12-4aa6-ad2e-009cd0651cbb",
+          "reverse": false
+        },
+        {
+          "item": "9d3cb5c7-955c-43a4-b6c7-b07ed01dcbd9",
+          "reverse": false
+        },
+        {
+          "item": "956f3e17-ff17-4af5-a52f-9222b8968106",
+          "reverse": true
+        },
+        {
+          "item": "02ee1930-36a7-4caa-b10c-c93efb682a44",
+          "reverse": false
+        },
+        {
+          "item": "f4891687-0ff0-47af-a4f6-d1202c8f6676",
+          "reverse": true
+        },
+        {
+          "item": "4e6e3a34-176f-4e6e-8730-1341611f972b",
+          "reverse": true
+        },
+        {
+          "item": "a9c97d6b-6721-4150-8d84-64ef3082f164",
+          "reverse": true
+        },
+        {
+          "item": "c7db0ed8-df7d-49bf-942f-59e46ef743c4",
+          "reverse": true
+        },
+        {
+          "item": "a354cf7c-8d11-46ac-acc5-da90d2048637",
+          "reverse": true
+        },
+        {
+          "item": "5727c93f-317b-4af1-a686-77fc9fbc5033",
+          "reverse": false
+        },
+        {
+          "item": "50418d86-712c-45d9-adc4-ea0231c93cf5",
+          "reverse": true
+        },
+        {
+          "item": "54423933-0ebb-44a7-bdd9-2a9b100c70f2",
+          "reverse": true
+        },
+        {
+          "item": "3890bb43-2695-4b8d-b289-ee10d11cc884",
+          "reverse": true
+        },
+        {
+          "item": "51403620-968c-42fa-a772-65ba5ad8396f",
+          "reverse": true
+        },
+        {
+          "item": "ea3327ea-3529-4be4-8e2d-2174731ae4d7",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "C1",
+      "name": "Conscientiousness facet 1",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "c7f53c3c-2e77-432f-bb71-7470b67d3aa9",
+          "reverse": false
+        },
+        {
+          "item": "f110fc66-2e9e-413c-920b-19f05e63d7ac",
+          "reverse": false
+        },
+        {
+          "item": "02ee1930-36a7-4caa-b10c-c93efb682a44",
+          "reverse": false
+        },
+        {
+          "item": "5727c93f-317b-4af1-a686-77fc9fbc5033",
+          "reverse": false
+        }
+      ],
+      "description": "Conscientiousness facet 1: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "C2",
+      "name": "Conscientiousness facet 2",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "cda1ca17-b599-4561-a6cd-ff9d36062d27",
+          "reverse": false
+        },
+        {
+          "item": "adf33f9f-45bd-43e3-af25-4c491176d97f",
+          "reverse": true
+        },
+        {
+          "item": "f4891687-0ff0-47af-a4f6-d1202c8f6676",
+          "reverse": true
+        },
+        {
+          "item": "50418d86-712c-45d9-adc4-ea0231c93cf5",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness facet 2: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "C3",
+      "name": "Conscientiousness facet 3",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "73d84e5d-cbf5-47f0-b8cb-4d2159a52e32",
+          "reverse": false
+        },
+        {
+          "item": "c55e3958-00c4-4fc3-9118-47d8f31bfde1",
+          "reverse": false
+        },
+        {
+          "item": "4e6e3a34-176f-4e6e-8730-1341611f972b",
+          "reverse": true
+        },
+        {
+          "item": "54423933-0ebb-44a7-bdd9-2a9b100c70f2",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness facet 3: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "C4",
+      "name": "Conscientiousness facet 4",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "b7fc949b-02b6-4cb9-a3e2-dbb3d824b55f",
+          "reverse": false
+        },
+        {
+          "item": "f12c3d9d-1d12-4aa6-ad2e-009cd0651cbb",
+          "reverse": false
+        },
+        {
+          "item": "a9c97d6b-6721-4150-8d84-64ef3082f164",
+          "reverse": true
+        },
+        {
+          "item": "3890bb43-2695-4b8d-b289-ee10d11cc884",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness facet 4: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "C5",
+      "name": "Conscientiousness facet 5",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "f6076eea-56ae-4b46-97f1-5f94a7676c96",
+          "reverse": false
+        },
+        {
+          "item": "9d3cb5c7-955c-43a4-b6c7-b07ed01dcbd9",
+          "reverse": false
+        },
+        {
+          "item": "c7db0ed8-df7d-49bf-942f-59e46ef743c4",
+          "reverse": true
+        },
+        {
+          "item": "51403620-968c-42fa-a772-65ba5ad8396f",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness facet 5: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "C6",
+      "name": "Conscientiousness facet 6",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "bd9eec0a-b68b-472c-8803-7db29c308cdb",
+          "reverse": true
+        },
+        {
+          "item": "956f3e17-ff17-4af5-a52f-9222b8968106",
+          "reverse": true
+        },
+        {
+          "item": "a354cf7c-8d11-46ac-acc5-da90d2048637",
+          "reverse": true
+        },
+        {
+          "item": "ea3327ea-3529-4be4-8e2d-2174731ae4d7",
+          "reverse": true
+        }
+      ],
+      "description": "Conscientiousness facet 6: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

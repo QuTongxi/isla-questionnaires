@@ -1,0 +1,1300 @@
+{
+  "schema_version": 1,
+  "id": "pvq-40",
+  "version": "1.0.0",
+  "name": "PVQ-40 (source neutral-portrait form)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "How much like you is this person?",
+  "expected_items": 40,
+  "items": [
+    {
+      "id": "1",
+      "text": "It's very important to them to show their abilities. They want people to admire what they do.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "Being very successful is important to them. They like to impress other people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "They think it is important to be ambitious. They want to show how capable they are.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "Getting ahead in life is important to them. They strive to do better than others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "It's very important to them to help the people around them. They want to care for their well-being.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "It is important to them to be loyal to their friends. They want to devote themselves to people close to them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "It is important to them to respond to the needs of others. They try to support those they know.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "Forgiving people who have hurt them is important to them. They try to see what is good in them and not to hold a grudge.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "They believe that people should do what they're told. They think people should follow rules at all times, even when no one is watching.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "It is important to them always to behave properly. They want to avoid doing anything people would say is wrong.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "They believe they should always show respect to their parents and to older people. It is important to them to be obedient.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "It is important to them to be polite to other people all the time. They try never to disturb or irritate others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "They seek every chance they can to have fun. It is important to them to do things that give them pleasure.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "Enjoying life’s pleasures is important to them. They like to ‘spoil’ themselves.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "They really want to enjoy life. Having a good time is very important to them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "It is important to them to be rich. They want to have a lot of money and expensive things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "It is important to them to be in charge and tell others what to do. They want people to do what they say.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "They always want to be the ones who make the decisions. They like to be the leaders.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "It is important to them to live in secure surroundings. They avoid anything that might endanger their safety.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "It is very important to them that their country be safe. They think the state must be on watch against threats from within and without.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "It is important to them that things be organized and clean. They really do not like things to be a mess.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "They try hard to avoid getting sick. Staying healthy is very important to them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "Having a stable government is important to them. They are concerned that the social order be protected.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "Thinking up new ideas and being creative is important to them. They like to do things in their own original way.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "It is important to them to make their own decisions about what they do. They like to be free to plan and to choose their activities for themselves.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "They think it's important to be interested in things. They like to be curious and to try to understand all sorts of things.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "It is important to them to be independent. They like to rely on themselves.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "They think it is important to do lots of different things in life. They always look for new things to try.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "They like to take risks. They are always looking for adventures.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "They like surprises. It is important to them to have an exciting life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "They think it's important not to ask for more than what they have. They believe that people should be satisfied with what they have.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "Religious belief is important to them. They try hard to do what their religion requires.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "They think it is best to do things in traditional ways. It is important to them to keep up the customs they have learned.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "34",
+      "text": "It is important to them to be humble and modest. They try not to draw attention to themselves.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "35",
+      "text": "They think it is important that every person in the world be treated equally. They believe everyone should have equal opportunities in life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "36",
+      "text": "It is important to them to listen to people who are different from them. Even when they disagree with them, they still want to understand them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "37",
+      "text": "They strongly believe that people should care for nature. Looking after the environment is important to them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "38",
+      "text": "They believe all the world's people should live in harmony. Promoting peace among all groups in the world is important to them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "39",
+      "text": "They want everyone to be treated justly, even people they don’t know. It is important to them to protect the weak in society.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "40",
+      "text": "It is important to them to adapt to nature and to fit into it. They believe that people should not change nature.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Very much like me"
+        },
+        {
+          "value": 2,
+          "label": "Like me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat like me"
+        },
+        {
+          "value": 4,
+          "label": "A little like me"
+        },
+        {
+          "value": 5,
+          "label": "Not like me"
+        },
+        {
+          "value": 6,
+          "label": "Not like me at all"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "Source groups items by value and uses a neutral-pronoun adaptation; restore original administration order and verify response anchors before release."
+  ],
+  "notes": []
+}

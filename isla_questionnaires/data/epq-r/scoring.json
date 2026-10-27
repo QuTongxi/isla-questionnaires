@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "epq-r",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": "Extraversion",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "1",
+          "reverse": false
+        },
+        {
+          "item": "6",
+          "reverse": false
+        },
+        {
+          "item": "11",
+          "reverse": false
+        },
+        {
+          "item": "16",
+          "reverse": false
+        },
+        {
+          "item": "20",
+          "reverse": false
+        },
+        {
+          "item": "28",
+          "reverse": false
+        },
+        {
+          "item": "36",
+          "reverse": false
+        },
+        {
+          "item": "40",
+          "reverse": false
+        },
+        {
+          "item": "45",
+          "reverse": false
+        },
+        {
+          "item": "51",
+          "reverse": false
+        },
+        {
+          "item": "55",
+          "reverse": false
+        },
+        {
+          "item": "58",
+          "reverse": false
+        },
+        {
+          "item": "61",
+          "reverse": false
+        },
+        {
+          "item": "63",
+          "reverse": false
+        },
+        {
+          "item": "67",
+          "reverse": false
+        },
+        {
+          "item": "69",
+          "reverse": false
+        },
+        {
+          "item": "72",
+          "reverse": false
+        },
+        {
+          "item": "78",
+          "reverse": false
+        },
+        {
+          "item": "90",
+          "reverse": false
+        },
+        {
+          "item": "94",
+          "reverse": false
+        },
+        {
+          "item": "24",
+          "reverse": true
+        },
+        {
+          "item": "33",
+          "reverse": true
+        },
+        {
+          "item": "47",
+          "reverse": true
+        }
+      ],
+      "description": "Extraversion: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "psychoticism",
+      "name": "Psychoticism",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "25",
+          "reverse": false
+        },
+        {
+          "item": "29",
+          "reverse": false
+        },
+        {
+          "item": "30",
+          "reverse": false
+        },
+        {
+          "item": "34",
+          "reverse": false
+        },
+        {
+          "item": "37",
+          "reverse": false
+        },
+        {
+          "item": "42",
+          "reverse": false
+        },
+        {
+          "item": "48",
+          "reverse": false
+        },
+        {
+          "item": "50",
+          "reverse": false
+        },
+        {
+          "item": "56",
+          "reverse": false
+        },
+        {
+          "item": "73",
+          "reverse": false
+        },
+        {
+          "item": "75",
+          "reverse": false
+        },
+        {
+          "item": "91",
+          "reverse": false
+        },
+        {
+          "item": "95",
+          "reverse": false
+        },
+        {
+          "item": "2",
+          "reverse": true
+        },
+        {
+          "item": "5",
+          "reverse": true
+        },
+        {
+          "item": "7",
+          "reverse": true
+        },
+        {
+          "item": "9",
+          "reverse": true
+        },
+        {
+          "item": "12",
+          "reverse": true
+        },
+        {
+          "item": "14",
+          "reverse": true
+        },
+        {
+          "item": "18",
+          "reverse": true
+        },
+        {
+          "item": "21",
+          "reverse": true
+        },
+        {
+          "item": "41",
+          "reverse": true
+        },
+        {
+          "item": "54",
+          "reverse": true
+        },
+        {
+          "item": "59",
+          "reverse": true
+        },
+        {
+          "item": "64",
+          "reverse": true
+        },
+        {
+          "item": "68",
+          "reverse": true
+        },
+        {
+          "item": "79",
+          "reverse": true
+        },
+        {
+          "item": "81",
+          "reverse": true
+        },
+        {
+          "item": "85",
+          "reverse": true
+        },
+        {
+          "item": "88",
+          "reverse": true
+        },
+        {
+          "item": "96",
+          "reverse": true
+        },
+        {
+          "item": "99",
+          "reverse": true
+        }
+      ],
+      "description": "Psychoticism: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "neuroticism",
+      "name": "Neuroticism",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "3",
+          "reverse": false
+        },
+        {
+          "item": "8",
+          "reverse": false
+        },
+        {
+          "item": "13",
+          "reverse": false
+        },
+        {
+          "item": "17",
+          "reverse": false
+        },
+        {
+          "item": "22",
+          "reverse": false
+        },
+        {
+          "item": "26",
+          "reverse": false
+        },
+        {
+          "item": "31",
+          "reverse": false
+        },
+        {
+          "item": "35",
+          "reverse": false
+        },
+        {
+          "item": "38",
+          "reverse": false
+        },
+        {
+          "item": "43",
+          "reverse": false
+        },
+        {
+          "item": "46",
+          "reverse": false
+        },
+        {
+          "item": "52",
+          "reverse": false
+        },
+        {
+          "item": "60",
+          "reverse": false
+        },
+        {
+          "item": "65",
+          "reverse": false
+        },
+        {
+          "item": "70",
+          "reverse": false
+        },
+        {
+          "item": "74",
+          "reverse": false
+        },
+        {
+          "item": "76",
+          "reverse": false
+        },
+        {
+          "item": "80",
+          "reverse": false
+        },
+        {
+          "item": "83",
+          "reverse": false
+        },
+        {
+          "item": "84",
+          "reverse": false
+        },
+        {
+          "item": "87",
+          "reverse": false
+        },
+        {
+          "item": "92",
+          "reverse": false
+        },
+        {
+          "item": "97",
+          "reverse": false
+        },
+        {
+          "item": "100",
+          "reverse": false
+        }
+      ],
+      "description": "Neuroticism: sum of the keyed responses. No population cutoff is applied."
+    },
+    {
+      "id": "lying",
+      "name": "Lying",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "15",
+          "reverse": false
+        },
+        {
+          "item": "23",
+          "reverse": false
+        },
+        {
+          "item": "39",
+          "reverse": false
+        },
+        {
+          "item": "62",
+          "reverse": false
+        },
+        {
+          "item": "86",
+          "reverse": false
+        },
+        {
+          "item": "98",
+          "reverse": false
+        },
+        {
+          "item": "4",
+          "reverse": true
+        },
+        {
+          "item": "10",
+          "reverse": true
+        },
+        {
+          "item": "19",
+          "reverse": true
+        },
+        {
+          "item": "27",
+          "reverse": true
+        },
+        {
+          "item": "32",
+          "reverse": true
+        },
+        {
+          "item": "44",
+          "reverse": true
+        },
+        {
+          "item": "49",
+          "reverse": true
+        },
+        {
+          "item": "53",
+          "reverse": true
+        },
+        {
+          "item": "57",
+          "reverse": true
+        },
+        {
+          "item": "66",
+          "reverse": true
+        },
+        {
+          "item": "71",
+          "reverse": true
+        },
+        {
+          "item": "77",
+          "reverse": true
+        },
+        {
+          "item": "82",
+          "reverse": true
+        },
+        {
+          "item": "89",
+          "reverse": true
+        },
+        {
+          "item": "93",
+          "reverse": true
+        }
+      ],
+      "description": "Lying: sum of the keyed responses. No population cutoff is applied."
+    }
+  ]
+}

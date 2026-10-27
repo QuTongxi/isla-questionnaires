@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "erq",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "reappraisal",
+      "name": "Cognitive Reappraisal",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "erq1",
+          "reverse": false
+        },
+        {
+          "item": "erq3",
+          "reverse": false
+        },
+        {
+          "item": "erq5",
+          "reverse": false
+        },
+        {
+          "item": "erq7",
+          "reverse": false
+        },
+        {
+          "item": "erq8",
+          "reverse": false
+        },
+        {
+          "item": "erq10",
+          "reverse": false
+        }
+      ],
+      "description": "Cognitive Reappraisal: mean of items 1,3,5,7,8,10 (full ERQ) or 7,8,10 (ERQ-S). Range 1–7."
+    },
+    {
+      "id": "suppression",
+      "name": "Expressive Suppression",
+      "operation": "mean",
+      "terms": [
+        {
+          "item": "erq2",
+          "reverse": false
+        },
+        {
+          "item": "erq4",
+          "reverse": false
+        },
+        {
+          "item": "erq6",
+          "reverse": false
+        },
+        {
+          "item": "erq9",
+          "reverse": false
+        }
+      ],
+      "description": "Expressive Suppression: mean of items 2,4,6,9 (full ERQ) or 2,6,9 (ERQ-S). Range 1–7."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "questionnaire_id": "rses",
+  "mode": "automatic",
+  "missing_policy": "require_complete",
+  "dimensions": [
+    {
+      "id": "self_esteem",
+      "name": "Self-Esteem",
+      "operation": "sum",
+      "terms": [
+        {
+          "item": "rses1",
+          "reverse": false
+        },
+        {
+          "item": "rses2",
+          "reverse": false
+        },
+        {
+          "item": "rses3",
+          "reverse": true
+        },
+        {
+          "item": "rses4",
+          "reverse": false
+        },
+        {
+          "item": "rses5",
+          "reverse": true
+        },
+        {
+          "item": "rses6",
+          "reverse": false
+        },
+        {
+          "item": "rses7",
+          "reverse": false
+        },
+        {
+          "item": "rses8",
+          "reverse": true
+        },
+        {
+          "item": "rses9",
+          "reverse": true
+        },
+        {
+          "item": "rses10",
+          "reverse": true
+        }
+      ],
+      "description": "Global self-esteem, sum 0–30; higher means greater self-esteem. No universal high/normal/low thresholds are applied."
+    }
+  ]
+}

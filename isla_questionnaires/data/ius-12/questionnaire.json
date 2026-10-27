@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "id": "ius-12",
+  "version": "1.0.0",
+  "name": "Intolerance of Uncertainty Scale (Short Form)",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "review_required",
+  "instructions": "Indicate how well each statement describes you.",
+  "expected_items": 12,
+  "items": [
+    {
+      "id": "ius-1",
+      "text": "Unforeseen events upset me greatly.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-2",
+      "text": "It frustrates me not having all the information I need.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-3",
+      "text": "Uncertainty keeps me from living a full life.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-4",
+      "text": "One should always look ahead so as to avoid surprises.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-5",
+      "text": "A small unforeseen event can spoil everything, even with the best of planning.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-6",
+      "text": "When it's time to act, uncertainty paralyses me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-7",
+      "text": "I always want to know what the future has in store for me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-8",
+      "text": "I can't stand being taken by surprise.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-9",
+      "text": "The smallest doubt can stop me from acting.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-10",
+      "text": "I should be able to organize everything in advance.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-11",
+      "text": "I must get away from all uncertain situations.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "ius-12",
+      "text": "Uncertainty keeps me from sleeping soundly.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Not at All Characteristic of Me"
+        },
+        {
+          "value": 2,
+          "label": "A Little Characteristic of Me"
+        },
+        {
+          "value": 3,
+          "label": "Somewhat Characteristic of Me"
+        },
+        {
+          "value": 4,
+          "label": "Very Characteristic of Me"
+        },
+        {
+          "value": 5,
+          "label": "Entirely Characteristic of Me"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [
+    "Source changes original item wording, including the last item; recover the original IUS-12 administration form before release."
+  ],
+  "notes": [
+    "Only source data and explicit dimension keys are used; no generic scoreLikert normalization or personality labels."
+  ]
+}

@@ -1,0 +1,945 @@
+{
+  "schema_version": 1,
+  "id": "eis",
+  "version": "1.0.0",
+  "name": "Emotional Intelligence Scale",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Please indicate how much you agree or disagree with each statement.",
+  "expected_items": 33,
+  "items": [
+    {
+      "id": "1",
+      "text": "I know when to speak about my personal problems to others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "When I am faced with obstacles, I remember times I faced similar obstacles and overcame them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "I expect that I will do well on most things I try.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "Other people find it easy to confide in me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "I find it hard to understand the non-verbal messages of other people.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "Some of the major events of my life have led me to re-evaluate what is important and not important.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "When my mood changes, I see new possibilities.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "Emotions are one of the things that make my life worth living.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "I am aware of my emotions as I experience them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "I expect good things to happen.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "11",
+      "text": "I like to share my emotions with others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "12",
+      "text": "When I experience a positive emotion, I know how to make it last.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "13",
+      "text": "I arrange events others enjoy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "14",
+      "text": "I seek out activities that make me happy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "15",
+      "text": "I am aware of the non-verbal messages I send to others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "16",
+      "text": "I present myself in a way that makes a good impression on others.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "17",
+      "text": "When I am in a positive mood, solving problems is easy for me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "18",
+      "text": "By looking at their facial expressions, I recognize the emotions people are experiencing.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "19",
+      "text": "I know why my emotions change.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "20",
+      "text": "When I am in a positive mood, I am able to come up with new ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "21",
+      "text": "I have control over my emotions.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "22",
+      "text": "I easily recognize my emotions as I experience them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "23",
+      "text": "I motivate myself by imagining a good outcome to tasks I take on.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "24",
+      "text": "I compliment others when they have done something well.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "25",
+      "text": "I am aware of the non-verbal messages other people send.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "26",
+      "text": "When another person tells me about an important event in his or her life, I almost feel as though I have experienced this event myself.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "27",
+      "text": "When I feel a change in emotions, I tend to come up with new ideas.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "28",
+      "text": "When I am faced with a challenge, I give up because I believe I will fail.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "29",
+      "text": "I know what other people are feeling just by looking at them.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "30",
+      "text": "I help other people feel better when they are down.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "31",
+      "text": "I use good moods to help myself keep trying in the face of obstacles.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "32",
+      "text": "I can tell how people are feeling by listening to the tone of their voice.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "33",
+      "text": "It is difficult for me to understand why people feel the way they do.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified."
+  ]
+}

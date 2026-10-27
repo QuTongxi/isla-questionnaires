@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "id": "lot-r",
+  "version": "1.0.0",
+  "name": "Life Orientation Test-Revised",
+  "languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "status": "available",
+  "instructions": "Please indicate how much you agree or disagree with each statement.",
+  "expected_items": 10,
+  "items": [
+    {
+      "id": "1",
+      "text": "In uncertain times, I usually expect the best.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "2",
+      "text": "It's easy for me to relax.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "3",
+      "text": "If something can go wrong for me, it will.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "4",
+      "text": "I'm always optimistic about my future.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "5",
+      "text": "I enjoy my friends a lot.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "6",
+      "text": "It's important for me to keep busy.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "7",
+      "text": "I hardly ever expect things to go my way.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "8",
+      "text": "I don't get upset too easily.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "9",
+      "text": "I rarely count on good things happening to me.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    },
+    {
+      "id": "10",
+      "text": "Overall, I expect more good things to happen to me than bad.",
+      "type": "choice",
+      "options": [
+        {
+          "value": 0,
+          "label": "Strongly disagree"
+        },
+        {
+          "value": 1,
+          "label": "Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Neither agree nor disagree"
+        },
+        {
+          "value": 3,
+          "label": "Agree"
+        },
+        {
+          "value": 4,
+          "label": "Strongly agree"
+        }
+      ],
+      "help": ""
+    }
+  ],
+  "parameters": {},
+  "review_notes": [],
+  "notes": [
+    "Use origin_en only; omit all role-play rewrites, character prompts, crowd norms and InCharacter assessment code.",
+    "English form only; upstream Chinese translations are retained in the source snapshot, not silently certified.",
+    "Present all ten items; filler items 2, 5, 6, 8 do not enter the six-item 0–24 total."
+  ]
+}
