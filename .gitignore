@@ -1,14 +1,28 @@
-__pycache__/
-*.py[cod]
-.venv/
-build/
-dist/
-*.egg-info/
-.coverage
-.pytest_cache/
+# Private questionnaire responses and local credentials.
 sessions/
-test-output/
+# Root-level exports used by the README's Python example.
+/*-session.json
+/*-answer-sheet.md
+/*-answer-sheet.json
 .env
 .env.*
 !.env.example
+
+# Generated test results and coverage reports; keep tests/ and docs/ tracked.
+/test-output/
+.coverage
+.coverage.*
+.pytest_cache/
+/htmlcov/
+/coverage.xml
+
+# Generated Python environments, caches, and packaging output.
+__pycache__/
+*.py[cod]
+/.venv/
+/build/
+/dist/
+*.egg-info/
+
+# Local macOS metadata.
 .DS_Store
